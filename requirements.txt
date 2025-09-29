@@ -1,0 +1,14 @@
+torch>=1.9.0
+torchvision
+numpy
+scipy
+h5py
+tqdm
+ipython
+matplotlib
+nltk
+conceptnet-lite
+wikitextparser
+scikit-learn
+pandas
+Pillow
