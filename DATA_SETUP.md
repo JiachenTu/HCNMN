@@ -2,6 +2,40 @@
 
 This guide provides step-by-step instructions for preparing all data required to train and evaluate the HCNMN model.
 
+## 📊 Current Progress Status
+
+**Last Updated: 2025-09-30 01:37 UTC**
+
+### Phase 1: Data Downloads
+- ✅ **VQA v2 Data** - Completed (01:34 UTC) - 100MB downloaded
+- ✅ **NLTK Setup** - Completed (01:35 UTC) - WordNet and dependencies installed
+- 🔄 **Knowledge Sources** - In Progress (tmux: `hcnmn-knowledge`) - ConceptNet + WikiText-2
+- 🔄 **GloVe Embeddings** - In Progress (tmux: `hcnmn-glove`) - ~2GB download
+- 🔄 **LXMERT Features** - In Progress (tmux: `hcnmn-lxmert`) - ~8GB download
+
+### Phase 2: Data Processing
+- ⏳ **GloVe Processing** - Waiting for download completion
+- ⏳ **Question Processing** - Waiting for dependencies
+- ⏳ **Knowledge Integration** - Waiting for dependencies
+- ⏳ **Feature Processing** - Waiting for dependencies
+
+### 🔧 Monitoring Commands
+```bash
+# Check tmux sessions
+tmux list-sessions | grep hcnmn
+
+# Attach to downloads (Ctrl+B, then D to detach)
+tmux attach-session -t hcnmn-knowledge
+tmux attach-session -t hcnmn-glove
+tmux attach-session -t hcnmn-lxmert
+
+# Check download progress
+ls -lah data/*/
+
+# Verify current status
+python scripts/verify_data.py
+```
+
 ## Quick Start
 
 ```bash
