@@ -4,20 +4,25 @@ This guide provides step-by-step instructions for preparing all data required to
 
 ## 📊 Current Progress Status
 
-**Last Updated: 2025-09-30 01:37 UTC**
+**Last Updated: 2025-09-30 01:52 UTC**
 
 ### Phase 1: Data Downloads
-- ✅ **VQA v2 Data** - Completed (01:34 UTC) - 100MB downloaded
+- ✅ **VQA v2 Data** - Completed (01:34 UTC) - 565MB downloaded
 - ✅ **NLTK Setup** - Completed (01:35 UTC) - WordNet and dependencies installed
-- 🔄 **Knowledge Sources** - In Progress (tmux: `hcnmn-knowledge`) - ConceptNet + WikiText-2
-- 🔄 **GloVe Embeddings** - In Progress (tmux: `hcnmn-glove`) - ~2GB download
-- 🔄 **LXMERT Features** - In Progress (tmux: `hcnmn-lxmert`) - ~8GB download
+- ✅ **GloVe Embeddings** - Completed (01:48 UTC) - 5.4GB extracted
+- 🔄 **Knowledge Sources** - In Progress (tmux: `hcnmn-knowledge-fixed`) - ConceptNet CSV format (475MB)
+- 🔄 **LXMERT Features** - In Progress (tmux: `hcnmn-lxmert-fixed`) - ~17GB download
 
 ### Phase 2: Data Processing
-- ⏳ **GloVe Processing** - Waiting for download completion
+- 🔄 **GloVe Processing** - In Progress (tmux: `hcnmn-process-glove`) - Converting to pickle
 - ⏳ **Question Processing** - Waiting for dependencies
 - ⏳ **Knowledge Integration** - Waiting for dependencies
 - ⏳ **Feature Processing** - Waiting for dependencies
+
+### ⚠️ Issues Fixed:
+- **ConceptNet URL**: Fixed broken digitalocean URL, now using AWS S3 CSV format
+- **LXMERT URL**: Fixed 404 errors, now using working UNC server URLs
+- **GloVe Extraction**: Auto-processor successfully started processing
 
 ### 🔧 Monitoring Commands
 ```bash
@@ -25,9 +30,9 @@ This guide provides step-by-step instructions for preparing all data required to
 tmux list-sessions | grep hcnmn
 
 # Attach to downloads (Ctrl+B, then D to detach)
-tmux attach-session -t hcnmn-knowledge
-tmux attach-session -t hcnmn-glove
-tmux attach-session -t hcnmn-lxmert
+tmux attach-session -t hcnmn-knowledge-fixed
+tmux attach-session -t hcnmn-process-glove
+tmux attach-session -t hcnmn-lxmert-fixed
 
 # Check download progress
 ls -lah data/*/
@@ -215,10 +220,39 @@ python train.py \
 ## Troubleshooting
 
 ### Disk Space Requirements
-- Total space needed: ~12GB
+- Total space needed: ~25GB (updated)
 - GloVe embeddings: ~5.4GB (uncompressed)
-- LXMERT features: ~8GB
+- LXMERT features: ~17GB (larger than expected)
+- ConceptNet: ~1.5GB (CSV format)
 - Other data: ~1GB
+
+### Fixed Issues (2025-09-30)
+
+1. **❌ ConceptNet Download Failed**:
+   - **Problem**: `conceptnet-lite.fra1.cdn.digitaloceanspaces.com` domain no longer resolves
+   - **Solution**: Switched to AWS S3 ConceptNet CSV format:
+     ```bash
+     https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz
+     ```
+   - **Fallback**: Uses `pip install conceptnet-lite` as backup method
+
+2. **❌ LXMERT Features 404 Error**:
+   - **Problem**: `trainval_obj36.zip` not found at original UNC URL
+   - **Solution**: Updated script to try multiple alternatives:
+     - Separate `train2014_obj36.zip` + `val2014_obj36.zip` files
+     - Alternative UNC server: `nlp1.cs.unc.edu`
+     - Manual download instructions for Google Drive
+   - **Manual Option**: https://drive.google.com/drive/folders/1Gq1uLUk6NdD0CcJOptXjxE6ssY5XAuat
+
+3. **❌ GloVe Extraction Stuck**:
+   - **Problem**: Auto-extraction wasn't triggered properly
+   - **Solution**: Manual extraction + auto-processor detects and starts processing
+   - **Result**: Successfully processing to pickle format
+
+### Current Active Downloads (Updated URLs)
+- **ConceptNet**: 475MB CSV (working)
+- **LXMERT**: 17GB features (working, slow but steady)
+- **GloVe**: Processing complete text file to pickle
 
 ### Common Issues
 
@@ -234,6 +268,15 @@ python train.py \
 4. **Missing dependencies**:
    ```bash
    pip install conceptnet-lite wikitextparser
+   ```
+
+5. **Broken URLs**: All download scripts now have fallback mechanisms and alternative URLs
+
+6. **LXMERT manual download**: If automatic download fails:
+   ```bash
+   # Download from Google Drive manually, then place in data/features/
+   # Run the script again to extract
+   bash scripts/download_lxmert_features.sh
    ```
 
 ## Verification
