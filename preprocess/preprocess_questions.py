@@ -69,7 +69,7 @@ def main(args):
         print('Building vocab')
         answer_cnt = {}
         for ann in annotations:
-            if args.data == ['VQA']:
+            if args.data == 'VQA':
                 answers = [_['answer'] for _ in ann['answers']]
             else:
                 answers = ann['answers']
@@ -108,7 +108,7 @@ def main(args):
         with open(args.vocab_json, 'r') as f:
             vocab = json.load(f)
         for ann in annotations:
-            if args.data == ['VQA']:
+            if args.data == 'VQA':
                 answers = [_['answer'] for _ in ann['answers']]
             else:
                 answers = ann['answers']
@@ -167,8 +167,14 @@ def main(args):
     if args.mode == 'train':
         token_itow = { i:w for w,i in vocab['question_token_to_idx'].items() }
         print("Load glove from %s" % args.glove_pt)
-        glove = pickle.load(open(args.glove_pt, 'rb'))
-        dim_word = glove['the'].shape[0]
+        glove_data = pickle.load(open(args.glove_pt, 'rb'))
+        # Handle different GloVe formats
+        if 'embeddings' in glove_data:
+            glove = glove_data['embeddings']
+            dim_word = glove_data['dim']
+        else:
+            glove = glove_data
+            dim_word = glove['the'].shape[0]
         glove_matrix = []
         for i in range(len(token_itow)):
             vector = glove.get(token_itow[i], np.zeros((dim_word,)))

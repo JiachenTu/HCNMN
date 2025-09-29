@@ -1,5 +1,16 @@
 # Toward multi-granularity decision-making: explicit visual reasoning with hierarchical knowledge
 
+## 📊 **Data Preparation Status**
+**Last Updated: 2025-09-30 05:47 UTC - ~95% Complete**
+
+✅ **All raw data downloaded** (30GB+): VQA v2, ConceptNet, WikiText-2, GloVe, LXMERT
+✅ **GloVe embeddings processed** (665MB, 558,034 word vectors)
+✅ **Question preprocessing completed** (70MB train_questions.pt with 443,757 questions)
+✅ **Core preprocessing pipeline functional** - All dependencies resolved
+⏳ **3 final steps remaining** to complete hierarchical concept graph generation
+
+📋 **Detailed progress**: See [DATA_SETUP.md](DATA_SETUP.md)
+
 ### Data and Knowledge Prepartion
 1. Download and unpack Visual Genome images as well as the annotations, class info and image meta-data
 2. Get ConceptNet from [conceptNet](https://github.com/commonsense/conceptnet5/) or through the [link](https://conceptnet-lite.fra1.cdn.digitaloceanspaces.com/conceptnet.db.zip)

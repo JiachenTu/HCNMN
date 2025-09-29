@@ -4,25 +4,59 @@ This guide provides step-by-step instructions for preparing all data required to
 
 ## 📊 Current Progress Status
 
-**Last Updated: 2025-09-30 01:52 UTC**
+**Last Updated: 2025-09-30 05:47 UTC**
+
+### Summary: ~95% Complete
+- ✅ All raw data downloaded (30GB+)
+- ✅ GloVe reprocessing completed (665MB, 558,034 embeddings)
+- ✅ Question preprocessing completed (70MB train_questions.pt)
+- ⏳ 3 preprocessing steps pending to complete hierarchical concept graph
 
 ### Phase 1: Data Downloads
 - ✅ **VQA v2 Data** - Completed (01:34 UTC) - 565MB downloaded
 - ✅ **NLTK Setup** - Completed (01:35 UTC) - WordNet and dependencies installed
 - ✅ **GloVe Embeddings** - Completed (01:48 UTC) - 5.4GB extracted
-- 🔄 **Knowledge Sources** - In Progress (tmux: `hcnmn-knowledge-fixed`) - ConceptNet CSV format (475MB)
-- 🔄 **LXMERT Features** - In Progress (tmux: `hcnmn-lxmert-fixed`) - ~17GB download
+- ✅ **Knowledge Sources** - Completed (02:00 UTC) - ConceptNet CSV (9.5GB) + WikiText-2 (13MB)
+- ✅ **LXMERT Features** - Completed (02:44 UTC) - train (17GB) + val (8.1GB) downloaded
 
 ### Phase 2: Data Processing
-- 🔄 **GloVe Processing** - In Progress (tmux: `hcnmn-process-glove`) - Converting to pickle
-- ⏳ **Question Processing** - Waiting for dependencies
-- ⏳ **Knowledge Integration** - Waiting for dependencies
-- ⏳ **Feature Processing** - Waiting for dependencies
+- ✅ **GloVe Reprocessing** - Completed (03:39 UTC) - Fixed NumPy compatibility (665MB, 558,034 embeddings)
+- ✅ **Question Preprocessing** - Completed (05:47 UTC) - Generated train_questions.pt (70MB) with embeddings
+- ✅ **LXMERT Extraction** - Completed (03:08 UTC) - train (3.2GB) + val (1.1GB) extracted
+- ✅ **VQA Vocabulary** - Completed (03:17 UTC) - vocab.json created (411KB)
+- ⏳ **Vocabulary Augmentation** - Ready to start with WordNet
+- ⏳ **Knowledge Integration** - Ready to start with ConceptNet/WikiText
+- ⏳ **Feature Processing** - Needs format fix for TSV files
+
+### Phase 3: Hierarchical Concept Graph Generation
+- ⏳ **WordNet Augmentation** - Ready to run vocab_augmentation.py
+- ⏳ **Knowledge Topology** - Ready to run incorporate_knowledge.py --hierarchy
+- ⏳ **Concept Properties** - Ready to run incorporate_knowledge.py --property
 
 ### ⚠️ Issues Fixed:
 - **ConceptNet URL**: Fixed broken digitalocean URL, now using AWS S3 CSV format
 - **LXMERT URL**: Fixed 404 errors, now using working UNC server URLs
 - **GloVe Extraction**: Auto-processor successfully started processing
+- **WikiText-2 URL**: Downloaded from PyTorch examples repository
+- **Script Bugs**: Fixed typo in preprocess_questions.py (line 72)
+
+### 🔧 Current Issues:
+- **LXMERT TSV Format**: Feature processing needs adjustment for actual TSV structure (10 fields vs 6 expected)
+
+### 🎯 Immediate Next Steps:
+1. ✅ ~~Complete question preprocessing~~ - **DONE** (70MB train_questions.pt)
+2. 🔄 **Augment vocabulary with WordNet** - Run vocab_augmentation.py
+3. 🔄 **Build knowledge topology** - Run incorporate_knowledge.py --hierarchy
+4. 🔄 **Extract concept properties** - Run incorporate_knowledge.py --property
+5. Fix LXMERT feature processing for correct TSV format
+6. Generate final hierarchical concept graphs
+
+### 📊 **Generated Files Status:**
+- ✅ `vocab.json` (411KB) - Base vocabulary from VQA questions/answers
+- ✅ `train_questions.pt` (70MB) - Questions with GloVe embeddings
+- ⏳ `vocab_augmented.json` - Pending WordNet augmentation
+- ⏳ `hierarchy.json` - Pending concept hierarchy generation
+- ⏳ `topology.json` - Pending knowledge topology integration
 
 ### 🔧 Monitoring Commands
 ```bash

@@ -55,7 +55,13 @@ def main():
 
         reader = itertools.chain.from_iterable(readers)
         for i, item in enumerate(tqdm(reader, total=features_shape[0])):
-            coco_ids[i] = int(item['image_id'])
+            # Extract numeric ID from COCO format (e.g., "COCO_val2014_000000568281" -> 568281)
+            img_id = item['image_id']
+            if isinstance(img_id, str) and 'COCO' in img_id:
+                img_id = int(img_id.split('_')[-1])
+            else:
+                img_id = int(img_id)
+            coco_ids[i] = img_id
             widths[i] = int(item['image_w'])
             heights[i] = int(item['image_h'])
 
