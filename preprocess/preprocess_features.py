@@ -23,7 +23,7 @@ def main():
     args = parser.parse_args()
     assert os.path.isdir(args.input_tsv_folder)
 
-    FIELDNAMES = ['image_id', 'image_w','image_h','num_boxes', 'boxes', 'features']
+    FIELDNAMES = ['image_id', 'image_w','image_h','field3','field4','field5','field6','num_boxes', 'boxes', 'features']
 
     features_shape = (
         82783 + 40504 if not args.test else 81434,  # number of images in trainval or in test
@@ -65,12 +65,12 @@ def main():
             widths[i] = int(item['image_w'])
             heights[i] = int(item['image_h'])
 
-            buf = base64.decodestring(item['features'].encode('utf8'))
+            buf = base64.b64decode(item['features'].encode('utf8'))
             array = np.frombuffer(buf, dtype='float32')
             array = array.reshape((-1, 2048)).transpose()
             features[i, :, :array.shape[1]] = array
 
-            buf = base64.decodestring(item['boxes'].encode('utf8'))
+            buf = base64.b64decode(item['boxes'].encode('utf8'))
             array = np.frombuffer(buf, dtype='float32')
             array = array.reshape((-1, 4)).transpose()
             boxes[i, :, :array.shape[1]] = array

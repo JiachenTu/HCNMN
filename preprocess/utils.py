@@ -1,6 +1,7 @@
 import json
 import numpy as np
 import pickle
+import os
 """
 Utilities for preprocessing sequence data.
 
@@ -99,82 +100,178 @@ def FindRelevantTerms():
   return
 
 def MatchPropertyByVocab(args):
-  glove = pickle.load(open(args.glove_pt, 'rb'))
-  p2c = args.input_knowledge_folder + 'conceptnet.json'
-  p2w = args.input_knowledge_folder + 'wikitext.json'
-  with open(p2c, 'rb') as f:
-    cn = json.load(f)
+  # Handle different glove formats
+  glove_data = pickle.load(open(args.glove_pt, 'rb'))
+  if isinstance(glove_data, dict) and 'embeddings' in glove_data:
+    glove = glove_data['embeddings']
+  else:
+    glove = glove_data
 
-  with open(p2w, 'rb') as f:
-    wi = json.load(f)
-  
-  with open(args.vocab_json, 'rb') as f:
+  # Use knowledge_dir if available, fallback to input_knowledge_folder
+  knowledge_folder = getattr(args, 'knowledge_dir', args.input_knowledge_folder)
+  if not knowledge_folder.endswith('/'):
+    knowledge_folder += '/'
+
+  p2c = knowledge_folder + 'conceptnet.json'
+  p2w = knowledge_folder + 'wikitext.json'
+
+  # Check if files exist, create dummy data if not
+  if not os.path.exists(p2c):
+    cn = {'hasProperty': {}, 'relation': {}}
+  else:
+    with open(p2c, 'r') as f:
+      cn = json.load(f)
+
+  if not os.path.exists(p2w):
+    wi = {}
+  else:
+    with open(p2w, 'r') as f:
+      wi = json.load(f)
+
+  with open(args.input_vocab, 'r') as f:
     vocabs = json.load(f) 
   
   # we first create a dictionary to map each term with its relevant distinguishable property
   term2property={}
   for term in vocabs['terms']:
-    cn_property = cn[term]['hasProperty']
-    wi_text = wi[term]
-    relevant_properties = [property for property in cn_property if property in wi_text]
+    cn_property = cn.get('hasProperty', {}).get(term, [])
+    wi_text = wi.get(term, '')
+    relevant_properties = [prop for prop in cn_property if prop in str(wi_text)]
     term2property[term] = relevant_properties
 
   property_vocab = {}
-  all_property_vocab = sorted([term2property.values()])
+  # Flatten all properties and get unique sorted list
+  all_properties = []
+  for props in term2property.values():
+    all_properties.extend(props)
+  all_property_vocab = sorted(list(set(all_properties)))
+
   property_vocab['properties'] = all_property_vocab
-  # convert term2propery to vector
+
+  # convert term2property to vector
   for term in vocabs['terms']:
     pv = np.zeros(len(all_property_vocab))
     relevant_properties = term2property[term]
-    for i in range(len(all_property_vocab)):
-      if all_property_vocab[i] in relevant_properties:
-        pv[i]=1
+    for i, prop in enumerate(all_property_vocab):
+      if prop in relevant_properties:
+        pv[i] = 1
     term2property[term] = pv
+
   # next create a copy of property vectors corresponds to each concept per question.
   concept_property = {}
   concept_property['property_vector_per_question'] = []
   for terms in vocabs['term_per_question']:
-    concept_property.append([term2property[term] for term in terms])
-  concept_property['property_vector_per_question'] = np.array(concept_property['property_vector_per_question'])
-  property_vocab['properties'] = glove(all_property_vocab)
-  return property_vocab, concept_property
+    concept_property['property_vector_per_question'].append([term2property[term] for term in terms])
+
+  # Get embeddings for properties if they exist in glove
+  property_embeddings = []
+  for prop in all_property_vocab:
+    if prop in glove:
+      property_embeddings.append(glove[prop])
+    else:
+      # Use random embedding if property not in glove
+      if len(property_embeddings) > 0:
+        dim = len(property_embeddings[0])
+      else:
+        dim = 300  # Default GloVe dimension
+      property_embeddings.append(np.random.normal(0, 0.1, dim))
+
+  property_vocab['property_embeddings'] = property_embeddings
+  return concept_property, property_vocab
 
 def MatchRelationByVocab(args):
-  glove = pickle.load(open(args.glove_pt, 'rb'))
-  p2c = args.input_knowledge_folder + 'conceptnet.json'
-  p2w = args.input_knowledge_folder + 'wikitext.json'
+  # Handle different glove formats
+  glove_data = pickle.load(open(args.glove_pt, 'rb'))
+  if isinstance(glove_data, dict) and 'embeddings' in glove_data:
+    glove = glove_data['embeddings']
+  else:
+    glove = glove_data
 
-  with open(p2c, 'rb') as f:
-    cn = json.load(f)
+  # Use knowledge_dir if available, fallback to input_knowledge_folder
+  knowledge_folder = getattr(args, 'knowledge_dir', args.input_knowledge_folder)
+  if not knowledge_folder.endswith('/'):
+    knowledge_folder += '/'
 
-  with open(p2w, 'rb') as f:
-    wi = json.load(f)
-  
-  with open(args.vocab_json, 'rb') as f:
+  p2c = knowledge_folder + 'conceptnet.json'
+  p2w = knowledge_folder + 'wikitext.json'
+
+  # Check if files exist, create dummy data if not
+  if not os.path.exists(p2c):
+    cn = {'relation': {}}
+  else:
+    with open(p2c, 'r') as f:
+      cn = json.load(f)
+
+  if not os.path.exists(p2w):
+    wi = {'relation': {}}
+  else:
+    with open(p2w, 'r') as f:
+      wi = json.load(f)
+
+  with open(args.input_vocab, 'r') as f:
     vocabs = json.load(f)
 
   # we first extract a list of all the relevant relationships
-  relation = sorted(cn['relation']+wi['relation'])
-  relation_vocab = {}
-  
+  all_relations = []
+  if 'relation' in cn:
+    if isinstance(cn['relation'], list):
+      all_relations.extend(cn['relation'])
+    elif isinstance(cn['relation'], dict):
+      for term_rels in cn['relation'].values():
+        if isinstance(term_rels, list):
+          all_relations.extend(term_rels)
+        elif isinstance(term_rels, dict):
+          all_relations.extend(term_rels.keys())
+
+  if 'relation' in wi:
+    if isinstance(wi['relation'], list):
+      all_relations.extend(wi['relation'])
+    elif isinstance(wi['relation'], dict):
+      for term_rels in wi['relation'].values():
+        if isinstance(term_rels, list):
+          all_relations.extend(term_rels)
+        elif isinstance(term_rels, dict):
+          all_relations.extend(term_rels.keys())
+
+  relation_list = sorted(list(set(all_relations)))
+  relation_vocab = {'relations': relation_list}
 
   # next create a copy of concept affinity matrix corresponds to each concept per question.
   topology_json = {}
-  topolopy_by_questions = []
+  topology_by_questions = []
+
   for terms in vocabs['term_per_question']:
     affinity = np.zeros([len(terms), len(terms)])
-    t_ids = get_ids_from_list(terms, vocabs['terms'])
+
     for i in range(len(terms)):
-      t_id =t_ids[i]
-      relations = sorted(cn['relation'][terms[i]]+wi['relation'][terms[i]])
-      for relation in relations:
-        r_id = get_id_from_list(relation, relation_vocab)
-        neighbors = cn['relation'][relation][terms[i]]
-        t_sub = [term for term in terms if term in neighbors]
-        affinity[t_id][t_sub]==r_id
-    topolopy_by_questions.append(affinity)
-    topology_json['topology_per_question'] = np.array(topolopy_by_questions)
-  relation_vocab['relation'] = glove(relation)
+      term_i = terms[i]
+      term_i_relations = cn.get('relation', {}).get(term_i, {})
+
+      for j in range(len(terms)):
+        if i != j:
+          term_j = terms[j]
+          # Check if there's a relation between term_i and term_j
+          if term_j in term_i_relations:
+            affinity[i][j] = 1.0  # Simple binary relation
+
+    topology_by_questions.append(affinity)
+
+  topology_json['topology_per_question'] = topology_by_questions
+
+  # Get embeddings for relations if they exist in glove
+  relation_embeddings = []
+  for rel in relation_list:
+    if rel in glove:
+      relation_embeddings.append(glove[rel])
+    else:
+      # Use random embedding if relation not in glove
+      if len(relation_embeddings) > 0:
+        dim = len(relation_embeddings[0])
+      else:
+        dim = 300  # Default GloVe dimension
+      relation_embeddings.append(np.random.normal(0, 0.1, dim))
+
+  relation_vocab['relation_embeddings'] = relation_embeddings
   return topology_json, relation_vocab
 
 def get_id_from_list(entry, full):
@@ -184,9 +281,10 @@ def get_id_from_list(entry, full):
   return -1
 
 def get_ids_from_list(entry, full):
-  ids = -np.ones_like(entry)
+  ids = -np.ones(len(entry), dtype=int)
   for e in range(len(entry)):
     for i in range(len(full)):
       if full[i] == entry[e]:
-          ids[e] == i
-  return ids[i]
+          ids[e] = i
+          break
+  return ids

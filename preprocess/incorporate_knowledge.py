@@ -7,7 +7,7 @@ import csv
 import itertools
 import pickle
 import json
-from preprocess.utils import *
+from utils import *
 
 csv.field_size_limit(sys.maxsize)
 
@@ -21,13 +21,18 @@ import conceptnet_lite
 # wikitext parser
 import wikitextparser as wtp
 from concept_score import Tfidf, Rels, thres
-from utils.misc import create_PV, create_RM
-from utils import *
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# Import misc functions directly
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'utils'))
+from misc import create_PV, create_RM
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_vocab', required=True, help='path to vocab.json')
     parser.add_argument('--input_knowledge_folder', required=True, help='path to knowledge sources')
+    parser.add_argument('--knowledge_dir', help='alternative path to knowledge sources')
     parser.add_argument('--glove_pt', help='glove pickle file, should be a map whose key are words and value are word vectors represented by numpy arrays. Only needed in train mode')
     parser.add_argument('--input_hierarchy', help='path to input hierarchy')
     parser.add_argument('--vocab_json', required=True, help='path to output vocab')
@@ -52,8 +57,8 @@ def main():
     elif args.hierarchy:
         topology_json, relation_vocab = MatchRelationByVocab(args)
         print('write')
-        with open(args.concept_property, 'w') as f:
+        with open(args.topology_json, 'w') as f:
             json.dump(topology_json, f)
 
-        with open(args.property_vocab, 'w') as f:
+        with open(args.relation_vocab, 'w') as f:
             json.dump(relation_vocab, f)
