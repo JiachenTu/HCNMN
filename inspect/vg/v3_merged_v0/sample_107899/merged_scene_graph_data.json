@@ -1,0 +1,946 @@
+{
+  "image_id": 107899,
+  "statistics": {
+    "num_objects": 45,
+    "num_relationships": 18,
+    "fine_concepts": 24,
+    "mid_concepts": 22,
+    "coarse_concepts": 20,
+    "total_concepts": 66
+  },
+  "merged_nodes": {
+    "fine": {
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 265,
+          "y": 263,
+          "w": 472,
+          "h": 755
+        },
+        "object_count": 12,
+        "original_objects": [
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man"
+        ]
+      },
+      "snowboard": {
+        "concept": "snowboard",
+        "bbox": {
+          "x": 204,
+          "y": 178,
+          "w": 534,
+          "h": 238
+        },
+        "object_count": 5,
+        "original_objects": [
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard"
+        ]
+      },
+      "helmet": {
+        "concept": "helmet",
+        "bbox": {
+          "x": 440,
+          "y": 393,
+          "w": 166,
+          "h": 99
+        },
+        "object_count": 3,
+        "original_objects": [
+          "helmet",
+          "helmet",
+          "helmet"
+        ]
+      },
+      "text": {
+        "concept": "text",
+        "bbox": {
+          "x": 275,
+          "y": 262,
+          "w": 114,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "text"
+        ]
+      },
+      "jacket": {
+        "concept": "jacket",
+        "bbox": {
+          "x": 353,
+          "y": 463,
+          "w": 247,
+          "h": 254
+        },
+        "object_count": 1,
+        "original_objects": [
+          "jacket"
+        ]
+      },
+      "boots": {
+        "concept": "boots",
+        "bbox": {
+          "x": 384,
+          "y": 897,
+          "w": 275,
+          "h": 113
+        },
+        "object_count": 1,
+        "original_objects": [
+          "boots"
+        ]
+      },
+      "shoes": {
+        "concept": "shoes",
+        "bbox": {
+          "x": 396,
+          "y": 883,
+          "w": 257,
+          "h": 102
+        },
+        "object_count": 2,
+        "original_objects": [
+          "shoes",
+          "shoes"
+        ]
+      },
+      "railing": {
+        "concept": "railing",
+        "bbox": {
+          "x": 8,
+          "y": 541,
+          "w": 663,
+          "h": 213
+        },
+        "object_count": 1,
+        "original_objects": [
+          "railing"
+        ]
+      },
+      "snow": {
+        "concept": "snow",
+        "bbox": {
+          "x": 89,
+          "y": 513,
+          "w": 619,
+          "h": 471
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snow"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 633,
+          "y": 480,
+          "w": 111,
+          "h": 287
+        },
+        "object_count": 1,
+        "original_objects": [
+          "building"
+        ]
+      },
+      "roof": {
+        "concept": "roof",
+        "bbox": {
+          "x": 654,
+          "y": 536,
+          "w": 90,
+          "h": 128
+        },
+        "object_count": 1,
+        "original_objects": [
+          "roof"
+        ]
+      },
+      "eyeglasses": {
+        "concept": "eyeglasses",
+        "bbox": {
+          "x": 459,
+          "y": 439,
+          "w": 78,
+          "h": 46
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyeglasses"
+        ]
+      },
+      "smoke": {
+        "concept": "smoke",
+        "bbox": {
+          "x": 282,
+          "y": 249,
+          "w": 428,
+          "h": 312
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smoke"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 458,
+          "y": 431,
+          "w": 115,
+          "h": 101
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 271,
+          "y": 329,
+          "w": 238,
+          "h": 238
+        },
+        "object_count": 2,
+        "original_objects": [
+          "arm",
+          "arm"
+        ]
+      },
+      "legs": {
+        "concept": "legs",
+        "bbox": {
+          "x": 360,
+          "y": 703,
+          "w": 309,
+          "h": 289
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "foot": {
+        "concept": "foot",
+        "bbox": {
+          "x": 428,
+          "y": 906,
+          "w": 188,
+          "h": 62
+        },
+        "object_count": 2,
+        "original_objects": [
+          "foot",
+          "foot"
+        ]
+      },
+      "mouth": {
+        "concept": "mouth",
+        "bbox": {
+          "x": 480,
+          "y": 467,
+          "w": 40,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      },
+      "glasses": {
+        "concept": "glasses",
+        "bbox": {
+          "x": 463,
+          "y": 438,
+          "w": 75,
+          "h": 36
+        },
+        "object_count": 2,
+        "original_objects": [
+          "glasses",
+          "glasses"
+        ]
+      },
+      "home": {
+        "concept": "home",
+        "bbox": {
+          "x": 617,
+          "y": 576,
+          "w": 148,
+          "h": 107
+        },
+        "object_count": 1,
+        "original_objects": [
+          "home"
+        ]
+      },
+      "fence": {
+        "concept": "fence",
+        "bbox": {
+          "x": 5,
+          "y": 499,
+          "w": 389,
+          "h": 269
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "field": {
+        "concept": "field",
+        "bbox": {
+          "x": 11,
+          "y": 571,
+          "w": 752,
+          "h": 448
+        },
+        "object_count": 1,
+        "original_objects": [
+          "field"
+        ]
+      },
+      "line": {
+        "concept": "line",
+        "bbox": {
+          "x": 3,
+          "y": 2,
+          "w": 741,
+          "h": 460
+        },
+        "object_count": 1,
+        "original_objects": [
+          "line"
+        ]
+      },
+      "lift": {
+        "concept": "lift",
+        "bbox": {
+          "x": 295,
+          "y": 353,
+          "w": 87,
+          "h": 115
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lift"
+        ]
+      }
+    },
+    "mid": {
+      "male": {
+        "concept": "male",
+        "bbox": {
+          "x": 265,
+          "y": 263,
+          "w": 472,
+          "h": 755
+        },
+        "object_count": 12,
+        "original_objects": [
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man"
+        ]
+      },
+      "board": {
+        "concept": "board",
+        "bbox": {
+          "x": 204,
+          "y": 178,
+          "w": 534,
+          "h": 238
+        },
+        "object_count": 5,
+        "original_objects": [
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard"
+        ]
+      },
+      "armor plate": {
+        "concept": "armor plate",
+        "bbox": {
+          "x": 440,
+          "y": 393,
+          "w": 166,
+          "h": 99
+        },
+        "object_count": 3,
+        "original_objects": [
+          "helmet",
+          "helmet",
+          "helmet"
+        ]
+      },
+      "matter": {
+        "concept": "matter",
+        "bbox": {
+          "x": 275,
+          "y": 262,
+          "w": 114,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "text"
+        ]
+      },
+      "coat": {
+        "concept": "coat",
+        "bbox": {
+          "x": 353,
+          "y": 463,
+          "w": 247,
+          "h": 254
+        },
+        "object_count": 1,
+        "original_objects": [
+          "jacket"
+        ]
+      },
+      "footwear": {
+        "concept": "footwear",
+        "bbox": {
+          "x": 384,
+          "y": 897,
+          "w": 275,
+          "h": 113
+        },
+        "object_count": 1,
+        "original_objects": [
+          "boots"
+        ]
+      },
+      "situation": {
+        "concept": "situation",
+        "bbox": {
+          "x": 396,
+          "y": 883,
+          "w": 257,
+          "h": 102
+        },
+        "object_count": 2,
+        "original_objects": [
+          "shoes",
+          "shoes"
+        ]
+      },
+      "barrier": {
+        "concept": "barrier",
+        "bbox": {
+          "x": 5,
+          "y": 499,
+          "w": 666,
+          "h": 269
+        },
+        "object_count": 2,
+        "original_objects": [
+          "railing",
+          "fence"
+        ]
+      },
+      "precipitation": {
+        "concept": "precipitation",
+        "bbox": {
+          "x": 89,
+          "y": 513,
+          "w": 619,
+          "h": 471
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snow"
+        ]
+      },
+      "structure": {
+        "concept": "structure",
+        "bbox": {
+          "x": 633,
+          "y": 480,
+          "w": 111,
+          "h": 287
+        },
+        "object_count": 1,
+        "original_objects": [
+          "building"
+        ]
+      },
+      "protective covering": {
+        "concept": "protective covering",
+        "bbox": {
+          "x": 654,
+          "y": 536,
+          "w": 90,
+          "h": 128
+        },
+        "object_count": 1,
+        "original_objects": [
+          "roof"
+        ]
+      },
+      "optical instrument": {
+        "concept": "optical instrument",
+        "bbox": {
+          "x": 459,
+          "y": 438,
+          "w": 79,
+          "h": 47
+        },
+        "object_count": 3,
+        "original_objects": [
+          "eyeglasses",
+          "glasses",
+          "glasses"
+        ]
+      },
+      "aerosol": {
+        "concept": "aerosol",
+        "bbox": {
+          "x": 282,
+          "y": 249,
+          "w": 428,
+          "h": 312
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smoke"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 458,
+          "y": 431,
+          "w": 115,
+          "h": 101
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 271,
+          "y": 329,
+          "w": 238,
+          "h": 238
+        },
+        "object_count": 2,
+        "original_objects": [
+          "arm",
+          "arm"
+        ]
+      },
+      "stamina": {
+        "concept": "stamina",
+        "bbox": {
+          "x": 360,
+          "y": 703,
+          "w": 309,
+          "h": 289
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "vertebrate foot": {
+        "concept": "vertebrate foot",
+        "bbox": {
+          "x": 428,
+          "y": 906,
+          "w": 188,
+          "h": 62
+        },
+        "object_count": 2,
+        "original_objects": [
+          "foot",
+          "foot"
+        ]
+      },
+      "rima": {
+        "concept": "rima",
+        "bbox": {
+          "x": 480,
+          "y": 467,
+          "w": 40,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      },
+      "residence": {
+        "concept": "residence",
+        "bbox": {
+          "x": 617,
+          "y": 576,
+          "w": 148,
+          "h": 107
+        },
+        "object_count": 1,
+        "original_objects": [
+          "home"
+        ]
+      },
+      "tract": {
+        "concept": "tract",
+        "bbox": {
+          "x": 11,
+          "y": 571,
+          "w": 752,
+          "h": 448
+        },
+        "object_count": 1,
+        "original_objects": [
+          "field"
+        ]
+      },
+      "formation": {
+        "concept": "formation",
+        "bbox": {
+          "x": 3,
+          "y": 2,
+          "w": 741,
+          "h": 460
+        },
+        "object_count": 1,
+        "original_objects": [
+          "line"
+        ]
+      },
+      "aid": {
+        "concept": "aid",
+        "bbox": {
+          "x": 295,
+          "y": 353,
+          "w": 87,
+          "h": 115
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lift"
+        ]
+      }
+    },
+    "coarse": {
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 265,
+          "y": 263,
+          "w": 472,
+          "h": 755
+        },
+        "object_count": 12,
+        "original_objects": [
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man",
+          "man"
+        ]
+      },
+      "sheet": {
+        "concept": "sheet",
+        "bbox": {
+          "x": 204,
+          "y": 178,
+          "w": 534,
+          "h": 238
+        },
+        "object_count": 5,
+        "original_objects": [
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard",
+          "snowboard"
+        ]
+      },
+      "plate": {
+        "concept": "plate",
+        "bbox": {
+          "x": 440,
+          "y": 393,
+          "w": 166,
+          "h": 99
+        },
+        "object_count": 3,
+        "original_objects": [
+          "helmet",
+          "helmet",
+          "helmet"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 275,
+          "y": 262,
+          "w": 114,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "text"
+        ]
+      },
+      "overgarment": {
+        "concept": "overgarment",
+        "bbox": {
+          "x": 353,
+          "y": 463,
+          "w": 247,
+          "h": 254
+        },
+        "object_count": 1,
+        "original_objects": [
+          "jacket"
+        ]
+      },
+      "covering": {
+        "concept": "covering",
+        "bbox": {
+          "x": 384,
+          "y": 536,
+          "w": 360,
+          "h": 474
+        },
+        "object_count": 2,
+        "original_objects": [
+          "boots",
+          "roof"
+        ]
+      },
+      "condition": {
+        "concept": "condition",
+        "bbox": {
+          "x": 396,
+          "y": 883,
+          "w": 257,
+          "h": 102
+        },
+        "object_count": 2,
+        "original_objects": [
+          "shoes",
+          "shoes"
+        ]
+      },
+      "obstruction": {
+        "concept": "obstruction",
+        "bbox": {
+          "x": 5,
+          "y": 499,
+          "w": 666,
+          "h": 269
+        },
+        "object_count": 2,
+        "original_objects": [
+          "railing",
+          "fence"
+        ]
+      },
+      "weather": {
+        "concept": "weather",
+        "bbox": {
+          "x": 89,
+          "y": 513,
+          "w": 619,
+          "h": 471
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snow"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 633,
+          "y": 480,
+          "w": 111,
+          "h": 287
+        },
+        "object_count": 1,
+        "original_objects": [
+          "building"
+        ]
+      },
+      "instrument": {
+        "concept": "instrument",
+        "bbox": {
+          "x": 459,
+          "y": 438,
+          "w": 79,
+          "h": 47
+        },
+        "object_count": 3,
+        "original_objects": [
+          "eyeglasses",
+          "glasses",
+          "glasses"
+        ]
+      },
+      "cloud": {
+        "concept": "cloud",
+        "bbox": {
+          "x": 282,
+          "y": 249,
+          "w": 428,
+          "h": 312
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smoke"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 458,
+          "y": 431,
+          "w": 115,
+          "h": 101
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "extremity": {
+        "concept": "extremity",
+        "bbox": {
+          "x": 271,
+          "y": 329,
+          "w": 345,
+          "h": 639
+        },
+        "object_count": 4,
+        "original_objects": [
+          "arm",
+          "arm",
+          "foot",
+          "foot"
+        ]
+      },
+      "endurance": {
+        "concept": "endurance",
+        "bbox": {
+          "x": 360,
+          "y": 703,
+          "w": 309,
+          "h": 289
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "orifice": {
+        "concept": "orifice",
+        "bbox": {
+          "x": 480,
+          "y": 467,
+          "w": 40,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      },
+      "address": {
+        "concept": "address",
+        "bbox": {
+          "x": 617,
+          "y": 576,
+          "w": 148,
+          "h": 107
+        },
+        "object_count": 1,
+        "original_objects": [
+          "home"
+        ]
+      },
+      "geographical area": {
+        "concept": "geographical area",
+        "bbox": {
+          "x": 11,
+          "y": 571,
+          "w": 752,
+          "h": 448
+        },
+        "object_count": 1,
+        "original_objects": [
+          "field"
+        ]
+      },
+      "arrangement": {
+        "concept": "arrangement",
+        "bbox": {
+          "x": 3,
+          "y": 2,
+          "w": 741,
+          "h": 460
+        },
+        "object_count": 1,
+        "original_objects": [
+          "line"
+        ]
+      },
+      "activity": {
+        "concept": "activity",
+        "bbox": {
+          "x": 295,
+          "y": 353,
+          "w": 87,
+          "h": 115
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lift"
+        ]
+      }
+    }
+  }
+}

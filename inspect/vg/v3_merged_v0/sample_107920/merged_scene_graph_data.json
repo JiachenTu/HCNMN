@@ -1,0 +1,109 @@
+{
+  "image_id": 107920,
+  "statistics": {
+    "num_objects": 6,
+    "num_relationships": 1,
+    "fine_concepts": 2,
+    "mid_concepts": 2,
+    "coarse_concepts": 2,
+    "total_concepts": 6
+  },
+  "merged_nodes": {
+    "fine": {
+      "hill": {
+        "concept": "hill",
+        "bbox": {
+          "x": 2,
+          "y": 34,
+          "w": 1016,
+          "h": 305
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hill"
+        ]
+      },
+      "tree": {
+        "concept": "tree",
+        "bbox": {
+          "x": 185,
+          "y": 1,
+          "w": 677,
+          "h": 369
+        },
+        "object_count": 5,
+        "original_objects": [
+          "tree",
+          "tree",
+          "tree",
+          "tree",
+          "tree"
+        ]
+      }
+    },
+    "mid": {
+      "natural elevation": {
+        "concept": "natural elevation",
+        "bbox": {
+          "x": 2,
+          "y": 34,
+          "w": 1016,
+          "h": 305
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hill"
+        ]
+      },
+      "woody plant": {
+        "concept": "woody plant",
+        "bbox": {
+          "x": 185,
+          "y": 1,
+          "w": 677,
+          "h": 369
+        },
+        "object_count": 5,
+        "original_objects": [
+          "tree",
+          "tree",
+          "tree",
+          "tree",
+          "tree"
+        ]
+      }
+    },
+    "coarse": {
+      "geological formation": {
+        "concept": "geological formation",
+        "bbox": {
+          "x": 2,
+          "y": 34,
+          "w": 1016,
+          "h": 305
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hill"
+        ]
+      },
+      "vascular plant": {
+        "concept": "vascular plant",
+        "bbox": {
+          "x": 185,
+          "y": 1,
+          "w": 677,
+          "h": 369
+        },
+        "object_count": 5,
+        "original_objects": [
+          "tree",
+          "tree",
+          "tree",
+          "tree",
+          "tree"
+        ]
+      }
+    }
+  }
+}

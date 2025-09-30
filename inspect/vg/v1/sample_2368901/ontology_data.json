@@ -1,0 +1,212 @@
+{
+  "image_id": 2368901,
+  "hierarchy": {
+    "fine": [
+      "basil",
+      "cheese",
+      "crust",
+      "fork",
+      "ham",
+      "ketchup",
+      "mushroom",
+      "piece",
+      "pizza",
+      "pizza half",
+      "plate",
+      "red sauce",
+      "spinach",
+      "spinach leaves",
+      "toppings"
+    ],
+    "mid": [
+      "agaric",
+      "base",
+      "condiment",
+      "cut of pork",
+      "cutlery",
+      "dairy product",
+      "dish",
+      "garnish",
+      "herb",
+      "layer",
+      "part",
+      "pizza half",
+      "red sauce",
+      "spinach leaves",
+      "vegetable"
+    ],
+    "coarse": [
+      "baseball equipment",
+      "basidiomycete",
+      "cut",
+      "decoration",
+      "flavorer",
+      "foodstuff",
+      "herb",
+      "nutriment",
+      "object",
+      "pizza half",
+      "red sauce",
+      "region",
+      "spinach leaves",
+      "tableware",
+      "vascular plant"
+    ]
+  },
+  "concept_paths": {
+    "fork": [
+      "fork",
+      "cutlery",
+      "tableware"
+    ],
+    "red sauce": [
+      "red sauce"
+    ],
+    "pizza": [
+      "pizza",
+      "dish",
+      "nutriment"
+    ],
+    "pizza half": [
+      "pizza half"
+    ],
+    "basil": [
+      "basil",
+      "herb",
+      "vascular plant"
+    ],
+    "plate": [
+      "plate",
+      "base",
+      "baseball equipment"
+    ],
+    "spinach leaves": [
+      "spinach leaves"
+    ],
+    "crust": [
+      "crust",
+      "layer",
+      "region"
+    ],
+    "piece": [
+      "piece",
+      "part",
+      "object"
+    ],
+    "ketchup": [
+      "ketchup",
+      "condiment",
+      "flavorer"
+    ],
+    "mushroom": [
+      "mushroom",
+      "agaric",
+      "basidiomycete"
+    ],
+    "toppings": [
+      "toppings",
+      "garnish",
+      "decoration"
+    ],
+    "spinach": [
+      "spinach",
+      "vegetable",
+      "herb"
+    ],
+    "ham": [
+      "ham",
+      "cut of pork",
+      "cut"
+    ],
+    "cheese": [
+      "cheese",
+      "dairy product",
+      "foodstuff"
+    ]
+  },
+  "object_to_levels": {
+    "fork": {
+      "fine": "fork",
+      "mid": "cutlery",
+      "coarse": "tableware"
+    },
+    "red sauce": {
+      "fine": "red sauce",
+      "mid": "red sauce",
+      "coarse": "red sauce"
+    },
+    "pizza": {
+      "fine": "pizza",
+      "mid": "dish",
+      "coarse": "nutriment"
+    },
+    "pizza half": {
+      "fine": "pizza half",
+      "mid": "pizza half",
+      "coarse": "pizza half"
+    },
+    "basil": {
+      "fine": "basil",
+      "mid": "herb",
+      "coarse": "vascular plant"
+    },
+    "plate": {
+      "fine": "plate",
+      "mid": "base",
+      "coarse": "baseball equipment"
+    },
+    "spinach leaves": {
+      "fine": "spinach leaves",
+      "mid": "spinach leaves",
+      "coarse": "spinach leaves"
+    },
+    "crust": {
+      "fine": "crust",
+      "mid": "layer",
+      "coarse": "region"
+    },
+    "piece": {
+      "fine": "piece",
+      "mid": "part",
+      "coarse": "object"
+    },
+    "ketchup": {
+      "fine": "ketchup",
+      "mid": "condiment",
+      "coarse": "flavorer"
+    },
+    "mushroom": {
+      "fine": "mushroom",
+      "mid": "agaric",
+      "coarse": "basidiomycete"
+    },
+    "toppings": {
+      "fine": "toppings",
+      "mid": "garnish",
+      "coarse": "decoration"
+    },
+    "spinach": {
+      "fine": "spinach",
+      "mid": "vegetable",
+      "coarse": "herb"
+    },
+    "ham": {
+      "fine": "ham",
+      "mid": "cut of pork",
+      "coarse": "cut"
+    },
+    "cheese": {
+      "fine": "cheese",
+      "mid": "dairy product",
+      "coarse": "foodstuff"
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "num_relationships": 18,
+    "fine_concepts": 15,
+    "mid_concepts": 15,
+    "coarse_concepts": 15,
+    "total_concepts": 45
+  }
+}

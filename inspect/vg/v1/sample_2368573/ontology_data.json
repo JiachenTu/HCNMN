@@ -1,0 +1,353 @@
+{
+  "image_id": 2368573,
+  "hierarchy": {
+    "fine": [
+      "ball",
+      "base",
+      "baseball",
+      "baseball mitt",
+      "blue shirt",
+      "boy",
+      "cap",
+      "cleats",
+      "floor",
+      "glove",
+      "grass",
+      "hat",
+      "helmet",
+      "man",
+      "member",
+      "mitt",
+      "nike logo",
+      "number 6",
+      "number 8",
+      "pants",
+      "person",
+      "plate",
+      "shirt",
+      "socks",
+      "white pants",
+      "yellow helmet",
+      "young boy"
+    ],
+    "mid": [
+      "adult",
+      "armor plate",
+      "associate",
+      "ball game",
+      "base",
+      "baseball equipment",
+      "blue shirt",
+      "extremity",
+      "game equipment",
+      "garment",
+      "gramineous plant",
+      "headdress",
+      "horizontal surface",
+      "hosiery",
+      "male",
+      "military installation",
+      "nike logo",
+      "number 6",
+      "number 8",
+      "organism",
+      "shoe",
+      "underpants",
+      "white pants",
+      "yellow helmet",
+      "young boy"
+    ],
+    "coarse": [
+      "baseball equipment",
+      "blue shirt",
+      "clothing",
+      "equipment",
+      "external body part",
+      "facility",
+      "field game",
+      "footwear",
+      "herb",
+      "living thing",
+      "nike logo",
+      "number 6",
+      "number 8",
+      "peer",
+      "person",
+      "plate",
+      "sports equipment",
+      "surface",
+      "undergarment",
+      "white pants",
+      "yellow helmet",
+      "young boy"
+    ]
+  },
+  "concept_paths": {
+    "young boy": [
+      "young boy"
+    ],
+    "member": [
+      "member",
+      "associate",
+      "peer"
+    ],
+    "blue shirt": [
+      "blue shirt"
+    ],
+    "boy": [
+      "boy",
+      "male",
+      "person"
+    ],
+    "mitt": [
+      "mitt",
+      "extremity",
+      "external body part"
+    ],
+    "cleats": [
+      "cleats",
+      "shoe",
+      "footwear"
+    ],
+    "shirt": [
+      "shirt",
+      "garment",
+      "clothing"
+    ],
+    "ball": [
+      "ball",
+      "game equipment",
+      "equipment"
+    ],
+    "plate": [
+      "plate",
+      "base",
+      "baseball equipment"
+    ],
+    "helmet": [
+      "helmet",
+      "armor plate",
+      "plate"
+    ],
+    "baseball": [
+      "baseball",
+      "ball game",
+      "field game"
+    ],
+    "socks": [
+      "socks",
+      "hosiery",
+      "footwear"
+    ],
+    "glove": [
+      "glove",
+      "baseball equipment",
+      "sports equipment"
+    ],
+    "yellow helmet": [
+      "yellow helmet"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "living thing"
+    ],
+    "floor": [
+      "floor",
+      "horizontal surface",
+      "surface"
+    ],
+    "man": [
+      "man",
+      "adult",
+      "person"
+    ],
+    "grass": [
+      "grass",
+      "gramineous plant",
+      "herb"
+    ],
+    "baseball mitt": [
+      "baseball mitt",
+      "baseball equipment",
+      "sports equipment"
+    ],
+    "number 6": [
+      "number 6"
+    ],
+    "pants": [
+      "pants",
+      "underpants",
+      "undergarment"
+    ],
+    "nike logo": [
+      "nike logo"
+    ],
+    "hat": [
+      "hat",
+      "headdress",
+      "clothing"
+    ],
+    "white pants": [
+      "white pants"
+    ],
+    "number 8": [
+      "number 8"
+    ],
+    "base": [
+      "base",
+      "military installation",
+      "facility"
+    ],
+    "cap": [
+      "cap",
+      "headdress",
+      "clothing"
+    ]
+  },
+  "object_to_levels": {
+    "young boy": {
+      "fine": "young boy",
+      "mid": "young boy",
+      "coarse": "young boy"
+    },
+    "member": {
+      "fine": "member",
+      "mid": "associate",
+      "coarse": "peer"
+    },
+    "blue shirt": {
+      "fine": "blue shirt",
+      "mid": "blue shirt",
+      "coarse": "blue shirt"
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "male",
+      "coarse": "person"
+    },
+    "mitt": {
+      "fine": "mitt",
+      "mid": "extremity",
+      "coarse": "external body part"
+    },
+    "cleats": {
+      "fine": "cleats",
+      "mid": "shoe",
+      "coarse": "footwear"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "garment",
+      "coarse": "clothing"
+    },
+    "ball": {
+      "fine": "ball",
+      "mid": "game equipment",
+      "coarse": "equipment"
+    },
+    "plate": {
+      "fine": "plate",
+      "mid": "base",
+      "coarse": "baseball equipment"
+    },
+    "helmet": {
+      "fine": "helmet",
+      "mid": "armor plate",
+      "coarse": "plate"
+    },
+    "baseball": {
+      "fine": "baseball",
+      "mid": "ball game",
+      "coarse": "field game"
+    },
+    "socks": {
+      "fine": "socks",
+      "mid": "hosiery",
+      "coarse": "footwear"
+    },
+    "glove": {
+      "fine": "glove",
+      "mid": "baseball equipment",
+      "coarse": "sports equipment"
+    },
+    "yellow helmet": {
+      "fine": "yellow helmet",
+      "mid": "yellow helmet",
+      "coarse": "yellow helmet"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "living thing"
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "horizontal surface",
+      "coarse": "surface"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "adult",
+      "coarse": "person"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "gramineous plant",
+      "coarse": "herb"
+    },
+    "baseball mitt": {
+      "fine": "baseball mitt",
+      "mid": "baseball equipment",
+      "coarse": "sports equipment"
+    },
+    "number 6": {
+      "fine": "number 6",
+      "mid": "number 6",
+      "coarse": "number 6"
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "underpants",
+      "coarse": "undergarment"
+    },
+    "nike logo": {
+      "fine": "nike logo",
+      "mid": "nike logo",
+      "coarse": "nike logo"
+    },
+    "hat": {
+      "fine": "hat",
+      "mid": "headdress",
+      "coarse": "clothing"
+    },
+    "white pants": {
+      "fine": "white pants",
+      "mid": "white pants",
+      "coarse": "white pants"
+    },
+    "number 8": {
+      "fine": "number 8",
+      "mid": "number 8",
+      "coarse": "number 8"
+    },
+    "base": {
+      "fine": "base",
+      "mid": "military installation",
+      "coarse": "facility"
+    },
+    "cap": {
+      "fine": "cap",
+      "mid": "headdress",
+      "coarse": "clothing"
+    }
+  },
+  "statistics": {
+    "num_objects": 58,
+    "num_relationships": 24,
+    "fine_concepts": 27,
+    "mid_concepts": 25,
+    "coarse_concepts": 22,
+    "total_concepts": 74
+  }
+}

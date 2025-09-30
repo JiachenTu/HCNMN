@@ -1,0 +1,175 @@
+{
+  "image_id": 2337701,
+  "hierarchy": {
+    "fine": [
+      "bird",
+      "dirt",
+      "ground",
+      "head",
+      "pebble",
+      "piece",
+      "sand",
+      "seagull",
+      "shells",
+      "wing",
+      "wood",
+      "wood edges"
+    ],
+    "mid": [
+      "ammunition",
+      "earth",
+      "external body part",
+      "larid",
+      "object",
+      "organ",
+      "part",
+      "plant material",
+      "rock",
+      "soil",
+      "vertebrate",
+      "wood edges"
+    ],
+    "coarse": [
+      "body part",
+      "chordate",
+      "coastal diving bird",
+      "earth",
+      "material",
+      "natural object",
+      "object",
+      "physical entity",
+      "weaponry",
+      "wood edges"
+    ]
+  },
+  "concept_paths": {
+    "wood": [
+      "wood",
+      "plant material",
+      "material"
+    ],
+    "wing": [
+      "wing",
+      "organ",
+      "body part"
+    ],
+    "seagull": [
+      "seagull",
+      "larid",
+      "coastal diving bird"
+    ],
+    "shells": [
+      "shells",
+      "ammunition",
+      "weaponry"
+    ],
+    "dirt": [
+      "dirt",
+      "earth",
+      "material"
+    ],
+    "wood edges": [
+      "wood edges"
+    ],
+    "bird": [
+      "bird",
+      "vertebrate",
+      "chordate"
+    ],
+    "piece": [
+      "piece",
+      "part",
+      "object"
+    ],
+    "ground": [
+      "ground",
+      "object",
+      "physical entity"
+    ],
+    "pebble": [
+      "pebble",
+      "rock",
+      "natural object"
+    ],
+    "head": [
+      "head",
+      "external body part",
+      "body part"
+    ],
+    "sand": [
+      "sand",
+      "soil",
+      "earth"
+    ]
+  },
+  "object_to_levels": {
+    "wood": {
+      "fine": "wood",
+      "mid": "plant material",
+      "coarse": "material"
+    },
+    "wing": {
+      "fine": "wing",
+      "mid": "organ",
+      "coarse": "body part"
+    },
+    "seagull": {
+      "fine": "seagull",
+      "mid": "larid",
+      "coarse": "coastal diving bird"
+    },
+    "shells": {
+      "fine": "shells",
+      "mid": "ammunition",
+      "coarse": "weaponry"
+    },
+    "dirt": {
+      "fine": "dirt",
+      "mid": "earth",
+      "coarse": "material"
+    },
+    "wood edges": {
+      "fine": "wood edges",
+      "mid": "wood edges",
+      "coarse": "wood edges"
+    },
+    "bird": {
+      "fine": "bird",
+      "mid": "vertebrate",
+      "coarse": "chordate"
+    },
+    "piece": {
+      "fine": "piece",
+      "mid": "part",
+      "coarse": "object"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "object",
+      "coarse": "physical entity"
+    },
+    "pebble": {
+      "fine": "pebble",
+      "mid": "rock",
+      "coarse": "natural object"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "sand": {
+      "fine": "sand",
+      "mid": "soil",
+      "coarse": "earth"
+    }
+  },
+  "statistics": {
+    "num_objects": 15,
+    "num_relationships": 12,
+    "fine_concepts": 12,
+    "mid_concepts": 12,
+    "coarse_concepts": 10,
+    "total_concepts": 34
+  }
+}

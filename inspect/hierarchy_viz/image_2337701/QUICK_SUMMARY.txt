@@ -1,0 +1,90 @@
+================================================================================
+WORDNET ONTOLOGY FORMULATION - IMAGE 2337701 (Beach Scene)
+================================================================================
+
+📸 IMAGE: Beach with seagulls, shells, sand, and pebbles
+
+🎯 ONTOLOGY EXPANSION:
+   11 base objects → 467 concepts (42.5x expansion)
+
+📊 HIERARCHY STRUCTURE:
+   14 levels (specific → abstract)
+   
+   Level 0-2:   98 concepts (21%) - Fine-grained    [seagull, sand, wing]
+   Level 3-5:  159 concepts (34%) - Mid-level       [bird, material, object]
+   Level 6-14: 210 concepts (45%) - Coarse-grained  [entity, abstraction]
+
+🌳 EXAMPLE PATHS (Specific → Abstract):
+
+   seagull → bird → vertebrate → animal → organism → living thing 
+            → whole → object → physical entity → entity (14 levels)
+
+   sand → soil → material → substance → part → relation 
+         → abstraction → entity (8 levels)
+
+   wing → appendage → body part → natural object → whole 
+         → object → physical entity → entity (10 levels)
+
+✨ KEY INSIGHTS:
+
+   1. Living things (seagull, bird) have DEEPER hierarchies (14 levels)
+      than inanimate objects (sand, pebble: 8-9 levels)
+
+   2. Multiple concepts CONVERGE to shared abstract parents:
+      - seagull, bird, wing → living thing → entity
+      - sand, dirt, ground → substance → entity
+
+   3. Mid-levels (L3-L6) have MOST concepts due to convergence
+
+   4. The hierarchy is INVERTED PYRAMID:
+      - Many specific concepts at bottom
+      - Few abstract concepts at top
+      - Single root: "entity"
+
+📁 GENERATED FILES:
+
+   ✓ wordnet_hierarchy_detailed.png  - 6-panel visualization
+   ✓ image_with_hierarchy.png        - Image with bbox depth colors
+   ✓ hierarchy_data.json              - Complete ontology data (467 concepts)
+   ✓ ONTOLOGY_FORMULATION_EXPLAINED.md - Detailed technical explanation
+
+🎓 WHAT IS ONTOLOGY FORMULATION?
+
+   The process of organizing concepts into a hierarchical knowledge structure
+   that captures relationships from SPECIFIC instances to ABSTRACT categories.
+
+   This enables MULTI-GRANULARITY REASONING:
+   - "Is there a seagull?" → L0 (specific)
+   - "Is there a bird?" → L5 (category)
+   - "Are there living things?" → L10 (abstract)
+
+   The model can answer questions at ANY abstraction level!
+
+🔧 HOW IT WORKS:
+
+   1. Start with VG objects (seagull, sand, wing...)
+   2. For each object, query WordNet for synsets
+   3. For each synset, traverse ALL hypernym paths to root
+   4. Collect concepts at each depth level
+   5. Result: Multi-granularity hierarchy with 42.5x expansion
+
+📈 STATISTICS:
+
+   Base concepts:              11
+   Expanded concepts:         467
+   Expansion ratio:          42.5x
+   Max hierarchy depth:        14 levels
+   Avg depth per concept:     6.5 levels
+   WordNet coverage:         100% (all objects mapped)
+
+🆚 VS. PAPER'S APPROACH:
+
+   Paper (VQA):              This Demo (VG):
+   ─────────────             ───────────────
+   Source: Question text     Source: Image annotations
+   Concepts: Task-specific   Concepts: Scene-comprehensive
+   Grounding: Linguistic     Grounding: Visual (bboxes)
+   
+   This demo creates VISUALLY-GROUNDED ontology!
+
+================================================================================

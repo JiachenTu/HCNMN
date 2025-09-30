@@ -1,0 +1,505 @@
+{
+  "image_id": 2337701,
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 12,
+    "fine_concepts": 13,
+    "mid_concepts": 12,
+    "coarse_concepts": 9,
+    "total_concepts": 34
+  },
+  "merged_nodes": {
+    "fine": {
+      "shells": {
+        "concept": "shells",
+        "bbox": {
+          "x": 451,
+          "y": 194,
+          "w": 46,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shells"
+        ]
+      },
+      "sand": {
+        "concept": "sand",
+        "bbox": {
+          "x": 0,
+          "y": 195,
+          "w": 498,
+          "h": 135
+        },
+        "object_count": 2,
+        "original_objects": [
+          "sand",
+          "sand"
+        ]
+      },
+      "wood": {
+        "concept": "wood",
+        "bbox": {
+          "x": 140,
+          "y": 158,
+          "w": 309,
+          "h": 148
+        },
+        "object_count": 5,
+        "original_objects": [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ]
+      },
+      "wood edges": {
+        "concept": "wood edges",
+        "bbox": {
+          "x": 220,
+          "y": 163,
+          "w": 122,
+          "h": 42
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wood edges"
+        ]
+      },
+      "dirt": {
+        "concept": "dirt",
+        "bbox": {
+          "x": 212,
+          "y": 205,
+          "w": 250,
+          "h": 107
+        },
+        "object_count": 1,
+        "original_objects": [
+          "dirt"
+        ]
+      },
+      "piece": {
+        "concept": "piece",
+        "bbox": {
+          "x": 227,
+          "y": 159,
+          "w": 109,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      },
+      "beach": {
+        "concept": "beach",
+        "bbox": {
+          "x": 4,
+          "y": 1,
+          "w": 494,
+          "h": 332
+        },
+        "object_count": 1,
+        "original_objects": [
+          "beach"
+        ]
+      },
+      "pebble": {
+        "concept": "pebble",
+        "bbox": {
+          "x": 449,
+          "y": 260,
+          "w": 41,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pebble"
+        ]
+      },
+      "ground": {
+        "concept": "ground",
+        "bbox": {
+          "x": 5,
+          "y": 194,
+          "w": 493,
+          "h": 134
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "wing": {
+        "concept": "wing",
+        "bbox": {
+          "x": 283,
+          "y": 106,
+          "w": 45,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wing"
+        ]
+      },
+      "bird": {
+        "concept": "bird",
+        "bbox": {
+          "x": 238,
+          "y": 41,
+          "w": 110,
+          "h": 142
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bird"
+        ]
+      },
+      "seagull": {
+        "concept": "seagull",
+        "bbox": {
+          "x": 145,
+          "y": 123,
+          "w": 64,
+          "h": 75
+        },
+        "object_count": 1,
+        "original_objects": [
+          "seagull"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 152,
+          "y": 127,
+          "w": 19,
+          "h": 32
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      }
+    },
+    "mid": {
+      "ammunition": {
+        "concept": "ammunition",
+        "bbox": {
+          "x": 451,
+          "y": 194,
+          "w": 46,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shells"
+        ]
+      },
+      "soil": {
+        "concept": "soil",
+        "bbox": {
+          "x": 0,
+          "y": 195,
+          "w": 498,
+          "h": 135
+        },
+        "object_count": 2,
+        "original_objects": [
+          "sand",
+          "sand"
+        ]
+      },
+      "plant material": {
+        "concept": "plant material",
+        "bbox": {
+          "x": 140,
+          "y": 158,
+          "w": 309,
+          "h": 148
+        },
+        "object_count": 5,
+        "original_objects": [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ]
+      },
+      "wood edges": {
+        "concept": "wood edges",
+        "bbox": {
+          "x": 220,
+          "y": 163,
+          "w": 122,
+          "h": 42
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wood edges"
+        ]
+      },
+      "earth": {
+        "concept": "earth",
+        "bbox": {
+          "x": 212,
+          "y": 205,
+          "w": 250,
+          "h": 107
+        },
+        "object_count": 1,
+        "original_objects": [
+          "dirt"
+        ]
+      },
+      "part": {
+        "concept": "part",
+        "bbox": {
+          "x": 227,
+          "y": 159,
+          "w": 109,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      },
+      "geological formation": {
+        "concept": "geological formation",
+        "bbox": {
+          "x": 4,
+          "y": 1,
+          "w": 494,
+          "h": 332
+        },
+        "object_count": 1,
+        "original_objects": [
+          "beach"
+        ]
+      },
+      "rock": {
+        "concept": "rock",
+        "bbox": {
+          "x": 449,
+          "y": 260,
+          "w": 41,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pebble"
+        ]
+      },
+      "object": {
+        "concept": "object",
+        "bbox": {
+          "x": 5,
+          "y": 194,
+          "w": 493,
+          "h": 134
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "organ": {
+        "concept": "organ",
+        "bbox": {
+          "x": 283,
+          "y": 106,
+          "w": 45,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wing"
+        ]
+      },
+      "vertebrate": {
+        "concept": "vertebrate",
+        "bbox": {
+          "x": 238,
+          "y": 41,
+          "w": 110,
+          "h": 142
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bird"
+        ]
+      },
+      "larid": {
+        "concept": "larid",
+        "bbox": {
+          "x": 145,
+          "y": 123,
+          "w": 64,
+          "h": 75
+        },
+        "object_count": 1,
+        "original_objects": [
+          "seagull"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 152,
+          "y": 127,
+          "w": 19,
+          "h": 32
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      }
+    },
+    "coarse": {
+      "weaponry": {
+        "concept": "weaponry",
+        "bbox": {
+          "x": 451,
+          "y": 194,
+          "w": 46,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shells"
+        ]
+      },
+      "earth": {
+        "concept": "earth",
+        "bbox": {
+          "x": 0,
+          "y": 195,
+          "w": 498,
+          "h": 135
+        },
+        "object_count": 2,
+        "original_objects": [
+          "sand",
+          "sand"
+        ]
+      },
+      "material": {
+        "concept": "material",
+        "bbox": {
+          "x": 140,
+          "y": 158,
+          "w": 322,
+          "h": 154
+        },
+        "object_count": 6,
+        "original_objects": [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "dirt",
+          "wood"
+        ]
+      },
+      "wood edges": {
+        "concept": "wood edges",
+        "bbox": {
+          "x": 220,
+          "y": 163,
+          "w": 122,
+          "h": 42
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wood edges"
+        ]
+      },
+      "object": {
+        "concept": "object",
+        "bbox": {
+          "x": 4,
+          "y": 1,
+          "w": 494,
+          "h": 332
+        },
+        "object_count": 2,
+        "original_objects": [
+          "piece",
+          "beach"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 449,
+          "y": 260,
+          "w": 41,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pebble"
+        ]
+      },
+      "physical entity": {
+        "concept": "physical entity",
+        "bbox": {
+          "x": 5,
+          "y": 194,
+          "w": 493,
+          "h": 134
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 152,
+          "y": 106,
+          "w": 176,
+          "h": 63
+        },
+        "object_count": 2,
+        "original_objects": [
+          "wing",
+          "head"
+        ]
+      },
+      "chordate": {
+        "concept": "chordate",
+        "bbox": {
+          "x": 238,
+          "y": 41,
+          "w": 110,
+          "h": 142
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bird"
+        ]
+      },
+      "coastal diving bird": {
+        "concept": "coastal diving bird",
+        "bbox": {
+          "x": 145,
+          "y": 123,
+          "w": 64,
+          "h": 75
+        },
+        "object_count": 1,
+        "original_objects": [
+          "seagull"
+        ]
+      }
+    }
+  }
+}

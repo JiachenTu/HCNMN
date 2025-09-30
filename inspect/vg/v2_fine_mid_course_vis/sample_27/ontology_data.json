@@ -1,0 +1,227 @@
+{
+  "image_id": 27,
+  "hierarchy": {
+    "fine": [
+      "air conditioner",
+      "carpet",
+      "ceiling",
+      "chair",
+      "chairs",
+      "door",
+      "picture",
+      "reflection",
+      "set",
+      "shadow",
+      "socket",
+      "strip",
+      "switch",
+      "table",
+      "tile",
+      "wall"
+    ],
+    "mid": [
+      "array",
+      "cavity",
+      "collection",
+      "consideration",
+      "control",
+      "cooling system",
+      "floor cover",
+      "movable barrier",
+      "part",
+      "partition",
+      "representation",
+      "seat",
+      "shade",
+      "slab",
+      "upper surface"
+    ],
+    "coarse": [
+      "arrangement",
+      "barrier",
+      "block",
+      "covering",
+      "creation",
+      "furniture",
+      "group",
+      "mechanism",
+      "semidarkness",
+      "side",
+      "structure",
+      "thing",
+      "thinking"
+    ]
+  },
+  "concept_paths": {
+    "reflection": [
+      "reflection",
+      "consideration",
+      "thinking"
+    ],
+    "strip": [
+      "strip",
+      "part",
+      "thing"
+    ],
+    "carpet": [
+      "carpet",
+      "floor cover",
+      "covering"
+    ],
+    "shadow": [
+      "shadow",
+      "shade",
+      "semidarkness"
+    ],
+    "set": [
+      "set",
+      "collection",
+      "group"
+    ],
+    "chair": [
+      "chair",
+      "seat",
+      "furniture"
+    ],
+    "socket": [
+      "socket",
+      "cavity",
+      "structure"
+    ],
+    "door": [
+      "door",
+      "movable barrier",
+      "barrier"
+    ],
+    "picture": [
+      "picture",
+      "representation",
+      "creation"
+    ],
+    "tile": [
+      "tile",
+      "slab",
+      "block"
+    ],
+    "ceiling": [
+      "ceiling",
+      "upper surface",
+      "side"
+    ],
+    "air conditioner": [
+      "air conditioner",
+      "cooling system",
+      "mechanism"
+    ],
+    "switch": [
+      "switch",
+      "control",
+      "mechanism"
+    ],
+    "table": [
+      "table",
+      "array",
+      "arrangement"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "structure"
+    ],
+    "chairs": [
+      "chairs",
+      "seat",
+      "furniture"
+    ]
+  },
+  "object_to_levels": {
+    "reflection": {
+      "fine": "reflection",
+      "mid": "consideration",
+      "coarse": "thinking"
+    },
+    "strip": {
+      "fine": "strip",
+      "mid": "part",
+      "coarse": "thing"
+    },
+    "carpet": {
+      "fine": "carpet",
+      "mid": "floor cover",
+      "coarse": "covering"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "shade",
+      "coarse": "semidarkness"
+    },
+    "set": {
+      "fine": "set",
+      "mid": "collection",
+      "coarse": "group"
+    },
+    "chair": {
+      "fine": "chair",
+      "mid": "seat",
+      "coarse": "furniture"
+    },
+    "socket": {
+      "fine": "socket",
+      "mid": "cavity",
+      "coarse": "structure"
+    },
+    "door": {
+      "fine": "door",
+      "mid": "movable barrier",
+      "coarse": "barrier"
+    },
+    "picture": {
+      "fine": "picture",
+      "mid": "representation",
+      "coarse": "creation"
+    },
+    "tile": {
+      "fine": "tile",
+      "mid": "slab",
+      "coarse": "block"
+    },
+    "ceiling": {
+      "fine": "ceiling",
+      "mid": "upper surface",
+      "coarse": "side"
+    },
+    "air conditioner": {
+      "fine": "air conditioner",
+      "mid": "cooling system",
+      "coarse": "mechanism"
+    },
+    "switch": {
+      "fine": "switch",
+      "mid": "control",
+      "coarse": "mechanism"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "array",
+      "coarse": "arrangement"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "structure"
+    },
+    "chairs": {
+      "fine": "chairs",
+      "mid": "seat",
+      "coarse": "furniture"
+    }
+  },
+  "statistics": {
+    "num_objects": 21,
+    "num_relationships": 14,
+    "fine_concepts": 16,
+    "mid_concepts": 15,
+    "coarse_concepts": 13,
+    "total_concepts": 44
+  }
+}

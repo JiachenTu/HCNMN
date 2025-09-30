@@ -1,0 +1,175 @@
+{
+  "image_id": 107980,
+  "statistics": {
+    "num_objects": 4,
+    "num_relationships": 30,
+    "fine_concepts": 4,
+    "mid_concepts": 4,
+    "coarse_concepts": 4,
+    "total_concepts": 12
+  },
+  "merged_nodes": {
+    "fine": {
+      "sheep": {
+        "concept": "sheep",
+        "bbox": {
+          "x": 5,
+          "y": 478,
+          "w": 658,
+          "h": 236
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sheep"
+        ]
+      },
+      "grass": {
+        "concept": "grass",
+        "bbox": {
+          "x": 3,
+          "y": 491,
+          "w": 687,
+          "h": 526
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "trees": {
+        "concept": "trees",
+        "bbox": {
+          "x": 5,
+          "y": 147,
+          "w": 686,
+          "h": 346
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trees"
+        ]
+      },
+      "sky": {
+        "concept": "sky",
+        "bbox": {
+          "x": 0,
+          "y": 3,
+          "w": 690,
+          "h": 410
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      }
+    },
+    "mid": {
+      "bovid": {
+        "concept": "bovid",
+        "bbox": {
+          "x": 5,
+          "y": 478,
+          "w": 658,
+          "h": 236
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sheep"
+        ]
+      },
+      "gramineous plant": {
+        "concept": "gramineous plant",
+        "bbox": {
+          "x": 3,
+          "y": 491,
+          "w": 687,
+          "h": 526
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "woody plant": {
+        "concept": "woody plant",
+        "bbox": {
+          "x": 5,
+          "y": 147,
+          "w": 686,
+          "h": 346
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trees"
+        ]
+      },
+      "atmosphere": {
+        "concept": "atmosphere",
+        "bbox": {
+          "x": 0,
+          "y": 3,
+          "w": 690,
+          "h": 410
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      }
+    },
+    "coarse": {
+      "ruminant": {
+        "concept": "ruminant",
+        "bbox": {
+          "x": 5,
+          "y": 478,
+          "w": 658,
+          "h": 236
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sheep"
+        ]
+      },
+      "herb": {
+        "concept": "herb",
+        "bbox": {
+          "x": 3,
+          "y": 491,
+          "w": 687,
+          "h": 526
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "vascular plant": {
+        "concept": "vascular plant",
+        "bbox": {
+          "x": 5,
+          "y": 147,
+          "w": 686,
+          "h": 346
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trees"
+        ]
+      },
+      "gas": {
+        "concept": "gas",
+        "bbox": {
+          "x": 0,
+          "y": 3,
+          "w": 690,
+          "h": 410
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      }
+    }
+  }
+}
