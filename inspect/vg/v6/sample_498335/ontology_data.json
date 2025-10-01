@@ -1,0 +1,222 @@
+{
+  "image_id": 498335,
+  "hierarchy": {
+    "fine": [
+      "background",
+      "balcony",
+      "clock",
+      "edge",
+      "face",
+      "flower",
+      "flowers",
+      "letter",
+      "light",
+      "lot",
+      "pole",
+      "pot",
+      "railing",
+      "sign",
+      "stairs",
+      "street"
+    ],
+    "mid": [
+      "artifact",
+      "attribute",
+      "body part",
+      "container",
+      "electromagnetic radiation",
+      "evidence",
+      "extremity",
+      "implement",
+      "indefinite quantity",
+      "measuring instrument",
+      "obstruction",
+      "representation",
+      "road",
+      "spermatophyte",
+      "way"
+    ],
+    "coarse": [
+      "artifact",
+      "background",
+      "body part",
+      "evidence",
+      "large indefinite quantity",
+      "living thing",
+      "natural phenomenon",
+      "region"
+    ]
+  },
+  "concept_paths": {
+    "letter": [
+      "letter",
+      "representation",
+      "artifact"
+    ],
+    "flower": [
+      "flower",
+      "spermatophyte",
+      "living thing"
+    ],
+    "face": [
+      "face",
+      "body part",
+      "body part"
+    ],
+    "balcony": [
+      "balcony",
+      "artifact",
+      "artifact"
+    ],
+    "pot": [
+      "pot",
+      "container",
+      "artifact"
+    ],
+    "edge": [
+      "edge",
+      "extremity",
+      "region"
+    ],
+    "street": [
+      "street",
+      "road",
+      "artifact"
+    ],
+    "stairs": [
+      "stairs",
+      "way",
+      "artifact"
+    ],
+    "flowers": [
+      "flowers",
+      "spermatophyte",
+      "living thing"
+    ],
+    "light": [
+      "light",
+      "electromagnetic radiation",
+      "natural phenomenon"
+    ],
+    "pole": [
+      "pole",
+      "implement",
+      "artifact"
+    ],
+    "clock": [
+      "clock",
+      "measuring instrument",
+      "artifact"
+    ],
+    "railing": [
+      "railing",
+      "obstruction",
+      "artifact"
+    ],
+    "background": [
+      "background",
+      "attribute",
+      "background"
+    ],
+    "lot": [
+      "lot",
+      "indefinite quantity",
+      "large indefinite quantity"
+    ],
+    "sign": [
+      "sign",
+      "evidence",
+      "evidence"
+    ]
+  },
+  "object_to_levels": {
+    "letter": {
+      "fine": "letter",
+      "mid": "representation",
+      "coarse": "artifact"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "spermatophyte",
+      "coarse": "living thing"
+    },
+    "face": {
+      "fine": "face",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "balcony": {
+      "fine": "balcony",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "pot": {
+      "fine": "pot",
+      "mid": "container",
+      "coarse": "artifact"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "extremity",
+      "coarse": "region"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "road",
+      "coarse": "artifact"
+    },
+    "stairs": {
+      "fine": "stairs",
+      "mid": "way",
+      "coarse": "artifact"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "spermatophyte",
+      "coarse": "living thing"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "electromagnetic radiation",
+      "coarse": "natural phenomenon"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "implement",
+      "coarse": "artifact"
+    },
+    "clock": {
+      "fine": "clock",
+      "mid": "measuring instrument",
+      "coarse": "artifact"
+    },
+    "railing": {
+      "fine": "railing",
+      "mid": "obstruction",
+      "coarse": "artifact"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "attribute",
+      "coarse": "background"
+    },
+    "lot": {
+      "fine": "lot",
+      "mid": "indefinite quantity",
+      "coarse": "large indefinite quantity"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "evidence",
+      "coarse": "evidence"
+    }
+  },
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 15,
+    "fine_concepts": 16,
+    "mid_concepts": 15,
+    "coarse_concepts": 8,
+    "total_concepts": 39
+  }
+}

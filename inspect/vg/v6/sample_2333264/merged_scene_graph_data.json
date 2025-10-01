@@ -1,0 +1,343 @@
+{
+  "image_id": 2333264,
+  "statistics": {
+    "num_objects": 12,
+    "num_relationships": 4,
+    "fine_concepts": 9,
+    "mid_concepts": 6,
+    "coarse_concepts": 3,
+    "total_concepts": 18
+  },
+  "merged_nodes": {
+    "fine": {
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 201,
+          "y": 76,
+          "w": 197,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "mouse": {
+        "concept": "mouse",
+        "bbox": {
+          "x": 205,
+          "y": 55,
+          "w": 218,
+          "h": 124
+        },
+        "object_count": 2,
+        "original_objects": [
+          "mouse",
+          "mouse"
+        ]
+      },
+      "finger": {
+        "concept": "finger",
+        "bbox": {
+          "x": 204,
+          "y": 71,
+          "w": 118,
+          "h": 73
+        },
+        "object_count": 3,
+        "original_objects": [
+          "finger",
+          "finger",
+          "finger"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 198,
+          "y": 69,
+          "w": 300,
+          "h": 262
+        },
+        "object_count": 1,
+        "original_objects": [
+          "person"
+        ]
+      },
+      "ring finger": {
+        "concept": "ring finger",
+        "bbox": {
+          "x": 280,
+          "y": 88,
+          "w": 41,
+          "h": 32
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ring finger"
+        ]
+      },
+      "bracelet": {
+        "concept": "bracelet",
+        "bbox": {
+          "x": 321,
+          "y": 198,
+          "w": 84,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bracelet"
+        ]
+      },
+      "key pad": {
+        "concept": "key pad",
+        "bbox": {
+          "x": 122,
+          "y": 186,
+          "w": 135,
+          "h": 141
+        },
+        "object_count": 1,
+        "original_objects": [
+          "key pad"
+        ]
+      },
+      "keyboard": {
+        "concept": "keyboard",
+        "bbox": {
+          "x": 3,
+          "y": 143,
+          "w": 273,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "keyboard"
+        ]
+      },
+      "table top": {
+        "concept": "table top",
+        "bbox": {
+          "x": 113,
+          "y": 67,
+          "w": 55,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table top"
+        ]
+      }
+    },
+    "mid": {
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 201,
+          "y": 76,
+          "w": 197,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "placental": {
+        "concept": "placental",
+        "bbox": {
+          "x": 205,
+          "y": 55,
+          "w": 218,
+          "h": 124
+        },
+        "object_count": 2,
+        "original_objects": [
+          "mouse",
+          "mouse"
+        ]
+      },
+      "extremity": {
+        "concept": "extremity",
+        "bbox": {
+          "x": 204,
+          "y": 71,
+          "w": 118,
+          "h": 73
+        },
+        "object_count": 3,
+        "original_objects": [
+          "finger",
+          "finger",
+          "finger"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 198,
+          "y": 69,
+          "w": 300,
+          "h": 262
+        },
+        "object_count": 1,
+        "original_objects": [
+          "person"
+        ]
+      },
+      "ring finger": {
+        "concept": "ring finger",
+        "bbox": {
+          "x": 280,
+          "y": 88,
+          "w": 41,
+          "h": 32
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ring finger"
+        ]
+      },
+      "strip": {
+        "concept": "strip",
+        "bbox": {
+          "x": 321,
+          "y": 198,
+          "w": 84,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bracelet"
+        ]
+      },
+      "key pad": {
+        "concept": "key pad",
+        "bbox": {
+          "x": 122,
+          "y": 186,
+          "w": 135,
+          "h": 141
+        },
+        "object_count": 1,
+        "original_objects": [
+          "key pad"
+        ]
+      },
+      "instrumentality": {
+        "concept": "instrumentality",
+        "bbox": {
+          "x": 3,
+          "y": 143,
+          "w": 273,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "keyboard"
+        ]
+      },
+      "table top": {
+        "concept": "table top",
+        "bbox": {
+          "x": 113,
+          "y": 67,
+          "w": 55,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table top"
+        ]
+      }
+    },
+    "coarse": {
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 201,
+          "y": 71,
+          "w": 197,
+          "h": 187
+        },
+        "object_count": 4,
+        "original_objects": [
+          "hand",
+          "finger",
+          "finger",
+          "finger"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 198,
+          "y": 55,
+          "w": 300,
+          "h": 276
+        },
+        "object_count": 3,
+        "original_objects": [
+          "mouse",
+          "mouse",
+          "person"
+        ]
+      },
+      "ring finger": {
+        "concept": "ring finger",
+        "bbox": {
+          "x": 280,
+          "y": 88,
+          "w": 41,
+          "h": 32
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ring finger"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 3,
+          "y": 143,
+          "w": 402,
+          "h": 182
+        },
+        "object_count": 2,
+        "original_objects": [
+          "bracelet",
+          "keyboard"
+        ]
+      },
+      "key pad": {
+        "concept": "key pad",
+        "bbox": {
+          "x": 122,
+          "y": 186,
+          "w": 135,
+          "h": 141
+        },
+        "object_count": 1,
+        "original_objects": [
+          "key pad"
+        ]
+      },
+      "table top": {
+        "concept": "table top",
+        "bbox": {
+          "x": 113,
+          "y": 67,
+          "w": 55,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table top"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "image_id": 2333264,
+  "hierarchy": {
+    "fine": [
+      "bracelet",
+      "finger",
+      "hand",
+      "key pad",
+      "mouse",
+      "person",
+      "ring finger",
+      "table top"
+    ],
+    "mid": [
+      "digit",
+      "external body part",
+      "extremity",
+      "key pad",
+      "physical entity",
+      "placental",
+      "strip",
+      "table top"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "key pad",
+      "living thing",
+      "table top"
+    ]
+  },
+  "concept_paths": {
+    "ring finger": [
+      "ring finger",
+      "digit",
+      "body part"
+    ],
+    "person": [
+      "person",
+      "physical entity",
+      "living thing"
+    ],
+    "mouse": [
+      "mouse",
+      "placental",
+      "living thing"
+    ],
+    "bracelet": [
+      "bracelet",
+      "strip",
+      "artifact"
+    ],
+    "finger": [
+      "finger",
+      "extremity",
+      "body part"
+    ],
+    "table top": [
+      "table top"
+    ],
+    "key pad": [
+      "key pad"
+    ],
+    "hand": [
+      "hand",
+      "external body part",
+      "body part"
+    ]
+  },
+  "object_to_levels": {
+    "ring finger": {
+      "fine": "ring finger",
+      "mid": "digit",
+      "coarse": "body part"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "physical entity",
+      "coarse": "living thing"
+    },
+    "mouse": {
+      "fine": "mouse",
+      "mid": "placental",
+      "coarse": "living thing"
+    },
+    "bracelet": {
+      "fine": "bracelet",
+      "mid": "strip",
+      "coarse": "artifact"
+    },
+    "finger": {
+      "fine": "finger",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "table top": {
+      "fine": "table top",
+      "mid": "table top",
+      "coarse": "table top"
+    },
+    "key pad": {
+      "fine": "key pad",
+      "mid": "key pad",
+      "coarse": "key pad"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "external body part",
+      "coarse": "body part"
+    }
+  },
+  "statistics": {
+    "num_objects": 10,
+    "num_relationships": 4,
+    "fine_concepts": 8,
+    "mid_concepts": 8,
+    "coarse_concepts": 5,
+    "total_concepts": 21
+  }
+}

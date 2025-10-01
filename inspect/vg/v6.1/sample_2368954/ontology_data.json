@@ -1,0 +1,241 @@
+{
+  "image_id": 2368954,
+  "hierarchy": {
+    "fine": [
+      "black netting",
+      "black shorts",
+      "fence",
+      "hand",
+      "handle",
+      "head",
+      "knee",
+      "logo",
+      "people",
+      "person",
+      "shirt",
+      "side",
+      "tennis racket",
+      "w",
+      "wall",
+      "watermark",
+      "white trim",
+      "wristband"
+    ],
+    "mid": [
+      "appendage",
+      "band",
+      "black netting",
+      "black shorts",
+      "body_part",
+      "building",
+      "clothing",
+      "line",
+      "material",
+      "person",
+      "region",
+      "text",
+      "tool",
+      "white trim"
+    ],
+    "coarse": [
+      "appendage",
+      "artifact",
+      "black netting",
+      "black shorts",
+      "body part",
+      "line",
+      "living thing",
+      "people",
+      "region",
+      "substance",
+      "symbol",
+      "white trim"
+    ]
+  },
+  "concept_paths": {
+    "hand": [
+      "hand",
+      "body_part",
+      "body part"
+    ],
+    "fence": [
+      "fence",
+      "building",
+      "artifact"
+    ],
+    "black netting": [
+      "black netting"
+    ],
+    "people": [
+      "people",
+      "person",
+      "people"
+    ],
+    "black shorts": [
+      "black shorts"
+    ],
+    "handle": [
+      "handle",
+      "appendage",
+      "appendage"
+    ],
+    "logo": [
+      "logo",
+      "text",
+      "symbol"
+    ],
+    "knee": [
+      "knee",
+      "body_part",
+      "body part"
+    ],
+    "side": [
+      "side",
+      "region",
+      "region"
+    ],
+    "person": [
+      "person",
+      "person",
+      "living thing"
+    ],
+    "tennis racket": [
+      "tennis racket",
+      "tool",
+      "artifact"
+    ],
+    "wall": [
+      "wall",
+      "building",
+      "artifact"
+    ],
+    "watermark": [
+      "watermark",
+      "line",
+      "line"
+    ],
+    "white trim": [
+      "white trim"
+    ],
+    "wristband": [
+      "wristband",
+      "band",
+      "artifact"
+    ],
+    "head": [
+      "head",
+      "body_part",
+      "body part"
+    ],
+    "shirt": [
+      "shirt",
+      "clothing",
+      "artifact"
+    ],
+    "w": [
+      "w",
+      "material",
+      "substance"
+    ]
+  },
+  "object_to_levels": {
+    "hand": {
+      "fine": "hand",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "black netting": {
+      "fine": "black netting",
+      "mid": "black netting",
+      "coarse": "black netting"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "person",
+      "coarse": "people"
+    },
+    "black shorts": {
+      "fine": "black shorts",
+      "mid": "black shorts",
+      "coarse": "black shorts"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "appendage",
+      "coarse": "appendage"
+    },
+    "logo": {
+      "fine": "logo",
+      "mid": "text",
+      "coarse": "symbol"
+    },
+    "knee": {
+      "fine": "knee",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "side": {
+      "fine": "side",
+      "mid": "region",
+      "coarse": "region"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "tennis racket": {
+      "fine": "tennis racket",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "watermark": {
+      "fine": "watermark",
+      "mid": "line",
+      "coarse": "line"
+    },
+    "white trim": {
+      "fine": "white trim",
+      "mid": "white trim",
+      "coarse": "white trim"
+    },
+    "wristband": {
+      "fine": "wristband",
+      "mid": "band",
+      "coarse": "artifact"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "w": {
+      "fine": "w",
+      "mid": "material",
+      "coarse": "substance"
+    }
+  },
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 28,
+    "fine_concepts": 18,
+    "mid_concepts": 14,
+    "coarse_concepts": 12,
+    "total_concepts": 44
+  }
+}

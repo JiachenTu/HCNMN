@@ -1,0 +1,352 @@
+{
+  "image_id": 2339206,
+  "statistics": {
+    "num_objects": 11,
+    "num_relationships": 15,
+    "fine_concepts": 11,
+    "mid_concepts": 7,
+    "coarse_concepts": 7,
+    "total_concepts": 25
+  },
+  "merged_nodes": {
+    "fine": {
+      "bear": {
+        "concept": "bear",
+        "bbox": {
+          "x": 58,
+          "y": 222,
+          "w": 85,
+          "h": 123
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bear"
+        ]
+      },
+      "log": {
+        "concept": "log",
+        "bbox": {
+          "x": 0,
+          "y": 320,
+          "w": 286,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "log"
+        ]
+      },
+      "stump": {
+        "concept": "stump",
+        "bbox": {
+          "x": 0,
+          "y": 89,
+          "w": 462,
+          "h": 151
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stump"
+        ]
+      },
+      "water": {
+        "concept": "water",
+        "bbox": {
+          "x": 0,
+          "y": 281,
+          "w": 269,
+          "h": 87
+        },
+        "object_count": 1,
+        "original_objects": [
+          "water"
+        ]
+      },
+      "tree": {
+        "concept": "tree",
+        "bbox": {
+          "x": 251,
+          "y": 0,
+          "w": 22,
+          "h": 83
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tree"
+        ]
+      },
+      "bank": {
+        "concept": "bank",
+        "bbox": {
+          "x": 205,
+          "y": 222,
+          "w": 292,
+          "h": 153
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bank"
+        ]
+      },
+      "rock": {
+        "concept": "rock",
+        "bbox": {
+          "x": 233,
+          "y": 90,
+          "w": 45,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "rock"
+        ]
+      },
+      "hill": {
+        "concept": "hill",
+        "bbox": {
+          "x": 1,
+          "y": 2,
+          "w": 497,
+          "h": 209
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hill"
+        ]
+      },
+      "knot": {
+        "concept": "knot",
+        "bbox": {
+          "x": 277,
+          "y": 185,
+          "w": 14,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knot"
+        ]
+      },
+      "paw": {
+        "concept": "paw",
+        "bbox": {
+          "x": 87,
+          "y": 331,
+          "w": 20,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "paw"
+        ]
+      },
+      "mouth": {
+        "concept": "mouth",
+        "bbox": {
+          "x": 118,
+          "y": 308,
+          "w": 13,
+          "h": 12
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      }
+    },
+    "mid": {
+      "animal": {
+        "concept": "animal",
+        "bbox": {
+          "x": 58,
+          "y": 222,
+          "w": 85,
+          "h": 123
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bear"
+        ]
+      },
+      "material": {
+        "concept": "material",
+        "bbox": {
+          "x": 0,
+          "y": 320,
+          "w": 286,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "log"
+        ]
+      },
+      "nature": {
+        "concept": "nature",
+        "bbox": {
+          "x": 0,
+          "y": 2,
+          "w": 498,
+          "h": 373
+        },
+        "object_count": 5,
+        "original_objects": [
+          "stump",
+          "water",
+          "bank",
+          "rock",
+          "hill"
+        ]
+      },
+      "plant": {
+        "concept": "plant",
+        "bbox": {
+          "x": 251,
+          "y": 0,
+          "w": 22,
+          "h": 83
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tree"
+        ]
+      },
+      "bunch": {
+        "concept": "bunch",
+        "bbox": {
+          "x": 277,
+          "y": 185,
+          "w": 14,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knot"
+        ]
+      },
+      "body_part": {
+        "concept": "body_part",
+        "bbox": {
+          "x": 87,
+          "y": 331,
+          "w": 20,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "paw"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 118,
+          "y": 308,
+          "w": 13,
+          "h": 12
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 58,
+          "y": 0,
+          "w": 215,
+          "h": 345
+        },
+        "object_count": 2,
+        "original_objects": [
+          "bear",
+          "tree"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 0,
+          "y": 281,
+          "w": 286,
+          "h": 91
+        },
+        "object_count": 2,
+        "original_objects": [
+          "log",
+          "water"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 0,
+          "y": 89,
+          "w": 462,
+          "h": 151
+        },
+        "object_count": 2,
+        "original_objects": [
+          "stump",
+          "rock"
+        ]
+      },
+      "slope": {
+        "concept": "slope",
+        "bbox": {
+          "x": 205,
+          "y": 222,
+          "w": 292,
+          "h": 153
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bank"
+        ]
+      },
+      "natural elevation": {
+        "concept": "natural elevation",
+        "bbox": {
+          "x": 1,
+          "y": 2,
+          "w": 497,
+          "h": 209
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hill"
+        ]
+      },
+      "agglomeration": {
+        "concept": "agglomeration",
+        "bbox": {
+          "x": 277,
+          "y": 185,
+          "w": 14,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knot"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 87,
+          "y": 308,
+          "w": 44,
+          "h": 40
+        },
+        "object_count": 2,
+        "original_objects": [
+          "paw",
+          "mouth"
+        ]
+      }
+    }
+  }
+}

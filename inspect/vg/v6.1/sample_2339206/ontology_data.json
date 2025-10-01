@@ -1,0 +1,158 @@
+{
+  "image_id": 2339206,
+  "hierarchy": {
+    "fine": [
+      "bank",
+      "bear",
+      "hill",
+      "knot",
+      "log",
+      "mouth",
+      "paw",
+      "rock",
+      "stump",
+      "tree",
+      "water"
+    ],
+    "mid": [
+      "animal",
+      "body_part",
+      "building",
+      "bunch",
+      "material",
+      "nature",
+      "plant"
+    ],
+    "coarse": [
+      "agglomeration",
+      "body part",
+      "living thing",
+      "natural elevation",
+      "natural object",
+      "slope",
+      "substance"
+    ]
+  },
+  "concept_paths": {
+    "bank": [
+      "bank",
+      "nature",
+      "slope"
+    ],
+    "hill": [
+      "hill",
+      "nature",
+      "natural elevation"
+    ],
+    "tree": [
+      "tree",
+      "plant",
+      "living thing"
+    ],
+    "bear": [
+      "bear",
+      "animal",
+      "living thing"
+    ],
+    "knot": [
+      "knot",
+      "bunch",
+      "agglomeration"
+    ],
+    "mouth": [
+      "mouth",
+      "building",
+      "body part"
+    ],
+    "water": [
+      "water",
+      "nature",
+      "substance"
+    ],
+    "rock": [
+      "rock",
+      "nature",
+      "natural object"
+    ],
+    "stump": [
+      "stump",
+      "nature",
+      "natural object"
+    ],
+    "paw": [
+      "paw",
+      "body_part",
+      "body part"
+    ],
+    "log": [
+      "log",
+      "material",
+      "substance"
+    ]
+  },
+  "object_to_levels": {
+    "bank": {
+      "fine": "bank",
+      "mid": "nature",
+      "coarse": "slope"
+    },
+    "hill": {
+      "fine": "hill",
+      "mid": "nature",
+      "coarse": "natural elevation"
+    },
+    "tree": {
+      "fine": "tree",
+      "mid": "plant",
+      "coarse": "living thing"
+    },
+    "bear": {
+      "fine": "bear",
+      "mid": "animal",
+      "coarse": "living thing"
+    },
+    "knot": {
+      "fine": "knot",
+      "mid": "bunch",
+      "coarse": "agglomeration"
+    },
+    "mouth": {
+      "fine": "mouth",
+      "mid": "building",
+      "coarse": "body part"
+    },
+    "water": {
+      "fine": "water",
+      "mid": "nature",
+      "coarse": "substance"
+    },
+    "rock": {
+      "fine": "rock",
+      "mid": "nature",
+      "coarse": "natural object"
+    },
+    "stump": {
+      "fine": "stump",
+      "mid": "nature",
+      "coarse": "natural object"
+    },
+    "paw": {
+      "fine": "paw",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "log": {
+      "fine": "log",
+      "mid": "material",
+      "coarse": "substance"
+    }
+  },
+  "statistics": {
+    "num_objects": 11,
+    "num_relationships": 15,
+    "fine_concepts": 11,
+    "mid_concepts": 7,
+    "coarse_concepts": 7,
+    "total_concepts": 25
+  }
+}

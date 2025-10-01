@@ -65,15 +65,64 @@ def get_hypernym_at_depth_from_root(synset, target_depth):
     return longest_path[target_depth]
 
 
+# Semantic categories for mid-level grouping
+SEMANTIC_CATEGORIES = {
+    'person': ['person', 'adult', 'child', 'juvenile', 'human', 'man', 'woman', 'organism', 'people'],
+    'animal': ['animal', 'mammal', 'bird', 'fish', 'reptile', 'insect', 'fauna', 'domestic_animal', 'ruminant'],
+    'plant': ['plant', 'tree', 'woody_plant', 'vascular_plant', 'angiosperm', 'flora', 'herb', 'gramineous_plant'],
+    'vehicle': ['vehicle', 'motor_vehicle', 'conveyance', 'wheeled_vehicle', 'craft', 'public_transport'],
+    'building': ['building', 'structure', 'construction', 'edifice', 'housing'],
+    'furniture': ['furniture', 'furnishing', 'table', 'seat', 'bed', 'supporting_structure'],
+    'body_part': ['body_part', 'external_body_part', 'organ', 'limb', 'extremity', 'process'],
+    'clothing': ['clothing', 'garment', 'wear', 'attire', 'footwear', 'armor_plate'],
+    'food': ['food', 'foodstuff', 'nutrient', 'dish', 'produce'],
+    'tool': ['tool', 'implement', 'instrument', 'device', 'equipment', 'instrumentality', 'machine'],
+    'nature': ['sky', 'cloud', 'water', 'ground', 'land', 'geological_formation', 'natural_object', 'soil', 'earth'],
+    'material': ['material', 'substance', 'matter', 'solid', 'liquid', 'gas'],
+    'text': ['writing', 'text', 'document', 'sign', 'symbol', 'trademark', 'representation'],
+}
+
+
+def get_semantic_mid_level(synset):
+    """
+    Get mid-level concept using semantic category mapping.
+    Returns meaningful category names instead of arbitrary WordNet hypernyms.
+    """
+    # Get all hypernyms in the path to root
+    paths = synset.hypernym_paths()
+    if not paths:
+        return synset.name().split('.')[0].replace('_', ' ')
+
+    longest_path = max(paths, key=len)
+    hypernym_names = [s.name().split('.')[0] for s in longest_path]
+
+    # Match against semantic categories (from most specific to most general in path)
+    for hypernym in reversed(hypernym_names):  # Start from most specific
+        for category, keywords in SEMANTIC_CATEGORIES.items():
+            if hypernym in keywords:
+                return category
+
+    # Fallback to 1-hop hypernym if no semantic category matches
+    if synset.hypernyms():
+        return synset.hypernyms()[0].name().split('.')[0].replace('_', ' ')
+
+    return synset.name().split('.')[0].replace('_', ' ')
+
+
 def build_clean_hierarchy(objects, max_depth=3):
     """
-    Build 3-level hierarchy from VG objects using WordNet.
-    Uses improved merging strategy for better abstraction at coarse level.
+    Build 3-level hierarchy from VG objects using semantic categories.
+    Uses semantic category mapping for meaningful mid-level grouping.
 
-    Strategy:
+    Strategy (v6.1):
     - Fine: Original VG objects
-    - Mid: 1 hop up in WordNet (moderate abstraction)
-    - Coarse: depth 3-5 from root (high abstraction for better merging)
+    - Mid: Semantic categories (person, vehicle, plant, building, etc.)
+    - Coarse: Depth 4 from root (artifact, living_thing, substance)
+
+    Expected compression:
+    - Fine→Mid: ~2-3x (semantic category merging)
+    - Mid→Coarse: ~2x (domain-level grouping)
+    - Fine→Coarse: ~4x (improved overall compression)
     """
     hierarchy = {'fine': [], 'mid': [], 'coarse': []}
     concept_paths = {}
@@ -96,15 +145,11 @@ def build_clean_hierarchy(objects, max_depth=3):
         if synsets and len(synsets) > 0:
             synset = synsets[0]
 
-            # L1: Mid-level (1 hop up)
-            if synset.hypernyms():
-                parent = synset.hypernyms()[0]
-                parent_name = parent.name().split('.')[0].replace('_', ' ')
-                hierarchy['mid'].append(parent_name)
-                path.append(parent_name)
-                obj_to_levels['mid'] = parent_name
-            else:
-                obj_to_levels['mid'] = obj_name
+            # L1: Mid-level (semantic category mapping)
+            mid_name = get_semantic_mid_level(synset)
+            hierarchy['mid'].append(mid_name)
+            path.append(mid_name)
+            obj_to_levels['mid'] = mid_name
 
             # L2: Coarse-grained (depth 3-5 from root for better merging)
             coarse_synset = None

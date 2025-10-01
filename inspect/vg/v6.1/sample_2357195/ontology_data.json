@@ -1,0 +1,319 @@
+{
+  "image_id": 2357195,
+  "hierarchy": {
+    "fine": [
+      "backboard",
+      "ball",
+      "basketball court",
+      "basketball hoop",
+      "basketball rim",
+      "building",
+      "car",
+      "concrete",
+      "fence",
+      "fingers",
+      "girl",
+      "hair",
+      "hand",
+      "leaf",
+      "net",
+      "pole",
+      "racket",
+      "shirt",
+      "shoes",
+      "shorts",
+      "shoulder",
+      "side",
+      "surface",
+      "wall",
+      "window"
+    ],
+    "mid": [
+      "artifact",
+      "basketball rim",
+      "body_part",
+      "building",
+      "clothing",
+      "court",
+      "furniture",
+      "nature",
+      "noise",
+      "paving",
+      "person",
+      "region",
+      "situation",
+      "tool",
+      "vehicle"
+    ],
+    "coarse": [
+      "artifact",
+      "basketball rim",
+      "body part",
+      "condition",
+      "happening",
+      "living thing",
+      "natural object",
+      "region"
+    ]
+  },
+  "concept_paths": {
+    "surface": [
+      "surface",
+      "artifact",
+      "artifact"
+    ],
+    "leaf": [
+      "leaf",
+      "nature",
+      "natural object"
+    ],
+    "pole": [
+      "pole",
+      "tool",
+      "artifact"
+    ],
+    "fence": [
+      "fence",
+      "building",
+      "artifact"
+    ],
+    "shoulder": [
+      "shoulder",
+      "body_part",
+      "body part"
+    ],
+    "car": [
+      "car",
+      "vehicle",
+      "artifact"
+    ],
+    "concrete": [
+      "concrete",
+      "paving",
+      "artifact"
+    ],
+    "shorts": [
+      "shorts",
+      "clothing",
+      "artifact"
+    ],
+    "building": [
+      "building",
+      "building",
+      "artifact"
+    ],
+    "hair": [
+      "hair",
+      "nature",
+      "natural object"
+    ],
+    "backboard": [
+      "backboard",
+      "tool",
+      "artifact"
+    ],
+    "hand": [
+      "hand",
+      "body_part",
+      "body part"
+    ],
+    "racket": [
+      "racket",
+      "noise",
+      "happening"
+    ],
+    "shirt": [
+      "shirt",
+      "clothing",
+      "artifact"
+    ],
+    "fingers": [
+      "fingers",
+      "body_part",
+      "body part"
+    ],
+    "girl": [
+      "girl",
+      "person",
+      "living thing"
+    ],
+    "basketball rim": [
+      "basketball rim"
+    ],
+    "wall": [
+      "wall",
+      "building",
+      "artifact"
+    ],
+    "basketball hoop": [
+      "basketball hoop",
+      "tool",
+      "artifact"
+    ],
+    "shoes": [
+      "shoes",
+      "situation",
+      "condition"
+    ],
+    "net": [
+      "net",
+      "tool",
+      "artifact"
+    ],
+    "window": [
+      "window",
+      "furniture",
+      "artifact"
+    ],
+    "side": [
+      "side",
+      "region",
+      "region"
+    ],
+    "ball": [
+      "ball",
+      "tool",
+      "artifact"
+    ],
+    "basketball court": [
+      "basketball court",
+      "court",
+      "region"
+    ]
+  },
+  "object_to_levels": {
+    "surface": {
+      "fine": "surface",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "leaf": {
+      "fine": "leaf",
+      "mid": "nature",
+      "coarse": "natural object"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "shoulder": {
+      "fine": "shoulder",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "car": {
+      "fine": "car",
+      "mid": "vehicle",
+      "coarse": "artifact"
+    },
+    "concrete": {
+      "fine": "concrete",
+      "mid": "paving",
+      "coarse": "artifact"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "nature",
+      "coarse": "natural object"
+    },
+    "backboard": {
+      "fine": "backboard",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "racket": {
+      "fine": "racket",
+      "mid": "noise",
+      "coarse": "happening"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "fingers": {
+      "fine": "fingers",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "girl": {
+      "fine": "girl",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "basketball rim": {
+      "fine": "basketball rim",
+      "mid": "basketball rim",
+      "coarse": "basketball rim"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "basketball hoop": {
+      "fine": "basketball hoop",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "shoes": {
+      "fine": "shoes",
+      "mid": "situation",
+      "coarse": "condition"
+    },
+    "net": {
+      "fine": "net",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "furniture",
+      "coarse": "artifact"
+    },
+    "side": {
+      "fine": "side",
+      "mid": "region",
+      "coarse": "region"
+    },
+    "ball": {
+      "fine": "ball",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "basketball court": {
+      "fine": "basketball court",
+      "mid": "court",
+      "coarse": "region"
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "num_relationships": 19,
+    "fine_concepts": 25,
+    "mid_concepts": 15,
+    "coarse_concepts": 8,
+    "total_concepts": 48
+  }
+}

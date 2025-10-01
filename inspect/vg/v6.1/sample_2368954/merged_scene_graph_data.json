@@ -1,0 +1,613 @@
+{
+  "image_id": 2368954,
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 28,
+    "fine_concepts": 18,
+    "mid_concepts": 10,
+    "coarse_concepts": 9,
+    "total_concepts": 37
+  },
+  "merged_nodes": {
+    "fine": {
+      "side": {
+        "concept": "side",
+        "bbox": {
+          "x": 404,
+          "y": 207,
+          "w": 24,
+          "h": 7
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "wall": {
+        "concept": "wall",
+        "bbox": {
+          "x": 112,
+          "y": 175,
+          "w": 124,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "knee": {
+        "concept": "knee",
+        "bbox": {
+          "x": 262,
+          "y": 292,
+          "w": 57,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knee"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 163,
+          "y": 55,
+          "w": 193,
+          "h": 275
+        },
+        "object_count": 1,
+        "original_objects": [
+          "person"
+        ]
+      },
+      "black shorts": {
+        "concept": "black shorts",
+        "bbox": {
+          "x": 224,
+          "y": 235,
+          "w": 154,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black shorts"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 165,
+          "y": 100,
+          "w": 176,
+          "h": 126
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 332,
+          "y": 127,
+          "w": 43,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "wristband": {
+        "concept": "wristband",
+        "bbox": {
+          "x": 160,
+          "y": 84,
+          "w": 48,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wristband"
+        ]
+      },
+      "tennis racket": {
+        "concept": "tennis racket",
+        "bbox": {
+          "x": 210,
+          "y": 4,
+          "w": 102,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tennis racket"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 184,
+          "y": 64,
+          "w": 73,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "people": {
+        "concept": "people",
+        "bbox": {
+          "x": 364,
+          "y": 105,
+          "w": 130,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "people"
+        ]
+      },
+      "fence": {
+        "concept": "fence",
+        "bbox": {
+          "x": 355,
+          "y": 43,
+          "w": 102,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "logo": {
+        "concept": "logo",
+        "bbox": {
+          "x": 248,
+          "y": 110,
+          "w": 12,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "logo"
+        ]
+      },
+      "watermark": {
+        "concept": "watermark",
+        "bbox": {
+          "x": 3,
+          "y": 282,
+          "w": 75,
+          "h": 50
+        },
+        "object_count": 1,
+        "original_objects": [
+          "watermark"
+        ]
+      },
+      "w": {
+        "concept": "w",
+        "bbox": {
+          "x": 250,
+          "y": 19,
+          "w": 44,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "w"
+        ]
+      },
+      "handle": {
+        "concept": "handle",
+        "bbox": {
+          "x": 193,
+          "y": 57,
+          "w": 38,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "white trim": {
+        "concept": "white trim",
+        "bbox": {
+          "x": 291,
+          "y": 284,
+          "w": 26,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white trim"
+        ]
+      },
+      "black netting": {
+        "concept": "black netting",
+        "bbox": {
+          "x": 386,
+          "y": 28,
+          "w": 23,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black netting"
+        ]
+      }
+    },
+    "mid": {
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 404,
+          "y": 207,
+          "w": 24,
+          "h": 7
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 112,
+          "y": 43,
+          "w": 345,
+          "h": 179
+        },
+        "object_count": 2,
+        "original_objects": [
+          "wall",
+          "fence"
+        ]
+      },
+      "body_part": {
+        "concept": "body_part",
+        "bbox": {
+          "x": 184,
+          "y": 64,
+          "w": 191,
+          "h": 261
+        },
+        "object_count": 3,
+        "original_objects": [
+          "knee",
+          "hand",
+          "head"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 163,
+          "y": 55,
+          "w": 331,
+          "h": 275
+        },
+        "object_count": 2,
+        "original_objects": [
+          "person",
+          "people"
+        ]
+      },
+      "black shorts": {
+        "concept": "black shorts",
+        "bbox": {
+          "x": 224,
+          "y": 235,
+          "w": 154,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black shorts"
+        ]
+      },
+      "clothing": {
+        "concept": "clothing",
+        "bbox": {
+          "x": 165,
+          "y": 100,
+          "w": 176,
+          "h": 126
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "band": {
+        "concept": "band",
+        "bbox": {
+          "x": 160,
+          "y": 84,
+          "w": 48,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wristband"
+        ]
+      },
+      "tennis racket": {
+        "concept": "tennis racket",
+        "bbox": {
+          "x": 210,
+          "y": 4,
+          "w": 102,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tennis racket"
+        ]
+      },
+      "text": {
+        "concept": "text",
+        "bbox": {
+          "x": 248,
+          "y": 110,
+          "w": 12,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "logo"
+        ]
+      },
+      "line": {
+        "concept": "line",
+        "bbox": {
+          "x": 3,
+          "y": 282,
+          "w": 75,
+          "h": 50
+        },
+        "object_count": 1,
+        "original_objects": [
+          "watermark"
+        ]
+      },
+      "material": {
+        "concept": "material",
+        "bbox": {
+          "x": 250,
+          "y": 19,
+          "w": 44,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "w"
+        ]
+      },
+      "appendage": {
+        "concept": "appendage",
+        "bbox": {
+          "x": 193,
+          "y": 57,
+          "w": 38,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "white trim": {
+        "concept": "white trim",
+        "bbox": {
+          "x": 291,
+          "y": 284,
+          "w": 26,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white trim"
+        ]
+      },
+      "black netting": {
+        "concept": "black netting",
+        "bbox": {
+          "x": 386,
+          "y": 28,
+          "w": 23,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black netting"
+        ]
+      }
+    },
+    "coarse": {
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 404,
+          "y": 207,
+          "w": 24,
+          "h": 7
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 112,
+          "y": 43,
+          "w": 345,
+          "h": 183
+        },
+        "object_count": 4,
+        "original_objects": [
+          "wall",
+          "shirt",
+          "wristband",
+          "fence"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 184,
+          "y": 64,
+          "w": 191,
+          "h": 261
+        },
+        "object_count": 3,
+        "original_objects": [
+          "knee",
+          "hand",
+          "head"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 163,
+          "y": 55,
+          "w": 193,
+          "h": 275
+        },
+        "object_count": 1,
+        "original_objects": [
+          "person"
+        ]
+      },
+      "black shorts": {
+        "concept": "black shorts",
+        "bbox": {
+          "x": 224,
+          "y": 235,
+          "w": 154,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black shorts"
+        ]
+      },
+      "tennis racket": {
+        "concept": "tennis racket",
+        "bbox": {
+          "x": 210,
+          "y": 4,
+          "w": 102,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tennis racket"
+        ]
+      },
+      "people": {
+        "concept": "people",
+        "bbox": {
+          "x": 364,
+          "y": 105,
+          "w": 130,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "people"
+        ]
+      },
+      "symbol": {
+        "concept": "symbol",
+        "bbox": {
+          "x": 248,
+          "y": 110,
+          "w": 12,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "logo"
+        ]
+      },
+      "line": {
+        "concept": "line",
+        "bbox": {
+          "x": 3,
+          "y": 282,
+          "w": 75,
+          "h": 50
+        },
+        "object_count": 1,
+        "original_objects": [
+          "watermark"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 250,
+          "y": 19,
+          "w": 44,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "w"
+        ]
+      },
+      "appendage": {
+        "concept": "appendage",
+        "bbox": {
+          "x": 193,
+          "y": 57,
+          "w": 38,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "white trim": {
+        "concept": "white trim",
+        "bbox": {
+          "x": 291,
+          "y": 284,
+          "w": 26,
+          "h": 17
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white trim"
+        ]
+      },
+      "black netting": {
+        "concept": "black netting",
+        "bbox": {
+          "x": 386,
+          "y": 28,
+          "w": 23,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black netting"
+        ]
+      }
+    }
+  }
+}

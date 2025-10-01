@@ -1,0 +1,138 @@
+{
+  "image_id": 2349422,
+  "hierarchy": {
+    "fine": [
+      "blue sky",
+      "clouds",
+      "eyebrow",
+      "hair",
+      "hand",
+      "he",
+      "head",
+      "kite",
+      "string"
+    ],
+    "mid": [
+      "atmosphere",
+      "body covering",
+      "body part",
+      "covering",
+      "draft",
+      "external body part",
+      "gas",
+      "line",
+      "natural phenomenon"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "gas",
+      "natural object",
+      "natural phenomenon",
+      "substance",
+      "writing"
+    ]
+  },
+  "concept_paths": {
+    "clouds": [
+      "clouds",
+      "natural phenomenon",
+      "natural phenomenon"
+    ],
+    "head": [
+      "head",
+      "body part",
+      "body part"
+    ],
+    "kite": [
+      "kite",
+      "draft",
+      "writing"
+    ],
+    "he": [
+      "he",
+      "gas",
+      "substance"
+    ],
+    "hand": [
+      "hand",
+      "external body part",
+      "body part"
+    ],
+    "hair": [
+      "hair",
+      "covering",
+      "natural object"
+    ],
+    "blue sky": [
+      "blue sky",
+      "atmosphere",
+      "gas"
+    ],
+    "eyebrow": [
+      "eyebrow",
+      "body covering",
+      "natural object"
+    ],
+    "string": [
+      "string",
+      "line",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "clouds": {
+      "fine": "clouds",
+      "mid": "natural phenomenon",
+      "coarse": "natural phenomenon"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "kite": {
+      "fine": "kite",
+      "mid": "draft",
+      "coarse": "writing"
+    },
+    "he": {
+      "fine": "he",
+      "mid": "gas",
+      "coarse": "substance"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "natural object"
+    },
+    "blue sky": {
+      "fine": "blue sky",
+      "mid": "atmosphere",
+      "coarse": "gas"
+    },
+    "eyebrow": {
+      "fine": "eyebrow",
+      "mid": "body covering",
+      "coarse": "natural object"
+    },
+    "string": {
+      "fine": "string",
+      "mid": "line",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 11,
+    "num_relationships": 11,
+    "fine_concepts": 9,
+    "mid_concepts": 9,
+    "coarse_concepts": 7,
+    "total_concepts": 25
+  }
+}

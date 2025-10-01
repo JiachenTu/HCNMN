@@ -1,0 +1,379 @@
+{
+  "image_id": 2323145,
+  "statistics": {
+    "num_objects": 16,
+    "num_relationships": 5,
+    "fine_concepts": 11,
+    "mid_concepts": 6,
+    "coarse_concepts": 5,
+    "total_concepts": 22
+  },
+  "merged_nodes": {
+    "fine": {
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 70,
+          "y": 242,
+          "w": 362,
+          "h": 130
+        },
+        "object_count": 2,
+        "original_objects": [
+          "shirt",
+          "shirt"
+        ]
+      },
+      "chin": {
+        "concept": "chin",
+        "bbox": {
+          "x": 154,
+          "y": 213,
+          "w": 87,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "chin"
+        ]
+      },
+      "neck/part": {
+        "concept": "neck/part",
+        "bbox": {
+          "x": 204,
+          "y": 245,
+          "w": 47,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "neck/part"
+        ]
+      },
+      "mantle": {
+        "concept": "mantle",
+        "bbox": {
+          "x": 280,
+          "y": 312,
+          "w": 218,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mantle"
+        ]
+      },
+      "dress": {
+        "concept": "dress",
+        "bbox": {
+          "x": 77,
+          "y": 236,
+          "w": 320,
+          "h": 132
+        },
+        "object_count": 1,
+        "original_objects": [
+          "dress"
+        ]
+      },
+      "girl": {
+        "concept": "girl",
+        "bbox": {
+          "x": 18,
+          "y": 36,
+          "w": 466,
+          "h": 320
+        },
+        "object_count": 4,
+        "original_objects": [
+          "girl",
+          "girl",
+          "girl",
+          "girl"
+        ]
+      },
+      "smile": {
+        "concept": "smile",
+        "bbox": {
+          "x": 176,
+          "y": 185,
+          "w": 51,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smile"
+        ]
+      },
+      "open sign": {
+        "concept": "open sign",
+        "bbox": {
+          "x": 128,
+          "y": 22,
+          "w": 205,
+          "h": 239
+        },
+        "object_count": 1,
+        "original_objects": [
+          "open sign"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 20,
+          "y": 237,
+          "w": 66,
+          "h": 84
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "mouth": {
+        "concept": "mouth",
+        "bbox": {
+          "x": 155,
+          "y": 174,
+          "w": 78,
+          "h": 50
+        },
+        "object_count": 2,
+        "original_objects": [
+          "mouth",
+          "mouth"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 178,
+          "y": 142,
+          "w": 29,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      }
+    },
+    "mid": {
+      "clothing": {
+        "concept": "clothing",
+        "bbox": {
+          "x": 70,
+          "y": 236,
+          "w": 362,
+          "h": 136
+        },
+        "object_count": 3,
+        "original_objects": [
+          "shirt",
+          "shirt",
+          "dress"
+        ]
+      },
+      "body_part": {
+        "concept": "body_part",
+        "bbox": {
+          "x": 20,
+          "y": 142,
+          "w": 221,
+          "h": 179
+        },
+        "object_count": 3,
+        "original_objects": [
+          "chin",
+          "hand",
+          "nose"
+        ]
+      },
+      "neck/part": {
+        "concept": "neck/part",
+        "bbox": {
+          "x": 204,
+          "y": 245,
+          "w": 47,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "neck/part"
+        ]
+      },
+      "text": {
+        "concept": "text",
+        "bbox": {
+          "x": 280,
+          "y": 312,
+          "w": 218,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mantle"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 18,
+          "y": 36,
+          "w": 466,
+          "h": 320
+        },
+        "object_count": 4,
+        "original_objects": [
+          "girl",
+          "girl",
+          "girl",
+          "girl"
+        ]
+      },
+      "facial expression": {
+        "concept": "facial expression",
+        "bbox": {
+          "x": 176,
+          "y": 185,
+          "w": 51,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smile"
+        ]
+      },
+      "open sign": {
+        "concept": "open sign",
+        "bbox": {
+          "x": 128,
+          "y": 22,
+          "w": 205,
+          "h": 239
+        },
+        "object_count": 1,
+        "original_objects": [
+          "open sign"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 155,
+          "y": 174,
+          "w": 78,
+          "h": 50
+        },
+        "object_count": 2,
+        "original_objects": [
+          "mouth",
+          "mouth"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 70,
+          "y": 236,
+          "w": 362,
+          "h": 136
+        },
+        "object_count": 3,
+        "original_objects": [
+          "shirt",
+          "shirt",
+          "dress"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 20,
+          "y": 142,
+          "w": 221,
+          "h": 179
+        },
+        "object_count": 5,
+        "original_objects": [
+          "chin",
+          "hand",
+          "mouth",
+          "mouth",
+          "nose"
+        ]
+      },
+      "neck/part": {
+        "concept": "neck/part",
+        "bbox": {
+          "x": 204,
+          "y": 245,
+          "w": 47,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "neck/part"
+        ]
+      },
+      "symbol": {
+        "concept": "symbol",
+        "bbox": {
+          "x": 280,
+          "y": 312,
+          "w": 218,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mantle"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 18,
+          "y": 36,
+          "w": 466,
+          "h": 320
+        },
+        "object_count": 4,
+        "original_objects": [
+          "girl",
+          "girl",
+          "girl",
+          "girl"
+        ]
+      },
+      "gesture": {
+        "concept": "gesture",
+        "bbox": {
+          "x": 176,
+          "y": 185,
+          "w": 51,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "smile"
+        ]
+      },
+      "open sign": {
+        "concept": "open sign",
+        "bbox": {
+          "x": 128,
+          "y": 22,
+          "w": 205,
+          "h": 239
+        },
+        "object_count": 1,
+        "original_objects": [
+          "open sign"
+        ]
+      }
+    }
+  }
+}

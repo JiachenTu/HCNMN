@@ -1,0 +1,637 @@
+{
+  "image_id": 498335,
+  "statistics": {
+    "num_objects": 30,
+    "num_relationships": 15,
+    "fine_concepts": 18,
+    "mid_concepts": 17,
+    "coarse_concepts": 9,
+    "total_concepts": 44
+  },
+  "merged_nodes": {
+    "fine": {
+      "flowers": {
+        "concept": "flowers",
+        "bbox": {
+          "x": 322,
+          "y": 846,
+          "w": 226,
+          "h": 107
+        },
+        "object_count": 2,
+        "original_objects": [
+          "flowers",
+          "flowers"
+        ]
+      },
+      "pot": {
+        "concept": "pot",
+        "bbox": {
+          "x": 282,
+          "y": 759,
+          "w": 216,
+          "h": 225
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pot",
+          "pot"
+        ]
+      },
+      "billboard": {
+        "concept": "billboard",
+        "bbox": {
+          "x": 52,
+          "y": 77,
+          "w": 370,
+          "h": 207
+        },
+        "object_count": 1,
+        "original_objects": [
+          "billboard"
+        ]
+      },
+      "street": {
+        "concept": "street",
+        "bbox": {
+          "x": 110,
+          "y": 624,
+          "w": 389,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "lot": {
+        "concept": "lot",
+        "bbox": {
+          "x": 17,
+          "y": 677,
+          "w": 597,
+          "h": 304
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lot"
+        ]
+      },
+      "flower": {
+        "concept": "flower",
+        "bbox": {
+          "x": 331,
+          "y": 846,
+          "w": 43,
+          "h": 40
+        },
+        "object_count": 1,
+        "original_objects": [
+          "flower"
+        ]
+      },
+      "letter": {
+        "concept": "letter",
+        "bbox": {
+          "x": 53,
+          "y": 107,
+          "w": 232,
+          "h": 123
+        },
+        "object_count": 6,
+        "original_objects": [
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter"
+        ]
+      },
+      "sign": {
+        "concept": "sign",
+        "bbox": {
+          "x": 0,
+          "y": 15,
+          "w": 475,
+          "h": 323
+        },
+        "object_count": 5,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "clock": {
+        "concept": "clock",
+        "bbox": {
+          "x": 403,
+          "y": 20,
+          "w": 222,
+          "h": 902
+        },
+        "object_count": 1,
+        "original_objects": [
+          "clock"
+        ]
+      },
+      "face": {
+        "concept": "face",
+        "bbox": {
+          "x": 415,
+          "y": 83,
+          "w": 156,
+          "h": 173
+        },
+        "object_count": 1,
+        "original_objects": [
+          "face"
+        ]
+      },
+      "light": {
+        "concept": "light",
+        "bbox": {
+          "x": 97,
+          "y": 89,
+          "w": 50,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "pole": {
+        "concept": "pole",
+        "bbox": {
+          "x": 99,
+          "y": 54,
+          "w": 48,
+          "h": 31
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "stairs": {
+        "concept": "stairs",
+        "bbox": {
+          "x": 77,
+          "y": 642,
+          "w": 415,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stairs"
+        ]
+      },
+      "edge": {
+        "concept": "edge",
+        "bbox": {
+          "x": 78,
+          "y": 381,
+          "w": 386,
+          "h": 285
+        },
+        "object_count": 2,
+        "original_objects": [
+          "edge",
+          "edge"
+        ]
+      },
+      "words": {
+        "concept": "words",
+        "bbox": {
+          "x": 25,
+          "y": 105,
+          "w": 398,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "words"
+        ]
+      },
+      "background": {
+        "concept": "background",
+        "bbox": {
+          "x": 12,
+          "y": 39,
+          "w": 403,
+          "h": 232
+        },
+        "object_count": 1,
+        "original_objects": [
+          "background"
+        ]
+      },
+      "railing": {
+        "concept": "railing",
+        "bbox": {
+          "x": 128,
+          "y": 331,
+          "w": 340,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "railing"
+        ]
+      },
+      "balcony": {
+        "concept": "balcony",
+        "bbox": {
+          "x": 105,
+          "y": 333,
+          "w": 358,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "balcony"
+        ]
+      }
+    },
+    "mid": {
+      "spermatophyte": {
+        "concept": "spermatophyte",
+        "bbox": {
+          "x": 322,
+          "y": 846,
+          "w": 226,
+          "h": 107
+        },
+        "object_count": 3,
+        "original_objects": [
+          "flowers",
+          "flower",
+          "flowers"
+        ]
+      },
+      "kitchen utensil": {
+        "concept": "kitchen utensil",
+        "bbox": {
+          "x": 282,
+          "y": 759,
+          "w": 216,
+          "h": 225
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pot",
+          "pot"
+        ]
+      },
+      "structure": {
+        "concept": "structure",
+        "bbox": {
+          "x": 52,
+          "y": 77,
+          "w": 370,
+          "h": 207
+        },
+        "object_count": 1,
+        "original_objects": [
+          "billboard"
+        ]
+      },
+      "road": {
+        "concept": "road",
+        "bbox": {
+          "x": 110,
+          "y": 624,
+          "w": 389,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "indefinite quantity": {
+        "concept": "indefinite quantity",
+        "bbox": {
+          "x": 17,
+          "y": 677,
+          "w": 597,
+          "h": 304
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lot"
+        ]
+      },
+      "matter": {
+        "concept": "matter",
+        "bbox": {
+          "x": 53,
+          "y": 107,
+          "w": 232,
+          "h": 123
+        },
+        "object_count": 6,
+        "original_objects": [
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter"
+        ]
+      },
+      "evidence": {
+        "concept": "evidence",
+        "bbox": {
+          "x": 0,
+          "y": 15,
+          "w": 475,
+          "h": 323
+        },
+        "object_count": 5,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "measuring instrument": {
+        "concept": "measuring instrument",
+        "bbox": {
+          "x": 403,
+          "y": 20,
+          "w": 222,
+          "h": 902
+        },
+        "object_count": 1,
+        "original_objects": [
+          "clock"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 415,
+          "y": 83,
+          "w": 156,
+          "h": 173
+        },
+        "object_count": 1,
+        "original_objects": [
+          "face"
+        ]
+      },
+      "electromagnetic radiation": {
+        "concept": "electromagnetic radiation",
+        "bbox": {
+          "x": 97,
+          "y": 89,
+          "w": 50,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "implement": {
+        "concept": "implement",
+        "bbox": {
+          "x": 99,
+          "y": 54,
+          "w": 48,
+          "h": 31
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "way": {
+        "concept": "way",
+        "bbox": {
+          "x": 77,
+          "y": 642,
+          "w": 415,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stairs"
+        ]
+      },
+      "extremity": {
+        "concept": "extremity",
+        "bbox": {
+          "x": 78,
+          "y": 381,
+          "w": 386,
+          "h": 285
+        },
+        "object_count": 2,
+        "original_objects": [
+          "edge",
+          "edge"
+        ]
+      },
+      "auditory communication": {
+        "concept": "auditory communication",
+        "bbox": {
+          "x": 25,
+          "y": 105,
+          "w": 398,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "words"
+        ]
+      },
+      "attribute": {
+        "concept": "attribute",
+        "bbox": {
+          "x": 12,
+          "y": 39,
+          "w": 403,
+          "h": 232
+        },
+        "object_count": 1,
+        "original_objects": [
+          "background"
+        ]
+      },
+      "obstruction": {
+        "concept": "obstruction",
+        "bbox": {
+          "x": 128,
+          "y": 331,
+          "w": 340,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "railing"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 105,
+          "y": 333,
+          "w": 358,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "balcony"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 322,
+          "y": 846,
+          "w": 226,
+          "h": 107
+        },
+        "object_count": 3,
+        "original_objects": [
+          "flowers",
+          "flower",
+          "flowers"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 52,
+          "y": 20,
+          "w": 573,
+          "h": 964
+        },
+        "object_count": 15,
+        "original_objects": [
+          "pot",
+          "billboard",
+          "street",
+          "pot",
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "letter",
+          "clock",
+          "pole",
+          "stairs",
+          "railing",
+          "balcony"
+        ]
+      },
+      "large indefinite quantity": {
+        "concept": "large indefinite quantity",
+        "bbox": {
+          "x": 17,
+          "y": 677,
+          "w": 597,
+          "h": 304
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lot"
+        ]
+      },
+      "evidence": {
+        "concept": "evidence",
+        "bbox": {
+          "x": 0,
+          "y": 15,
+          "w": 475,
+          "h": 323
+        },
+        "object_count": 5,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 415,
+          "y": 83,
+          "w": 156,
+          "h": 173
+        },
+        "object_count": 1,
+        "original_objects": [
+          "face"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 97,
+          "y": 89,
+          "w": 50,
+          "h": 38
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 78,
+          "y": 381,
+          "w": 386,
+          "h": 285
+        },
+        "object_count": 2,
+        "original_objects": [
+          "edge",
+          "edge"
+        ]
+      },
+      "speech": {
+        "concept": "speech",
+        "bbox": {
+          "x": 25,
+          "y": 105,
+          "w": 398,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "words"
+        ]
+      },
+      "background": {
+        "concept": "background",
+        "bbox": {
+          "x": 12,
+          "y": 39,
+          "w": 403,
+          "h": 232
+        },
+        "object_count": 1,
+        "original_objects": [
+          "background"
+        ]
+      }
+    }
+  }
+}

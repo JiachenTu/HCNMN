@@ -1,0 +1,204 @@
+{
+  "image_id": 2341540,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "blanket",
+      "ear",
+      "eye",
+      "foot",
+      "head",
+      "leg",
+      "mouth",
+      "nose",
+      "pillow",
+      "plastic",
+      "scarf",
+      "snout",
+      "teddy bear",
+      "writing"
+    ],
+    "mid": [
+      "artifact",
+      "body part",
+      "chemoreceptor",
+      "cloth covering",
+      "clothing",
+      "creating by mental acts",
+      "extremity",
+      "matter",
+      "organ",
+      "orifice",
+      "padding",
+      "sense organ"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "body part",
+      "plastic"
+    ]
+  },
+  "concept_paths": {
+    "ear": [
+      "ear",
+      "organ",
+      "body part"
+    ],
+    "head": [
+      "head",
+      "body part",
+      "body part"
+    ],
+    "teddy bear": [
+      "teddy bear",
+      "artifact",
+      "artifact"
+    ],
+    "mouth": [
+      "mouth",
+      "orifice",
+      "body part"
+    ],
+    "leg": [
+      "leg",
+      "extremity",
+      "body part"
+    ],
+    "plastic": [
+      "plastic",
+      "matter",
+      "plastic"
+    ],
+    "blanket": [
+      "blanket",
+      "cloth covering",
+      "artifact"
+    ],
+    "scarf": [
+      "scarf",
+      "clothing",
+      "artifact"
+    ],
+    "snout": [
+      "snout",
+      "chemoreceptor",
+      "body part"
+    ],
+    "pillow": [
+      "pillow",
+      "padding",
+      "artifact"
+    ],
+    "writing": [
+      "writing",
+      "creating by mental acts",
+      "act"
+    ],
+    "eye": [
+      "eye",
+      "organ",
+      "body part"
+    ],
+    "arm": [
+      "arm",
+      "extremity",
+      "body part"
+    ],
+    "foot": [
+      "foot",
+      "extremity",
+      "body part"
+    ],
+    "nose": [
+      "nose",
+      "sense organ",
+      "body part"
+    ]
+  },
+  "object_to_levels": {
+    "ear": {
+      "fine": "ear",
+      "mid": "organ",
+      "coarse": "body part"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "teddy bear": {
+      "fine": "teddy bear",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "mouth": {
+      "fine": "mouth",
+      "mid": "orifice",
+      "coarse": "body part"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "plastic": {
+      "fine": "plastic",
+      "mid": "matter",
+      "coarse": "plastic"
+    },
+    "blanket": {
+      "fine": "blanket",
+      "mid": "cloth covering",
+      "coarse": "artifact"
+    },
+    "scarf": {
+      "fine": "scarf",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "snout": {
+      "fine": "snout",
+      "mid": "chemoreceptor",
+      "coarse": "body part"
+    },
+    "pillow": {
+      "fine": "pillow",
+      "mid": "padding",
+      "coarse": "artifact"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "creating by mental acts",
+      "coarse": "act"
+    },
+    "eye": {
+      "fine": "eye",
+      "mid": "organ",
+      "coarse": "body part"
+    },
+    "arm": {
+      "fine": "arm",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "foot": {
+      "fine": "foot",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "sense organ",
+      "coarse": "body part"
+    }
+  },
+  "statistics": {
+    "num_objects": 20,
+    "num_relationships": 31,
+    "fine_concepts": 15,
+    "mid_concepts": 12,
+    "coarse_concepts": 4,
+    "total_concepts": 31
+  }
+}

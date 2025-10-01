@@ -1,0 +1,781 @@
+{
+  "image_id": 2357195,
+  "statistics": {
+    "num_objects": 26,
+    "num_relationships": 19,
+    "fine_concepts": 25,
+    "mid_concepts": 19,
+    "coarse_concepts": 7,
+    "total_concepts": 51
+  },
+  "merged_nodes": {
+    "fine": {
+      "leaf": {
+        "concept": "leaf",
+        "bbox": {
+          "x": 274,
+          "y": 281,
+          "w": 18,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "leaf"
+        ]
+      },
+      "surface": {
+        "concept": "surface",
+        "bbox": {
+          "x": 274,
+          "y": 251,
+          "w": 102,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "surface"
+        ]
+      },
+      "hair": {
+        "concept": "hair",
+        "bbox": {
+          "x": 144,
+          "y": 18,
+          "w": 139,
+          "h": 122
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hair"
+        ]
+      },
+      "shoulder": {
+        "concept": "shoulder",
+        "bbox": {
+          "x": 145,
+          "y": 86,
+          "w": 29,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoulder"
+        ]
+      },
+      "side": {
+        "concept": "side",
+        "bbox": {
+          "x": 8,
+          "y": 121,
+          "w": 33,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "car": {
+        "concept": "car",
+        "bbox": {
+          "x": 2,
+          "y": 120,
+          "w": 37,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "car"
+        ]
+      },
+      "window": {
+        "concept": "window",
+        "bbox": {
+          "x": 13,
+          "y": 127,
+          "w": 17,
+          "h": 11
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 248,
+          "y": 0,
+          "w": 251,
+          "h": 106
+        },
+        "object_count": 1,
+        "original_objects": [
+          "building"
+        ]
+      },
+      "wall": {
+        "concept": "wall",
+        "bbox": {
+          "x": 254,
+          "y": 0,
+          "w": 244,
+          "h": 120
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "pole": {
+        "concept": "pole",
+        "bbox": {
+          "x": 30,
+          "y": 1,
+          "w": 112,
+          "h": 208
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pole",
+          "pole"
+        ]
+      },
+      "concrete": {
+        "concept": "concrete",
+        "bbox": {
+          "x": 78,
+          "y": 196,
+          "w": 70,
+          "h": 46
+        },
+        "object_count": 1,
+        "original_objects": [
+          "concrete"
+        ]
+      },
+      "girl": {
+        "concept": "girl",
+        "bbox": {
+          "x": 99,
+          "y": 21,
+          "w": 196,
+          "h": 313
+        },
+        "object_count": 1,
+        "original_objects": [
+          "girl"
+        ]
+      },
+      "racket": {
+        "concept": "racket",
+        "bbox": {
+          "x": 1,
+          "y": 172,
+          "w": 126,
+          "h": 160
+        },
+        "object_count": 1,
+        "original_objects": [
+          "racket"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 95,
+          "y": 177,
+          "w": 21,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "fingers": {
+        "concept": "fingers",
+        "bbox": {
+          "x": 99,
+          "y": 190,
+          "w": 18,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fingers"
+        ]
+      },
+      "ball": {
+        "concept": "ball",
+        "bbox": {
+          "x": 220,
+          "y": 160,
+          "w": 25,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ball"
+        ]
+      },
+      "fence": {
+        "concept": "fence",
+        "bbox": {
+          "x": 1,
+          "y": 1,
+          "w": 499,
+          "h": 260
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "basketball court": {
+        "concept": "basketball court",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 497,
+          "h": 240
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball court"
+        ]
+      },
+      "basketball hoop": {
+        "concept": "basketball hoop",
+        "bbox": {
+          "x": 78,
+          "y": 28,
+          "w": 26,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball hoop"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 130,
+          "y": 90,
+          "w": 137,
+          "h": 114
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "shoes": {
+        "concept": "shoes",
+        "bbox": {
+          "x": 226,
+          "y": 299,
+          "w": 73,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoes"
+        ]
+      },
+      "shorts": {
+        "concept": "shorts",
+        "bbox": {
+          "x": 150,
+          "y": 180,
+          "w": 89,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shorts"
+        ]
+      },
+      "net": {
+        "concept": "net",
+        "bbox": {
+          "x": 82,
+          "y": 38,
+          "w": 20,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "net"
+        ]
+      },
+      "basketball rim": {
+        "concept": "basketball rim",
+        "bbox": {
+          "x": 76,
+          "y": 29,
+          "w": 31,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball rim"
+        ]
+      },
+      "backboard": {
+        "concept": "backboard",
+        "bbox": {
+          "x": 55,
+          "y": 1,
+          "w": 50,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "backboard"
+        ]
+      }
+    },
+    "mid": {
+      "plant part": {
+        "concept": "plant part",
+        "bbox": {
+          "x": 274,
+          "y": 281,
+          "w": 18,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "leaf"
+        ]
+      },
+      "whole": {
+        "concept": "whole",
+        "bbox": {
+          "x": 274,
+          "y": 251,
+          "w": 102,
+          "h": 74
+        },
+        "object_count": 1,
+        "original_objects": [
+          "surface"
+        ]
+      },
+      "covering": {
+        "concept": "covering",
+        "bbox": {
+          "x": 144,
+          "y": 18,
+          "w": 139,
+          "h": 122
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hair"
+        ]
+      },
+      "part": {
+        "concept": "part",
+        "bbox": {
+          "x": 145,
+          "y": 86,
+          "w": 29,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoulder"
+        ]
+      },
+      "location": {
+        "concept": "location",
+        "bbox": {
+          "x": 8,
+          "y": 121,
+          "w": 33,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "self-propelled vehicle": {
+        "concept": "self-propelled vehicle",
+        "bbox": {
+          "x": 2,
+          "y": 120,
+          "w": 37,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "car"
+        ]
+      },
+      "supporting structure": {
+        "concept": "supporting structure",
+        "bbox": {
+          "x": 13,
+          "y": 127,
+          "w": 17,
+          "h": 11
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 78,
+          "y": 0,
+          "w": 421,
+          "h": 242
+        },
+        "object_count": 2,
+        "original_objects": [
+          "building",
+          "concrete"
+        ]
+      },
+      "structure": {
+        "concept": "structure",
+        "bbox": {
+          "x": 254,
+          "y": 0,
+          "w": 244,
+          "h": 120
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "implement": {
+        "concept": "implement",
+        "bbox": {
+          "x": 30,
+          "y": 1,
+          "w": 112,
+          "h": 208
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pole",
+          "pole"
+        ]
+      },
+      "adult": {
+        "concept": "adult",
+        "bbox": {
+          "x": 99,
+          "y": 21,
+          "w": 196,
+          "h": 313
+        },
+        "object_count": 1,
+        "original_objects": [
+          "girl"
+        ]
+      },
+      "sound": {
+        "concept": "sound",
+        "bbox": {
+          "x": 1,
+          "y": 172,
+          "w": 126,
+          "h": 160
+        },
+        "object_count": 1,
+        "original_objects": [
+          "racket"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 95,
+          "y": 177,
+          "w": 22,
+          "h": 34
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hand",
+          "fingers"
+        ]
+      },
+      "equipment": {
+        "concept": "equipment",
+        "bbox": {
+          "x": 55,
+          "y": 1,
+          "w": 190,
+          "h": 180
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ball",
+          "backboard"
+        ]
+      },
+      "obstruction": {
+        "concept": "obstruction",
+        "bbox": {
+          "x": 1,
+          "y": 1,
+          "w": 499,
+          "h": 260
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "basketball court": {
+        "concept": "basketball court",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 497,
+          "h": 240
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball court"
+        ]
+      },
+      "basketball hoop": {
+        "concept": "basketball hoop",
+        "bbox": {
+          "x": 78,
+          "y": 28,
+          "w": 26,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball hoop"
+        ]
+      },
+      "clothing": {
+        "concept": "clothing",
+        "bbox": {
+          "x": 130,
+          "y": 90,
+          "w": 137,
+          "h": 114
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "condition": {
+        "concept": "condition",
+        "bbox": {
+          "x": 226,
+          "y": 299,
+          "w": 73,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoes"
+        ]
+      },
+      "garment": {
+        "concept": "garment",
+        "bbox": {
+          "x": 150,
+          "y": 180,
+          "w": 89,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shorts"
+        ]
+      },
+      "network": {
+        "concept": "network",
+        "bbox": {
+          "x": 82,
+          "y": 38,
+          "w": 20,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "net"
+        ]
+      },
+      "basketball rim": {
+        "concept": "basketball rim",
+        "bbox": {
+          "x": 76,
+          "y": 29,
+          "w": 31,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball rim"
+        ]
+      }
+    },
+    "coarse": {
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 144,
+          "y": 18,
+          "w": 148,
+          "h": 272
+        },
+        "object_count": 2,
+        "original_objects": [
+          "leaf",
+          "hair"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 499,
+          "h": 325
+        },
+        "object_count": 14,
+        "original_objects": [
+          "surface",
+          "car",
+          "window",
+          "building",
+          "wall",
+          "pole",
+          "concrete",
+          "ball",
+          "fence",
+          "pole",
+          "shirt",
+          "shorts",
+          "net",
+          "backboard"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 95,
+          "y": 86,
+          "w": 79,
+          "h": 125
+        },
+        "object_count": 3,
+        "original_objects": [
+          "shoulder",
+          "hand",
+          "fingers"
+        ]
+      },
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 8,
+          "y": 121,
+          "w": 33,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "side"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 99,
+          "y": 21,
+          "w": 196,
+          "h": 313
+        },
+        "object_count": 1,
+        "original_objects": [
+          "girl"
+        ]
+      },
+      "happening": {
+        "concept": "happening",
+        "bbox": {
+          "x": 1,
+          "y": 172,
+          "w": 126,
+          "h": 160
+        },
+        "object_count": 1,
+        "original_objects": [
+          "racket"
+        ]
+      },
+      "basketball court": {
+        "concept": "basketball court",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 497,
+          "h": 240
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball court"
+        ]
+      },
+      "basketball hoop": {
+        "concept": "basketball hoop",
+        "bbox": {
+          "x": 78,
+          "y": 28,
+          "w": 26,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball hoop"
+        ]
+      },
+      "condition": {
+        "concept": "condition",
+        "bbox": {
+          "x": 226,
+          "y": 299,
+          "w": 73,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoes"
+        ]
+      },
+      "basketball rim": {
+        "concept": "basketball rim",
+        "bbox": {
+          "x": 76,
+          "y": 29,
+          "w": 31,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "basketball rim"
+        ]
+      }
+    }
+  }
+}

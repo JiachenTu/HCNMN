@@ -1,0 +1,172 @@
+{
+  "image_id": 2363870,
+  "hierarchy": {
+    "fine": [
+      "barn",
+      "cow",
+      "ear",
+      "forest",
+      "hay",
+      "head",
+      "holes",
+      "nose",
+      "roof",
+      "sun",
+      "tarp",
+      "trough"
+    ],
+    "mid": [
+      "animal",
+      "body_part",
+      "building",
+      "canvas",
+      "food",
+      "nature",
+      "opening",
+      "protective covering",
+      "vegetation"
+    ],
+    "coarse": [
+      "amorphous shape",
+      "artifact",
+      "body part",
+      "food",
+      "living thing",
+      "natural depression",
+      "natural object",
+      "vegetation"
+    ]
+  },
+  "concept_paths": {
+    "cow": [
+      "cow",
+      "animal",
+      "living thing"
+    ],
+    "forest": [
+      "forest",
+      "vegetation",
+      "vegetation"
+    ],
+    "hay": [
+      "hay",
+      "food",
+      "food"
+    ],
+    "sun": [
+      "sun",
+      "nature",
+      "natural object"
+    ],
+    "trough": [
+      "trough",
+      "nature",
+      "natural depression"
+    ],
+    "head": [
+      "head",
+      "body_part",
+      "body part"
+    ],
+    "barn": [
+      "barn",
+      "building",
+      "artifact"
+    ],
+    "roof": [
+      "roof",
+      "protective covering",
+      "artifact"
+    ],
+    "ear": [
+      "ear",
+      "body_part",
+      "body part"
+    ],
+    "holes": [
+      "holes",
+      "opening",
+      "amorphous shape"
+    ],
+    "nose": [
+      "nose",
+      "body_part",
+      "body part"
+    ],
+    "tarp": [
+      "tarp",
+      "canvas",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "cow": {
+      "fine": "cow",
+      "mid": "animal",
+      "coarse": "living thing"
+    },
+    "forest": {
+      "fine": "forest",
+      "mid": "vegetation",
+      "coarse": "vegetation"
+    },
+    "hay": {
+      "fine": "hay",
+      "mid": "food",
+      "coarse": "food"
+    },
+    "sun": {
+      "fine": "sun",
+      "mid": "nature",
+      "coarse": "natural object"
+    },
+    "trough": {
+      "fine": "trough",
+      "mid": "nature",
+      "coarse": "natural depression"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "barn": {
+      "fine": "barn",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "roof": {
+      "fine": "roof",
+      "mid": "protective covering",
+      "coarse": "artifact"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "holes": {
+      "fine": "holes",
+      "mid": "opening",
+      "coarse": "amorphous shape"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "tarp": {
+      "fine": "tarp",
+      "mid": "canvas",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 19,
+    "fine_concepts": 12,
+    "mid_concepts": 9,
+    "coarse_concepts": 8,
+    "total_concepts": 29
+  }
+}

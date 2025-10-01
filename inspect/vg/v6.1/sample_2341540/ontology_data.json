@@ -1,0 +1,200 @@
+{
+  "image_id": 2341540,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "blanket",
+      "ear",
+      "eye",
+      "foot",
+      "head",
+      "leg",
+      "mouth",
+      "nose",
+      "pillow",
+      "plastic",
+      "scarf",
+      "snout",
+      "teddy bear",
+      "writing"
+    ],
+    "mid": [
+      "bedclothes",
+      "body_part",
+      "building",
+      "clothing",
+      "cushion",
+      "material",
+      "plaything",
+      "text"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "body part",
+      "plastic"
+    ]
+  },
+  "concept_paths": {
+    "mouth": [
+      "mouth",
+      "building",
+      "body part"
+    ],
+    "teddy bear": [
+      "teddy bear",
+      "plaything",
+      "artifact"
+    ],
+    "ear": [
+      "ear",
+      "body_part",
+      "body part"
+    ],
+    "head": [
+      "head",
+      "body_part",
+      "body part"
+    ],
+    "arm": [
+      "arm",
+      "body_part",
+      "body part"
+    ],
+    "blanket": [
+      "blanket",
+      "bedclothes",
+      "artifact"
+    ],
+    "writing": [
+      "writing",
+      "text",
+      "act"
+    ],
+    "leg": [
+      "leg",
+      "body_part",
+      "body part"
+    ],
+    "eye": [
+      "eye",
+      "body_part",
+      "body part"
+    ],
+    "foot": [
+      "foot",
+      "body_part",
+      "body part"
+    ],
+    "nose": [
+      "nose",
+      "body_part",
+      "body part"
+    ],
+    "pillow": [
+      "pillow",
+      "cushion",
+      "artifact"
+    ],
+    "snout": [
+      "snout",
+      "body_part",
+      "body part"
+    ],
+    "plastic": [
+      "plastic",
+      "material",
+      "plastic"
+    ],
+    "scarf": [
+      "scarf",
+      "clothing",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "mouth": {
+      "fine": "mouth",
+      "mid": "building",
+      "coarse": "body part"
+    },
+    "teddy bear": {
+      "fine": "teddy bear",
+      "mid": "plaything",
+      "coarse": "artifact"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "arm": {
+      "fine": "arm",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "blanket": {
+      "fine": "blanket",
+      "mid": "bedclothes",
+      "coarse": "artifact"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "text",
+      "coarse": "act"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "eye": {
+      "fine": "eye",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "foot": {
+      "fine": "foot",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "pillow": {
+      "fine": "pillow",
+      "mid": "cushion",
+      "coarse": "artifact"
+    },
+    "snout": {
+      "fine": "snout",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "plastic": {
+      "fine": "plastic",
+      "mid": "material",
+      "coarse": "plastic"
+    },
+    "scarf": {
+      "fine": "scarf",
+      "mid": "clothing",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 20,
+    "num_relationships": 31,
+    "fine_concepts": 15,
+    "mid_concepts": 8,
+    "coarse_concepts": 4,
+    "total_concepts": 27
+  }
+}

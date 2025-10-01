@@ -1,0 +1,448 @@
+{
+  "image_id": 2349422,
+  "statistics": {
+    "num_objects": 27,
+    "num_relationships": 11,
+    "fine_concepts": 12,
+    "mid_concepts": 7,
+    "coarse_concepts": 8,
+    "total_concepts": 27
+  },
+  "merged_nodes": {
+    "fine": {
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 267
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "string": {
+        "concept": "string",
+        "bbox": {
+          "x": 210,
+          "y": 157,
+          "w": 102,
+          "h": 132
+        },
+        "object_count": 2,
+        "original_objects": [
+          "string",
+          "string"
+        ]
+      },
+      "kite": {
+        "concept": "kite",
+        "bbox": {
+          "x": 198,
+          "y": 157,
+          "w": 107,
+          "h": 128
+        },
+        "object_count": 7,
+        "original_objects": [
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite"
+        ]
+      },
+      "sky": {
+        "concept": "sky",
+        "bbox": {
+          "x": 2,
+          "y": 2,
+          "w": 495,
+          "h": 330
+        },
+        "object_count": 6,
+        "original_objects": [
+          "sky",
+          "sky",
+          "sky",
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "eyebrow": {
+        "concept": "eyebrow",
+        "bbox": {
+          "x": 135,
+          "y": 94,
+          "w": 68,
+          "h": 35
+        },
+        "object_count": 2,
+        "original_objects": [
+          "eyebrow",
+          "eyebrow"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 78,
+          "y": 35,
+          "w": 171,
+          "h": 190
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "hair": {
+        "concept": "hair",
+        "bbox": {
+          "x": 97,
+          "y": 86,
+          "w": 21,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hair"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 295,
+          "y": 283,
+          "w": 74,
+          "h": 48
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "he": {
+        "concept": "he",
+        "bbox": {
+          "x": 1,
+          "y": 48,
+          "w": 358,
+          "h": 283
+        },
+        "object_count": 1,
+        "original_objects": [
+          "he"
+        ]
+      },
+      "clouds": {
+        "concept": "clouds",
+        "bbox": {
+          "x": 181,
+          "y": 10,
+          "w": 318,
+          "h": 109
+        },
+        "object_count": 2,
+        "original_objects": [
+          "clouds",
+          "clouds"
+        ]
+      },
+      "blue sky": {
+        "concept": "blue sky",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 332
+        },
+        "object_count": 2,
+        "original_objects": [
+          "blue sky",
+          "blue sky"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 4,
+          "y": 144,
+          "w": 302,
+          "h": 186
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      }
+    },
+    "mid": {
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 267
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "cord": {
+        "concept": "cord",
+        "bbox": {
+          "x": 210,
+          "y": 157,
+          "w": 102,
+          "h": 132
+        },
+        "object_count": 2,
+        "original_objects": [
+          "string",
+          "string"
+        ]
+      },
+      "text": {
+        "concept": "text",
+        "bbox": {
+          "x": 198,
+          "y": 157,
+          "w": 107,
+          "h": 128
+        },
+        "object_count": 7,
+        "original_objects": [
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite"
+        ]
+      },
+      "nature": {
+        "concept": "nature",
+        "bbox": {
+          "x": 2,
+          "y": 2,
+          "w": 497,
+          "h": 330
+        },
+        "object_count": 11,
+        "original_objects": [
+          "sky",
+          "eyebrow",
+          "eyebrow",
+          "hair",
+          "sky",
+          "clouds",
+          "sky",
+          "sky",
+          "clouds",
+          "sky",
+          "sky"
+        ]
+      },
+      "body_part": {
+        "concept": "body_part",
+        "bbox": {
+          "x": 78,
+          "y": 35,
+          "w": 291,
+          "h": 296
+        },
+        "object_count": 2,
+        "original_objects": [
+          "head",
+          "hand"
+        ]
+      },
+      "material": {
+        "concept": "material",
+        "bbox": {
+          "x": 1,
+          "y": 48,
+          "w": 358,
+          "h": 283
+        },
+        "object_count": 1,
+        "original_objects": [
+          "he"
+        ]
+      },
+      "blue sky": {
+        "concept": "blue sky",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 332
+        },
+        "object_count": 2,
+        "original_objects": [
+          "blue sky",
+          "blue sky"
+        ]
+      },
+      "clothing": {
+        "concept": "clothing",
+        "bbox": {
+          "x": 4,
+          "y": 144,
+          "w": 302,
+          "h": 186
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 0,
+          "y": 62,
+          "w": 360,
+          "h": 267
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 4,
+          "y": 144,
+          "w": 308,
+          "h": 186
+        },
+        "object_count": 3,
+        "original_objects": [
+          "string",
+          "string",
+          "shirt"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 198,
+          "y": 157,
+          "w": 107,
+          "h": 128
+        },
+        "object_count": 7,
+        "original_objects": [
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite"
+        ]
+      },
+      "gas": {
+        "concept": "gas",
+        "bbox": {
+          "x": 2,
+          "y": 2,
+          "w": 495,
+          "h": 330
+        },
+        "object_count": 6,
+        "original_objects": [
+          "sky",
+          "sky",
+          "sky",
+          "sky",
+          "sky",
+          "sky"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 97,
+          "y": 86,
+          "w": 106,
+          "h": 43
+        },
+        "object_count": 3,
+        "original_objects": [
+          "eyebrow",
+          "eyebrow",
+          "hair"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 78,
+          "y": 35,
+          "w": 291,
+          "h": 296
+        },
+        "object_count": 2,
+        "original_objects": [
+          "head",
+          "hand"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 1,
+          "y": 48,
+          "w": 358,
+          "h": 283
+        },
+        "object_count": 1,
+        "original_objects": [
+          "he"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 181,
+          "y": 10,
+          "w": 318,
+          "h": 109
+        },
+        "object_count": 2,
+        "original_objects": [
+          "clouds",
+          "clouds"
+        ]
+      },
+      "blue sky": {
+        "concept": "blue sky",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 332
+        },
+        "object_count": 2,
+        "original_objects": [
+          "blue sky",
+          "blue sky"
+        ]
+      }
+    }
+  }
+}

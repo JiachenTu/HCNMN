@@ -1,0 +1,415 @@
+{
+  "image_id": 2341540,
+  "statistics": {
+    "num_objects": 20,
+    "num_relationships": 31,
+    "fine_concepts": 15,
+    "mid_concepts": 7,
+    "coarse_concepts": 4,
+    "total_concepts": 26
+  },
+  "merged_nodes": {
+    "fine": {
+      "teddy bear": {
+        "concept": "teddy bear",
+        "bbox": {
+          "x": 1,
+          "y": 28,
+          "w": 358,
+          "h": 423
+        },
+        "object_count": 1,
+        "original_objects": [
+          "teddy bear"
+        ]
+      },
+      "eye": {
+        "concept": "eye",
+        "bbox": {
+          "x": 109,
+          "y": 133,
+          "w": 136,
+          "h": 44
+        },
+        "object_count": 2,
+        "original_objects": [
+          "eye",
+          "eye"
+        ]
+      },
+      "leg": {
+        "concept": "leg",
+        "bbox": {
+          "x": 3,
+          "y": 293,
+          "w": 358,
+          "h": 161
+        },
+        "object_count": 2,
+        "original_objects": [
+          "leg",
+          "leg"
+        ]
+      },
+      "scarf": {
+        "concept": "scarf",
+        "bbox": {
+          "x": 114,
+          "y": 213,
+          "w": 180,
+          "h": 175
+        },
+        "object_count": 1,
+        "original_objects": [
+          "scarf"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 167,
+          "y": 177,
+          "w": 42,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 88,
+          "y": 36,
+          "w": 194,
+          "h": 66
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ear",
+          "ear"
+        ]
+      },
+      "blanket": {
+        "concept": "blanket",
+        "bbox": {
+          "x": 0,
+          "y": 290,
+          "w": 375,
+          "h": 210
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blanket"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 55,
+          "y": 416,
+          "w": 42,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      },
+      "plastic": {
+        "concept": "plastic",
+        "bbox": {
+          "x": 276,
+          "y": 98,
+          "w": 24,
+          "h": 44
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plastic"
+        ]
+      },
+      "foot": {
+        "concept": "foot",
+        "bbox": {
+          "x": 5,
+          "y": 321,
+          "w": 354,
+          "h": 133
+        },
+        "object_count": 2,
+        "original_objects": [
+          "foot",
+          "foot"
+        ]
+      },
+      "snout": {
+        "concept": "snout",
+        "bbox": {
+          "x": 125,
+          "y": 139,
+          "w": 113,
+          "h": 95
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snout"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 16,
+          "y": 203,
+          "w": 327,
+          "h": 117
+        },
+        "object_count": 2,
+        "original_objects": [
+          "arm",
+          "arm"
+        ]
+      },
+      "pillow": {
+        "concept": "pillow",
+        "bbox": {
+          "x": 2,
+          "y": 1,
+          "w": 373,
+          "h": 313
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pillow"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 68,
+          "y": 28,
+          "w": 223,
+          "h": 203
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "mouth": {
+        "concept": "mouth",
+        "bbox": {
+          "x": 144,
+          "y": 199,
+          "w": 48,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      }
+    },
+    "mid": {
+      "teddy bear": {
+        "concept": "teddy bear",
+        "bbox": {
+          "x": 1,
+          "y": 28,
+          "w": 358,
+          "h": 423
+        },
+        "object_count": 1,
+        "original_objects": [
+          "teddy bear"
+        ]
+      },
+      "body_part": {
+        "concept": "body_part",
+        "bbox": {
+          "x": 3,
+          "y": 28,
+          "w": 358,
+          "h": 426
+        },
+        "object_count": 13,
+        "original_objects": [
+          "eye",
+          "eye",
+          "leg",
+          "leg",
+          "nose",
+          "ear",
+          "ear",
+          "foot",
+          "snout",
+          "arm",
+          "arm",
+          "head",
+          "foot"
+        ]
+      },
+      "clothing": {
+        "concept": "clothing",
+        "bbox": {
+          "x": 114,
+          "y": 213,
+          "w": 180,
+          "h": 175
+        },
+        "object_count": 1,
+        "original_objects": [
+          "scarf"
+        ]
+      },
+      "bedclothes": {
+        "concept": "bedclothes",
+        "bbox": {
+          "x": 0,
+          "y": 290,
+          "w": 375,
+          "h": 210
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blanket"
+        ]
+      },
+      "text": {
+        "concept": "text",
+        "bbox": {
+          "x": 55,
+          "y": 416,
+          "w": 42,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      },
+      "material": {
+        "concept": "material",
+        "bbox": {
+          "x": 276,
+          "y": 98,
+          "w": 24,
+          "h": 44
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plastic"
+        ]
+      },
+      "cushion": {
+        "concept": "cushion",
+        "bbox": {
+          "x": 2,
+          "y": 1,
+          "w": 373,
+          "h": 313
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pillow"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 144,
+          "y": 199,
+          "w": 48,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mouth"
+        ]
+      }
+    },
+    "coarse": {
+      "teddy bear": {
+        "concept": "teddy bear",
+        "bbox": {
+          "x": 1,
+          "y": 28,
+          "w": 358,
+          "h": 423
+        },
+        "object_count": 1,
+        "original_objects": [
+          "teddy bear"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 3,
+          "y": 28,
+          "w": 358,
+          "h": 426
+        },
+        "object_count": 14,
+        "original_objects": [
+          "eye",
+          "eye",
+          "leg",
+          "leg",
+          "nose",
+          "ear",
+          "ear",
+          "foot",
+          "snout",
+          "arm",
+          "arm",
+          "head",
+          "foot",
+          "mouth"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 0,
+          "y": 1,
+          "w": 375,
+          "h": 499
+        },
+        "object_count": 3,
+        "original_objects": [
+          "scarf",
+          "blanket",
+          "pillow"
+        ]
+      },
+      "act": {
+        "concept": "act",
+        "bbox": {
+          "x": 55,
+          "y": 416,
+          "w": 42,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      },
+      "plastic": {
+        "concept": "plastic",
+        "bbox": {
+          "x": 276,
+          "y": 98,
+          "w": 24,
+          "h": 44
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plastic"
+        ]
+      }
+    }
+  }
+}

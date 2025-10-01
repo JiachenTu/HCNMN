@@ -1,0 +1,216 @@
+{
+  "image_id": 498335,
+  "hierarchy": {
+    "fine": [
+      "background",
+      "balcony",
+      "clock",
+      "edge",
+      "face",
+      "flower",
+      "flowers",
+      "letter",
+      "light",
+      "lot",
+      "pole",
+      "pot",
+      "railing",
+      "sign",
+      "stairs",
+      "street"
+    ],
+    "mid": [
+      "body_part",
+      "building",
+      "inheritance",
+      "large indefinite quantity",
+      "plant",
+      "stairway",
+      "text",
+      "thoroughfare",
+      "tool"
+    ],
+    "coarse": [
+      "artifact",
+      "background",
+      "body part",
+      "evidence",
+      "large indefinite quantity",
+      "living thing",
+      "natural phenomenon",
+      "region"
+    ]
+  },
+  "concept_paths": {
+    "light": [
+      "light",
+      "body_part",
+      "natural phenomenon"
+    ],
+    "flower": [
+      "flower",
+      "plant",
+      "living thing"
+    ],
+    "railing": [
+      "railing",
+      "building",
+      "artifact"
+    ],
+    "pot": [
+      "pot",
+      "tool",
+      "artifact"
+    ],
+    "flowers": [
+      "flowers",
+      "plant",
+      "living thing"
+    ],
+    "balcony": [
+      "balcony",
+      "building",
+      "artifact"
+    ],
+    "background": [
+      "background",
+      "inheritance",
+      "background"
+    ],
+    "sign": [
+      "sign",
+      "text",
+      "evidence"
+    ],
+    "stairs": [
+      "stairs",
+      "stairway",
+      "artifact"
+    ],
+    "letter": [
+      "letter",
+      "text",
+      "artifact"
+    ],
+    "edge": [
+      "edge",
+      "body_part",
+      "region"
+    ],
+    "pole": [
+      "pole",
+      "tool",
+      "artifact"
+    ],
+    "clock": [
+      "clock",
+      "tool",
+      "artifact"
+    ],
+    "lot": [
+      "lot",
+      "large indefinite quantity",
+      "large indefinite quantity"
+    ],
+    "street": [
+      "street",
+      "thoroughfare",
+      "artifact"
+    ],
+    "face": [
+      "face",
+      "body_part",
+      "body part"
+    ]
+  },
+  "object_to_levels": {
+    "light": {
+      "fine": "light",
+      "mid": "body_part",
+      "coarse": "natural phenomenon"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "plant",
+      "coarse": "living thing"
+    },
+    "railing": {
+      "fine": "railing",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "pot": {
+      "fine": "pot",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "plant",
+      "coarse": "living thing"
+    },
+    "balcony": {
+      "fine": "balcony",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "inheritance",
+      "coarse": "background"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "text",
+      "coarse": "evidence"
+    },
+    "stairs": {
+      "fine": "stairs",
+      "mid": "stairway",
+      "coarse": "artifact"
+    },
+    "letter": {
+      "fine": "letter",
+      "mid": "text",
+      "coarse": "artifact"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "body_part",
+      "coarse": "region"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "clock": {
+      "fine": "clock",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "lot": {
+      "fine": "lot",
+      "mid": "large indefinite quantity",
+      "coarse": "large indefinite quantity"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "thoroughfare",
+      "coarse": "artifact"
+    },
+    "face": {
+      "fine": "face",
+      "mid": "body_part",
+      "coarse": "body part"
+    }
+  },
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 15,
+    "fine_concepts": 16,
+    "mid_concepts": 9,
+    "coarse_concepts": 8,
+    "total_concepts": 33
+  }
+}

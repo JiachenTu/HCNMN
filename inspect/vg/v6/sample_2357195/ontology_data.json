@@ -1,0 +1,327 @@
+{
+  "image_id": 2357195,
+  "hierarchy": {
+    "fine": [
+      "backboard",
+      "ball",
+      "basketball court",
+      "basketball hoop",
+      "basketball rim",
+      "building",
+      "car",
+      "concrete",
+      "fence",
+      "fingers",
+      "girl",
+      "hair",
+      "hand",
+      "leaf",
+      "net",
+      "pole",
+      "racket",
+      "shirt",
+      "shoes",
+      "shorts",
+      "shoulder",
+      "side",
+      "surface",
+      "wall",
+      "window"
+    ],
+    "mid": [
+      "adult",
+      "artifact",
+      "basketball rim",
+      "clothing",
+      "condition",
+      "covering",
+      "equipment",
+      "external body part",
+      "extremity",
+      "garment",
+      "implement",
+      "location",
+      "network",
+      "obstruction",
+      "part",
+      "plant part",
+      "playing field",
+      "self-propelled vehicle",
+      "sound",
+      "sports equipment",
+      "structure",
+      "supporting structure",
+      "whole"
+    ],
+    "coarse": [
+      "artifact",
+      "basketball rim",
+      "body part",
+      "condition",
+      "happening",
+      "living thing",
+      "natural object",
+      "region"
+    ]
+  },
+  "concept_paths": {
+    "net": [
+      "net",
+      "network",
+      "artifact"
+    ],
+    "hair": [
+      "hair",
+      "covering",
+      "natural object"
+    ],
+    "concrete": [
+      "concrete",
+      "artifact",
+      "artifact"
+    ],
+    "ball": [
+      "ball",
+      "equipment",
+      "artifact"
+    ],
+    "leaf": [
+      "leaf",
+      "plant part",
+      "natural object"
+    ],
+    "window": [
+      "window",
+      "supporting structure",
+      "artifact"
+    ],
+    "hand": [
+      "hand",
+      "external body part",
+      "body part"
+    ],
+    "basketball rim": [
+      "basketball rim"
+    ],
+    "shoulder": [
+      "shoulder",
+      "part",
+      "body part"
+    ],
+    "wall": [
+      "wall",
+      "structure",
+      "artifact"
+    ],
+    "shoes": [
+      "shoes",
+      "condition",
+      "condition"
+    ],
+    "fence": [
+      "fence",
+      "obstruction",
+      "artifact"
+    ],
+    "car": [
+      "car",
+      "self-propelled vehicle",
+      "artifact"
+    ],
+    "pole": [
+      "pole",
+      "implement",
+      "artifact"
+    ],
+    "basketball court": [
+      "basketball court",
+      "playing field",
+      "region"
+    ],
+    "girl": [
+      "girl",
+      "adult",
+      "living thing"
+    ],
+    "surface": [
+      "surface",
+      "whole",
+      "artifact"
+    ],
+    "racket": [
+      "racket",
+      "sound",
+      "happening"
+    ],
+    "fingers": [
+      "fingers",
+      "extremity",
+      "body part"
+    ],
+    "backboard": [
+      "backboard",
+      "equipment",
+      "artifact"
+    ],
+    "shorts": [
+      "shorts",
+      "garment",
+      "artifact"
+    ],
+    "shirt": [
+      "shirt",
+      "clothing",
+      "artifact"
+    ],
+    "building": [
+      "building",
+      "artifact",
+      "artifact"
+    ],
+    "side": [
+      "side",
+      "location",
+      "region"
+    ],
+    "basketball hoop": [
+      "basketball hoop",
+      "sports equipment",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "net": {
+      "fine": "net",
+      "mid": "network",
+      "coarse": "artifact"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "natural object"
+    },
+    "concrete": {
+      "fine": "concrete",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "ball": {
+      "fine": "ball",
+      "mid": "equipment",
+      "coarse": "artifact"
+    },
+    "leaf": {
+      "fine": "leaf",
+      "mid": "plant part",
+      "coarse": "natural object"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "supporting structure",
+      "coarse": "artifact"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "basketball rim": {
+      "fine": "basketball rim",
+      "mid": "basketball rim",
+      "coarse": "basketball rim"
+    },
+    "shoulder": {
+      "fine": "shoulder",
+      "mid": "part",
+      "coarse": "body part"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "structure",
+      "coarse": "artifact"
+    },
+    "shoes": {
+      "fine": "shoes",
+      "mid": "condition",
+      "coarse": "condition"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "obstruction",
+      "coarse": "artifact"
+    },
+    "car": {
+      "fine": "car",
+      "mid": "self-propelled vehicle",
+      "coarse": "artifact"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "implement",
+      "coarse": "artifact"
+    },
+    "basketball court": {
+      "fine": "basketball court",
+      "mid": "playing field",
+      "coarse": "region"
+    },
+    "girl": {
+      "fine": "girl",
+      "mid": "adult",
+      "coarse": "living thing"
+    },
+    "surface": {
+      "fine": "surface",
+      "mid": "whole",
+      "coarse": "artifact"
+    },
+    "racket": {
+      "fine": "racket",
+      "mid": "sound",
+      "coarse": "happening"
+    },
+    "fingers": {
+      "fine": "fingers",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "backboard": {
+      "fine": "backboard",
+      "mid": "equipment",
+      "coarse": "artifact"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "garment",
+      "coarse": "artifact"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "side": {
+      "fine": "side",
+      "mid": "location",
+      "coarse": "region"
+    },
+    "basketball hoop": {
+      "fine": "basketball hoop",
+      "mid": "sports equipment",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "num_relationships": 19,
+    "fine_concepts": 25,
+    "mid_concepts": 23,
+    "coarse_concepts": 8,
+    "total_concepts": 56
+  }
+}

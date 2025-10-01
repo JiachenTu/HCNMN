@@ -1,0 +1,175 @@
+{
+  "image_id": 2363870,
+  "hierarchy": {
+    "fine": [
+      "barn",
+      "cow",
+      "ear",
+      "forest",
+      "hay",
+      "head",
+      "holes",
+      "nose",
+      "roof",
+      "sun",
+      "tarp",
+      "trough"
+    ],
+    "mid": [
+      "body part",
+      "bovine",
+      "building",
+      "collection",
+      "covering",
+      "fabric",
+      "feed",
+      "geological formation",
+      "organ",
+      "sense organ",
+      "space",
+      "sun"
+    ],
+    "coarse": [
+      "amorphous shape",
+      "artifact",
+      "body part",
+      "food",
+      "living thing",
+      "natural depression",
+      "natural object",
+      "vegetation"
+    ]
+  },
+  "concept_paths": {
+    "forest": [
+      "forest",
+      "collection",
+      "vegetation"
+    ],
+    "sun": [
+      "sun",
+      "sun",
+      "natural object"
+    ],
+    "tarp": [
+      "tarp",
+      "fabric",
+      "artifact"
+    ],
+    "ear": [
+      "ear",
+      "organ",
+      "body part"
+    ],
+    "nose": [
+      "nose",
+      "sense organ",
+      "body part"
+    ],
+    "roof": [
+      "roof",
+      "covering",
+      "artifact"
+    ],
+    "barn": [
+      "barn",
+      "building",
+      "artifact"
+    ],
+    "cow": [
+      "cow",
+      "bovine",
+      "living thing"
+    ],
+    "head": [
+      "head",
+      "body part",
+      "body part"
+    ],
+    "trough": [
+      "trough",
+      "geological formation",
+      "natural depression"
+    ],
+    "holes": [
+      "holes",
+      "space",
+      "amorphous shape"
+    ],
+    "hay": [
+      "hay",
+      "feed",
+      "food"
+    ]
+  },
+  "object_to_levels": {
+    "forest": {
+      "fine": "forest",
+      "mid": "collection",
+      "coarse": "vegetation"
+    },
+    "sun": {
+      "fine": "sun",
+      "mid": "sun",
+      "coarse": "natural object"
+    },
+    "tarp": {
+      "fine": "tarp",
+      "mid": "fabric",
+      "coarse": "artifact"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "organ",
+      "coarse": "body part"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "roof": {
+      "fine": "roof",
+      "mid": "covering",
+      "coarse": "artifact"
+    },
+    "barn": {
+      "fine": "barn",
+      "mid": "building",
+      "coarse": "artifact"
+    },
+    "cow": {
+      "fine": "cow",
+      "mid": "bovine",
+      "coarse": "living thing"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "trough": {
+      "fine": "trough",
+      "mid": "geological formation",
+      "coarse": "natural depression"
+    },
+    "holes": {
+      "fine": "holes",
+      "mid": "space",
+      "coarse": "amorphous shape"
+    },
+    "hay": {
+      "fine": "hay",
+      "mid": "feed",
+      "coarse": "food"
+    }
+  },
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 19,
+    "fine_concepts": 12,
+    "mid_concepts": 12,
+    "coarse_concepts": 8,
+    "total_concepts": 32
+  }
+}

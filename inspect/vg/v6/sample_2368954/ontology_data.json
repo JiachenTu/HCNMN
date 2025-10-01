@@ -1,0 +1,244 @@
+{
+  "image_id": 2368954,
+  "hierarchy": {
+    "fine": [
+      "black netting",
+      "black shorts",
+      "fence",
+      "hand",
+      "handle",
+      "head",
+      "knee",
+      "logo",
+      "people",
+      "person",
+      "shirt",
+      "side",
+      "tennis racket",
+      "w",
+      "wall",
+      "watermark",
+      "white trim",
+      "wristband"
+    ],
+    "mid": [
+      "abstraction",
+      "black netting",
+      "black shorts",
+      "body part",
+      "chemical element",
+      "clothing",
+      "external body part",
+      "location",
+      "marker",
+      "obstruction",
+      "part",
+      "physical entity",
+      "sports implement",
+      "strip",
+      "structure",
+      "synovial joint",
+      "white trim"
+    ],
+    "coarse": [
+      "appendage",
+      "artifact",
+      "black netting",
+      "black shorts",
+      "body part",
+      "line",
+      "living thing",
+      "people",
+      "region",
+      "substance",
+      "symbol",
+      "white trim"
+    ]
+  },
+  "concept_paths": {
+    "black netting": [
+      "black netting"
+    ],
+    "hand": [
+      "hand",
+      "external body part",
+      "body part"
+    ],
+    "tennis racket": [
+      "tennis racket",
+      "sports implement",
+      "artifact"
+    ],
+    "person": [
+      "person",
+      "physical entity",
+      "living thing"
+    ],
+    "wristband": [
+      "wristband",
+      "strip",
+      "artifact"
+    ],
+    "black shorts": [
+      "black shorts"
+    ],
+    "watermark": [
+      "watermark",
+      "location",
+      "line"
+    ],
+    "people": [
+      "people",
+      "abstraction",
+      "people"
+    ],
+    "head": [
+      "head",
+      "body part",
+      "body part"
+    ],
+    "side": [
+      "side",
+      "location",
+      "region"
+    ],
+    "white trim": [
+      "white trim"
+    ],
+    "handle": [
+      "handle",
+      "part",
+      "appendage"
+    ],
+    "shirt": [
+      "shirt",
+      "clothing",
+      "artifact"
+    ],
+    "wall": [
+      "wall",
+      "structure",
+      "artifact"
+    ],
+    "fence": [
+      "fence",
+      "obstruction",
+      "artifact"
+    ],
+    "knee": [
+      "knee",
+      "synovial joint",
+      "body part"
+    ],
+    "logo": [
+      "logo",
+      "marker",
+      "symbol"
+    ],
+    "w": [
+      "w",
+      "chemical element",
+      "substance"
+    ]
+  },
+  "object_to_levels": {
+    "black netting": {
+      "fine": "black netting",
+      "mid": "black netting",
+      "coarse": "black netting"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "tennis racket": {
+      "fine": "tennis racket",
+      "mid": "sports implement",
+      "coarse": "artifact"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "physical entity",
+      "coarse": "living thing"
+    },
+    "wristband": {
+      "fine": "wristband",
+      "mid": "strip",
+      "coarse": "artifact"
+    },
+    "black shorts": {
+      "fine": "black shorts",
+      "mid": "black shorts",
+      "coarse": "black shorts"
+    },
+    "watermark": {
+      "fine": "watermark",
+      "mid": "location",
+      "coarse": "line"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "abstraction",
+      "coarse": "people"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "side": {
+      "fine": "side",
+      "mid": "location",
+      "coarse": "region"
+    },
+    "white trim": {
+      "fine": "white trim",
+      "mid": "white trim",
+      "coarse": "white trim"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "part",
+      "coarse": "appendage"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "structure",
+      "coarse": "artifact"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "obstruction",
+      "coarse": "artifact"
+    },
+    "knee": {
+      "fine": "knee",
+      "mid": "synovial joint",
+      "coarse": "body part"
+    },
+    "logo": {
+      "fine": "logo",
+      "mid": "marker",
+      "coarse": "symbol"
+    },
+    "w": {
+      "fine": "w",
+      "mid": "chemical element",
+      "coarse": "substance"
+    }
+  },
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 28,
+    "fine_concepts": 18,
+    "mid_concepts": 17,
+    "coarse_concepts": 12,
+    "total_concepts": 47
+  }
+}

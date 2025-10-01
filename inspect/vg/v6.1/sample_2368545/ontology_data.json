@@ -1,0 +1,362 @@
+{
+  "image_id": 2368545,
+  "hierarchy": {
+    "fine": [
+      "child",
+      "clouds",
+      "depot",
+      "distance",
+      "electrical line",
+      "hands",
+      "lamps",
+      "lettering",
+      "lights",
+      "lines",
+      "middle",
+      "mountains",
+      "passengers",
+      "people",
+      "pole",
+      "shadow",
+      "ship",
+      "sidewalk",
+      "silver",
+      "sky",
+      "sunlight",
+      "track",
+      "train",
+      "train station",
+      "white clouds",
+      "window",
+      "windows",
+      "woman"
+    ],
+    "mid": [
+      "area",
+      "body_part",
+      "electrical line",
+      "formation",
+      "furniture",
+      "guardianship",
+      "line",
+      "material",
+      "nature",
+      "person",
+      "shade",
+      "spacing",
+      "station",
+      "terminal",
+      "text",
+      "tool",
+      "vehicle",
+      "walk",
+      "white clouds"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "electrical line",
+      "formation",
+      "gas",
+      "illumination",
+      "line",
+      "living thing",
+      "natural elevation",
+      "natural phenomenon",
+      "people",
+      "placement",
+      "region",
+      "substance",
+      "white clouds",
+      "writing"
+    ]
+  },
+  "concept_paths": {
+    "people": [
+      "people",
+      "person",
+      "people"
+    ],
+    "lamps": [
+      "lamps",
+      "tool",
+      "artifact"
+    ],
+    "white clouds": [
+      "white clouds"
+    ],
+    "shadow": [
+      "shadow",
+      "shade",
+      "illumination"
+    ],
+    "lettering": [
+      "lettering",
+      "text",
+      "writing"
+    ],
+    "electrical line": [
+      "electrical line"
+    ],
+    "clouds": [
+      "clouds",
+      "nature",
+      "natural phenomenon"
+    ],
+    "lights": [
+      "lights",
+      "body_part",
+      "natural phenomenon"
+    ],
+    "track": [
+      "track",
+      "line",
+      "line"
+    ],
+    "windows": [
+      "windows",
+      "text",
+      "writing"
+    ],
+    "child": [
+      "child",
+      "person",
+      "living thing"
+    ],
+    "hands": [
+      "hands",
+      "guardianship",
+      "act"
+    ],
+    "woman": [
+      "woman",
+      "person",
+      "living thing"
+    ],
+    "lines": [
+      "lines",
+      "formation",
+      "formation"
+    ],
+    "train": [
+      "train",
+      "vehicle",
+      "artifact"
+    ],
+    "distance": [
+      "distance",
+      "spacing",
+      "placement"
+    ],
+    "silver": [
+      "silver",
+      "material",
+      "substance"
+    ],
+    "pole": [
+      "pole",
+      "tool",
+      "artifact"
+    ],
+    "train station": [
+      "train station",
+      "terminal",
+      "artifact"
+    ],
+    "middle": [
+      "middle",
+      "area",
+      "region"
+    ],
+    "sunlight": [
+      "sunlight",
+      "body_part",
+      "natural phenomenon"
+    ],
+    "sky": [
+      "sky",
+      "nature",
+      "gas"
+    ],
+    "mountains": [
+      "mountains",
+      "nature",
+      "natural elevation"
+    ],
+    "ship": [
+      "ship",
+      "vehicle",
+      "artifact"
+    ],
+    "window": [
+      "window",
+      "furniture",
+      "artifact"
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "walk",
+      "artifact"
+    ],
+    "depot": [
+      "depot",
+      "station",
+      "artifact"
+    ],
+    "passengers": [
+      "passengers",
+      "person",
+      "living thing"
+    ]
+  },
+  "object_to_levels": {
+    "people": {
+      "fine": "people",
+      "mid": "person",
+      "coarse": "people"
+    },
+    "lamps": {
+      "fine": "lamps",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "white clouds": {
+      "fine": "white clouds",
+      "mid": "white clouds",
+      "coarse": "white clouds"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "shade",
+      "coarse": "illumination"
+    },
+    "lettering": {
+      "fine": "lettering",
+      "mid": "text",
+      "coarse": "writing"
+    },
+    "electrical line": {
+      "fine": "electrical line",
+      "mid": "electrical line",
+      "coarse": "electrical line"
+    },
+    "clouds": {
+      "fine": "clouds",
+      "mid": "nature",
+      "coarse": "natural phenomenon"
+    },
+    "lights": {
+      "fine": "lights",
+      "mid": "body_part",
+      "coarse": "natural phenomenon"
+    },
+    "track": {
+      "fine": "track",
+      "mid": "line",
+      "coarse": "line"
+    },
+    "windows": {
+      "fine": "windows",
+      "mid": "text",
+      "coarse": "writing"
+    },
+    "child": {
+      "fine": "child",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "hands": {
+      "fine": "hands",
+      "mid": "guardianship",
+      "coarse": "act"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "lines": {
+      "fine": "lines",
+      "mid": "formation",
+      "coarse": "formation"
+    },
+    "train": {
+      "fine": "train",
+      "mid": "vehicle",
+      "coarse": "artifact"
+    },
+    "distance": {
+      "fine": "distance",
+      "mid": "spacing",
+      "coarse": "placement"
+    },
+    "silver": {
+      "fine": "silver",
+      "mid": "material",
+      "coarse": "substance"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "tool",
+      "coarse": "artifact"
+    },
+    "train station": {
+      "fine": "train station",
+      "mid": "terminal",
+      "coarse": "artifact"
+    },
+    "middle": {
+      "fine": "middle",
+      "mid": "area",
+      "coarse": "region"
+    },
+    "sunlight": {
+      "fine": "sunlight",
+      "mid": "body_part",
+      "coarse": "natural phenomenon"
+    },
+    "sky": {
+      "fine": "sky",
+      "mid": "nature",
+      "coarse": "gas"
+    },
+    "mountains": {
+      "fine": "mountains",
+      "mid": "nature",
+      "coarse": "natural elevation"
+    },
+    "ship": {
+      "fine": "ship",
+      "mid": "vehicle",
+      "coarse": "artifact"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "furniture",
+      "coarse": "artifact"
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "walk",
+      "coarse": "artifact"
+    },
+    "depot": {
+      "fine": "depot",
+      "mid": "station",
+      "coarse": "artifact"
+    },
+    "passengers": {
+      "fine": "passengers",
+      "mid": "person",
+      "coarse": "living thing"
+    }
+  },
+  "statistics": {
+    "num_objects": 29,
+    "num_relationships": 32,
+    "fine_concepts": 28,
+    "mid_concepts": 19,
+    "coarse_concepts": 16,
+    "total_concepts": 63
+  }
+}

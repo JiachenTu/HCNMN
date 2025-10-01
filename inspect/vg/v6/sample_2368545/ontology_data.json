@@ -1,0 +1,369 @@
+{
+  "image_id": 2368545,
+  "hierarchy": {
+    "fine": [
+      "child",
+      "clouds",
+      "depot",
+      "distance",
+      "electrical line",
+      "hands",
+      "lamps",
+      "lettering",
+      "lights",
+      "lines",
+      "middle",
+      "mountains",
+      "passengers",
+      "people",
+      "pole",
+      "shadow",
+      "ship",
+      "sidewalk",
+      "silver",
+      "sky",
+      "sunlight",
+      "track",
+      "train",
+      "train station",
+      "white clouds",
+      "window",
+      "windows",
+      "woman"
+    ],
+    "mid": [
+      "abstraction",
+      "actinic radiation",
+      "arrangement",
+      "conveyance",
+      "craft",
+      "device",
+      "duty",
+      "electrical line",
+      "electromagnetic radiation",
+      "facility",
+      "gas",
+      "geological formation",
+      "implement",
+      "location",
+      "material",
+      "natural phenomenon",
+      "path",
+      "person",
+      "placement",
+      "region",
+      "semidarkness",
+      "software",
+      "station",
+      "supporting structure",
+      "white clouds",
+      "written communication"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "electrical line",
+      "formation",
+      "gas",
+      "illumination",
+      "line",
+      "living thing",
+      "natural elevation",
+      "natural phenomenon",
+      "people",
+      "placement",
+      "region",
+      "substance",
+      "white clouds",
+      "writing"
+    ]
+  },
+  "concept_paths": {
+    "hands": [
+      "hands",
+      "duty",
+      "act"
+    ],
+    "electrical line": [
+      "electrical line"
+    ],
+    "track": [
+      "track",
+      "location",
+      "line"
+    ],
+    "people": [
+      "people",
+      "abstraction",
+      "people"
+    ],
+    "white clouds": [
+      "white clouds"
+    ],
+    "lines": [
+      "lines",
+      "arrangement",
+      "formation"
+    ],
+    "shadow": [
+      "shadow",
+      "semidarkness",
+      "illumination"
+    ],
+    "clouds": [
+      "clouds",
+      "natural phenomenon",
+      "natural phenomenon"
+    ],
+    "child": [
+      "child",
+      "person",
+      "living thing"
+    ],
+    "lamps": [
+      "lamps",
+      "device",
+      "artifact"
+    ],
+    "passengers": [
+      "passengers",
+      "person",
+      "living thing"
+    ],
+    "window": [
+      "window",
+      "supporting structure",
+      "artifact"
+    ],
+    "windows": [
+      "windows",
+      "software",
+      "writing"
+    ],
+    "depot": [
+      "depot",
+      "facility",
+      "artifact"
+    ],
+    "distance": [
+      "distance",
+      "placement",
+      "placement"
+    ],
+    "middle": [
+      "middle",
+      "region",
+      "region"
+    ],
+    "sunlight": [
+      "sunlight",
+      "actinic radiation",
+      "natural phenomenon"
+    ],
+    "mountains": [
+      "mountains",
+      "geological formation",
+      "natural elevation"
+    ],
+    "pole": [
+      "pole",
+      "implement",
+      "artifact"
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "path",
+      "artifact"
+    ],
+    "silver": [
+      "silver",
+      "material",
+      "substance"
+    ],
+    "sky": [
+      "sky",
+      "gas",
+      "gas"
+    ],
+    "lettering": [
+      "lettering",
+      "written communication",
+      "writing"
+    ],
+    "ship": [
+      "ship",
+      "craft",
+      "artifact"
+    ],
+    "train": [
+      "train",
+      "conveyance",
+      "artifact"
+    ],
+    "train station": [
+      "train station",
+      "station",
+      "artifact"
+    ],
+    "lights": [
+      "lights",
+      "electromagnetic radiation",
+      "natural phenomenon"
+    ],
+    "woman": [
+      "woman",
+      "person",
+      "living thing"
+    ]
+  },
+  "object_to_levels": {
+    "hands": {
+      "fine": "hands",
+      "mid": "duty",
+      "coarse": "act"
+    },
+    "electrical line": {
+      "fine": "electrical line",
+      "mid": "electrical line",
+      "coarse": "electrical line"
+    },
+    "track": {
+      "fine": "track",
+      "mid": "location",
+      "coarse": "line"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "abstraction",
+      "coarse": "people"
+    },
+    "white clouds": {
+      "fine": "white clouds",
+      "mid": "white clouds",
+      "coarse": "white clouds"
+    },
+    "lines": {
+      "fine": "lines",
+      "mid": "arrangement",
+      "coarse": "formation"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "semidarkness",
+      "coarse": "illumination"
+    },
+    "clouds": {
+      "fine": "clouds",
+      "mid": "natural phenomenon",
+      "coarse": "natural phenomenon"
+    },
+    "child": {
+      "fine": "child",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "lamps": {
+      "fine": "lamps",
+      "mid": "device",
+      "coarse": "artifact"
+    },
+    "passengers": {
+      "fine": "passengers",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "supporting structure",
+      "coarse": "artifact"
+    },
+    "windows": {
+      "fine": "windows",
+      "mid": "software",
+      "coarse": "writing"
+    },
+    "depot": {
+      "fine": "depot",
+      "mid": "facility",
+      "coarse": "artifact"
+    },
+    "distance": {
+      "fine": "distance",
+      "mid": "placement",
+      "coarse": "placement"
+    },
+    "middle": {
+      "fine": "middle",
+      "mid": "region",
+      "coarse": "region"
+    },
+    "sunlight": {
+      "fine": "sunlight",
+      "mid": "actinic radiation",
+      "coarse": "natural phenomenon"
+    },
+    "mountains": {
+      "fine": "mountains",
+      "mid": "geological formation",
+      "coarse": "natural elevation"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "implement",
+      "coarse": "artifact"
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "path",
+      "coarse": "artifact"
+    },
+    "silver": {
+      "fine": "silver",
+      "mid": "material",
+      "coarse": "substance"
+    },
+    "sky": {
+      "fine": "sky",
+      "mid": "gas",
+      "coarse": "gas"
+    },
+    "lettering": {
+      "fine": "lettering",
+      "mid": "written communication",
+      "coarse": "writing"
+    },
+    "ship": {
+      "fine": "ship",
+      "mid": "craft",
+      "coarse": "artifact"
+    },
+    "train": {
+      "fine": "train",
+      "mid": "conveyance",
+      "coarse": "artifact"
+    },
+    "train station": {
+      "fine": "train station",
+      "mid": "station",
+      "coarse": "artifact"
+    },
+    "lights": {
+      "fine": "lights",
+      "mid": "electromagnetic radiation",
+      "coarse": "natural phenomenon"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "person",
+      "coarse": "living thing"
+    }
+  },
+  "statistics": {
+    "num_objects": 29,
+    "num_relationships": 32,
+    "fine_concepts": 28,
+    "mid_concepts": 26,
+    "coarse_concepts": 16,
+    "total_concepts": 70
+  }
+}

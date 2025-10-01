@@ -1,0 +1,961 @@
+{
+  "image_id": 2368545,
+  "statistics": {
+    "num_objects": 30,
+    "num_relationships": 32,
+    "fine_concepts": 28,
+    "mid_concepts": 23,
+    "coarse_concepts": 14,
+    "total_concepts": 65
+  },
+  "merged_nodes": {
+    "fine": {
+      "train": {
+        "concept": "train",
+        "bbox": {
+          "x": 3,
+          "y": 24,
+          "w": 340,
+          "h": 333
+        },
+        "object_count": 1,
+        "original_objects": [
+          "train"
+        ]
+      },
+      "shadow": {
+        "concept": "shadow",
+        "bbox": {
+          "x": 340,
+          "y": 234,
+          "w": 130,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      },
+      "sidewalk": {
+        "concept": "sidewalk",
+        "bbox": {
+          "x": 196,
+          "y": 193,
+          "w": 304,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sidewalk"
+        ]
+      },
+      "pole": {
+        "concept": "pole",
+        "bbox": {
+          "x": 371,
+          "y": 105,
+          "w": 115,
+          "h": 130
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pole",
+          "pole"
+        ]
+      },
+      "middle": {
+        "concept": "middle",
+        "bbox": {
+          "x": 275,
+          "y": 195,
+          "w": 224,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "middle"
+        ]
+      },
+      "mountains": {
+        "concept": "mountains",
+        "bbox": {
+          "x": 193,
+          "y": 17,
+          "w": 307,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mountains"
+        ]
+      },
+      "distance": {
+        "concept": "distance",
+        "bbox": {
+          "x": 0,
+          "y": 1,
+          "w": 499,
+          "h": 187
+        },
+        "object_count": 2,
+        "original_objects": [
+          "distance",
+          "distance"
+        ]
+      },
+      "clouds": {
+        "concept": "clouds",
+        "bbox": {
+          "x": 262,
+          "y": 42,
+          "w": 132,
+          "h": 43
+        },
+        "object_count": 1,
+        "original_objects": [
+          "clouds"
+        ]
+      },
+      "lines": {
+        "concept": "lines",
+        "bbox": {
+          "x": 5,
+          "y": 3,
+          "w": 246,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lines"
+        ]
+      },
+      "lights": {
+        "concept": "lights",
+        "bbox": {
+          "x": 448,
+          "y": 99,
+          "w": 51,
+          "h": 97
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lights"
+        ]
+      },
+      "people": {
+        "concept": "people",
+        "bbox": {
+          "x": 324,
+          "y": 178,
+          "w": 32,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "people"
+        ]
+      },
+      "hands": {
+        "concept": "hands",
+        "bbox": {
+          "x": 333,
+          "y": 194,
+          "w": 7,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hands"
+        ]
+      },
+      "windows": {
+        "concept": "windows",
+        "bbox": {
+          "x": 3,
+          "y": 95,
+          "w": 298,
+          "h": 118
+        },
+        "object_count": 1,
+        "original_objects": [
+          "windows"
+        ]
+      },
+      "sky": {
+        "concept": "sky",
+        "bbox": {
+          "x": 7,
+          "y": 2,
+          "w": 468,
+          "h": 79
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "silver": {
+        "concept": "silver",
+        "bbox": {
+          "x": 449,
+          "y": 100,
+          "w": 46,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "silver"
+        ]
+      },
+      "electrical line": {
+        "concept": "electrical line",
+        "bbox": {
+          "x": 17,
+          "y": 1,
+          "w": 195,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "electrical line"
+        ]
+      },
+      "train station": {
+        "concept": "train station",
+        "bbox": {
+          "x": 93,
+          "y": 192,
+          "w": 405,
+          "h": 177
+        },
+        "object_count": 1,
+        "original_objects": [
+          "train station"
+        ]
+      },
+      "ship": {
+        "concept": "ship",
+        "bbox": {
+          "x": 429,
+          "y": 151,
+          "w": 57,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ship"
+        ]
+      },
+      "woman": {
+        "concept": "woman",
+        "bbox": {
+          "x": 334,
+          "y": 177,
+          "w": 17,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "woman"
+        ]
+      },
+      "child": {
+        "concept": "child",
+        "bbox": {
+          "x": 327,
+          "y": 189,
+          "w": 12,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "child"
+        ]
+      },
+      "depot": {
+        "concept": "depot",
+        "bbox": {
+          "x": 346,
+          "y": 158,
+          "w": 37,
+          "h": 37
+        },
+        "object_count": 1,
+        "original_objects": [
+          "depot"
+        ]
+      },
+      "lamps": {
+        "concept": "lamps",
+        "bbox": {
+          "x": 450,
+          "y": 97,
+          "w": 49,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lamps"
+        ]
+      },
+      "window": {
+        "concept": "window",
+        "bbox": {
+          "x": 107,
+          "y": 120,
+          "w": 56,
+          "h": 81
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "sunlight": {
+        "concept": "sunlight",
+        "bbox": {
+          "x": 252,
+          "y": 37,
+          "w": 154,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sunlight"
+        ]
+      },
+      "track": {
+        "concept": "track",
+        "bbox": {
+          "x": 0,
+          "y": 243,
+          "w": 232,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "track"
+        ]
+      },
+      "lettering": {
+        "concept": "lettering",
+        "bbox": {
+          "x": 233,
+          "y": 193,
+          "w": 25,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lettering"
+        ]
+      },
+      "passengers": {
+        "concept": "passengers",
+        "bbox": {
+          "x": 321,
+          "y": 177,
+          "w": 50,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "passengers"
+        ]
+      },
+      "white clouds": {
+        "concept": "white clouds",
+        "bbox": {
+          "x": 177,
+          "y": 37,
+          "w": 208,
+          "h": 49
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white clouds"
+        ]
+      }
+    },
+    "mid": {
+      "conveyance": {
+        "concept": "conveyance",
+        "bbox": {
+          "x": 3,
+          "y": 24,
+          "w": 340,
+          "h": 333
+        },
+        "object_count": 1,
+        "original_objects": [
+          "train"
+        ]
+      },
+      "semidarkness": {
+        "concept": "semidarkness",
+        "bbox": {
+          "x": 340,
+          "y": 234,
+          "w": 130,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      },
+      "path": {
+        "concept": "path",
+        "bbox": {
+          "x": 196,
+          "y": 193,
+          "w": 304,
+          "h": 182
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sidewalk"
+        ]
+      },
+      "implement": {
+        "concept": "implement",
+        "bbox": {
+          "x": 371,
+          "y": 105,
+          "w": 115,
+          "h": 130
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pole",
+          "pole"
+        ]
+      },
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 275,
+          "y": 195,
+          "w": 224,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "middle"
+        ]
+      },
+      "geological formation": {
+        "concept": "geological formation",
+        "bbox": {
+          "x": 193,
+          "y": 17,
+          "w": 307,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mountains"
+        ]
+      },
+      "placement": {
+        "concept": "placement",
+        "bbox": {
+          "x": 0,
+          "y": 1,
+          "w": 499,
+          "h": 187
+        },
+        "object_count": 2,
+        "original_objects": [
+          "distance",
+          "distance"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 262,
+          "y": 42,
+          "w": 132,
+          "h": 43
+        },
+        "object_count": 1,
+        "original_objects": [
+          "clouds"
+        ]
+      },
+      "arrangement": {
+        "concept": "arrangement",
+        "bbox": {
+          "x": 5,
+          "y": 3,
+          "w": 246,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lines"
+        ]
+      },
+      "electromagnetic radiation": {
+        "concept": "electromagnetic radiation",
+        "bbox": {
+          "x": 448,
+          "y": 99,
+          "w": 51,
+          "h": 97
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lights"
+        ]
+      },
+      "abstraction": {
+        "concept": "abstraction",
+        "bbox": {
+          "x": 324,
+          "y": 178,
+          "w": 32,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "people"
+        ]
+      },
+      "duty": {
+        "concept": "duty",
+        "bbox": {
+          "x": 333,
+          "y": 194,
+          "w": 7,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hands"
+        ]
+      },
+      "software": {
+        "concept": "software",
+        "bbox": {
+          "x": 3,
+          "y": 95,
+          "w": 298,
+          "h": 118
+        },
+        "object_count": 1,
+        "original_objects": [
+          "windows"
+        ]
+      },
+      "gas": {
+        "concept": "gas",
+        "bbox": {
+          "x": 7,
+          "y": 2,
+          "w": 468,
+          "h": 79
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "metallic element": {
+        "concept": "metallic element",
+        "bbox": {
+          "x": 449,
+          "y": 100,
+          "w": 46,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "silver"
+        ]
+      },
+      "electrical line": {
+        "concept": "electrical line",
+        "bbox": {
+          "x": 17,
+          "y": 1,
+          "w": 195,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "electrical line"
+        ]
+      },
+      "train station": {
+        "concept": "train station",
+        "bbox": {
+          "x": 93,
+          "y": 192,
+          "w": 405,
+          "h": 177
+        },
+        "object_count": 1,
+        "original_objects": [
+          "train station"
+        ]
+      },
+      "craft": {
+        "concept": "craft",
+        "bbox": {
+          "x": 429,
+          "y": 151,
+          "w": 57,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ship"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 321,
+          "y": 177,
+          "w": 50,
+          "h": 36
+        },
+        "object_count": 3,
+        "original_objects": [
+          "woman",
+          "child",
+          "passengers"
+        ]
+      },
+      "facility": {
+        "concept": "facility",
+        "bbox": {
+          "x": 346,
+          "y": 158,
+          "w": 37,
+          "h": 37
+        },
+        "object_count": 1,
+        "original_objects": [
+          "depot"
+        ]
+      },
+      "device": {
+        "concept": "device",
+        "bbox": {
+          "x": 450,
+          "y": 97,
+          "w": 49,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lamps"
+        ]
+      },
+      "supporting structure": {
+        "concept": "supporting structure",
+        "bbox": {
+          "x": 107,
+          "y": 120,
+          "w": 56,
+          "h": 81
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "actinic radiation": {
+        "concept": "actinic radiation",
+        "bbox": {
+          "x": 252,
+          "y": 37,
+          "w": 154,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sunlight"
+        ]
+      },
+      "location": {
+        "concept": "location",
+        "bbox": {
+          "x": 0,
+          "y": 243,
+          "w": 232,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "track"
+        ]
+      },
+      "written communication": {
+        "concept": "written communication",
+        "bbox": {
+          "x": 233,
+          "y": 193,
+          "w": 25,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lettering"
+        ]
+      },
+      "white clouds": {
+        "concept": "white clouds",
+        "bbox": {
+          "x": 177,
+          "y": 37,
+          "w": 208,
+          "h": 49
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white clouds"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 3,
+          "y": 24,
+          "w": 497,
+          "h": 351
+        },
+        "object_count": 8,
+        "original_objects": [
+          "train",
+          "sidewalk",
+          "pole",
+          "ship",
+          "depot",
+          "lamps",
+          "pole",
+          "window"
+        ]
+      },
+      "illumination": {
+        "concept": "illumination",
+        "bbox": {
+          "x": 340,
+          "y": 234,
+          "w": 130,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      },
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 275,
+          "y": 195,
+          "w": 224,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "middle"
+        ]
+      },
+      "natural elevation": {
+        "concept": "natural elevation",
+        "bbox": {
+          "x": 193,
+          "y": 17,
+          "w": 307,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mountains"
+        ]
+      },
+      "placement": {
+        "concept": "placement",
+        "bbox": {
+          "x": 0,
+          "y": 1,
+          "w": 499,
+          "h": 187
+        },
+        "object_count": 2,
+        "original_objects": [
+          "distance",
+          "distance"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 252,
+          "y": 37,
+          "w": 247,
+          "h": 159
+        },
+        "object_count": 3,
+        "original_objects": [
+          "clouds",
+          "lights",
+          "sunlight"
+        ]
+      },
+      "formation": {
+        "concept": "formation",
+        "bbox": {
+          "x": 5,
+          "y": 3,
+          "w": 246,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lines"
+        ]
+      },
+      "people": {
+        "concept": "people",
+        "bbox": {
+          "x": 324,
+          "y": 178,
+          "w": 32,
+          "h": 36
+        },
+        "object_count": 1,
+        "original_objects": [
+          "people"
+        ]
+      },
+      "act": {
+        "concept": "act",
+        "bbox": {
+          "x": 333,
+          "y": 194,
+          "w": 7,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hands"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 3,
+          "y": 95,
+          "w": 298,
+          "h": 118
+        },
+        "object_count": 2,
+        "original_objects": [
+          "windows",
+          "lettering"
+        ]
+      },
+      "gas": {
+        "concept": "gas",
+        "bbox": {
+          "x": 7,
+          "y": 2,
+          "w": 468,
+          "h": 79
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 449,
+          "y": 100,
+          "w": 46,
+          "h": 23
+        },
+        "object_count": 1,
+        "original_objects": [
+          "silver"
+        ]
+      },
+      "electrical line": {
+        "concept": "electrical line",
+        "bbox": {
+          "x": 17,
+          "y": 1,
+          "w": 195,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "electrical line"
+        ]
+      },
+      "train station": {
+        "concept": "train station",
+        "bbox": {
+          "x": 93,
+          "y": 192,
+          "w": 405,
+          "h": 177
+        },
+        "object_count": 1,
+        "original_objects": [
+          "train station"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 321,
+          "y": 177,
+          "w": 50,
+          "h": 36
+        },
+        "object_count": 3,
+        "original_objects": [
+          "woman",
+          "child",
+          "passengers"
+        ]
+      },
+      "line": {
+        "concept": "line",
+        "bbox": {
+          "x": 0,
+          "y": 243,
+          "w": 232,
+          "h": 104
+        },
+        "object_count": 1,
+        "original_objects": [
+          "track"
+        ]
+      },
+      "white clouds": {
+        "concept": "white clouds",
+        "bbox": {
+          "x": 177,
+          "y": 37,
+          "w": 208,
+          "h": 49
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white clouds"
+        ]
+      }
+    }
+  }
+}

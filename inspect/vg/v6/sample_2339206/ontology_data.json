@@ -1,0 +1,161 @@
+{
+  "image_id": 2339206,
+  "hierarchy": {
+    "fine": [
+      "bank",
+      "bear",
+      "hill",
+      "knot",
+      "log",
+      "mouth",
+      "paw",
+      "rock",
+      "stump",
+      "tree",
+      "water"
+    ],
+    "mid": [
+      "agglomeration",
+      "fluid",
+      "geological formation",
+      "natural object",
+      "orifice",
+      "placental",
+      "plant material",
+      "vascular plant",
+      "vertebrate foot",
+      "whole"
+    ],
+    "coarse": [
+      "agglomeration",
+      "body part",
+      "living thing",
+      "natural elevation",
+      "natural object",
+      "slope",
+      "substance"
+    ]
+  },
+  "concept_paths": {
+    "bank": [
+      "bank",
+      "geological formation",
+      "slope"
+    ],
+    "tree": [
+      "tree",
+      "vascular plant",
+      "living thing"
+    ],
+    "paw": [
+      "paw",
+      "vertebrate foot",
+      "body part"
+    ],
+    "log": [
+      "log",
+      "plant material",
+      "substance"
+    ],
+    "mouth": [
+      "mouth",
+      "orifice",
+      "body part"
+    ],
+    "stump": [
+      "stump",
+      "natural object",
+      "natural object"
+    ],
+    "rock": [
+      "rock",
+      "whole",
+      "natural object"
+    ],
+    "knot": [
+      "knot",
+      "agglomeration",
+      "agglomeration"
+    ],
+    "bear": [
+      "bear",
+      "placental",
+      "living thing"
+    ],
+    "hill": [
+      "hill",
+      "geological formation",
+      "natural elevation"
+    ],
+    "water": [
+      "water",
+      "fluid",
+      "substance"
+    ]
+  },
+  "object_to_levels": {
+    "bank": {
+      "fine": "bank",
+      "mid": "geological formation",
+      "coarse": "slope"
+    },
+    "tree": {
+      "fine": "tree",
+      "mid": "vascular plant",
+      "coarse": "living thing"
+    },
+    "paw": {
+      "fine": "paw",
+      "mid": "vertebrate foot",
+      "coarse": "body part"
+    },
+    "log": {
+      "fine": "log",
+      "mid": "plant material",
+      "coarse": "substance"
+    },
+    "mouth": {
+      "fine": "mouth",
+      "mid": "orifice",
+      "coarse": "body part"
+    },
+    "stump": {
+      "fine": "stump",
+      "mid": "natural object",
+      "coarse": "natural object"
+    },
+    "rock": {
+      "fine": "rock",
+      "mid": "whole",
+      "coarse": "natural object"
+    },
+    "knot": {
+      "fine": "knot",
+      "mid": "agglomeration",
+      "coarse": "agglomeration"
+    },
+    "bear": {
+      "fine": "bear",
+      "mid": "placental",
+      "coarse": "living thing"
+    },
+    "hill": {
+      "fine": "hill",
+      "mid": "geological formation",
+      "coarse": "natural elevation"
+    },
+    "water": {
+      "fine": "water",
+      "mid": "fluid",
+      "coarse": "substance"
+    }
+  },
+  "statistics": {
+    "num_objects": 11,
+    "num_relationships": 15,
+    "fine_concepts": 11,
+    "mid_concepts": 10,
+    "coarse_concepts": 7,
+    "total_concepts": 28
+  }
+}

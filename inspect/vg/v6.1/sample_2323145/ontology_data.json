@@ -1,0 +1,144 @@
+{
+  "image_id": 2323145,
+  "hierarchy": {
+    "fine": [
+      "chin",
+      "dress",
+      "girl",
+      "hand",
+      "mantle",
+      "mouth",
+      "neck/part",
+      "nose",
+      "open sign",
+      "smile"
+    ],
+    "mid": [
+      "body_part",
+      "building",
+      "clothing",
+      "facial expression",
+      "neck/part",
+      "open sign",
+      "person",
+      "text"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "gesture",
+      "living thing",
+      "neck/part",
+      "open sign",
+      "symbol"
+    ]
+  },
+  "concept_paths": {
+    "hand": [
+      "hand",
+      "body_part",
+      "body part"
+    ],
+    "neck/part": [
+      "neck/part"
+    ],
+    "open sign": [
+      "open sign"
+    ],
+    "smile": [
+      "smile",
+      "facial expression",
+      "gesture"
+    ],
+    "dress": [
+      "dress",
+      "clothing",
+      "artifact"
+    ],
+    "girl": [
+      "girl",
+      "person",
+      "living thing"
+    ],
+    "nose": [
+      "nose",
+      "body_part",
+      "body part"
+    ],
+    "chin": [
+      "chin",
+      "body_part",
+      "body part"
+    ],
+    "mouth": [
+      "mouth",
+      "building",
+      "body part"
+    ],
+    "mantle": [
+      "mantle",
+      "text",
+      "symbol"
+    ]
+  },
+  "object_to_levels": {
+    "hand": {
+      "fine": "hand",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "neck/part": {
+      "fine": "neck/part",
+      "mid": "neck/part",
+      "coarse": "neck/part"
+    },
+    "open sign": {
+      "fine": "open sign",
+      "mid": "open sign",
+      "coarse": "open sign"
+    },
+    "smile": {
+      "fine": "smile",
+      "mid": "facial expression",
+      "coarse": "gesture"
+    },
+    "dress": {
+      "fine": "dress",
+      "mid": "clothing",
+      "coarse": "artifact"
+    },
+    "girl": {
+      "fine": "girl",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "chin": {
+      "fine": "chin",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "mouth": {
+      "fine": "mouth",
+      "mid": "building",
+      "coarse": "body part"
+    },
+    "mantle": {
+      "fine": "mantle",
+      "mid": "text",
+      "coarse": "symbol"
+    }
+  },
+  "statistics": {
+    "num_objects": 10,
+    "num_relationships": 5,
+    "fine_concepts": 10,
+    "mid_concepts": 8,
+    "coarse_concepts": 7,
+    "total_concepts": 25
+  }
+}

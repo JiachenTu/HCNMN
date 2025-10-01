@@ -1,0 +1,118 @@
+{
+  "image_id": 2333264,
+  "hierarchy": {
+    "fine": [
+      "bracelet",
+      "finger",
+      "hand",
+      "key pad",
+      "mouse",
+      "person",
+      "ring finger",
+      "table top"
+    ],
+    "mid": [
+      "animal",
+      "band",
+      "body_part",
+      "key pad",
+      "person",
+      "table top"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "key pad",
+      "living thing",
+      "table top"
+    ]
+  },
+  "concept_paths": {
+    "hand": [
+      "hand",
+      "body_part",
+      "body part"
+    ],
+    "person": [
+      "person",
+      "person",
+      "living thing"
+    ],
+    "mouse": [
+      "mouse",
+      "animal",
+      "living thing"
+    ],
+    "bracelet": [
+      "bracelet",
+      "band",
+      "artifact"
+    ],
+    "ring finger": [
+      "ring finger",
+      "body_part",
+      "body part"
+    ],
+    "table top": [
+      "table top"
+    ],
+    "finger": [
+      "finger",
+      "body_part",
+      "body part"
+    ],
+    "key pad": [
+      "key pad"
+    ]
+  },
+  "object_to_levels": {
+    "hand": {
+      "fine": "hand",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "person",
+      "coarse": "living thing"
+    },
+    "mouse": {
+      "fine": "mouse",
+      "mid": "animal",
+      "coarse": "living thing"
+    },
+    "bracelet": {
+      "fine": "bracelet",
+      "mid": "band",
+      "coarse": "artifact"
+    },
+    "ring finger": {
+      "fine": "ring finger",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "table top": {
+      "fine": "table top",
+      "mid": "table top",
+      "coarse": "table top"
+    },
+    "finger": {
+      "fine": "finger",
+      "mid": "body_part",
+      "coarse": "body part"
+    },
+    "key pad": {
+      "fine": "key pad",
+      "mid": "key pad",
+      "coarse": "key pad"
+    }
+  },
+  "statistics": {
+    "num_objects": 10,
+    "num_relationships": 4,
+    "fine_concepts": 8,
+    "mid_concepts": 6,
+    "coarse_concepts": 5,
+    "total_concepts": 19
+  }
+}

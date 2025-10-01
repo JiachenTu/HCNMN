@@ -1,0 +1,475 @@
+{
+  "image_id": 2363870,
+  "statistics": {
+    "num_objects": 24,
+    "num_relationships": 19,
+    "fine_concepts": 12,
+    "mid_concepts": 12,
+    "coarse_concepts": 8,
+    "total_concepts": 32
+  },
+  "merged_nodes": {
+    "fine": {
+      "cow": {
+        "concept": "cow",
+        "bbox": {
+          "x": 29,
+          "y": 120,
+          "w": 451,
+          "h": 155
+        },
+        "object_count": 4,
+        "original_objects": [
+          "cow",
+          "cow",
+          "cow",
+          "cow"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 12,
+          "y": 126,
+          "w": 475,
+          "h": 129
+        },
+        "object_count": 4,
+        "original_objects": [
+          "head",
+          "head",
+          "head",
+          "head"
+        ]
+      },
+      "trough": {
+        "concept": "trough",
+        "bbox": {
+          "x": 2,
+          "y": 213,
+          "w": 490,
+          "h": 161
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trough"
+        ]
+      },
+      "sun": {
+        "concept": "sun",
+        "bbox": {
+          "x": 475,
+          "y": 5,
+          "w": 19,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "roof": {
+        "concept": "roof",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 474,
+          "h": 58
+        },
+        "object_count": 1,
+        "original_objects": [
+          "roof"
+        ]
+      },
+      "holes": {
+        "concept": "holes",
+        "bbox": {
+          "x": 1,
+          "y": 104,
+          "w": 490,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "holes"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 135,
+          "y": 192,
+          "w": 37,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "hay": {
+        "concept": "hay",
+        "bbox": {
+          "x": 317,
+          "y": 65,
+          "w": 177,
+          "h": 77
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hay",
+          "hay"
+        ]
+      },
+      "tarp": {
+        "concept": "tarp",
+        "bbox": {
+          "x": 429,
+          "y": 41,
+          "w": 70,
+          "h": 43
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tarp"
+        ]
+      },
+      "forest": {
+        "concept": "forest",
+        "bbox": {
+          "x": 197,
+          "y": 66,
+          "w": 221,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "forest"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 66,
+          "y": 126,
+          "w": 348,
+          "h": 51
+        },
+        "object_count": 6,
+        "original_objects": [
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear"
+        ]
+      },
+      "barn": {
+        "concept": "barn",
+        "bbox": {
+          "x": 4,
+          "y": 2,
+          "w": 475,
+          "h": 240
+        },
+        "object_count": 1,
+        "original_objects": [
+          "barn"
+        ]
+      }
+    },
+    "mid": {
+      "bovine": {
+        "concept": "bovine",
+        "bbox": {
+          "x": 29,
+          "y": 120,
+          "w": 451,
+          "h": 155
+        },
+        "object_count": 4,
+        "original_objects": [
+          "cow",
+          "cow",
+          "cow",
+          "cow"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 12,
+          "y": 126,
+          "w": 475,
+          "h": 129
+        },
+        "object_count": 4,
+        "original_objects": [
+          "head",
+          "head",
+          "head",
+          "head"
+        ]
+      },
+      "geological formation": {
+        "concept": "geological formation",
+        "bbox": {
+          "x": 2,
+          "y": 213,
+          "w": 490,
+          "h": 161
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trough"
+        ]
+      },
+      "sun": {
+        "concept": "sun",
+        "bbox": {
+          "x": 475,
+          "y": 5,
+          "w": 19,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "covering": {
+        "concept": "covering",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 474,
+          "h": 58
+        },
+        "object_count": 1,
+        "original_objects": [
+          "roof"
+        ]
+      },
+      "space": {
+        "concept": "space",
+        "bbox": {
+          "x": 1,
+          "y": 104,
+          "w": 490,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "holes"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 135,
+          "y": 192,
+          "w": 37,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "feed": {
+        "concept": "feed",
+        "bbox": {
+          "x": 317,
+          "y": 65,
+          "w": 177,
+          "h": 77
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hay",
+          "hay"
+        ]
+      },
+      "fabric": {
+        "concept": "fabric",
+        "bbox": {
+          "x": 429,
+          "y": 41,
+          "w": 70,
+          "h": 43
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tarp"
+        ]
+      },
+      "collection": {
+        "concept": "collection",
+        "bbox": {
+          "x": 197,
+          "y": 66,
+          "w": 221,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "forest"
+        ]
+      },
+      "organ": {
+        "concept": "organ",
+        "bbox": {
+          "x": 66,
+          "y": 126,
+          "w": 348,
+          "h": 51
+        },
+        "object_count": 6,
+        "original_objects": [
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 4,
+          "y": 2,
+          "w": 475,
+          "h": 240
+        },
+        "object_count": 1,
+        "original_objects": [
+          "barn"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 29,
+          "y": 120,
+          "w": 451,
+          "h": 155
+        },
+        "object_count": 4,
+        "original_objects": [
+          "cow",
+          "cow",
+          "cow",
+          "cow"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 12,
+          "y": 126,
+          "w": 475,
+          "h": 129
+        },
+        "object_count": 11,
+        "original_objects": [
+          "head",
+          "head",
+          "head",
+          "head",
+          "nose",
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear",
+          "ear"
+        ]
+      },
+      "natural depression": {
+        "concept": "natural depression",
+        "bbox": {
+          "x": 2,
+          "y": 213,
+          "w": 490,
+          "h": 161
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trough"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 475,
+          "y": 5,
+          "w": 19,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 496,
+          "h": 241
+        },
+        "object_count": 3,
+        "original_objects": [
+          "roof",
+          "tarp",
+          "barn"
+        ]
+      },
+      "amorphous shape": {
+        "concept": "amorphous shape",
+        "bbox": {
+          "x": 1,
+          "y": 104,
+          "w": 490,
+          "h": 156
+        },
+        "object_count": 1,
+        "original_objects": [
+          "holes"
+        ]
+      },
+      "food": {
+        "concept": "food",
+        "bbox": {
+          "x": 317,
+          "y": 65,
+          "w": 177,
+          "h": 77
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hay",
+          "hay"
+        ]
+      },
+      "vegetation": {
+        "concept": "vegetation",
+        "bbox": {
+          "x": 197,
+          "y": 66,
+          "w": 221,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "forest"
+        ]
+      }
+    }
+  }
+}
