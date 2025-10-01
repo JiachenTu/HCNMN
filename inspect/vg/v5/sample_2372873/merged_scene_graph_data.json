@@ -1,0 +1,748 @@
+{
+  "image_id": 2372873,
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 22,
+    "fine_concepts": 23,
+    "mid_concepts": 22,
+    "coarse_concepts": 8,
+    "total_concepts": 53
+  },
+  "merged_nodes": {
+    "fine": {
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 46,
+          "y": 8,
+          "w": 118,
+          "h": 256
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "hot dogs": {
+        "concept": "hot dogs",
+        "bbox": {
+          "x": 247,
+          "y": 181,
+          "w": 53,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hot dogs"
+        ]
+      },
+      "plate": {
+        "concept": "plate",
+        "bbox": {
+          "x": 278,
+          "y": 220,
+          "w": 13,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "grill": {
+        "concept": "grill",
+        "bbox": {
+          "x": 229,
+          "y": 145,
+          "w": 78,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grill"
+        ]
+      },
+      "watch": {
+        "concept": "watch",
+        "bbox": {
+          "x": 118,
+          "y": 232,
+          "w": 15,
+          "h": 6
+        },
+        "object_count": 1,
+        "original_objects": [
+          "watch"
+        ]
+      },
+      "wrist": {
+        "concept": "wrist",
+        "bbox": {
+          "x": 98,
+          "y": 219,
+          "w": 30,
+          "h": 11
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wrist"
+        ]
+      },
+      "fence": {
+        "concept": "fence",
+        "bbox": {
+          "x": 165,
+          "y": 28,
+          "w": 28,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "swing": {
+        "concept": "swing",
+        "bbox": {
+          "x": 3,
+          "y": 35,
+          "w": 44,
+          "h": 127
+        },
+        "object_count": 1,
+        "original_objects": [
+          "swing"
+        ]
+      },
+      "window": {
+        "concept": "window",
+        "bbox": {
+          "x": 407,
+          "y": 23,
+          "w": 69,
+          "h": 49
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "blinds": {
+        "concept": "blinds",
+        "bbox": {
+          "x": 360,
+          "y": 12,
+          "w": 52,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blinds"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 37,
+          "y": 7,
+          "w": 1,
+          "h": 1
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "jeans": {
+        "concept": "jeans",
+        "bbox": {
+          "x": 77,
+          "y": 280,
+          "w": 76,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "jeans"
+        ]
+      },
+      "handle": {
+        "concept": "handle",
+        "bbox": {
+          "x": 278,
+          "y": 27,
+          "w": 79,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "can": {
+        "concept": "can",
+        "bbox": {
+          "x": 179,
+          "y": 109,
+          "w": 20,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "can"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 66,
+          "y": 134,
+          "w": 56,
+          "h": 92
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "spray": {
+        "concept": "spray",
+        "bbox": {
+          "x": 254,
+          "y": 156,
+          "w": 19,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "spray"
+        ]
+      },
+      "shadow": {
+        "concept": "shadow",
+        "bbox": {
+          "x": 168,
+          "y": 310,
+          "w": 13,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      },
+      "tongs": {
+        "concept": "tongs",
+        "bbox": {
+          "x": 259,
+          "y": 198,
+          "w": 29,
+          "h": 12
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tongs"
+        ]
+      },
+      "knobs": {
+        "concept": "knobs",
+        "bbox": {
+          "x": 222,
+          "y": 240,
+          "w": 13,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knobs"
+        ]
+      },
+      "stucco": {
+        "concept": "stucco",
+        "bbox": {
+          "x": 251,
+          "y": 10,
+          "w": 13,
+          "h": 6
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stucco"
+        ]
+      },
+      "wall": {
+        "concept": "wall",
+        "bbox": {
+          "x": 430,
+          "y": 172,
+          "w": 39,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "trees": {
+        "concept": "trees",
+        "bbox": {
+          "x": 179,
+          "y": 2,
+          "w": 31,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trees"
+        ]
+      },
+      "knife": {
+        "concept": "knife",
+        "bbox": {
+          "x": 267,
+          "y": 200,
+          "w": 18,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knife"
+        ]
+      }
+    },
+    "mid": {
+      "adult": {
+        "concept": "adult",
+        "bbox": {
+          "x": 46,
+          "y": 8,
+          "w": 118,
+          "h": 256
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "hot dogs": {
+        "concept": "hot dogs",
+        "bbox": {
+          "x": 247,
+          "y": 181,
+          "w": 53,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hot dogs"
+        ]
+      },
+      "base": {
+        "concept": "base",
+        "bbox": {
+          "x": 278,
+          "y": 220,
+          "w": 13,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "restaurant": {
+        "concept": "restaurant",
+        "bbox": {
+          "x": 229,
+          "y": 145,
+          "w": 78,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grill"
+        ]
+      },
+      "timepiece": {
+        "concept": "timepiece",
+        "bbox": {
+          "x": 118,
+          "y": 232,
+          "w": 15,
+          "h": 6
+        },
+        "object_count": 1,
+        "original_objects": [
+          "watch"
+        ]
+      },
+      "gliding joint": {
+        "concept": "gliding joint",
+        "bbox": {
+          "x": 98,
+          "y": 219,
+          "w": 30,
+          "h": 11
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wrist"
+        ]
+      },
+      "barrier": {
+        "concept": "barrier",
+        "bbox": {
+          "x": 165,
+          "y": 28,
+          "w": 28,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "action": {
+        "concept": "action",
+        "bbox": {
+          "x": 3,
+          "y": 35,
+          "w": 44,
+          "h": 127
+        },
+        "object_count": 1,
+        "original_objects": [
+          "swing"
+        ]
+      },
+      "framework": {
+        "concept": "framework",
+        "bbox": {
+          "x": 407,
+          "y": 23,
+          "w": 69,
+          "h": 49
+        },
+        "object_count": 1,
+        "original_objects": [
+          "window"
+        ]
+      },
+      "people": {
+        "concept": "people",
+        "bbox": {
+          "x": 360,
+          "y": 12,
+          "w": 52,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blinds"
+        ]
+      },
+      "garment": {
+        "concept": "garment",
+        "bbox": {
+          "x": 37,
+          "y": 7,
+          "w": 1,
+          "h": 1
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "trouser": {
+        "concept": "trouser",
+        "bbox": {
+          "x": 77,
+          "y": 280,
+          "w": 76,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "jeans"
+        ]
+      },
+      "appendage": {
+        "concept": "appendage",
+        "bbox": {
+          "x": 278,
+          "y": 27,
+          "w": 79,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "container": {
+        "concept": "container",
+        "bbox": {
+          "x": 179,
+          "y": 109,
+          "w": 20,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "can"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 66,
+          "y": 134,
+          "w": 56,
+          "h": 92
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "pesticide": {
+        "concept": "pesticide",
+        "bbox": {
+          "x": 254,
+          "y": 156,
+          "w": 19,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "spray"
+        ]
+      },
+      "shade": {
+        "concept": "shade",
+        "bbox": {
+          "x": 168,
+          "y": 310,
+          "w": 13,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      },
+      "device": {
+        "concept": "device",
+        "bbox": {
+          "x": 259,
+          "y": 198,
+          "w": 29,
+          "h": 12
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tongs"
+        ]
+      },
+      "projection": {
+        "concept": "projection",
+        "bbox": {
+          "x": 222,
+          "y": 240,
+          "w": 13,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knobs"
+        ]
+      },
+      "plaster": {
+        "concept": "plaster",
+        "bbox": {
+          "x": 251,
+          "y": 10,
+          "w": 13,
+          "h": 6
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stucco"
+        ]
+      },
+      "partition": {
+        "concept": "partition",
+        "bbox": {
+          "x": 430,
+          "y": 172,
+          "w": 39,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "woody plant": {
+        "concept": "woody plant",
+        "bbox": {
+          "x": 179,
+          "y": 2,
+          "w": 31,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trees"
+        ]
+      },
+      "edge tool": {
+        "concept": "edge tool",
+        "bbox": {
+          "x": 267,
+          "y": 200,
+          "w": 18,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "knife"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 46,
+          "y": 2,
+          "w": 164,
+          "h": 262
+        },
+        "object_count": 2,
+        "original_objects": [
+          "man",
+          "trees"
+        ]
+      },
+      "hot dogs": {
+        "concept": "hot dogs",
+        "bbox": {
+          "x": 247,
+          "y": 181,
+          "w": 53,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hot dogs"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 37,
+          "y": 7,
+          "w": 439,
+          "h": 308
+        },
+        "object_count": 13,
+        "original_objects": [
+          "plate",
+          "grill",
+          "watch",
+          "fence",
+          "window",
+          "shirt",
+          "jeans",
+          "can",
+          "tongs",
+          "knobs",
+          "stucco",
+          "wall",
+          "knife"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 66,
+          "y": 134,
+          "w": 62,
+          "h": 96
+        },
+        "object_count": 2,
+        "original_objects": [
+          "wrist",
+          "arm"
+        ]
+      },
+      "action": {
+        "concept": "action",
+        "bbox": {
+          "x": 3,
+          "y": 35,
+          "w": 44,
+          "h": 127
+        },
+        "object_count": 1,
+        "original_objects": [
+          "swing"
+        ]
+      },
+      "blind": {
+        "concept": "blind",
+        "bbox": {
+          "x": 360,
+          "y": 12,
+          "w": 52,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blinds"
+        ]
+      },
+      "appendage": {
+        "concept": "appendage",
+        "bbox": {
+          "x": 278,
+          "y": 27,
+          "w": 79,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "handle"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 254,
+          "y": 156,
+          "w": 19,
+          "h": 9
+        },
+        "object_count": 1,
+        "original_objects": [
+          "spray"
+        ]
+      },
+      "illumination": {
+        "concept": "illumination",
+        "bbox": {
+          "x": 168,
+          "y": 310,
+          "w": 13,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shadow"
+        ]
+      }
+    }
+  }
+}

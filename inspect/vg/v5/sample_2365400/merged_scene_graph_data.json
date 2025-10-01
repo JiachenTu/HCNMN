@@ -1,0 +1,604 @@
+{
+  "image_id": 2365400,
+  "statistics": {
+    "num_objects": 19,
+    "num_relationships": 29,
+    "fine_concepts": 18,
+    "mid_concepts": 17,
+    "coarse_concepts": 7,
+    "total_concepts": 42
+  },
+  "merged_nodes": {
+    "fine": {
+      "wall": {
+        "concept": "wall",
+        "bbox": {
+          "x": 3,
+          "y": 3,
+          "w": 303,
+          "h": 94
+        },
+        "object_count": 2,
+        "original_objects": [
+          "wall",
+          "wall"
+        ]
+      },
+      "cat": {
+        "concept": "cat",
+        "bbox": {
+          "x": 14,
+          "y": 183,
+          "w": 193,
+          "h": 179
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cat"
+        ]
+      },
+      "umbrella": {
+        "concept": "umbrella",
+        "bbox": {
+          "x": 2,
+          "y": 132,
+          "w": 282,
+          "h": 322
+        },
+        "object_count": 1,
+        "original_objects": [
+          "umbrella"
+        ]
+      },
+      "mat": {
+        "concept": "mat",
+        "bbox": {
+          "x": 2,
+          "y": 280,
+          "w": 330,
+          "h": 215
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mat"
+        ]
+      },
+      "floor": {
+        "concept": "floor",
+        "bbox": {
+          "x": 123,
+          "y": 144,
+          "w": 210,
+          "h": 169
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "face": {
+        "concept": "face",
+        "bbox": {
+          "x": 139,
+          "y": 231,
+          "w": 73,
+          "h": 68
+        },
+        "object_count": 1,
+        "original_objects": [
+          "face"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 178,
+          "y": 283,
+          "w": 11,
+          "h": 14
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "eyes": {
+        "concept": "eyes",
+        "bbox": {
+          "x": 158,
+          "y": 265,
+          "w": 41,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "ears": {
+        "concept": "ears",
+        "bbox": {
+          "x": 136,
+          "y": 222,
+          "w": 71,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ears"
+        ]
+      },
+      "strap": {
+        "concept": "strap",
+        "bbox": {
+          "x": 147,
+          "y": 369,
+          "w": 76,
+          "h": 88
+        },
+        "object_count": 1,
+        "original_objects": [
+          "strap"
+        ]
+      },
+      "paws": {
+        "concept": "paws",
+        "bbox": {
+          "x": 145,
+          "y": 341,
+          "w": 55,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "paws"
+        ]
+      },
+      "chest hair": {
+        "concept": "chest hair",
+        "bbox": {
+          "x": 117,
+          "y": 296,
+          "w": 88,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "chest hair"
+        ]
+      },
+      "whiskers": {
+        "concept": "whiskers",
+        "bbox": {
+          "x": 124,
+          "y": 284,
+          "w": 95,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "molding": {
+        "concept": "molding",
+        "bbox": {
+          "x": 169,
+          "y": 69,
+          "w": 134,
+          "h": 93
+        },
+        "object_count": 1,
+        "original_objects": [
+          "molding"
+        ]
+      },
+      "piece": {
+        "concept": "piece",
+        "bbox": {
+          "x": 0,
+          "y": 297,
+          "w": 121,
+          "h": 84
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      },
+      "hinge": {
+        "concept": "hinge",
+        "bbox": {
+          "x": 321,
+          "y": 7,
+          "w": 12,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hinge"
+        ]
+      },
+      "door": {
+        "concept": "door",
+        "bbox": {
+          "x": 305,
+          "y": 8,
+          "w": 27,
+          "h": 152
+        },
+        "object_count": 1,
+        "original_objects": [
+          "door"
+        ]
+      },
+      "flower": {
+        "concept": "flower",
+        "bbox": {
+          "x": 249,
+          "y": 337,
+          "w": 42,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "flower"
+        ]
+      }
+    },
+    "mid": {
+      "partition": {
+        "concept": "partition",
+        "bbox": {
+          "x": 3,
+          "y": 3,
+          "w": 303,
+          "h": 94
+        },
+        "object_count": 2,
+        "original_objects": [
+          "wall",
+          "wall"
+        ]
+      },
+      "feline": {
+        "concept": "feline",
+        "bbox": {
+          "x": 14,
+          "y": 183,
+          "w": 193,
+          "h": 179
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cat"
+        ]
+      },
+      "canopy": {
+        "concept": "canopy",
+        "bbox": {
+          "x": 2,
+          "y": 132,
+          "w": 282,
+          "h": 322
+        },
+        "object_count": 1,
+        "original_objects": [
+          "umbrella"
+        ]
+      },
+      "floor cover": {
+        "concept": "floor cover",
+        "bbox": {
+          "x": 2,
+          "y": 280,
+          "w": 330,
+          "h": 215
+        },
+        "object_count": 1,
+        "original_objects": [
+          "mat"
+        ]
+      },
+      "horizontal surface": {
+        "concept": "horizontal surface",
+        "bbox": {
+          "x": 123,
+          "y": 144,
+          "w": 210,
+          "h": 169
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 139,
+          "y": 231,
+          "w": 73,
+          "h": 68
+        },
+        "object_count": 1,
+        "original_objects": [
+          "face"
+        ]
+      },
+      "chemoreceptor": {
+        "concept": "chemoreceptor",
+        "bbox": {
+          "x": 178,
+          "y": 283,
+          "w": 11,
+          "h": 14
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "opinion": {
+        "concept": "opinion",
+        "bbox": {
+          "x": 158,
+          "y": 265,
+          "w": 41,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 136,
+          "y": 222,
+          "w": 71,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ears"
+        ]
+      },
+      "leather strip": {
+        "concept": "leather strip",
+        "bbox": {
+          "x": 147,
+          "y": 369,
+          "w": 76,
+          "h": 88
+        },
+        "object_count": 1,
+        "original_objects": [
+          "strap"
+        ]
+      },
+      "animal foot": {
+        "concept": "animal foot",
+        "bbox": {
+          "x": 145,
+          "y": 341,
+          "w": 55,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "paws"
+        ]
+      },
+      "chest hair": {
+        "concept": "chest hair",
+        "bbox": {
+          "x": 117,
+          "y": 296,
+          "w": 88,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "chest hair"
+        ]
+      },
+      "facial hair": {
+        "concept": "facial hair",
+        "bbox": {
+          "x": 124,
+          "y": 284,
+          "w": 95,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "creating from raw materials": {
+        "concept": "creating from raw materials",
+        "bbox": {
+          "x": 169,
+          "y": 69,
+          "w": 134,
+          "h": 93
+        },
+        "object_count": 1,
+        "original_objects": [
+          "molding"
+        ]
+      },
+      "part": {
+        "concept": "part",
+        "bbox": {
+          "x": 0,
+          "y": 297,
+          "w": 121,
+          "h": 84
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      },
+      "joint": {
+        "concept": "joint",
+        "bbox": {
+          "x": 321,
+          "y": 7,
+          "w": 12,
+          "h": 53
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hinge"
+        ]
+      },
+      "movable barrier": {
+        "concept": "movable barrier",
+        "bbox": {
+          "x": 305,
+          "y": 8,
+          "w": 27,
+          "h": 152
+        },
+        "object_count": 1,
+        "original_objects": [
+          "door"
+        ]
+      },
+      "angiosperm": {
+        "concept": "angiosperm",
+        "bbox": {
+          "x": 249,
+          "y": 337,
+          "w": 42,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "flower"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 2,
+          "y": 3,
+          "w": 331,
+          "h": 492
+        },
+        "object_count": 8,
+        "original_objects": [
+          "wall",
+          "umbrella",
+          "mat",
+          "floor",
+          "strap",
+          "wall",
+          "hinge",
+          "door"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 14,
+          "y": 183,
+          "w": 277,
+          "h": 187
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cat",
+          "flower"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 136,
+          "y": 222,
+          "w": 76,
+          "h": 144
+        },
+        "object_count": 4,
+        "original_objects": [
+          "face",
+          "nose",
+          "ears",
+          "paws"
+        ]
+      },
+      "content": {
+        "concept": "content",
+        "bbox": {
+          "x": 158,
+          "y": 265,
+          "w": 41,
+          "h": 13
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "chest hair": {
+        "concept": "chest hair",
+        "bbox": {
+          "x": 117,
+          "y": 296,
+          "w": 88,
+          "h": 47
+        },
+        "object_count": 1,
+        "original_objects": [
+          "chest hair"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 124,
+          "y": 284,
+          "w": 95,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "act": {
+        "concept": "act",
+        "bbox": {
+          "x": 169,
+          "y": 69,
+          "w": 134,
+          "h": 93
+        },
+        "object_count": 1,
+        "original_objects": [
+          "molding"
+        ]
+      },
+      "piece": {
+        "concept": "piece",
+        "bbox": {
+          "x": 0,
+          "y": 297,
+          "w": 121,
+          "h": 84
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      }
+    }
+  }
+}

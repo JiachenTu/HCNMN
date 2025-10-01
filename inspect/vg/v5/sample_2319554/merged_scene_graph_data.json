@@ -1,0 +1,607 @@
+{
+  "image_id": 2319554,
+  "statistics": {
+    "num_objects": 24,
+    "num_relationships": 26,
+    "fine_concepts": 17,
+    "mid_concepts": 13,
+    "coarse_concepts": 9,
+    "total_concepts": 39
+  },
+  "merged_nodes": {
+    "fine": {
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 147,
+          "y": 65,
+          "w": 130,
+          "h": 89
+        },
+        "object_count": 2,
+        "original_objects": [
+          "person",
+          "person"
+        ]
+      },
+      "ocean": {
+        "concept": "ocean",
+        "bbox": {
+          "x": 0,
+          "y": 58,
+          "w": 499,
+          "h": 272
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ocean",
+          "ocean"
+        ]
+      },
+      "surfboard": {
+        "concept": "surfboard",
+        "bbox": {
+          "x": 119,
+          "y": 90,
+          "w": 78,
+          "h": 95
+        },
+        "object_count": 3,
+        "original_objects": [
+          "surfboard",
+          "surfboard",
+          "surfboard"
+        ]
+      },
+      "wetsuit": {
+        "concept": "wetsuit",
+        "bbox": {
+          "x": 150,
+          "y": 73,
+          "w": 92,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wetsuit"
+        ]
+      },
+      "ocean wave": {
+        "concept": "ocean wave",
+        "bbox": {
+          "x": 2,
+          "y": 124,
+          "w": 496,
+          "h": 158
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ocean wave"
+        ]
+      },
+      "sky": {
+        "concept": "sky",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 58
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "fins": {
+        "concept": "fins",
+        "bbox": {
+          "x": 120,
+          "y": 100,
+          "w": 20,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fins"
+        ]
+      },
+      "legs": {
+        "concept": "legs",
+        "bbox": {
+          "x": 151,
+          "y": 100,
+          "w": 60,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "surfer": {
+        "concept": "surfer",
+        "bbox": {
+          "x": 147,
+          "y": 69,
+          "w": 124,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "surfer"
+        ]
+      },
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 148,
+          "y": 71,
+          "w": 130,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "water": {
+        "concept": "water",
+        "bbox": {
+          "x": 0,
+          "y": 20,
+          "w": 499,
+          "h": 311
+        },
+        "object_count": 2,
+        "original_objects": [
+          "water",
+          "water"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 245,
+          "y": 69,
+          "w": 14,
+          "h": 16
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 229,
+          "y": 79,
+          "w": 43,
+          "h": 20
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 263,
+          "y": 90,
+          "w": 10,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "thigh": {
+        "concept": "thigh",
+        "bbox": {
+          "x": 177,
+          "y": 98,
+          "w": 34,
+          "h": 44
+        },
+        "object_count": 2,
+        "original_objects": [
+          "thigh",
+          "thigh"
+        ]
+      },
+      "leg": {
+        "concept": "leg",
+        "bbox": {
+          "x": 148,
+          "y": 90,
+          "w": 61,
+          "h": 66
+        },
+        "object_count": 2,
+        "original_objects": [
+          "leg",
+          "leg"
+        ]
+      },
+      "wave": {
+        "concept": "wave",
+        "bbox": {
+          "x": 1,
+          "y": 68,
+          "w": 498,
+          "h": 243
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wave"
+        ]
+      }
+    },
+    "mid": {
+      "causal agent": {
+        "concept": "causal agent",
+        "bbox": {
+          "x": 147,
+          "y": 65,
+          "w": 130,
+          "h": 89
+        },
+        "object_count": 2,
+        "original_objects": [
+          "person",
+          "person"
+        ]
+      },
+      "body of water": {
+        "concept": "body of water",
+        "bbox": {
+          "x": 0,
+          "y": 58,
+          "w": 499,
+          "h": 272
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ocean",
+          "ocean"
+        ]
+      },
+      "board": {
+        "concept": "board",
+        "bbox": {
+          "x": 119,
+          "y": 90,
+          "w": 78,
+          "h": 95
+        },
+        "object_count": 3,
+        "original_objects": [
+          "surfboard",
+          "surfboard",
+          "surfboard"
+        ]
+      },
+      "wetsuit": {
+        "concept": "wetsuit",
+        "bbox": {
+          "x": 150,
+          "y": 73,
+          "w": 92,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wetsuit"
+        ]
+      },
+      "ocean wave": {
+        "concept": "ocean wave",
+        "bbox": {
+          "x": 2,
+          "y": 124,
+          "w": 496,
+          "h": 158
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ocean wave"
+        ]
+      },
+      "atmosphere": {
+        "concept": "atmosphere",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 58
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "digit": {
+        "concept": "digit",
+        "bbox": {
+          "x": 120,
+          "y": 100,
+          "w": 20,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fins"
+        ]
+      },
+      "stamina": {
+        "concept": "stamina",
+        "bbox": {
+          "x": 151,
+          "y": 100,
+          "w": 60,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "swimmer": {
+        "concept": "swimmer",
+        "bbox": {
+          "x": 147,
+          "y": 69,
+          "w": 124,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "surfer"
+        ]
+      },
+      "adult": {
+        "concept": "adult",
+        "bbox": {
+          "x": 148,
+          "y": 71,
+          "w": 130,
+          "h": 85
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "liquid": {
+        "concept": "liquid",
+        "bbox": {
+          "x": 0,
+          "y": 20,
+          "w": 499,
+          "h": 311
+        },
+        "object_count": 2,
+        "original_objects": [
+          "water",
+          "water"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 245,
+          "y": 69,
+          "w": 14,
+          "h": 16
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 148,
+          "y": 79,
+          "w": 124,
+          "h": 77
+        },
+        "object_count": 5,
+        "original_objects": [
+          "arm",
+          "thigh",
+          "leg",
+          "thigh",
+          "leg"
+        ]
+      },
+      "extremity": {
+        "concept": "extremity",
+        "bbox": {
+          "x": 263,
+          "y": 90,
+          "w": 10,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hand"
+        ]
+      },
+      "movement": {
+        "concept": "movement",
+        "bbox": {
+          "x": 1,
+          "y": 68,
+          "w": 498,
+          "h": 243
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wave"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 147,
+          "y": 65,
+          "w": 131,
+          "h": 91
+        },
+        "object_count": 4,
+        "original_objects": [
+          "person",
+          "person",
+          "surfer",
+          "man"
+        ]
+      },
+      "ocean": {
+        "concept": "ocean",
+        "bbox": {
+          "x": 0,
+          "y": 58,
+          "w": 499,
+          "h": 272
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ocean",
+          "ocean"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 119,
+          "y": 90,
+          "w": 78,
+          "h": 95
+        },
+        "object_count": 3,
+        "original_objects": [
+          "surfboard",
+          "surfboard",
+          "surfboard"
+        ]
+      },
+      "wetsuit": {
+        "concept": "wetsuit",
+        "bbox": {
+          "x": 150,
+          "y": 73,
+          "w": 92,
+          "h": 78
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wetsuit"
+        ]
+      },
+      "ocean wave": {
+        "concept": "ocean wave",
+        "bbox": {
+          "x": 2,
+          "y": 124,
+          "w": 496,
+          "h": 158
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ocean wave"
+        ]
+      },
+      "gas": {
+        "concept": "gas",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 498,
+          "h": 58
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sky"
+        ]
+      },
+      "number": {
+        "concept": "number",
+        "bbox": {
+          "x": 120,
+          "y": 100,
+          "w": 20,
+          "h": 29
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fins"
+        ]
+      },
+      "strength": {
+        "concept": "strength",
+        "bbox": {
+          "x": 151,
+          "y": 100,
+          "w": 60,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "substance": {
+        "concept": "substance",
+        "bbox": {
+          "x": 0,
+          "y": 20,
+          "w": 499,
+          "h": 311
+        },
+        "object_count": 2,
+        "original_objects": [
+          "water",
+          "water"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 148,
+          "y": 69,
+          "w": 125,
+          "h": 87
+        },
+        "object_count": 7,
+        "original_objects": [
+          "head",
+          "arm",
+          "hand",
+          "thigh",
+          "leg",
+          "thigh",
+          "leg"
+        ]
+      },
+      "happening": {
+        "concept": "happening",
+        "bbox": {
+          "x": 1,
+          "y": 68,
+          "w": 498,
+          "h": 243
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wave"
+        ]
+      }
+    }
+  }
+}

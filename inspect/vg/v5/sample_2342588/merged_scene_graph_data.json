@@ -1,0 +1,613 @@
+{
+  "image_id": 2342588,
+  "statistics": {
+    "num_objects": 22,
+    "num_relationships": 37,
+    "fine_concepts": 16,
+    "mid_concepts": 10,
+    "coarse_concepts": 8,
+    "total_concepts": 34
+  },
+  "merged_nodes": {
+    "fine": {
+      "elephants": {
+        "concept": "elephants",
+        "bbox": {
+          "x": 187,
+          "y": 144,
+          "w": 116,
+          "h": 83
+        },
+        "object_count": 1,
+        "original_objects": [
+          "elephants"
+        ]
+      },
+      "woods": {
+        "concept": "woods",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 496,
+          "h": 225
+        },
+        "object_count": 1,
+        "original_objects": [
+          "woods"
+        ]
+      },
+      "ground": {
+        "concept": "ground",
+        "bbox": {
+          "x": 1,
+          "y": 217,
+          "w": 494,
+          "h": 157
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "grass": {
+        "concept": "grass",
+        "bbox": {
+          "x": 220,
+          "y": 219,
+          "w": 81,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "tree": {
+        "concept": "tree",
+        "bbox": {
+          "x": 0,
+          "y": 5,
+          "w": 435,
+          "h": 279
+        },
+        "object_count": 3,
+        "original_objects": [
+          "tree",
+          "tree",
+          "tree"
+        ]
+      },
+      "baby elephant": {
+        "concept": "baby elephant",
+        "bbox": {
+          "x": 221,
+          "y": 159,
+          "w": 79,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "baby elephant"
+        ]
+      },
+      "adult elephant": {
+        "concept": "adult elephant",
+        "bbox": {
+          "x": 187,
+          "y": 138,
+          "w": 114,
+          "h": 86
+        },
+        "object_count": 1,
+        "original_objects": [
+          "adult elephant"
+        ]
+      },
+      "branches": {
+        "concept": "branches",
+        "bbox": {
+          "x": 276,
+          "y": 25,
+          "w": 211,
+          "h": 101
+        },
+        "object_count": 2,
+        "original_objects": [
+          "branches",
+          "branches"
+        ]
+      },
+      "elephant trunk": {
+        "concept": "elephant trunk",
+        "bbox": {
+          "x": 192,
+          "y": 183,
+          "w": 46,
+          "h": 36
+        },
+        "object_count": 2,
+        "original_objects": [
+          "elephant trunk",
+          "elephant trunk"
+        ]
+      },
+      "leaves": {
+        "concept": "leaves",
+        "bbox": {
+          "x": 29,
+          "y": 16,
+          "w": 463,
+          "h": 165
+        },
+        "object_count": 3,
+        "original_objects": [
+          "leaves",
+          "leaves",
+          "leaves"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 248,
+          "y": 162,
+          "w": 18,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "legs": {
+        "concept": "legs",
+        "bbox": {
+          "x": 244,
+          "y": 199,
+          "w": 48,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "branch": {
+        "concept": "branch",
+        "bbox": {
+          "x": 137,
+          "y": 92,
+          "w": 157,
+          "h": 70
+        },
+        "object_count": 1,
+        "original_objects": [
+          "branch"
+        ]
+      },
+      "sunlight": {
+        "concept": "sunlight",
+        "bbox": {
+          "x": 3,
+          "y": 284,
+          "w": 478,
+          "h": 57
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sunlight"
+        ]
+      },
+      "hind legs": {
+        "concept": "hind legs",
+        "bbox": {
+          "x": 274,
+          "y": 189,
+          "w": 27,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hind legs"
+        ]
+      },
+      "front legs": {
+        "concept": "front legs",
+        "bbox": {
+          "x": 216,
+          "y": 197,
+          "w": 55,
+          "h": 20
+        },
+        "object_count": 1,
+        "original_objects": [
+          "front legs"
+        ]
+      }
+    },
+    "mid": {
+      "pachyderm": {
+        "concept": "pachyderm",
+        "bbox": {
+          "x": 187,
+          "y": 144,
+          "w": 116,
+          "h": 83
+        },
+        "object_count": 1,
+        "original_objects": [
+          "elephants"
+        ]
+      },
+      "vegetation": {
+        "concept": "vegetation",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 496,
+          "h": 225
+        },
+        "object_count": 1,
+        "original_objects": [
+          "woods"
+        ]
+      },
+      "object": {
+        "concept": "object",
+        "bbox": {
+          "x": 1,
+          "y": 217,
+          "w": 494,
+          "h": 157
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "gramineous plant": {
+        "concept": "gramineous plant",
+        "bbox": {
+          "x": 220,
+          "y": 219,
+          "w": 81,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "woody plant": {
+        "concept": "woody plant",
+        "bbox": {
+          "x": 0,
+          "y": 5,
+          "w": 435,
+          "h": 279
+        },
+        "object_count": 3,
+        "original_objects": [
+          "tree",
+          "tree",
+          "tree"
+        ]
+      },
+      "baby elephant": {
+        "concept": "baby elephant",
+        "bbox": {
+          "x": 221,
+          "y": 159,
+          "w": 79,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "baby elephant"
+        ]
+      },
+      "adult elephant": {
+        "concept": "adult elephant",
+        "bbox": {
+          "x": 187,
+          "y": 138,
+          "w": 114,
+          "h": 86
+        },
+        "object_count": 1,
+        "original_objects": [
+          "adult elephant"
+        ]
+      },
+      "division": {
+        "concept": "division",
+        "bbox": {
+          "x": 137,
+          "y": 25,
+          "w": 350,
+          "h": 137
+        },
+        "object_count": 3,
+        "original_objects": [
+          "branches",
+          "branches",
+          "branch"
+        ]
+      },
+      "elephant trunk": {
+        "concept": "elephant trunk",
+        "bbox": {
+          "x": 192,
+          "y": 183,
+          "w": 46,
+          "h": 36
+        },
+        "object_count": 2,
+        "original_objects": [
+          "elephant trunk",
+          "elephant trunk"
+        ]
+      },
+      "plant organ": {
+        "concept": "plant organ",
+        "bbox": {
+          "x": 29,
+          "y": 16,
+          "w": 463,
+          "h": 165
+        },
+        "object_count": 3,
+        "original_objects": [
+          "leaves",
+          "leaves",
+          "leaves"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 248,
+          "y": 162,
+          "w": 18,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "stamina": {
+        "concept": "stamina",
+        "bbox": {
+          "x": 244,
+          "y": 199,
+          "w": 48,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "light": {
+        "concept": "light",
+        "bbox": {
+          "x": 3,
+          "y": 284,
+          "w": 478,
+          "h": 57
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sunlight"
+        ]
+      },
+      "hind legs": {
+        "concept": "hind legs",
+        "bbox": {
+          "x": 274,
+          "y": 189,
+          "w": 27,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hind legs"
+        ]
+      },
+      "front legs": {
+        "concept": "front legs",
+        "bbox": {
+          "x": 216,
+          "y": 197,
+          "w": 55,
+          "h": 20
+        },
+        "object_count": 1,
+        "original_objects": [
+          "front legs"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 0,
+          "y": 5,
+          "w": 435,
+          "h": 279
+        },
+        "object_count": 5,
+        "original_objects": [
+          "elephants",
+          "grass",
+          "tree",
+          "tree",
+          "tree"
+        ]
+      },
+      "vegetation": {
+        "concept": "vegetation",
+        "bbox": {
+          "x": 3,
+          "y": 1,
+          "w": 496,
+          "h": 225
+        },
+        "object_count": 1,
+        "original_objects": [
+          "woods"
+        ]
+      },
+      "land": {
+        "concept": "land",
+        "bbox": {
+          "x": 1,
+          "y": 217,
+          "w": 494,
+          "h": 157
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "baby elephant": {
+        "concept": "baby elephant",
+        "bbox": {
+          "x": 221,
+          "y": 159,
+          "w": 79,
+          "h": 66
+        },
+        "object_count": 1,
+        "original_objects": [
+          "baby elephant"
+        ]
+      },
+      "adult elephant": {
+        "concept": "adult elephant",
+        "bbox": {
+          "x": 187,
+          "y": 138,
+          "w": 114,
+          "h": 86
+        },
+        "object_count": 1,
+        "original_objects": [
+          "adult elephant"
+        ]
+      },
+      "organization": {
+        "concept": "organization",
+        "bbox": {
+          "x": 137,
+          "y": 25,
+          "w": 350,
+          "h": 137
+        },
+        "object_count": 3,
+        "original_objects": [
+          "branches",
+          "branches",
+          "branch"
+        ]
+      },
+      "elephant trunk": {
+        "concept": "elephant trunk",
+        "bbox": {
+          "x": 192,
+          "y": 183,
+          "w": 46,
+          "h": 36
+        },
+        "object_count": 2,
+        "original_objects": [
+          "elephant trunk",
+          "elephant trunk"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 29,
+          "y": 16,
+          "w": 463,
+          "h": 165
+        },
+        "object_count": 3,
+        "original_objects": [
+          "leaves",
+          "leaves",
+          "leaves"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 248,
+          "y": 162,
+          "w": 18,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "strength": {
+        "concept": "strength",
+        "bbox": {
+          "x": 244,
+          "y": 199,
+          "w": 48,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "legs"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 3,
+          "y": 284,
+          "w": 478,
+          "h": 57
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sunlight"
+        ]
+      },
+      "hind legs": {
+        "concept": "hind legs",
+        "bbox": {
+          "x": 274,
+          "y": 189,
+          "w": 27,
+          "h": 34
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hind legs"
+        ]
+      },
+      "front legs": {
+        "concept": "front legs",
+        "bbox": {
+          "x": 216,
+          "y": 197,
+          "w": 55,
+          "h": 20
+        },
+        "object_count": 1,
+        "original_objects": [
+          "front legs"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "timestamp": "2025-10-01T08:24:22.973774",
+  "elapsed_time_seconds": 839.333196,
+  "total_samples": 10,
+  "successful": 10,
+  "failed": 0,
+  "sampled_images": [
+    {
+      "image_id": 713869,
+      "num_objects": 14,
+      "num_relationships": 3,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/713869.jpg"
+    },
+    {
+      "image_id": 2316149,
+      "num_objects": 28,
+      "num_relationships": 15,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2316149.jpg"
+    },
+    {
+      "image_id": 2330893,
+      "num_objects": 26,
+      "num_relationships": 8,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2330893.jpg"
+    },
+    {
+      "image_id": 2331126,
+      "num_objects": 19,
+      "num_relationships": 5,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2331126.jpg"
+    },
+    {
+      "image_id": 2337091,
+      "num_objects": 30,
+      "num_relationships": 17,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2337091.jpg"
+    },
+    {
+      "image_id": 2342588,
+      "num_objects": 22,
+      "num_relationships": 37,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2342588.jpg"
+    },
+    {
+      "image_id": 2347219,
+      "num_objects": 30,
+      "num_relationships": 5,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2347219.jpg"
+    },
+    {
+      "image_id": 2349289,
+      "num_objects": 14,
+      "num_relationships": 5,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2349289.jpg"
+    },
+    {
+      "image_id": 2365400,
+      "num_objects": 19,
+      "num_relationships": 29,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2365400.jpg"
+    },
+    {
+      "image_id": 2372873,
+      "num_objects": 23,
+      "num_relationships": 22,
+      "image_path": "/home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2372873.jpg"
+    }
+  ],
+  "processing_results": [
+    {
+      "image_id": 713869,
+      "timestamp": "2025-10-01T08:10:53.545052",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 713869...\nFound 14 objects and 3 relationships\n\nStatistics:\n  Objects: 14\n  Relationships: 3\n  Fine concepts: 10\n  Mid concepts: 9\n  Coarse concepts: 3\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 713869\n\u2705 Loaded image 713869 with 8 objects\n\u2705 Loaded 3 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/713869.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 8 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   8 concepts\n  Mid-level:      8 concepts (1.00x compression)\n  Coarse-grained: 3 concepts (2.67x compression)\n  Total:          19 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_713869/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2316149,
+      "timestamp": "2025-10-01T08:12:18.667669",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2316149...\nFound 28 objects and 15 relationships\n\nStatistics:\n  Objects: 28\n  Relationships: 15\n  Fine concepts: 15\n  Mid concepts: 13\n  Coarse concepts: 4\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2316149\n\u2705 Loaded image 2316149 with 18 objects\n\u2705 Loaded 15 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2316149.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 14 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   14 concepts\n  Mid-level:      13 concepts (1.08x compression)\n  Coarse-grained: 5 concepts (2.80x compression)\n  Total:          32 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2316149/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2330893,
+      "timestamp": "2025-10-01T08:13:40.785859",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2330893...\nFound 26 objects and 8 relationships\n\nStatistics:\n  Objects: 26\n  Relationships: 8\n  Fine concepts: 11\n  Mid concepts: 8\n  Coarse concepts: 6\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2330893\n\u2705 Loaded image 2330893 with 6 objects\n\u2705 Loaded 8 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2330893.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 6 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   6 concepts\n  Mid-level:      6 concepts (1.00x compression)\n  Coarse-grained: 4 concepts (1.50x compression)\n  Total:          16 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2330893/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2331126,
+      "timestamp": "2025-10-01T08:15:00.812491",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2331126...\nFound 19 objects and 5 relationships\n\nStatistics:\n  Objects: 19\n  Relationships: 5\n  Fine concepts: 15\n  Mid concepts: 9\n  Coarse concepts: 5\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2331126\n\u2705 Loaded image 2331126 with 14 objects\n\u2705 Loaded 5 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2331126.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 14 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   14 concepts\n  Mid-level:      13 concepts (1.08x compression)\n  Coarse-grained: 9 concepts (1.56x compression)\n  Total:          36 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2331126/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2337091,
+      "timestamp": "2025-10-01T08:16:21.030858",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2337091...\nFound 30 objects and 17 relationships\n\nStatistics:\n  Objects: 30\n  Relationships: 17\n  Fine concepts: 19\n  Mid concepts: 11\n  Coarse concepts: 5\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2337091\n\u2705 Loaded image 2337091 with 19 objects\n\u2705 Loaded 17 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2337091.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 15 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   15 concepts\n  Mid-level:      14 concepts (1.07x compression)\n  Coarse-grained: 7 concepts (2.14x compression)\n  Total:          36 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2337091/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2342588,
+      "timestamp": "2025-10-01T08:17:42.235560",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2342588...\nFound 22 objects and 37 relationships\n\nStatistics:\n  Objects: 22\n  Relationships: 37\n  Fine concepts: 16\n  Mid concepts: 10\n  Coarse concepts: 8\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2342588\n\u2705 Loaded image 2342588 with 22 objects\n\u2705 Loaded 37 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2342588.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 16 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   16 concepts\n  Mid-level:      15 concepts (1.07x compression)\n  Coarse-grained: 12 concepts (1.33x compression)\n  Total:          43 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2342588/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2347219,
+      "timestamp": "2025-10-01T08:19:03.579190",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2347219...\nFound 30 objects and 5 relationships\n\nStatistics:\n  Objects: 30\n  Relationships: 5\n  Fine concepts: 18\n  Mid concepts: 14\n  Coarse concepts: 4\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2347219\n\u2705 Loaded image 2347219 with 18 objects\n\u2705 Loaded 5 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2347219.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 16 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   16 concepts\n  Mid-level:      15 concepts (1.07x compression)\n  Coarse-grained: 5 concepts (3.20x compression)\n  Total:          36 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2347219/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2349289,
+      "timestamp": "2025-10-01T08:20:22.346782",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2349289...\nFound 14 objects and 5 relationships\n\nStatistics:\n  Objects: 14\n  Relationships: 5\n  Fine concepts: 7\n  Mid concepts: 6\n  Coarse concepts: 5\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2349289\n\u2705 Loaded image 2349289 with 13 objects\n\u2705 Loaded 5 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2349289.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 6 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   6 concepts\n  Mid-level:      6 concepts (1.00x compression)\n  Coarse-grained: 5 concepts (1.20x compression)\n  Total:          17 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2349289/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2365400,
+      "timestamp": "2025-10-01T08:21:43.123706",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2365400...\nFound 19 objects and 29 relationships\n\nStatistics:\n  Objects: 19\n  Relationships: 29\n  Fine concepts: 18\n  Mid concepts: 17\n  Coarse concepts: 7\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2365400\n\u2705 Loaded image 2365400 with 19 objects\n\u2705 Loaded 29 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2365400.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 18 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   18 concepts\n  Mid-level:      18 concepts (1.00x compression)\n  Coarse-grained: 8 concepts (2.25x compression)\n  Total:          44 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2365400/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    },
+    {
+      "image_id": 2372873,
+      "timestamp": "2025-10-01T08:23:01.731498",
+      "visualizations": {
+        "merged_granularity": {
+          "success": true,
+          "stdout": "\nLoading VG data for image 2372873...\nFound 23 objects and 22 relationships\n\nStatistics:\n  Objects: 23\n  Relationships: 22\n  Fine concepts: 23\n  Mid concepts: 22\n  Coarse concepts: 8\n\nVisualizing merged fine-grained scene graph...\nSaved merged fine-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/merged_fine.png\n\nVisualizing merged mid-grained scene graph...\nSaved merged mid-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/merged_mid.png\n\nVisualizing merged coarse-grained scene graph...\nSaved merged coarse-grained visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/merged_coarse.png\n\nCreating merged multi-granularity comparison...\nSaved merged comparison: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/merged_comparison.png\nGenerated merged scene graph report: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/MERGED_SCENE_GRAPH_REPORT.md\n\n\u2713 Merged scene graph generation complete!\n  Output directory: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873\n\n",
+          "stderr": ""
+        },
+        "scene_graph_hierarchy": {
+          "success": true,
+          "stdout": "======================================================================\nVG Scene Graph + Hierarchical Ontology Visualization\n======================================================================\nLoading VG image 2372873\n\u2705 Loaded image 2372873 with 22 objects\n\u2705 Loaded 22 relationships\n\u2705 Found image: /home/jiachen/scratch/graph_reasoning/HCNMN/data/vg/images/VG_100K/VG_100K/2372873.jpg\n\nBuilding clean 3-level hierarchy...\nProcessing 22 unique objects\n\nHierarchy Statistics:\n  Fine-grained:   22 concepts\n  Mid-level:      22 concepts (1.00x compression)\n  Coarse-grained: 7 concepts (3.14x compression)\n  Total:          51 concepts\n\nCreating scene graph visualization...\nSaved scene graph: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/original_scene_graph.png\n\nCreating hierarchy tree visualization...\nSaved hierarchy tree: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/hierarchical_ontology_tree.png\n\nCreating combined visualization...\nSaved combined visualization: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/combined_visualization.png\n\n======================================================================\n\u2705 Visualization Complete!\n======================================================================\nOutput: /home/jiachen/scratch/graph_reasoning/HCNMN/inspect/vg/v5/sample_2372873/\n  - original_scene_graph.png\n  - hierarchical_ontology_tree.png\n  - combined_visualization.png\n  - ontology_data.json\n\n",
+          "stderr": ""
+        }
+      },
+      "success": true
+    }
+  ]
+}

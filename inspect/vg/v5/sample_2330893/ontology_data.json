@@ -1,0 +1,99 @@
+{
+  "image_id": 2330893,
+  "hierarchy": {
+    "fine": [
+      "broccoli",
+      "can",
+      "cutting board",
+      "ground",
+      "knife",
+      "piece"
+    ],
+    "mid": [
+      "board",
+      "container",
+      "crucifer",
+      "edge tool",
+      "object",
+      "part"
+    ],
+    "coarse": [
+      "artifact",
+      "land",
+      "living thing",
+      "piece"
+    ]
+  },
+  "concept_paths": {
+    "broccoli": [
+      "broccoli",
+      "crucifer",
+      "living thing"
+    ],
+    "ground": [
+      "ground",
+      "object",
+      "land"
+    ],
+    "piece": [
+      "piece",
+      "part",
+      "piece"
+    ],
+    "can": [
+      "can",
+      "container",
+      "artifact"
+    ],
+    "cutting board": [
+      "cutting board",
+      "board",
+      "artifact"
+    ],
+    "knife": [
+      "knife",
+      "edge tool",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "broccoli": {
+      "fine": "broccoli",
+      "mid": "crucifer",
+      "coarse": "living thing"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "object",
+      "coarse": "land"
+    },
+    "piece": {
+      "fine": "piece",
+      "mid": "part",
+      "coarse": "piece"
+    },
+    "can": {
+      "fine": "can",
+      "mid": "container",
+      "coarse": "artifact"
+    },
+    "cutting board": {
+      "fine": "cutting board",
+      "mid": "board",
+      "coarse": "artifact"
+    },
+    "knife": {
+      "fine": "knife",
+      "mid": "edge tool",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 6,
+    "num_relationships": 8,
+    "fine_concepts": 6,
+    "mid_concepts": 6,
+    "coarse_concepts": 4,
+    "total_concepts": 16
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "image_id": 2319554,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "fins",
+      "hand",
+      "head",
+      "leg",
+      "legs",
+      "man",
+      "ocean",
+      "ocean wave",
+      "sky",
+      "surfboard",
+      "thigh",
+      "water",
+      "wetsuit"
+    ],
+    "mid": [
+      "adult",
+      "atmosphere",
+      "binary compound",
+      "board",
+      "body of water",
+      "digit",
+      "external body part",
+      "extremity",
+      "limb",
+      "ocean wave",
+      "stamina",
+      "wetsuit"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "gas",
+      "living thing",
+      "number",
+      "ocean",
+      "ocean wave",
+      "strength",
+      "substance",
+      "wetsuit"
+    ]
+  },
+  "concept_paths": {
+    "man": [
+      "man",
+      "adult",
+      "living thing"
+    ],
+    "water": [
+      "water",
+      "binary compound",
+      "substance"
+    ],
+    "leg": [
+      "leg",
+      "limb",
+      "body part"
+    ],
+    "head": [
+      "head",
+      "external body part",
+      "body part"
+    ],
+    "surfboard": [
+      "surfboard",
+      "board",
+      "artifact"
+    ],
+    "ocean wave": [
+      "ocean wave"
+    ],
+    "arm": [
+      "arm",
+      "limb",
+      "body part"
+    ],
+    "fins": [
+      "fins",
+      "digit",
+      "number"
+    ],
+    "thigh": [
+      "thigh",
+      "limb",
+      "body part"
+    ],
+    "hand": [
+      "hand",
+      "extremity",
+      "body part"
+    ],
+    "ocean": [
+      "ocean",
+      "body of water",
+      "ocean"
+    ],
+    "legs": [
+      "legs",
+      "stamina",
+      "strength"
+    ],
+    "sky": [
+      "sky",
+      "atmosphere",
+      "gas"
+    ],
+    "wetsuit": [
+      "wetsuit"
+    ]
+  },
+  "object_to_levels": {
+    "man": {
+      "fine": "man",
+      "mid": "adult",
+      "coarse": "living thing"
+    },
+    "water": {
+      "fine": "water",
+      "mid": "binary compound",
+      "coarse": "substance"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "surfboard": {
+      "fine": "surfboard",
+      "mid": "board",
+      "coarse": "artifact"
+    },
+    "ocean wave": {
+      "fine": "ocean wave",
+      "mid": "ocean wave",
+      "coarse": "ocean wave"
+    },
+    "arm": {
+      "fine": "arm",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "fins": {
+      "fine": "fins",
+      "mid": "digit",
+      "coarse": "number"
+    },
+    "thigh": {
+      "fine": "thigh",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "ocean": {
+      "fine": "ocean",
+      "mid": "body of water",
+      "coarse": "ocean"
+    },
+    "legs": {
+      "fine": "legs",
+      "mid": "stamina",
+      "coarse": "strength"
+    },
+    "sky": {
+      "fine": "sky",
+      "mid": "atmosphere",
+      "coarse": "gas"
+    },
+    "wetsuit": {
+      "fine": "wetsuit",
+      "mid": "wetsuit",
+      "coarse": "wetsuit"
+    }
+  },
+  "statistics": {
+    "num_objects": 15,
+    "num_relationships": 26,
+    "fine_concepts": 14,
+    "mid_concepts": 12,
+    "coarse_concepts": 10,
+    "total_concepts": 36
+  }
+}

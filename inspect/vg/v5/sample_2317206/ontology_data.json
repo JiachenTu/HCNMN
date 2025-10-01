@@ -1,0 +1,179 @@
+{
+  "image_id": 2317206,
+  "hierarchy": {
+    "fine": [
+      "back",
+      "bear",
+      "ear",
+      "ears",
+      "eye",
+      "grass",
+      "ground",
+      "head",
+      "leg",
+      "nose",
+      "snout",
+      "sun",
+      "white mark"
+    ],
+    "mid": [
+      "body part",
+      "carnivore",
+      "chemoreceptor",
+      "external body part",
+      "gramineous plant",
+      "limb",
+      "nose",
+      "object",
+      "sense organ",
+      "sun",
+      "white mark"
+    ],
+    "coarse": [
+      "body part",
+      "land",
+      "living thing",
+      "natural object",
+      "white mark"
+    ]
+  },
+  "concept_paths": {
+    "back": [
+      "back",
+      "body part",
+      "body part"
+    ],
+    "bear": [
+      "bear",
+      "carnivore",
+      "living thing"
+    ],
+    "nose": [
+      "nose",
+      "chemoreceptor",
+      "body part"
+    ],
+    "white mark": [
+      "white mark"
+    ],
+    "eye": [
+      "eye",
+      "sense organ",
+      "body part"
+    ],
+    "leg": [
+      "leg",
+      "limb",
+      "body part"
+    ],
+    "snout": [
+      "snout",
+      "nose",
+      "body part"
+    ],
+    "grass": [
+      "grass",
+      "gramineous plant",
+      "living thing"
+    ],
+    "ears": [
+      "ears",
+      "sense organ",
+      "body part"
+    ],
+    "sun": [
+      "sun",
+      "natural object"
+    ],
+    "ground": [
+      "ground",
+      "object",
+      "land"
+    ],
+    "ear": [
+      "ear",
+      "sense organ",
+      "body part"
+    ],
+    "head": [
+      "head",
+      "external body part",
+      "body part"
+    ]
+  },
+  "object_to_levels": {
+    "back": {
+      "fine": "back",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "bear": {
+      "fine": "bear",
+      "mid": "carnivore",
+      "coarse": "living thing"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "chemoreceptor",
+      "coarse": "body part"
+    },
+    "white mark": {
+      "fine": "white mark",
+      "mid": "white mark",
+      "coarse": "white mark"
+    },
+    "eye": {
+      "fine": "eye",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "snout": {
+      "fine": "snout",
+      "mid": "nose",
+      "coarse": "body part"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "gramineous plant",
+      "coarse": "living thing"
+    },
+    "ears": {
+      "fine": "ears",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "sun": {
+      "fine": "sun",
+      "mid": "sun",
+      "coarse": "natural object"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "object",
+      "coarse": "land"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "external body part",
+      "coarse": "body part"
+    }
+  },
+  "statistics": {
+    "num_objects": 13,
+    "num_relationships": 20,
+    "fine_concepts": 13,
+    "mid_concepts": 11,
+    "coarse_concepts": 5,
+    "total_concepts": 29
+  }
+}

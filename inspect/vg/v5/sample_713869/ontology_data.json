@@ -1,0 +1,122 @@
+{
+  "image_id": 713869,
+  "hierarchy": {
+    "fine": [
+      "bike",
+      "container",
+      "engine",
+      "grass",
+      "helmet",
+      "logo",
+      "pole",
+      "tire"
+    ],
+    "mid": [
+      "armor plate",
+      "gramineous plant",
+      "hoop",
+      "instrumentality",
+      "motor",
+      "motor vehicle",
+      "rod",
+      "trademark"
+    ],
+    "coarse": [
+      "artifact",
+      "living thing",
+      "symbol"
+    ]
+  },
+  "concept_paths": {
+    "bike": [
+      "bike",
+      "motor vehicle",
+      "artifact"
+    ],
+    "helmet": [
+      "helmet",
+      "armor plate",
+      "artifact"
+    ],
+    "engine": [
+      "engine",
+      "motor",
+      "artifact"
+    ],
+    "tire": [
+      "tire",
+      "hoop",
+      "artifact"
+    ],
+    "pole": [
+      "pole",
+      "rod",
+      "artifact"
+    ],
+    "container": [
+      "container",
+      "instrumentality",
+      "artifact"
+    ],
+    "grass": [
+      "grass",
+      "gramineous plant",
+      "living thing"
+    ],
+    "logo": [
+      "logo",
+      "trademark",
+      "symbol"
+    ]
+  },
+  "object_to_levels": {
+    "bike": {
+      "fine": "bike",
+      "mid": "motor vehicle",
+      "coarse": "artifact"
+    },
+    "helmet": {
+      "fine": "helmet",
+      "mid": "armor plate",
+      "coarse": "artifact"
+    },
+    "engine": {
+      "fine": "engine",
+      "mid": "motor",
+      "coarse": "artifact"
+    },
+    "tire": {
+      "fine": "tire",
+      "mid": "hoop",
+      "coarse": "artifact"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "rod",
+      "coarse": "artifact"
+    },
+    "container": {
+      "fine": "container",
+      "mid": "instrumentality",
+      "coarse": "artifact"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "gramineous plant",
+      "coarse": "living thing"
+    },
+    "logo": {
+      "fine": "logo",
+      "mid": "trademark",
+      "coarse": "symbol"
+    }
+  },
+  "statistics": {
+    "num_objects": 8,
+    "num_relationships": 3,
+    "fine_concepts": 8,
+    "mid_concepts": 8,
+    "coarse_concepts": 3,
+    "total_concepts": 19
+  }
+}

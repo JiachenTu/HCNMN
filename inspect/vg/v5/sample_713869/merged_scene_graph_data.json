@@ -1,0 +1,325 @@
+{
+  "image_id": 713869,
+  "statistics": {
+    "num_objects": 14,
+    "num_relationships": 3,
+    "fine_concepts": 10,
+    "mid_concepts": 9,
+    "coarse_concepts": 3,
+    "total_concepts": 22
+  },
+  "merged_nodes": {
+    "fine": {
+      "motorcycle": {
+        "concept": "motorcycle",
+        "bbox": {
+          "x": 84,
+          "y": 44,
+          "w": 856,
+          "h": 631
+        },
+        "object_count": 2,
+        "original_objects": [
+          "motorcycle",
+          "motorcycle"
+        ]
+      },
+      "tire": {
+        "concept": "tire",
+        "bbox": {
+          "x": 618,
+          "y": 415,
+          "w": 322,
+          "h": 260
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tire"
+        ]
+      },
+      "container": {
+        "concept": "container",
+        "bbox": {
+          "x": 75,
+          "y": 37,
+          "w": 230,
+          "h": 132
+        },
+        "object_count": 1,
+        "original_objects": [
+          "container"
+        ]
+      },
+      "symbol": {
+        "concept": "symbol",
+        "bbox": {
+          "x": 548,
+          "y": 258,
+          "w": 50,
+          "h": 40
+        },
+        "object_count": 1,
+        "original_objects": [
+          "symbol"
+        ]
+      },
+      "helmet": {
+        "concept": "helmet",
+        "bbox": {
+          "x": 548,
+          "y": 39,
+          "w": 74,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "helmet"
+        ]
+      },
+      "bike": {
+        "concept": "bike",
+        "bbox": {
+          "x": 71,
+          "y": 33,
+          "w": 858,
+          "h": 633
+        },
+        "object_count": 4,
+        "original_objects": [
+          "bike",
+          "bike",
+          "bike",
+          "bike"
+        ]
+      },
+      "logo": {
+        "concept": "logo",
+        "bbox": {
+          "x": 550,
+          "y": 262,
+          "w": 50,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "logo"
+        ]
+      },
+      "grass": {
+        "concept": "grass",
+        "bbox": {
+          "x": 771,
+          "y": 141,
+          "w": 221,
+          "h": 318
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "pole": {
+        "concept": "pole",
+        "bbox": {
+          "x": 823,
+          "y": 14,
+          "w": 78,
+          "h": 193
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "engine": {
+        "concept": "engine",
+        "bbox": {
+          "x": 380,
+          "y": 355,
+          "w": 210,
+          "h": 171
+        },
+        "object_count": 1,
+        "original_objects": [
+          "engine"
+        ]
+      }
+    },
+    "mid": {
+      "motor vehicle": {
+        "concept": "motor vehicle",
+        "bbox": {
+          "x": 71,
+          "y": 33,
+          "w": 869,
+          "h": 642
+        },
+        "object_count": 6,
+        "original_objects": [
+          "motorcycle",
+          "motorcycle",
+          "bike",
+          "bike",
+          "bike",
+          "bike"
+        ]
+      },
+      "hoop": {
+        "concept": "hoop",
+        "bbox": {
+          "x": 618,
+          "y": 415,
+          "w": 322,
+          "h": 260
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tire"
+        ]
+      },
+      "instrumentality": {
+        "concept": "instrumentality",
+        "bbox": {
+          "x": 75,
+          "y": 37,
+          "w": 230,
+          "h": 132
+        },
+        "object_count": 1,
+        "original_objects": [
+          "container"
+        ]
+      },
+      "signal": {
+        "concept": "signal",
+        "bbox": {
+          "x": 548,
+          "y": 258,
+          "w": 50,
+          "h": 40
+        },
+        "object_count": 1,
+        "original_objects": [
+          "symbol"
+        ]
+      },
+      "armor plate": {
+        "concept": "armor plate",
+        "bbox": {
+          "x": 548,
+          "y": 39,
+          "w": 74,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "helmet"
+        ]
+      },
+      "trademark": {
+        "concept": "trademark",
+        "bbox": {
+          "x": 550,
+          "y": 262,
+          "w": 50,
+          "h": 33
+        },
+        "object_count": 1,
+        "original_objects": [
+          "logo"
+        ]
+      },
+      "gramineous plant": {
+        "concept": "gramineous plant",
+        "bbox": {
+          "x": 771,
+          "y": 141,
+          "w": 221,
+          "h": 318
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "rod": {
+        "concept": "rod",
+        "bbox": {
+          "x": 823,
+          "y": 14,
+          "w": 78,
+          "h": 193
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "motor": {
+        "concept": "motor",
+        "bbox": {
+          "x": 380,
+          "y": 355,
+          "w": 210,
+          "h": 171
+        },
+        "object_count": 1,
+        "original_objects": [
+          "engine"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 71,
+          "y": 14,
+          "w": 869,
+          "h": 661
+        },
+        "object_count": 11,
+        "original_objects": [
+          "motorcycle",
+          "tire",
+          "container",
+          "motorcycle",
+          "helmet",
+          "bike",
+          "bike",
+          "bike",
+          "bike",
+          "pole",
+          "engine"
+        ]
+      },
+      "symbol": {
+        "concept": "symbol",
+        "bbox": {
+          "x": 548,
+          "y": 258,
+          "w": 52,
+          "h": 40
+        },
+        "object_count": 2,
+        "original_objects": [
+          "symbol",
+          "logo"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 771,
+          "y": 141,
+          "w": 221,
+          "h": 318
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      }
+    }
+  }
+}

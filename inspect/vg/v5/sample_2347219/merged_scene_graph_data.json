@@ -1,0 +1,589 @@
+{
+  "image_id": 2347219,
+  "statistics": {
+    "num_objects": 30,
+    "num_relationships": 5,
+    "fine_concepts": 18,
+    "mid_concepts": 14,
+    "coarse_concepts": 4,
+    "total_concepts": 36
+  },
+  "merged_nodes": {
+    "fine": {
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 46,
+          "y": 2,
+          "w": 273,
+          "h": 384
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "floor": {
+        "concept": "floor",
+        "bbox": {
+          "x": 176,
+          "y": 426,
+          "w": 132,
+          "h": 65
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "shoe": {
+        "concept": "shoe",
+        "bbox": {
+          "x": 39,
+          "y": 270,
+          "w": 247,
+          "h": 125
+        },
+        "object_count": 5,
+        "original_objects": [
+          "shoe",
+          "shoe",
+          "shoe",
+          "shoe",
+          "shoe"
+        ]
+      },
+      "trouser": {
+        "concept": "trouser",
+        "bbox": {
+          "x": 37,
+          "y": 58,
+          "w": 291,
+          "h": 241
+        },
+        "object_count": 1,
+        "original_objects": [
+          "trouser"
+        ]
+      },
+      "sock": {
+        "concept": "sock",
+        "bbox": {
+          "x": 59,
+          "y": 262,
+          "w": 169,
+          "h": 61
+        },
+        "object_count": 4,
+        "original_objects": [
+          "sock",
+          "sock",
+          "sock",
+          "sock"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 51,
+          "y": 0,
+          "w": 228,
+          "h": 119
+        },
+        "object_count": 3,
+        "original_objects": [
+          "shirt",
+          "shirt",
+          "shirt"
+        ]
+      },
+      "grey marks": {
+        "concept": "grey marks",
+        "bbox": {
+          "x": 56,
+          "y": 1,
+          "w": 209,
+          "h": 108
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grey marks"
+        ]
+      },
+      "lace": {
+        "concept": "lace",
+        "bbox": {
+          "x": 219,
+          "y": 287,
+          "w": 38,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "lace"
+        ]
+      },
+      "blue jeans": {
+        "concept": "blue jeans",
+        "bbox": {
+          "x": 46,
+          "y": 45,
+          "w": 274,
+          "h": 266
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blue jeans"
+        ]
+      },
+      "person": {
+        "concept": "person",
+        "bbox": {
+          "x": 34,
+          "y": 1,
+          "w": 297,
+          "h": 397
+        },
+        "object_count": 3,
+        "original_objects": [
+          "person",
+          "person",
+          "person"
+        ]
+      },
+      "street": {
+        "concept": "street",
+        "bbox": {
+          "x": 40,
+          "y": 129,
+          "w": 45,
+          "h": 73
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "pants": {
+        "concept": "pants",
+        "bbox": {
+          "x": 48,
+          "y": 60,
+          "w": 268,
+          "h": 248
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pants"
+        ]
+      },
+      "car": {
+        "concept": "car",
+        "bbox": {
+          "x": 2,
+          "y": 24,
+          "w": 87,
+          "h": 105
+        },
+        "object_count": 1,
+        "original_objects": [
+          "car"
+        ]
+      },
+      "cone": {
+        "concept": "cone",
+        "bbox": {
+          "x": 276,
+          "y": 59,
+          "w": 54,
+          "h": 87
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cone"
+        ]
+      },
+      "skateboard": {
+        "concept": "skateboard",
+        "bbox": {
+          "x": 17,
+          "y": 336,
+          "w": 314,
+          "h": 104
+        },
+        "object_count": 2,
+        "original_objects": [
+          "skateboard",
+          "skateboard"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 174,
+          "y": 4,
+          "w": 127,
+          "h": 355
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "laces": {
+        "concept": "laces",
+        "bbox": {
+          "x": 214,
+          "y": 293,
+          "w": 58,
+          "h": 27
+        },
+        "object_count": 1,
+        "original_objects": [
+          "laces"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 168,
+          "y": 13,
+          "w": 76,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      }
+    },
+    "mid": {
+      "male": {
+        "concept": "male",
+        "bbox": {
+          "x": 46,
+          "y": 2,
+          "w": 273,
+          "h": 384
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "horizontal surface": {
+        "concept": "horizontal surface",
+        "bbox": {
+          "x": 176,
+          "y": 426,
+          "w": 132,
+          "h": 65
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "footwear": {
+        "concept": "footwear",
+        "bbox": {
+          "x": 39,
+          "y": 270,
+          "w": 247,
+          "h": 125
+        },
+        "object_count": 5,
+        "original_objects": [
+          "shoe",
+          "shoe",
+          "shoe",
+          "shoe",
+          "shoe"
+        ]
+      },
+      "garment": {
+        "concept": "garment",
+        "bbox": {
+          "x": 37,
+          "y": 0,
+          "w": 291,
+          "h": 299
+        },
+        "object_count": 4,
+        "original_objects": [
+          "trouser",
+          "shirt",
+          "shirt",
+          "shirt"
+        ]
+      },
+      "hosiery": {
+        "concept": "hosiery",
+        "bbox": {
+          "x": 59,
+          "y": 262,
+          "w": 169,
+          "h": 61
+        },
+        "object_count": 4,
+        "original_objects": [
+          "sock",
+          "sock",
+          "sock",
+          "sock"
+        ]
+      },
+      "grey marks": {
+        "concept": "grey marks",
+        "bbox": {
+          "x": 56,
+          "y": 1,
+          "w": 209,
+          "h": 108
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grey marks"
+        ]
+      },
+      "cord": {
+        "concept": "cord",
+        "bbox": {
+          "x": 214,
+          "y": 287,
+          "w": 58,
+          "h": 35
+        },
+        "object_count": 2,
+        "original_objects": [
+          "lace",
+          "laces"
+        ]
+      },
+      "blue jeans": {
+        "concept": "blue jeans",
+        "bbox": {
+          "x": 46,
+          "y": 45,
+          "w": 274,
+          "h": 266
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blue jeans"
+        ]
+      },
+      "causal agent": {
+        "concept": "causal agent",
+        "bbox": {
+          "x": 34,
+          "y": 1,
+          "w": 297,
+          "h": 397
+        },
+        "object_count": 3,
+        "original_objects": [
+          "person",
+          "person",
+          "person"
+        ]
+      },
+      "thoroughfare": {
+        "concept": "thoroughfare",
+        "bbox": {
+          "x": 40,
+          "y": 129,
+          "w": 45,
+          "h": 73
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "underpants": {
+        "concept": "underpants",
+        "bbox": {
+          "x": 48,
+          "y": 60,
+          "w": 268,
+          "h": 248
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pants"
+        ]
+      },
+      "motor vehicle": {
+        "concept": "motor vehicle",
+        "bbox": {
+          "x": 2,
+          "y": 24,
+          "w": 87,
+          "h": 105
+        },
+        "object_count": 1,
+        "original_objects": [
+          "car"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 276,
+          "y": 59,
+          "w": 54,
+          "h": 87
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cone"
+        ]
+      },
+      "board": {
+        "concept": "board",
+        "bbox": {
+          "x": 17,
+          "y": 336,
+          "w": 314,
+          "h": 104
+        },
+        "object_count": 2,
+        "original_objects": [
+          "skateboard",
+          "skateboard"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 174,
+          "y": 4,
+          "w": 127,
+          "h": 355
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "verbal creation": {
+        "concept": "verbal creation",
+        "bbox": {
+          "x": 168,
+          "y": 13,
+          "w": 76,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 34,
+          "y": 1,
+          "w": 297,
+          "h": 397
+        },
+        "object_count": 4,
+        "original_objects": [
+          "man",
+          "person",
+          "person",
+          "person"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 2,
+          "y": 0,
+          "w": 329,
+          "h": 491
+        },
+        "object_count": 22,
+        "original_objects": [
+          "floor",
+          "shoe",
+          "shoe",
+          "trouser",
+          "sock",
+          "sock",
+          "shirt",
+          "lace",
+          "shoe",
+          "shoe",
+          "street",
+          "pants",
+          "car",
+          "cone",
+          "skateboard",
+          "shoe",
+          "skateboard",
+          "laces",
+          "sock",
+          "sock",
+          "shirt",
+          "shirt"
+        ]
+      },
+      "grey marks": {
+        "concept": "grey marks",
+        "bbox": {
+          "x": 56,
+          "y": 1,
+          "w": 209,
+          "h": 108
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grey marks"
+        ]
+      },
+      "blue jeans": {
+        "concept": "blue jeans",
+        "bbox": {
+          "x": 46,
+          "y": 45,
+          "w": 274,
+          "h": 266
+        },
+        "object_count": 1,
+        "original_objects": [
+          "blue jeans"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 174,
+          "y": 4,
+          "w": 127,
+          "h": 355
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "act": {
+        "concept": "act",
+        "bbox": {
+          "x": 168,
+          "y": 13,
+          "w": 76,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "writing"
+        ]
+      }
+    }
+  }
+}

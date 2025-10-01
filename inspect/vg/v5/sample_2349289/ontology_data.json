@@ -1,0 +1,100 @@
+{
+  "image_id": 2349289,
+  "hierarchy": {
+    "fine": [
+      "cream",
+      "crumb",
+      "dessert",
+      "leaf",
+      "plate",
+      "sauce"
+    ],
+    "mid": [
+      "base",
+      "condiment",
+      "course",
+      "elite",
+      "plant organ",
+      "small indefinite quantity"
+    ],
+    "coarse": [
+      "artifact",
+      "class",
+      "food",
+      "natural object",
+      "small indefinite quantity"
+    ]
+  },
+  "concept_paths": {
+    "sauce": [
+      "sauce",
+      "condiment",
+      "food"
+    ],
+    "leaf": [
+      "leaf",
+      "plant organ",
+      "natural object"
+    ],
+    "plate": [
+      "plate",
+      "base",
+      "artifact"
+    ],
+    "dessert": [
+      "dessert",
+      "course",
+      "food"
+    ],
+    "cream": [
+      "cream",
+      "elite",
+      "class"
+    ],
+    "crumb": [
+      "crumb",
+      "small indefinite quantity",
+      "small indefinite quantity"
+    ]
+  },
+  "object_to_levels": {
+    "sauce": {
+      "fine": "sauce",
+      "mid": "condiment",
+      "coarse": "food"
+    },
+    "leaf": {
+      "fine": "leaf",
+      "mid": "plant organ",
+      "coarse": "natural object"
+    },
+    "plate": {
+      "fine": "plate",
+      "mid": "base",
+      "coarse": "artifact"
+    },
+    "dessert": {
+      "fine": "dessert",
+      "mid": "course",
+      "coarse": "food"
+    },
+    "cream": {
+      "fine": "cream",
+      "mid": "elite",
+      "coarse": "class"
+    },
+    "crumb": {
+      "fine": "crumb",
+      "mid": "small indefinite quantity",
+      "coarse": "small indefinite quantity"
+    }
+  },
+  "statistics": {
+    "num_objects": 13,
+    "num_relationships": 5,
+    "fine_concepts": 6,
+    "mid_concepts": 6,
+    "coarse_concepts": 5,
+    "total_concepts": 17
+  }
+}

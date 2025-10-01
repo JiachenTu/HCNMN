@@ -1,0 +1,241 @@
+{
+  "image_id": 2317521,
+  "statistics": {
+    "num_objects": 10,
+    "num_relationships": 4,
+    "fine_concepts": 6,
+    "mid_concepts": 5,
+    "coarse_concepts": 3,
+    "total_concepts": 14
+  },
+  "merged_nodes": {
+    "fine": {
+      "pizza": {
+        "concept": "pizza",
+        "bbox": {
+          "x": 31,
+          "y": 81,
+          "w": 468,
+          "h": 244
+        },
+        "object_count": 4,
+        "original_objects": [
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza"
+        ]
+      },
+      "cloth": {
+        "concept": "cloth",
+        "bbox": {
+          "x": 1,
+          "y": 94,
+          "w": 497,
+          "h": 235
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cloth"
+        ]
+      },
+      "cheese": {
+        "concept": "cheese",
+        "bbox": {
+          "x": 69,
+          "y": 118,
+          "w": 430,
+          "h": 145
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cheese",
+          "cheese"
+        ]
+      },
+      "cheese/pizza": {
+        "concept": "cheese/pizza",
+        "bbox": {
+          "x": 178,
+          "y": 180,
+          "w": 317,
+          "h": 94
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cheese/pizza"
+        ]
+      },
+      "table": {
+        "concept": "table",
+        "bbox": {
+          "x": 0,
+          "y": 100,
+          "w": 498,
+          "h": 231
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      },
+      "brick": {
+        "concept": "brick",
+        "bbox": {
+          "x": 28,
+          "y": 23,
+          "w": 197,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "brick"
+        ]
+      }
+    },
+    "mid": {
+      "dish": {
+        "concept": "dish",
+        "bbox": {
+          "x": 31,
+          "y": 81,
+          "w": 468,
+          "h": 244
+        },
+        "object_count": 4,
+        "original_objects": [
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 1,
+          "y": 94,
+          "w": 497,
+          "h": 235
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cloth"
+        ]
+      },
+      "food": {
+        "concept": "food",
+        "bbox": {
+          "x": 69,
+          "y": 118,
+          "w": 430,
+          "h": 145
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cheese",
+          "cheese"
+        ]
+      },
+      "cheese/pizza": {
+        "concept": "cheese/pizza",
+        "bbox": {
+          "x": 178,
+          "y": 180,
+          "w": 317,
+          "h": 94
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cheese/pizza"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 0,
+          "y": 100,
+          "w": 498,
+          "h": 231
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      },
+      "building material": {
+        "concept": "building material",
+        "bbox": {
+          "x": 28,
+          "y": 23,
+          "w": 197,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "brick"
+        ]
+      }
+    },
+    "coarse": {
+      "food": {
+        "concept": "food",
+        "bbox": {
+          "x": 31,
+          "y": 81,
+          "w": 468,
+          "h": 244
+        },
+        "object_count": 6,
+        "original_objects": [
+          "pizza",
+          "pizza",
+          "cheese",
+          "cheese",
+          "pizza",
+          "pizza"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 1,
+          "y": 23,
+          "w": 497,
+          "h": 306
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cloth",
+          "brick"
+        ]
+      },
+      "cheese/pizza": {
+        "concept": "cheese/pizza",
+        "bbox": {
+          "x": 178,
+          "y": 180,
+          "w": 317,
+          "h": 94
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cheese/pizza"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 0,
+          "y": 100,
+          "w": 498,
+          "h": 231
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      }
+    }
+  }
+}

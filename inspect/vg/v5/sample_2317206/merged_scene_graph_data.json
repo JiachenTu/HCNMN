@@ -1,0 +1,484 @@
+{
+  "image_id": 2317206,
+  "statistics": {
+    "num_objects": 15,
+    "num_relationships": 20,
+    "fine_concepts": 15,
+    "mid_concepts": 11,
+    "coarse_concepts": 6,
+    "total_concepts": 32
+  },
+  "merged_nodes": {
+    "fine": {
+      "bear": {
+        "concept": "bear",
+        "bbox": {
+          "x": 99,
+          "y": 91,
+          "w": 259,
+          "h": 115
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bear"
+        ]
+      },
+      "grass": {
+        "concept": "grass",
+        "bbox": {
+          "x": 381,
+          "y": 229,
+          "w": 51,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "ears": {
+        "concept": "ears",
+        "bbox": {
+          "x": 143,
+          "y": 108,
+          "w": 65,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ears"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 150,
+          "y": 164,
+          "w": 12,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "sun": {
+        "concept": "sun",
+        "bbox": {
+          "x": 264,
+          "y": 109,
+          "w": 50,
+          "h": 37
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "eyes": {
+        "concept": "eyes",
+        "bbox": {
+          "x": 145,
+          "y": 135,
+          "w": 42,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "white mark": {
+        "concept": "white mark",
+        "bbox": {
+          "x": 208,
+          "y": 112,
+          "w": 22,
+          "h": 51
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white mark"
+        ]
+      },
+      "snout": {
+        "concept": "snout",
+        "bbox": {
+          "x": 153,
+          "y": 152,
+          "w": 24,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snout"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 146,
+          "y": 113,
+          "w": 59,
+          "h": 62
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 175,
+          "y": 111,
+          "w": 18,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "ground": {
+        "concept": "ground",
+        "bbox": {
+          "x": 213,
+          "y": 279,
+          "w": 99,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "eye": {
+        "concept": "eye",
+        "bbox": {
+          "x": 171,
+          "y": 138,
+          "w": 12,
+          "h": 18
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eye"
+        ]
+      },
+      "leg": {
+        "concept": "leg",
+        "bbox": {
+          "x": 208,
+          "y": 180,
+          "w": 15,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "leg"
+        ]
+      },
+      "back": {
+        "concept": "back",
+        "bbox": {
+          "x": 211,
+          "y": 97,
+          "w": 109,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "back"
+        ]
+      },
+      "weeds": {
+        "concept": "weeds",
+        "bbox": {
+          "x": 444,
+          "y": 192,
+          "w": 34,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "weeds"
+        ]
+      }
+    },
+    "mid": {
+      "carnivore": {
+        "concept": "carnivore",
+        "bbox": {
+          "x": 99,
+          "y": 91,
+          "w": 259,
+          "h": 115
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bear"
+        ]
+      },
+      "gramineous plant": {
+        "concept": "gramineous plant",
+        "bbox": {
+          "x": 381,
+          "y": 229,
+          "w": 51,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 143,
+          "y": 108,
+          "w": 65,
+          "h": 48
+        },
+        "object_count": 3,
+        "original_objects": [
+          "ears",
+          "ear",
+          "eye"
+        ]
+      },
+      "chemoreceptor": {
+        "concept": "chemoreceptor",
+        "bbox": {
+          "x": 150,
+          "y": 164,
+          "w": 12,
+          "h": 8
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "sun": {
+        "concept": "sun",
+        "bbox": {
+          "x": 264,
+          "y": 109,
+          "w": 50,
+          "h": 37
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "opinion": {
+        "concept": "opinion",
+        "bbox": {
+          "x": 145,
+          "y": 135,
+          "w": 42,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "white mark": {
+        "concept": "white mark",
+        "bbox": {
+          "x": 208,
+          "y": 112,
+          "w": 22,
+          "h": 51
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white mark"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 153,
+          "y": 152,
+          "w": 24,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "snout"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 146,
+          "y": 113,
+          "w": 59,
+          "h": 62
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "object": {
+        "concept": "object",
+        "bbox": {
+          "x": 213,
+          "y": 279,
+          "w": 99,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 208,
+          "y": 180,
+          "w": 15,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "leg"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 211,
+          "y": 97,
+          "w": 109,
+          "h": 22
+        },
+        "object_count": 1,
+        "original_objects": [
+          "back"
+        ]
+      },
+      "garment": {
+        "concept": "garment",
+        "bbox": {
+          "x": 444,
+          "y": 192,
+          "w": 34,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "weeds"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 99,
+          "y": 91,
+          "w": 333,
+          "h": 173
+        },
+        "object_count": 2,
+        "original_objects": [
+          "bear",
+          "grass"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 143,
+          "y": 97,
+          "w": 177,
+          "h": 109
+        },
+        "object_count": 8,
+        "original_objects": [
+          "ears",
+          "nose",
+          "snout",
+          "head",
+          "ear",
+          "eye",
+          "leg",
+          "back"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 264,
+          "y": 109,
+          "w": 50,
+          "h": 37
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sun"
+        ]
+      },
+      "content": {
+        "concept": "content",
+        "bbox": {
+          "x": 145,
+          "y": 135,
+          "w": 42,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eyes"
+        ]
+      },
+      "white mark": {
+        "concept": "white mark",
+        "bbox": {
+          "x": 208,
+          "y": 112,
+          "w": 22,
+          "h": 51
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white mark"
+        ]
+      },
+      "land": {
+        "concept": "land",
+        "bbox": {
+          "x": 213,
+          "y": 279,
+          "w": 99,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 444,
+          "y": 192,
+          "w": 34,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "weeds"
+        ]
+      }
+    }
+  }
+}

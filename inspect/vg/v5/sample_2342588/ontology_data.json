@@ -1,0 +1,218 @@
+{
+  "image_id": 2342588,
+  "hierarchy": {
+    "fine": [
+      "adult elephant",
+      "baby elephant",
+      "branch",
+      "branches",
+      "ear",
+      "elephant trunk",
+      "elephants",
+      "front legs",
+      "grass",
+      "ground",
+      "hind legs",
+      "leaves",
+      "legs",
+      "sunlight",
+      "tree",
+      "woods"
+    ],
+    "mid": [
+      "adult elephant",
+      "baby elephant",
+      "division",
+      "elephant trunk",
+      "front legs",
+      "gramineous plant",
+      "hind limb",
+      "light",
+      "object",
+      "pachyderm",
+      "plant organ",
+      "sense organ",
+      "stamina",
+      "vegetation",
+      "woody plant"
+    ],
+    "coarse": [
+      "adult elephant",
+      "baby elephant",
+      "body part",
+      "elephant trunk",
+      "front legs",
+      "land",
+      "living thing",
+      "natural object",
+      "natural phenomenon",
+      "organization",
+      "strength",
+      "vegetation"
+    ]
+  },
+  "concept_paths": {
+    "baby elephant": [
+      "baby elephant"
+    ],
+    "elephant trunk": [
+      "elephant trunk"
+    ],
+    "branch": [
+      "branch",
+      "division",
+      "organization"
+    ],
+    "grass": [
+      "grass",
+      "gramineous plant",
+      "living thing"
+    ],
+    "leaves": [
+      "leaves",
+      "plant organ",
+      "natural object"
+    ],
+    "woods": [
+      "woods",
+      "vegetation",
+      "vegetation"
+    ],
+    "branches": [
+      "branches",
+      "division",
+      "organization"
+    ],
+    "adult elephant": [
+      "adult elephant"
+    ],
+    "legs": [
+      "legs",
+      "stamina",
+      "strength"
+    ],
+    "ground": [
+      "ground",
+      "object",
+      "land"
+    ],
+    "tree": [
+      "tree",
+      "woody plant",
+      "living thing"
+    ],
+    "ear": [
+      "ear",
+      "sense organ",
+      "body part"
+    ],
+    "hind legs": [
+      "hind legs",
+      "hind limb",
+      "body part"
+    ],
+    "sunlight": [
+      "sunlight",
+      "light",
+      "natural phenomenon"
+    ],
+    "elephants": [
+      "elephants",
+      "pachyderm",
+      "living thing"
+    ],
+    "front legs": [
+      "front legs"
+    ]
+  },
+  "object_to_levels": {
+    "baby elephant": {
+      "fine": "baby elephant",
+      "mid": "baby elephant",
+      "coarse": "baby elephant"
+    },
+    "elephant trunk": {
+      "fine": "elephant trunk",
+      "mid": "elephant trunk",
+      "coarse": "elephant trunk"
+    },
+    "branch": {
+      "fine": "branch",
+      "mid": "division",
+      "coarse": "organization"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "gramineous plant",
+      "coarse": "living thing"
+    },
+    "leaves": {
+      "fine": "leaves",
+      "mid": "plant organ",
+      "coarse": "natural object"
+    },
+    "woods": {
+      "fine": "woods",
+      "mid": "vegetation",
+      "coarse": "vegetation"
+    },
+    "branches": {
+      "fine": "branches",
+      "mid": "division",
+      "coarse": "organization"
+    },
+    "adult elephant": {
+      "fine": "adult elephant",
+      "mid": "adult elephant",
+      "coarse": "adult elephant"
+    },
+    "legs": {
+      "fine": "legs",
+      "mid": "stamina",
+      "coarse": "strength"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "object",
+      "coarse": "land"
+    },
+    "tree": {
+      "fine": "tree",
+      "mid": "woody plant",
+      "coarse": "living thing"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "hind legs": {
+      "fine": "hind legs",
+      "mid": "hind limb",
+      "coarse": "body part"
+    },
+    "sunlight": {
+      "fine": "sunlight",
+      "mid": "light",
+      "coarse": "natural phenomenon"
+    },
+    "elephants": {
+      "fine": "elephants",
+      "mid": "pachyderm",
+      "coarse": "living thing"
+    },
+    "front legs": {
+      "fine": "front legs",
+      "mid": "front legs",
+      "coarse": "front legs"
+    }
+  },
+  "statistics": {
+    "num_objects": 22,
+    "num_relationships": 37,
+    "fine_concepts": 16,
+    "mid_concepts": 15,
+    "coarse_concepts": 12,
+    "total_concepts": 43
+  }
+}

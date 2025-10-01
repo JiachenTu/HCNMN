@@ -1,0 +1,217 @@
+{
+  "image_id": 2347219,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "car",
+      "cone",
+      "floor",
+      "grey marks",
+      "lace",
+      "laces",
+      "man",
+      "pants",
+      "person",
+      "shirt",
+      "shoe",
+      "skateboard",
+      "sock",
+      "street",
+      "writing"
+    ],
+    "mid": [
+      "adult",
+      "artifact",
+      "board",
+      "cord",
+      "footwear",
+      "garment",
+      "grey marks",
+      "horizontal surface",
+      "hosiery",
+      "limb",
+      "motor vehicle",
+      "organism",
+      "thoroughfare",
+      "underpants",
+      "verbal creation"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "body part",
+      "grey marks",
+      "living thing"
+    ]
+  },
+  "concept_paths": {
+    "arm": [
+      "arm",
+      "limb",
+      "body part"
+    ],
+    "laces": [
+      "laces",
+      "cord",
+      "artifact"
+    ],
+    "cone": [
+      "cone",
+      "artifact",
+      "artifact"
+    ],
+    "car": [
+      "car",
+      "motor vehicle",
+      "artifact"
+    ],
+    "shirt": [
+      "shirt",
+      "garment",
+      "artifact"
+    ],
+    "street": [
+      "street",
+      "thoroughfare",
+      "artifact"
+    ],
+    "man": [
+      "man",
+      "adult",
+      "living thing"
+    ],
+    "shoe": [
+      "shoe",
+      "footwear",
+      "artifact"
+    ],
+    "sock": [
+      "sock",
+      "hosiery",
+      "artifact"
+    ],
+    "pants": [
+      "pants",
+      "underpants",
+      "artifact"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "living thing"
+    ],
+    "writing": [
+      "writing",
+      "verbal creation",
+      "act"
+    ],
+    "grey marks": [
+      "grey marks"
+    ],
+    "floor": [
+      "floor",
+      "horizontal surface",
+      "artifact"
+    ],
+    "lace": [
+      "lace",
+      "cord",
+      "artifact"
+    ],
+    "skateboard": [
+      "skateboard",
+      "board",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "arm": {
+      "fine": "arm",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "laces": {
+      "fine": "laces",
+      "mid": "cord",
+      "coarse": "artifact"
+    },
+    "cone": {
+      "fine": "cone",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "car": {
+      "fine": "car",
+      "mid": "motor vehicle",
+      "coarse": "artifact"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "garment",
+      "coarse": "artifact"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "thoroughfare",
+      "coarse": "artifact"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "adult",
+      "coarse": "living thing"
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "footwear",
+      "coarse": "artifact"
+    },
+    "sock": {
+      "fine": "sock",
+      "mid": "hosiery",
+      "coarse": "artifact"
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "underpants",
+      "coarse": "artifact"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "living thing"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "verbal creation",
+      "coarse": "act"
+    },
+    "grey marks": {
+      "fine": "grey marks",
+      "mid": "grey marks",
+      "coarse": "grey marks"
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "horizontal surface",
+      "coarse": "artifact"
+    },
+    "lace": {
+      "fine": "lace",
+      "mid": "cord",
+      "coarse": "artifact"
+    },
+    "skateboard": {
+      "fine": "skateboard",
+      "mid": "board",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 5,
+    "fine_concepts": 16,
+    "mid_concepts": 15,
+    "coarse_concepts": 5,
+    "total_concepts": 36
+  }
+}

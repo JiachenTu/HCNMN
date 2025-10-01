@@ -1,0 +1,316 @@
+{
+  "image_id": 2319113,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "arrow",
+      "back",
+      "backpack",
+      "ear",
+      "fence",
+      "foot",
+      "gate",
+      "graffiti",
+      "grass",
+      "hand",
+      "hat",
+      "head",
+      "leg",
+      "man",
+      "post",
+      "road",
+      "shirt",
+      "shorts",
+      "shoulder",
+      "sign",
+      "stick",
+      "stop",
+      "tree"
+    ],
+    "mid": [
+      "bag",
+      "barrier",
+      "body part",
+      "clue",
+      "decoration",
+      "ending",
+      "external body part",
+      "extremity",
+      "garment",
+      "gramineous plant",
+      "headdress",
+      "implement",
+      "limb",
+      "male",
+      "mark",
+      "movable barrier",
+      "position",
+      "sense organ",
+      "trouser",
+      "vertebrate foot",
+      "way",
+      "woody plant"
+    ],
+    "coarse": [
+      "artifact",
+      "body part",
+      "evidence",
+      "happening",
+      "living thing",
+      "point",
+      "symbol"
+    ]
+  },
+  "concept_paths": {
+    "grass": [
+      "grass",
+      "gramineous plant",
+      "living thing"
+    ],
+    "road": [
+      "road",
+      "way",
+      "artifact"
+    ],
+    "post": [
+      "post",
+      "position",
+      "point"
+    ],
+    "shorts": [
+      "shorts",
+      "trouser",
+      "artifact"
+    ],
+    "stick": [
+      "stick",
+      "implement",
+      "artifact"
+    ],
+    "hat": [
+      "hat",
+      "headdress",
+      "artifact"
+    ],
+    "arrow": [
+      "arrow",
+      "mark",
+      "symbol"
+    ],
+    "shirt": [
+      "shirt",
+      "garment",
+      "artifact"
+    ],
+    "tree": [
+      "tree",
+      "woody plant",
+      "living thing"
+    ],
+    "sign": [
+      "sign",
+      "clue",
+      "evidence"
+    ],
+    "backpack": [
+      "backpack",
+      "bag",
+      "artifact"
+    ],
+    "shoulder": [
+      "shoulder",
+      "body part",
+      "body part"
+    ],
+    "gate": [
+      "gate",
+      "movable barrier",
+      "artifact"
+    ],
+    "graffiti": [
+      "graffiti",
+      "decoration",
+      "artifact"
+    ],
+    "stop": [
+      "stop",
+      "ending",
+      "happening"
+    ],
+    "head": [
+      "head",
+      "external body part",
+      "body part"
+    ],
+    "man": [
+      "man",
+      "male",
+      "living thing"
+    ],
+    "leg": [
+      "leg",
+      "limb",
+      "body part"
+    ],
+    "hand": [
+      "hand",
+      "extremity",
+      "body part"
+    ],
+    "ear": [
+      "ear",
+      "sense organ",
+      "body part"
+    ],
+    "back": [
+      "back",
+      "body part",
+      "body part"
+    ],
+    "arm": [
+      "arm",
+      "limb",
+      "body part"
+    ],
+    "foot": [
+      "foot",
+      "vertebrate foot",
+      "body part"
+    ],
+    "fence": [
+      "fence",
+      "barrier",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "grass": {
+      "fine": "grass",
+      "mid": "gramineous plant",
+      "coarse": "living thing"
+    },
+    "road": {
+      "fine": "road",
+      "mid": "way",
+      "coarse": "artifact"
+    },
+    "post": {
+      "fine": "post",
+      "mid": "position",
+      "coarse": "point"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "trouser",
+      "coarse": "artifact"
+    },
+    "stick": {
+      "fine": "stick",
+      "mid": "implement",
+      "coarse": "artifact"
+    },
+    "hat": {
+      "fine": "hat",
+      "mid": "headdress",
+      "coarse": "artifact"
+    },
+    "arrow": {
+      "fine": "arrow",
+      "mid": "mark",
+      "coarse": "symbol"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "garment",
+      "coarse": "artifact"
+    },
+    "tree": {
+      "fine": "tree",
+      "mid": "woody plant",
+      "coarse": "living thing"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "clue",
+      "coarse": "evidence"
+    },
+    "backpack": {
+      "fine": "backpack",
+      "mid": "bag",
+      "coarse": "artifact"
+    },
+    "shoulder": {
+      "fine": "shoulder",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "gate": {
+      "fine": "gate",
+      "mid": "movable barrier",
+      "coarse": "artifact"
+    },
+    "graffiti": {
+      "fine": "graffiti",
+      "mid": "decoration",
+      "coarse": "artifact"
+    },
+    "stop": {
+      "fine": "stop",
+      "mid": "ending",
+      "coarse": "happening"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "male",
+      "coarse": "living thing"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "extremity",
+      "coarse": "body part"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "back": {
+      "fine": "back",
+      "mid": "body part",
+      "coarse": "body part"
+    },
+    "arm": {
+      "fine": "arm",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "foot": {
+      "fine": "foot",
+      "mid": "vertebrate foot",
+      "coarse": "body part"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "barrier",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 27,
+    "num_relationships": 37,
+    "fine_concepts": 24,
+    "mid_concepts": 22,
+    "coarse_concepts": 7,
+    "total_concepts": 53
+  }
+}

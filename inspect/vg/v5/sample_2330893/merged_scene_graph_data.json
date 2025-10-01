@@ -1,0 +1,445 @@
+{
+  "image_id": 2330893,
+  "statistics": {
+    "num_objects": 26,
+    "num_relationships": 8,
+    "fine_concepts": 11,
+    "mid_concepts": 8,
+    "coarse_concepts": 6,
+    "total_concepts": 25
+  },
+  "merged_nodes": {
+    "fine": {
+      "broccoli": {
+        "concept": "broccoli",
+        "bbox": {
+          "x": 197,
+          "y": 38,
+          "w": 269,
+          "h": 255
+        },
+        "object_count": 11,
+        "original_objects": [
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli"
+        ]
+      },
+      "cutting board": {
+        "concept": "cutting board",
+        "bbox": {
+          "x": 67,
+          "y": 0,
+          "w": 432,
+          "h": 331
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cutting board"
+        ]
+      },
+      "brocolli": {
+        "concept": "brocolli",
+        "bbox": {
+          "x": 186,
+          "y": 0,
+          "w": 300,
+          "h": 291
+        },
+        "object_count": 2,
+        "original_objects": [
+          "brocolli",
+          "brocolli"
+        ]
+      },
+      "board": {
+        "concept": "board",
+        "bbox": {
+          "x": 67,
+          "y": 4,
+          "w": 432,
+          "h": 327
+        },
+        "object_count": 2,
+        "original_objects": [
+          "board",
+          "board"
+        ]
+      },
+      "table": {
+        "concept": "table",
+        "bbox": {
+          "x": 4,
+          "y": 2,
+          "w": 494,
+          "h": 329
+        },
+        "object_count": 2,
+        "original_objects": [
+          "table",
+          "table"
+        ]
+      },
+      "knife": {
+        "concept": "knife",
+        "bbox": {
+          "x": 359,
+          "y": 104,
+          "w": 139,
+          "h": 194
+        },
+        "object_count": 2,
+        "original_objects": [
+          "knife",
+          "knife"
+        ]
+      },
+      "can": {
+        "concept": "can",
+        "bbox": {
+          "x": 1,
+          "y": 169,
+          "w": 136,
+          "h": 158
+        },
+        "object_count": 2,
+        "original_objects": [
+          "can",
+          "can"
+        ]
+      },
+      "floor": {
+        "concept": "floor",
+        "bbox": {
+          "x": 1,
+          "y": 144,
+          "w": 159,
+          "h": 170
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "bag": {
+        "concept": "bag",
+        "bbox": {
+          "x": 63,
+          "y": 203,
+          "w": 62,
+          "h": 127
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bag"
+        ]
+      },
+      "ground": {
+        "concept": "ground",
+        "bbox": {
+          "x": 148,
+          "y": 286,
+          "w": 36,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "piece": {
+        "concept": "piece",
+        "bbox": {
+          "x": 281,
+          "y": 112,
+          "w": 32,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      }
+    },
+    "mid": {
+      "crucifer": {
+        "concept": "crucifer",
+        "bbox": {
+          "x": 197,
+          "y": 38,
+          "w": 269,
+          "h": 255
+        },
+        "object_count": 11,
+        "original_objects": [
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli"
+        ]
+      },
+      "cutting board": {
+        "concept": "cutting board",
+        "bbox": {
+          "x": 67,
+          "y": 0,
+          "w": 432,
+          "h": 331
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cutting board"
+        ]
+      },
+      "brocolli": {
+        "concept": "brocolli",
+        "bbox": {
+          "x": 186,
+          "y": 0,
+          "w": 300,
+          "h": 291
+        },
+        "object_count": 2,
+        "original_objects": [
+          "brocolli",
+          "brocolli"
+        ]
+      },
+      "committee": {
+        "concept": "committee",
+        "bbox": {
+          "x": 67,
+          "y": 4,
+          "w": 432,
+          "h": 327
+        },
+        "object_count": 2,
+        "original_objects": [
+          "board",
+          "board"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 4,
+          "y": 2,
+          "w": 494,
+          "h": 329
+        },
+        "object_count": 2,
+        "original_objects": [
+          "table",
+          "table"
+        ]
+      },
+      "edge tool": {
+        "concept": "edge tool",
+        "bbox": {
+          "x": 359,
+          "y": 104,
+          "w": 139,
+          "h": 194
+        },
+        "object_count": 2,
+        "original_objects": [
+          "knife",
+          "knife"
+        ]
+      },
+      "container": {
+        "concept": "container",
+        "bbox": {
+          "x": 1,
+          "y": 169,
+          "w": 136,
+          "h": 161
+        },
+        "object_count": 3,
+        "original_objects": [
+          "can",
+          "bag",
+          "can"
+        ]
+      },
+      "horizontal surface": {
+        "concept": "horizontal surface",
+        "bbox": {
+          "x": 1,
+          "y": 144,
+          "w": 159,
+          "h": 170
+        },
+        "object_count": 1,
+        "original_objects": [
+          "floor"
+        ]
+      },
+      "object": {
+        "concept": "object",
+        "bbox": {
+          "x": 148,
+          "y": 286,
+          "w": 36,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "part": {
+        "concept": "part",
+        "bbox": {
+          "x": 281,
+          "y": 112,
+          "w": 32,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 197,
+          "y": 38,
+          "w": 269,
+          "h": 255
+        },
+        "object_count": 11,
+        "original_objects": [
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli",
+          "broccoli"
+        ]
+      },
+      "cutting board": {
+        "concept": "cutting board",
+        "bbox": {
+          "x": 67,
+          "y": 0,
+          "w": 432,
+          "h": 331
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cutting board"
+        ]
+      },
+      "brocolli": {
+        "concept": "brocolli",
+        "bbox": {
+          "x": 186,
+          "y": 0,
+          "w": 300,
+          "h": 291
+        },
+        "object_count": 2,
+        "original_objects": [
+          "brocolli",
+          "brocolli"
+        ]
+      },
+      "organization": {
+        "concept": "organization",
+        "bbox": {
+          "x": 67,
+          "y": 4,
+          "w": 432,
+          "h": 327
+        },
+        "object_count": 2,
+        "original_objects": [
+          "board",
+          "board"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 4,
+          "y": 2,
+          "w": 494,
+          "h": 329
+        },
+        "object_count": 2,
+        "original_objects": [
+          "table",
+          "table"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 1,
+          "y": 104,
+          "w": 497,
+          "h": 226
+        },
+        "object_count": 6,
+        "original_objects": [
+          "knife",
+          "can",
+          "floor",
+          "bag",
+          "can",
+          "knife"
+        ]
+      },
+      "land": {
+        "concept": "land",
+        "bbox": {
+          "x": 148,
+          "y": 286,
+          "w": 36,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ground"
+        ]
+      },
+      "piece": {
+        "concept": "piece",
+        "bbox": {
+          "x": 281,
+          "y": 112,
+          "w": 32,
+          "h": 28
+        },
+        "object_count": 1,
+        "original_objects": [
+          "piece"
+        ]
+      }
+    }
+  }
+}

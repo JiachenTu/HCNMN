@@ -1,0 +1,205 @@
+{
+  "image_id": 2337091,
+  "hierarchy": {
+    "fine": [
+      "building",
+      "car",
+      "letter d",
+      "light",
+      "pole",
+      "power lines",
+      "powerlines",
+      "road",
+      "sidewalk",
+      "sign",
+      "street",
+      "triangle",
+      "truck",
+      "window",
+      "windows"
+    ],
+    "mid": [
+      "actinic radiation",
+      "cable",
+      "clue",
+      "framework",
+      "letter d",
+      "motor vehicle",
+      "operating system",
+      "polygon",
+      "powerlines",
+      "rod",
+      "structure",
+      "thoroughfare",
+      "walk",
+      "way"
+    ],
+    "coarse": [
+      "artifact",
+      "evidence",
+      "figure",
+      "letter d",
+      "natural phenomenon",
+      "powerlines",
+      "writing"
+    ]
+  },
+  "concept_paths": {
+    "car": [
+      "car",
+      "motor vehicle",
+      "artifact"
+    ],
+    "triangle": [
+      "triangle",
+      "polygon",
+      "figure"
+    ],
+    "road": [
+      "road",
+      "way",
+      "artifact"
+    ],
+    "sign": [
+      "sign",
+      "clue",
+      "evidence"
+    ],
+    "pole": [
+      "pole",
+      "rod",
+      "artifact"
+    ],
+    "truck": [
+      "truck",
+      "motor vehicle",
+      "artifact"
+    ],
+    "light": [
+      "light",
+      "actinic radiation",
+      "natural phenomenon"
+    ],
+    "power lines": [
+      "power lines",
+      "cable",
+      "artifact"
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "walk",
+      "artifact"
+    ],
+    "windows": [
+      "windows",
+      "operating system",
+      "writing"
+    ],
+    "letter d": [
+      "letter d"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "artifact"
+    ],
+    "window": [
+      "window",
+      "framework",
+      "artifact"
+    ],
+    "powerlines": [
+      "powerlines"
+    ],
+    "street": [
+      "street",
+      "thoroughfare",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "car": {
+      "fine": "car",
+      "mid": "motor vehicle",
+      "coarse": "artifact"
+    },
+    "triangle": {
+      "fine": "triangle",
+      "mid": "polygon",
+      "coarse": "figure"
+    },
+    "road": {
+      "fine": "road",
+      "mid": "way",
+      "coarse": "artifact"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "clue",
+      "coarse": "evidence"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "rod",
+      "coarse": "artifact"
+    },
+    "truck": {
+      "fine": "truck",
+      "mid": "motor vehicle",
+      "coarse": "artifact"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "actinic radiation",
+      "coarse": "natural phenomenon"
+    },
+    "power lines": {
+      "fine": "power lines",
+      "mid": "cable",
+      "coarse": "artifact"
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "walk",
+      "coarse": "artifact"
+    },
+    "windows": {
+      "fine": "windows",
+      "mid": "operating system",
+      "coarse": "writing"
+    },
+    "letter d": {
+      "fine": "letter d",
+      "mid": "letter d",
+      "coarse": "letter d"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "artifact"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "framework",
+      "coarse": "artifact"
+    },
+    "powerlines": {
+      "fine": "powerlines",
+      "mid": "powerlines",
+      "coarse": "powerlines"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "thoroughfare",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 19,
+    "num_relationships": 17,
+    "fine_concepts": 15,
+    "mid_concepts": 14,
+    "coarse_concepts": 7,
+    "total_concepts": 36
+  }
+}

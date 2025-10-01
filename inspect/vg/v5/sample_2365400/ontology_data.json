@@ -1,0 +1,245 @@
+{
+  "image_id": 2365400,
+  "hierarchy": {
+    "fine": [
+      "cat",
+      "chest hair",
+      "door",
+      "ears",
+      "eyes",
+      "face",
+      "floor",
+      "flower",
+      "hinge",
+      "mat",
+      "molding",
+      "nose",
+      "paws",
+      "piece",
+      "strap",
+      "umbrella",
+      "wall",
+      "whiskers"
+    ],
+    "mid": [
+      "angiosperm",
+      "animal foot",
+      "canopy",
+      "chemoreceptor",
+      "chest hair",
+      "creating from raw materials",
+      "external body part",
+      "facial hair",
+      "feline",
+      "floor cover",
+      "horizontal surface",
+      "joint",
+      "leather strip",
+      "movable barrier",
+      "opinion",
+      "part",
+      "partition",
+      "sense organ"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "body part",
+      "chest hair",
+      "content",
+      "living thing",
+      "natural object",
+      "piece"
+    ]
+  },
+  "concept_paths": {
+    "hinge": [
+      "hinge",
+      "joint",
+      "artifact"
+    ],
+    "chest hair": [
+      "chest hair"
+    ],
+    "flower": [
+      "flower",
+      "angiosperm",
+      "living thing"
+    ],
+    "floor": [
+      "floor",
+      "horizontal surface",
+      "artifact"
+    ],
+    "piece": [
+      "piece",
+      "part",
+      "piece"
+    ],
+    "face": [
+      "face",
+      "external body part",
+      "body part"
+    ],
+    "nose": [
+      "nose",
+      "chemoreceptor",
+      "body part"
+    ],
+    "mat": [
+      "mat",
+      "floor cover",
+      "artifact"
+    ],
+    "door": [
+      "door",
+      "movable barrier",
+      "artifact"
+    ],
+    "whiskers": [
+      "whiskers",
+      "facial hair",
+      "natural object"
+    ],
+    "paws": [
+      "paws",
+      "animal foot",
+      "body part"
+    ],
+    "eyes": [
+      "eyes",
+      "opinion",
+      "content"
+    ],
+    "molding": [
+      "molding",
+      "creating from raw materials",
+      "act"
+    ],
+    "strap": [
+      "strap",
+      "leather strip",
+      "artifact"
+    ],
+    "umbrella": [
+      "umbrella",
+      "canopy",
+      "artifact"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "artifact"
+    ],
+    "ears": [
+      "ears",
+      "sense organ",
+      "body part"
+    ],
+    "cat": [
+      "cat",
+      "feline",
+      "living thing"
+    ]
+  },
+  "object_to_levels": {
+    "hinge": {
+      "fine": "hinge",
+      "mid": "joint",
+      "coarse": "artifact"
+    },
+    "chest hair": {
+      "fine": "chest hair",
+      "mid": "chest hair",
+      "coarse": "chest hair"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "angiosperm",
+      "coarse": "living thing"
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "horizontal surface",
+      "coarse": "artifact"
+    },
+    "piece": {
+      "fine": "piece",
+      "mid": "part",
+      "coarse": "piece"
+    },
+    "face": {
+      "fine": "face",
+      "mid": "external body part",
+      "coarse": "body part"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "chemoreceptor",
+      "coarse": "body part"
+    },
+    "mat": {
+      "fine": "mat",
+      "mid": "floor cover",
+      "coarse": "artifact"
+    },
+    "door": {
+      "fine": "door",
+      "mid": "movable barrier",
+      "coarse": "artifact"
+    },
+    "whiskers": {
+      "fine": "whiskers",
+      "mid": "facial hair",
+      "coarse": "natural object"
+    },
+    "paws": {
+      "fine": "paws",
+      "mid": "animal foot",
+      "coarse": "body part"
+    },
+    "eyes": {
+      "fine": "eyes",
+      "mid": "opinion",
+      "coarse": "content"
+    },
+    "molding": {
+      "fine": "molding",
+      "mid": "creating from raw materials",
+      "coarse": "act"
+    },
+    "strap": {
+      "fine": "strap",
+      "mid": "leather strip",
+      "coarse": "artifact"
+    },
+    "umbrella": {
+      "fine": "umbrella",
+      "mid": "canopy",
+      "coarse": "artifact"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "artifact"
+    },
+    "ears": {
+      "fine": "ears",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "cat": {
+      "fine": "cat",
+      "mid": "feline",
+      "coarse": "living thing"
+    }
+  },
+  "statistics": {
+    "num_objects": 19,
+    "num_relationships": 29,
+    "fine_concepts": 18,
+    "mid_concepts": 18,
+    "coarse_concepts": 8,
+    "total_concepts": 44
+  }
+}

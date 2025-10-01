@@ -1,0 +1,193 @@
+{
+  "image_id": 2316149,
+  "hierarchy": {
+    "fine": [
+      "bat",
+      "batter",
+      "batter box",
+      "batters",
+      "cages",
+      "catcher",
+      "field",
+      "head",
+      "helmet",
+      "man",
+      "pants",
+      "plate",
+      "shorts",
+      "umpire"
+    ],
+    "mid": [
+      "armor plate",
+      "ballplayer",
+      "base",
+      "batter box",
+      "enclosure",
+      "external body part",
+      "infielder",
+      "male",
+      "official",
+      "placental",
+      "tract",
+      "trouser",
+      "underpants"
+    ],
+    "coarse": [
+      "artifact",
+      "batter box",
+      "body part",
+      "living thing",
+      "region"
+    ]
+  },
+  "concept_paths": {
+    "bat": [
+      "bat",
+      "placental",
+      "living thing"
+    ],
+    "man": [
+      "man",
+      "male",
+      "living thing"
+    ],
+    "plate": [
+      "plate",
+      "base",
+      "artifact"
+    ],
+    "pants": [
+      "pants",
+      "underpants",
+      "artifact"
+    ],
+    "batters": [
+      "batters",
+      "ballplayer",
+      "living thing"
+    ],
+    "umpire": [
+      "umpire",
+      "official",
+      "living thing"
+    ],
+    "cages": [
+      "cages",
+      "enclosure",
+      "artifact"
+    ],
+    "field": [
+      "field",
+      "tract",
+      "region"
+    ],
+    "shorts": [
+      "shorts",
+      "trouser",
+      "artifact"
+    ],
+    "catcher": [
+      "catcher",
+      "infielder",
+      "living thing"
+    ],
+    "batter box": [
+      "batter box"
+    ],
+    "helmet": [
+      "helmet",
+      "armor plate",
+      "artifact"
+    ],
+    "batter": [
+      "batter",
+      "ballplayer",
+      "living thing"
+    ],
+    "head": [
+      "head",
+      "external body part",
+      "body part"
+    ]
+  },
+  "object_to_levels": {
+    "bat": {
+      "fine": "bat",
+      "mid": "placental",
+      "coarse": "living thing"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "male",
+      "coarse": "living thing"
+    },
+    "plate": {
+      "fine": "plate",
+      "mid": "base",
+      "coarse": "artifact"
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "underpants",
+      "coarse": "artifact"
+    },
+    "batters": {
+      "fine": "batters",
+      "mid": "ballplayer",
+      "coarse": "living thing"
+    },
+    "umpire": {
+      "fine": "umpire",
+      "mid": "official",
+      "coarse": "living thing"
+    },
+    "cages": {
+      "fine": "cages",
+      "mid": "enclosure",
+      "coarse": "artifact"
+    },
+    "field": {
+      "fine": "field",
+      "mid": "tract",
+      "coarse": "region"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "trouser",
+      "coarse": "artifact"
+    },
+    "catcher": {
+      "fine": "catcher",
+      "mid": "infielder",
+      "coarse": "living thing"
+    },
+    "batter box": {
+      "fine": "batter box",
+      "mid": "batter box",
+      "coarse": "batter box"
+    },
+    "helmet": {
+      "fine": "helmet",
+      "mid": "armor plate",
+      "coarse": "artifact"
+    },
+    "batter": {
+      "fine": "batter",
+      "mid": "ballplayer",
+      "coarse": "living thing"
+    },
+    "head": {
+      "fine": "head",
+      "mid": "external body part",
+      "coarse": "body part"
+    }
+  },
+  "statistics": {
+    "num_objects": 18,
+    "num_relationships": 15,
+    "fine_concepts": 14,
+    "mid_concepts": 13,
+    "coarse_concepts": 5,
+    "total_concepts": 32
+  }
+}

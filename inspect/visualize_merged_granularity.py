@@ -48,9 +48,32 @@ def load_vg_data(vg_dir, image_id):
 
     return image_path, objects, relationships
 
+def get_hypernym_at_depth_from_root(synset, target_depth):
+    """Get hypernym at specific depth from root."""
+    paths = synset.hypernym_paths()
+    if not paths:
+        return None
+
+    # Use longest path (most specific)
+    longest_path = max(paths, key=len)
+
+    # Check if path is long enough
+    if len(longest_path) <= target_depth:
+        return None
+
+    # Return synset at target depth from root
+    return longest_path[target_depth]
+
+
 def build_clean_hierarchy(objects, max_depth=3):
     """
     Build 3-level hierarchy from VG objects using WordNet.
+    Uses improved merging strategy for better abstraction at coarse level.
+
+    Strategy:
+    - Fine: Original VG objects
+    - Mid: 1 hop up in WordNet (moderate abstraction)
+    - Coarse: depth 3-5 from root (high abstraction for better merging)
     """
     hierarchy = {'fine': [], 'mid': [], 'coarse': []}
     concept_paths = {}
@@ -68,24 +91,40 @@ def build_clean_hierarchy(objects, max_depth=3):
         path = [obj_name]
         obj_to_levels = {'fine': obj_name}
 
-        # L1: Mid-level (immediate hypernym)
+        # Get WordNet synsets
         synsets = wn.synsets(obj_clean)
         if synsets and len(synsets) > 0:
             synset = synsets[0]
+
+            # L1: Mid-level (1 hop up)
             if synset.hypernyms():
                 parent = synset.hypernyms()[0]
                 parent_name = parent.name().split('.')[0].replace('_', ' ')
                 hierarchy['mid'].append(parent_name)
                 path.append(parent_name)
                 obj_to_levels['mid'] = parent_name
+            else:
+                obj_to_levels['mid'] = obj_name
 
-                # L2: Coarse-grained (second-level hypernym)
-                if parent.hypernyms():
-                    grandparent = parent.hypernyms()[0]
-                    grandparent_name = grandparent.name().split('.')[0].replace('_', ' ')
-                    hierarchy['coarse'].append(grandparent_name)
-                    path.append(grandparent_name)
-                    obj_to_levels['coarse'] = grandparent_name
+            # L2: Coarse-grained (depth 3-5 from root for better merging)
+            coarse_synset = None
+            for depth in [4, 3, 5, 6]:  # Try in order of preference
+                coarse_synset = get_hypernym_at_depth_from_root(synset, depth)
+                if coarse_synset:
+                    break
+
+            if coarse_synset:
+                coarse_name = coarse_synset.name().split('.')[0].replace('_', ' ')
+                hierarchy['coarse'].append(coarse_name)
+                path.append(coarse_name)
+                obj_to_levels['coarse'] = coarse_name
+            else:
+                # Fallback to mid-level
+                obj_to_levels['coarse'] = obj_to_levels.get('mid', obj_name)
+        else:
+            # No WordNet entry
+            obj_to_levels['mid'] = obj_name
+            obj_to_levels['coarse'] = obj_name
 
         concept_paths[obj_name] = path
         object_to_levels[obj_name] = obj_to_levels

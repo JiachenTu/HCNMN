@@ -10,15 +10,24 @@ Multi-granularity scene graphs enable visual reasoning at different levels of ab
 
 ### Conceptual Framework
 
-The 3-level hierarchy is based on **WordNet hypernym paths**:
+The 3-level hierarchy is based on **WordNet hypernym paths with improved merging strategy**:
 
 ```
 Fine-grained (L0)    →    Mid-level (L1)         →    Coarse-grained (L2)
 ─────────────────         ─────────────────           ──────────────────
-Original object           Immediate parent            Grandparent
+Original object           1 hop up                    Depth 3-5 from root
 Specific instance         Category                    High-level group
 Most detailed             Moderate abstraction        Highest abstraction
 ```
+
+**Key Improvement**: The coarse level now uses **depth-from-root** (depth 3-5 in WordNet hierarchy) instead of fixed 2-hop traversal. This provides **much better concept merging** at the coarse level.
+
+### Merging Performance
+
+| Image | Objects | Mid Concepts | Coarse Concepts | Mid Compression | Coarse Compression |
+|-------|---------|--------------|-----------------|-----------------|-------------------|
+| **Before** (2-hop) | 30 | 26 | 25 | 1.15x | **1.04x** ❌ |
+| **After** (depth-based) | 30 | 26 | 12 | 1.15x | **2.5x** ✅ |
 
 ### How Levels Are Computed
 
@@ -31,7 +40,7 @@ Most detailed             Moderate abstraction        Highest abstraction
   - `"tree"` - specific plant
   - `"person"` - specific human
 
-**Code Implementation** (`visualize_scene_graph_hierarchy.py:79-81`):
+**Code Implementation** (`visualize_scene_graph_hierarchy.py:101-103`):
 ```python
 # Add to fine-grained
 hierarchy['fine'].append(obj_name)
@@ -39,7 +48,7 @@ object_to_levels[obj_name] = {'fine': obj_name}
 ```
 
 #### 2. **Mid-Level** (L1: Immediate Categories)
-- **Definition**: First hypernym (parent) from WordNet
+- **Definition**: First hypernym (1 hop up) from WordNet
 - **Source**: `synset.hypernyms()[0]`
 - **Semantic Meaning**: Category or immediate generalization
 - **Examples**:
@@ -48,9 +57,9 @@ object_to_levels[obj_name] = {'fine': obj_name}
   - `"tree"` → `"woody plant"` (category)
   - `"person"` → `"adult"` or `"human"` (category)
 
-**Code Implementation** (`visualize_scene_graph_hierarchy.py:101-108`):
+**Code Implementation** (`visualize_scene_graph_hierarchy.py:122-130`):
 ```python
-# Get parent (mid-level)
+# Mid-level: 1 hop up (same as before)
 if synset.hypernyms():
     parent = synset.hypernyms()[0]
     parent_name = parent.name().split('.')[0].replace('_', ' ')
@@ -61,27 +70,66 @@ if synset.hypernyms():
     object_to_levels[obj_name]['mid'] = parent_name
 ```
 
-#### 3. **Coarse-Grained Level** (L2: High-Level Groups)
-- **Definition**: Second hypernym (grandparent) from WordNet
-- **Source**: `parent.hypernyms()[0]`
-- **Semantic Meaning**: Abstract concept or domain
-- **Examples**:
-  - `"dog"` → `"domestic animal"` → `"animal"` (life form)
-  - `"car"` → `"motor vehicle"` → `"self-propelled vehicle"` (artifact type)
-  - `"tree"` → `"woody plant"` → `"vascular plant"` (organism type)
-  - `"person"` → `"adult"` → `"person"` (entity type)
+#### 3. **Coarse-Grained Level** (L2: High-Level Groups) ⭐ **IMPROVED**
+- **Definition**: Hypernym at depth 3-5 from WordNet root (entity.n.01)
+- **Source**: `get_hypernym_at_depth_from_root(synset, depth=4)`
+- **Semantic Meaning**: Abstract concept or high-level domain
+- **Why depth-based?**: Different objects have different WordNet path lengths. Using fixed 2-hop traversal creates too many distinct coarse concepts. Depth-from-root ensures consistent abstraction levels.
 
-**Code Implementation** (`visualize_scene_graph_hierarchy.py:110-118`):
+**Examples** (showing improved merging):
+
+| Fine (L0) | Mid (L1) | Coarse (L2) - OLD | Coarse (L2) - NEW ✅ |
+|-----------|----------|-------------------|---------------------|
+| `"tree"` | `"woody plant"` | `"vascular plant"` | **`"living thing"`** |
+| `"bush"` | `"woody plant"` | `"vascular plant"` | **`"living thing"`** |
+| `"flower"` | `"angiosperm"` | `"spermatophyte"` | **`"living thing"`** |
+| `"grass"` | `"gramineous plant"` | `"vascular plant"` | **`"living thing"`** |
+| `"car"` | `"motor vehicle"` | `"self-propelled vehicle"` | **`"artifact"`** |
+| `"truck"` | `"motor vehicle"` | `"self-propelled vehicle"` | **`"artifact"`** |
+| `"pole"` | `"rod"` | `"artifact"` | **`"artifact"`** |
+| `"box"` | `"container"` | `"instrumentality"` | **`"artifact"`** |
+
+**Code Implementation** (`visualize_scene_graph_hierarchy.py:137-157`):
 ```python
-# Get grandparent (coarse-level)
-if parent.hypernyms():
-    grandparent = parent.hypernyms()[0]
-    grandparent_name = grandparent.name().split('.')[0].replace('_', ' ')
-    path.append(grandparent_name)
+# Coarse-level: depth 3-5 from root for better merging
+coarse_synset = None
+for depth in [4, 3, 5, 6]:  # Try in order of preference
+    coarse_synset = get_hypernym_at_depth_from_root(synset, depth)
+    if coarse_synset:
+        break
 
-    if grandparent_name not in hierarchy['coarse']:
-        hierarchy['coarse'].append(grandparent_name)
-    object_to_levels[obj_name]['coarse'] = grandparent_name
+if coarse_synset:
+    coarse_name = coarse_synset.name().split('.')[0].replace('_', ' ')
+    path.append(coarse_name)
+
+    if coarse_name not in hierarchy['coarse']:
+        hierarchy['coarse'].append(coarse_name)
+    object_to_levels[obj_name]['coarse'] = coarse_name
+else:
+    # Fallback to mid-level if path too short
+    mid_name = object_to_levels[obj_name].get('mid', obj_name)
+    if mid_name not in hierarchy['coarse']:
+        hierarchy['coarse'].append(mid_name)
+    object_to_levels[obj_name]['coarse'] = mid_name
+```
+
+**Helper Function** (`visualize_scene_graph_hierarchy.py:51-65`):
+```python
+def get_hypernym_at_depth_from_root(synset, target_depth):
+    """Get hypernym at specific depth from root."""
+    paths = synset.hypernym_paths()
+    if not paths:
+        return None
+
+    # Use longest path (most specific)
+    longest_path = max(paths, key=len)
+
+    # Check if path is long enough
+    if len(longest_path) <= target_depth:
+        return None
+
+    # Return synset at target depth from root
+    return longest_path[target_depth]
 ```
 
 ---

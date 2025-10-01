@@ -1,0 +1,294 @@
+{
+  "image_id": 2372873,
+  "hierarchy": {
+    "fine": [
+      "arm",
+      "can",
+      "fence",
+      "grill",
+      "handle",
+      "hot dogs",
+      "jeans",
+      "knife",
+      "knobs",
+      "man",
+      "plate",
+      "shadow",
+      "shirt",
+      "spray",
+      "stucco",
+      "swing",
+      "tongs",
+      "trees",
+      "wall",
+      "watch",
+      "window",
+      "wrist"
+    ],
+    "mid": [
+      "action",
+      "adult",
+      "appendage",
+      "barrier",
+      "base",
+      "container",
+      "device",
+      "edge tool",
+      "exhibitionist",
+      "framework",
+      "garment",
+      "gliding joint",
+      "limb",
+      "partition",
+      "pesticide",
+      "plaster",
+      "projection",
+      "restaurant",
+      "shade",
+      "timepiece",
+      "woody plant",
+      "workwear"
+    ],
+    "coarse": [
+      "action",
+      "appendage",
+      "artifact",
+      "body part",
+      "illumination",
+      "living thing",
+      "substance"
+    ]
+  },
+  "concept_paths": {
+    "watch": [
+      "watch",
+      "timepiece",
+      "artifact"
+    ],
+    "spray": [
+      "spray",
+      "pesticide",
+      "substance"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "artifact"
+    ],
+    "window": [
+      "window",
+      "framework",
+      "artifact"
+    ],
+    "tongs": [
+      "tongs",
+      "device",
+      "artifact"
+    ],
+    "shadow": [
+      "shadow",
+      "shade",
+      "illumination"
+    ],
+    "fence": [
+      "fence",
+      "barrier",
+      "artifact"
+    ],
+    "knife": [
+      "knife",
+      "edge tool",
+      "artifact"
+    ],
+    "arm": [
+      "arm",
+      "limb",
+      "body part"
+    ],
+    "can": [
+      "can",
+      "container",
+      "artifact"
+    ],
+    "jeans": [
+      "jeans",
+      "workwear",
+      "artifact"
+    ],
+    "plate": [
+      "plate",
+      "base",
+      "artifact"
+    ],
+    "swing": [
+      "swing",
+      "action",
+      "action"
+    ],
+    "stucco": [
+      "stucco",
+      "plaster",
+      "artifact"
+    ],
+    "hot dogs": [
+      "hot dogs",
+      "exhibitionist",
+      "living thing"
+    ],
+    "knobs": [
+      "knobs",
+      "projection",
+      "artifact"
+    ],
+    "wrist": [
+      "wrist",
+      "gliding joint",
+      "body part"
+    ],
+    "handle": [
+      "handle",
+      "appendage",
+      "appendage"
+    ],
+    "grill": [
+      "grill",
+      "restaurant",
+      "artifact"
+    ],
+    "trees": [
+      "trees",
+      "woody plant",
+      "living thing"
+    ],
+    "man": [
+      "man",
+      "adult",
+      "living thing"
+    ],
+    "shirt": [
+      "shirt",
+      "garment",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "watch": {
+      "fine": "watch",
+      "mid": "timepiece",
+      "coarse": "artifact"
+    },
+    "spray": {
+      "fine": "spray",
+      "mid": "pesticide",
+      "coarse": "substance"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "artifact"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "framework",
+      "coarse": "artifact"
+    },
+    "tongs": {
+      "fine": "tongs",
+      "mid": "device",
+      "coarse": "artifact"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "shade",
+      "coarse": "illumination"
+    },
+    "fence": {
+      "fine": "fence",
+      "mid": "barrier",
+      "coarse": "artifact"
+    },
+    "knife": {
+      "fine": "knife",
+      "mid": "edge tool",
+      "coarse": "artifact"
+    },
+    "arm": {
+      "fine": "arm",
+      "mid": "limb",
+      "coarse": "body part"
+    },
+    "can": {
+      "fine": "can",
+      "mid": "container",
+      "coarse": "artifact"
+    },
+    "jeans": {
+      "fine": "jeans",
+      "mid": "workwear",
+      "coarse": "artifact"
+    },
+    "plate": {
+      "fine": "plate",
+      "mid": "base",
+      "coarse": "artifact"
+    },
+    "swing": {
+      "fine": "swing",
+      "mid": "action",
+      "coarse": "action"
+    },
+    "stucco": {
+      "fine": "stucco",
+      "mid": "plaster",
+      "coarse": "artifact"
+    },
+    "hot dogs": {
+      "fine": "hot dogs",
+      "mid": "exhibitionist",
+      "coarse": "living thing"
+    },
+    "knobs": {
+      "fine": "knobs",
+      "mid": "projection",
+      "coarse": "artifact"
+    },
+    "wrist": {
+      "fine": "wrist",
+      "mid": "gliding joint",
+      "coarse": "body part"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "appendage",
+      "coarse": "appendage"
+    },
+    "grill": {
+      "fine": "grill",
+      "mid": "restaurant",
+      "coarse": "artifact"
+    },
+    "trees": {
+      "fine": "trees",
+      "mid": "woody plant",
+      "coarse": "living thing"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "adult",
+      "coarse": "living thing"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "garment",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 22,
+    "num_relationships": 22,
+    "fine_concepts": 22,
+    "mid_concepts": 22,
+    "coarse_concepts": 7,
+    "total_concepts": 51
+  }
+}

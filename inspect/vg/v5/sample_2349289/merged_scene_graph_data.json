@@ -1,0 +1,277 @@
+{
+  "image_id": 2349289,
+  "statistics": {
+    "num_objects": 14,
+    "num_relationships": 5,
+    "fine_concepts": 7,
+    "mid_concepts": 6,
+    "coarse_concepts": 5,
+    "total_concepts": 18
+  },
+  "merged_nodes": {
+    "fine": {
+      "dessert": {
+        "concept": "dessert",
+        "bbox": {
+          "x": 98,
+          "y": 31,
+          "w": 341,
+          "h": 197
+        },
+        "object_count": 1,
+        "original_objects": [
+          "dessert"
+        ]
+      },
+      "plate": {
+        "concept": "plate",
+        "bbox": {
+          "x": 0,
+          "y": 82,
+          "w": 499,
+          "h": 250
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "sauce": {
+        "concept": "sauce",
+        "bbox": {
+          "x": 78,
+          "y": 206,
+          "w": 347,
+          "h": 101
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sauce"
+        ]
+      },
+      "leaves": {
+        "concept": "leaves",
+        "bbox": {
+          "x": 312,
+          "y": 32,
+          "w": 106,
+          "h": 75
+        },
+        "object_count": 1,
+        "original_objects": [
+          "leaves"
+        ]
+      },
+      "cream": {
+        "concept": "cream",
+        "bbox": {
+          "x": 108,
+          "y": 47,
+          "w": 323,
+          "h": 166
+        },
+        "object_count": 3,
+        "original_objects": [
+          "cream",
+          "cream",
+          "cream"
+        ]
+      },
+      "leaf": {
+        "concept": "leaf",
+        "bbox": {
+          "x": 314,
+          "y": 30,
+          "w": 105,
+          "h": 77
+        },
+        "object_count": 5,
+        "original_objects": [
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf"
+        ]
+      },
+      "crumb": {
+        "concept": "crumb",
+        "bbox": {
+          "x": 121,
+          "y": 227,
+          "w": 206,
+          "h": 12
+        },
+        "object_count": 2,
+        "original_objects": [
+          "crumb",
+          "crumb"
+        ]
+      }
+    },
+    "mid": {
+      "course": {
+        "concept": "course",
+        "bbox": {
+          "x": 98,
+          "y": 31,
+          "w": 341,
+          "h": 197
+        },
+        "object_count": 1,
+        "original_objects": [
+          "dessert"
+        ]
+      },
+      "base": {
+        "concept": "base",
+        "bbox": {
+          "x": 0,
+          "y": 82,
+          "w": 499,
+          "h": 250
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "condiment": {
+        "concept": "condiment",
+        "bbox": {
+          "x": 78,
+          "y": 206,
+          "w": 347,
+          "h": 101
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sauce"
+        ]
+      },
+      "plant organ": {
+        "concept": "plant organ",
+        "bbox": {
+          "x": 312,
+          "y": 30,
+          "w": 107,
+          "h": 77
+        },
+        "object_count": 6,
+        "original_objects": [
+          "leaves",
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf"
+        ]
+      },
+      "elite": {
+        "concept": "elite",
+        "bbox": {
+          "x": 108,
+          "y": 47,
+          "w": 323,
+          "h": 166
+        },
+        "object_count": 3,
+        "original_objects": [
+          "cream",
+          "cream",
+          "cream"
+        ]
+      },
+      "small indefinite quantity": {
+        "concept": "small indefinite quantity",
+        "bbox": {
+          "x": 121,
+          "y": 227,
+          "w": 206,
+          "h": 12
+        },
+        "object_count": 2,
+        "original_objects": [
+          "crumb",
+          "crumb"
+        ]
+      }
+    },
+    "coarse": {
+      "food": {
+        "concept": "food",
+        "bbox": {
+          "x": 78,
+          "y": 31,
+          "w": 361,
+          "h": 276
+        },
+        "object_count": 2,
+        "original_objects": [
+          "dessert",
+          "sauce"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 0,
+          "y": 82,
+          "w": 499,
+          "h": 250
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 312,
+          "y": 30,
+          "w": 107,
+          "h": 77
+        },
+        "object_count": 6,
+        "original_objects": [
+          "leaves",
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf",
+          "leaf"
+        ]
+      },
+      "class": {
+        "concept": "class",
+        "bbox": {
+          "x": 108,
+          "y": 47,
+          "w": 323,
+          "h": 166
+        },
+        "object_count": 3,
+        "original_objects": [
+          "cream",
+          "cream",
+          "cream"
+        ]
+      },
+      "small indefinite quantity": {
+        "concept": "small indefinite quantity",
+        "bbox": {
+          "x": 121,
+          "y": 227,
+          "w": 206,
+          "h": 12
+        },
+        "object_count": 2,
+        "original_objects": [
+          "crumb",
+          "crumb"
+        ]
+      }
+    }
+  }
+}

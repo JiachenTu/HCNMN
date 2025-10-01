@@ -1,0 +1,736 @@
+{
+  "image_id": 2319113,
+  "statistics": {
+    "num_objects": 27,
+    "num_relationships": 37,
+    "fine_concepts": 24,
+    "mid_concepts": 22,
+    "coarse_concepts": 7,
+    "total_concepts": 53
+  },
+  "merged_nodes": {
+    "fine": {
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 25,
+          "y": 105,
+          "w": 107,
+          "h": 269
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 78,
+          "y": 114,
+          "w": 30,
+          "h": 31
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "arm": {
+        "concept": "arm",
+        "bbox": {
+          "x": 109,
+          "y": 147,
+          "w": 17,
+          "h": 131
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arm"
+        ]
+      },
+      "hand": {
+        "concept": "hand",
+        "bbox": {
+          "x": 37,
+          "y": 247,
+          "w": 92,
+          "h": 24
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hand",
+          "hand"
+        ]
+      },
+      "leg": {
+        "concept": "leg",
+        "bbox": {
+          "x": 53,
+          "y": 251,
+          "w": 63,
+          "h": 124
+        },
+        "object_count": 2,
+        "original_objects": [
+          "leg",
+          "leg"
+        ]
+      },
+      "foot": {
+        "concept": "foot",
+        "bbox": {
+          "x": 69,
+          "y": 355,
+          "w": 42,
+          "h": 20
+        },
+        "object_count": 2,
+        "original_objects": [
+          "foot",
+          "foot"
+        ]
+      },
+      "back": {
+        "concept": "back",
+        "bbox": {
+          "x": 91,
+          "y": 146,
+          "w": 18,
+          "h": 72
+        },
+        "object_count": 1,
+        "original_objects": [
+          "back"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 94,
+          "y": 123,
+          "w": 7,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "shoulder": {
+        "concept": "shoulder",
+        "bbox": {
+          "x": 95,
+          "y": 146,
+          "w": 26,
+          "h": 11
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shoulder"
+        ]
+      },
+      "sign": {
+        "concept": "sign",
+        "bbox": {
+          "x": 308,
+          "y": 65,
+          "w": 129,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sign"
+        ]
+      },
+      "road": {
+        "concept": "road",
+        "bbox": {
+          "x": 0,
+          "y": 183,
+          "w": 138,
+          "h": 190
+        },
+        "object_count": 1,
+        "original_objects": [
+          "road"
+        ]
+      },
+      "grass": {
+        "concept": "grass",
+        "bbox": {
+          "x": 137,
+          "y": 184,
+          "w": 362,
+          "h": 187
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "backpack": {
+        "concept": "backpack",
+        "bbox": {
+          "x": 30,
+          "y": 134,
+          "w": 78,
+          "h": 114
+        },
+        "object_count": 1,
+        "original_objects": [
+          "backpack"
+        ]
+      },
+      "shorts": {
+        "concept": "shorts",
+        "bbox": {
+          "x": 50,
+          "y": 239,
+          "w": 70,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shorts"
+        ]
+      },
+      "shirt": {
+        "concept": "shirt",
+        "bbox": {
+          "x": 95,
+          "y": 139,
+          "w": 29,
+          "h": 62
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "stop": {
+        "concept": "stop",
+        "bbox": {
+          "x": 321,
+          "y": 118,
+          "w": 105,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stop"
+        ]
+      },
+      "graffiti": {
+        "concept": "graffiti",
+        "bbox": {
+          "x": 326,
+          "y": 81,
+          "w": 85,
+          "h": 88
+        },
+        "object_count": 1,
+        "original_objects": [
+          "graffiti"
+        ]
+      },
+      "arrow": {
+        "concept": "arrow",
+        "bbox": {
+          "x": 357,
+          "y": 258,
+          "w": 15,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arrow"
+        ]
+      },
+      "post": {
+        "concept": "post",
+        "bbox": {
+          "x": 352,
+          "y": 197,
+          "w": 28,
+          "h": 178
+        },
+        "object_count": 1,
+        "original_objects": [
+          "post"
+        ]
+      },
+      "fence": {
+        "concept": "fence",
+        "bbox": {
+          "x": 205,
+          "y": 161,
+          "w": 130,
+          "h": 81
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "gate": {
+        "concept": "gate",
+        "bbox": {
+          "x": 246,
+          "y": 174,
+          "w": 31,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "gate"
+        ]
+      },
+      "hat": {
+        "concept": "hat",
+        "bbox": {
+          "x": 67,
+          "y": 106,
+          "w": 58,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hat"
+        ]
+      },
+      "stick": {
+        "concept": "stick",
+        "bbox": {
+          "x": 97,
+          "y": 246,
+          "w": 43,
+          "h": 54
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stick"
+        ]
+      },
+      "tree": {
+        "concept": "tree",
+        "bbox": {
+          "x": 1,
+          "y": 1,
+          "w": 498,
+          "h": 169
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tree"
+        ]
+      }
+    },
+    "mid": {
+      "adult": {
+        "concept": "adult",
+        "bbox": {
+          "x": 25,
+          "y": 105,
+          "w": 107,
+          "h": 269
+        },
+        "object_count": 1,
+        "original_objects": [
+          "man"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 78,
+          "y": 114,
+          "w": 30,
+          "h": 31
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      },
+      "limb": {
+        "concept": "limb",
+        "bbox": {
+          "x": 53,
+          "y": 147,
+          "w": 73,
+          "h": 228
+        },
+        "object_count": 3,
+        "original_objects": [
+          "arm",
+          "leg",
+          "leg"
+        ]
+      },
+      "extremity": {
+        "concept": "extremity",
+        "bbox": {
+          "x": 37,
+          "y": 247,
+          "w": 92,
+          "h": 24
+        },
+        "object_count": 2,
+        "original_objects": [
+          "hand",
+          "hand"
+        ]
+      },
+      "vertebrate foot": {
+        "concept": "vertebrate foot",
+        "bbox": {
+          "x": 69,
+          "y": 355,
+          "w": 42,
+          "h": 20
+        },
+        "object_count": 2,
+        "original_objects": [
+          "foot",
+          "foot"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 91,
+          "y": 146,
+          "w": 30,
+          "h": 72
+        },
+        "object_count": 2,
+        "original_objects": [
+          "back",
+          "shoulder"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 94,
+          "y": 123,
+          "w": 7,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "clue": {
+        "concept": "clue",
+        "bbox": {
+          "x": 308,
+          "y": 65,
+          "w": 129,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sign"
+        ]
+      },
+      "way": {
+        "concept": "way",
+        "bbox": {
+          "x": 0,
+          "y": 183,
+          "w": 138,
+          "h": 190
+        },
+        "object_count": 1,
+        "original_objects": [
+          "road"
+        ]
+      },
+      "gramineous plant": {
+        "concept": "gramineous plant",
+        "bbox": {
+          "x": 137,
+          "y": 184,
+          "w": 362,
+          "h": 187
+        },
+        "object_count": 1,
+        "original_objects": [
+          "grass"
+        ]
+      },
+      "bag": {
+        "concept": "bag",
+        "bbox": {
+          "x": 30,
+          "y": 134,
+          "w": 78,
+          "h": 114
+        },
+        "object_count": 1,
+        "original_objects": [
+          "backpack"
+        ]
+      },
+      "trouser": {
+        "concept": "trouser",
+        "bbox": {
+          "x": 50,
+          "y": 239,
+          "w": 70,
+          "h": 56
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shorts"
+        ]
+      },
+      "garment": {
+        "concept": "garment",
+        "bbox": {
+          "x": 95,
+          "y": 139,
+          "w": 29,
+          "h": 62
+        },
+        "object_count": 1,
+        "original_objects": [
+          "shirt"
+        ]
+      },
+      "ending": {
+        "concept": "ending",
+        "bbox": {
+          "x": 321,
+          "y": 118,
+          "w": 105,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stop"
+        ]
+      },
+      "decoration": {
+        "concept": "decoration",
+        "bbox": {
+          "x": 326,
+          "y": 81,
+          "w": 85,
+          "h": 88
+        },
+        "object_count": 1,
+        "original_objects": [
+          "graffiti"
+        ]
+      },
+      "mark": {
+        "concept": "mark",
+        "bbox": {
+          "x": 357,
+          "y": 258,
+          "w": 15,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arrow"
+        ]
+      },
+      "position": {
+        "concept": "position",
+        "bbox": {
+          "x": 352,
+          "y": 197,
+          "w": 28,
+          "h": 178
+        },
+        "object_count": 1,
+        "original_objects": [
+          "post"
+        ]
+      },
+      "barrier": {
+        "concept": "barrier",
+        "bbox": {
+          "x": 205,
+          "y": 161,
+          "w": 130,
+          "h": 81
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fence"
+        ]
+      },
+      "movable barrier": {
+        "concept": "movable barrier",
+        "bbox": {
+          "x": 246,
+          "y": 174,
+          "w": 31,
+          "h": 55
+        },
+        "object_count": 1,
+        "original_objects": [
+          "gate"
+        ]
+      },
+      "headdress": {
+        "concept": "headdress",
+        "bbox": {
+          "x": 67,
+          "y": 106,
+          "w": 58,
+          "h": 26
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hat"
+        ]
+      },
+      "implement": {
+        "concept": "implement",
+        "bbox": {
+          "x": 97,
+          "y": 246,
+          "w": 43,
+          "h": 54
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stick"
+        ]
+      },
+      "woody plant": {
+        "concept": "woody plant",
+        "bbox": {
+          "x": 1,
+          "y": 1,
+          "w": 498,
+          "h": 169
+        },
+        "object_count": 1,
+        "original_objects": [
+          "tree"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 1,
+          "y": 1,
+          "w": 498,
+          "h": 373
+        },
+        "object_count": 3,
+        "original_objects": [
+          "man",
+          "grass",
+          "tree"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 37,
+          "y": 114,
+          "w": 92,
+          "h": 261
+        },
+        "object_count": 11,
+        "original_objects": [
+          "head",
+          "arm",
+          "hand",
+          "hand",
+          "leg",
+          "leg",
+          "foot",
+          "foot",
+          "back",
+          "ear",
+          "shoulder"
+        ]
+      },
+      "evidence": {
+        "concept": "evidence",
+        "bbox": {
+          "x": 308,
+          "y": 65,
+          "w": 129,
+          "h": 133
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sign"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 0,
+          "y": 81,
+          "w": 411,
+          "h": 292
+        },
+        "object_count": 9,
+        "original_objects": [
+          "road",
+          "backpack",
+          "shorts",
+          "shirt",
+          "graffiti",
+          "fence",
+          "gate",
+          "hat",
+          "stick"
+        ]
+      },
+      "happening": {
+        "concept": "happening",
+        "bbox": {
+          "x": 321,
+          "y": 118,
+          "w": 105,
+          "h": 30
+        },
+        "object_count": 1,
+        "original_objects": [
+          "stop"
+        ]
+      },
+      "symbol": {
+        "concept": "symbol",
+        "bbox": {
+          "x": 357,
+          "y": 258,
+          "w": 15,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "arrow"
+        ]
+      },
+      "point": {
+        "concept": "point",
+        "bbox": {
+          "x": 352,
+          "y": 197,
+          "w": 28,
+          "h": 178
+        },
+        "object_count": 1,
+        "original_objects": [
+          "post"
+        ]
+      }
+    }
+  }
+}

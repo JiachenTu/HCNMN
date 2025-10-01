@@ -1,0 +1,544 @@
+{
+  "image_id": 2331126,
+  "statistics": {
+    "num_objects": 19,
+    "num_relationships": 5,
+    "fine_concepts": 15,
+    "mid_concepts": 9,
+    "coarse_concepts": 5,
+    "total_concepts": 29
+  },
+  "merged_nodes": {
+    "fine": {
+      "cat": {
+        "concept": "cat",
+        "bbox": {
+          "x": 116,
+          "y": 184,
+          "w": 168,
+          "h": 96
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cat",
+          "cat"
+        ]
+      },
+      "right ear": {
+        "concept": "right ear",
+        "bbox": {
+          "x": 259,
+          "y": 180,
+          "w": 25,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "right ear"
+        ]
+      },
+      "ear": {
+        "concept": "ear",
+        "bbox": {
+          "x": 216,
+          "y": 183,
+          "w": 17,
+          "h": 20
+        },
+        "object_count": 1,
+        "original_objects": [
+          "ear"
+        ]
+      },
+      "whiskers": {
+        "concept": "whiskers",
+        "bbox": {
+          "x": 215,
+          "y": 246,
+          "w": 28,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "pillow": {
+        "concept": "pillow",
+        "bbox": {
+          "x": 42,
+          "y": 250,
+          "w": 335,
+          "h": 121
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pillow",
+          "pillow"
+        ]
+      },
+      "nose": {
+        "concept": "nose",
+        "bbox": {
+          "x": 247,
+          "y": 245,
+          "w": 18,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "chair": {
+        "concept": "chair",
+        "bbox": {
+          "x": 30,
+          "y": 109,
+          "w": 438,
+          "h": 351
+        },
+        "object_count": 2,
+        "original_objects": [
+          "chair",
+          "chair"
+        ]
+      },
+      "lamp": {
+        "concept": "lamp",
+        "bbox": {
+          "x": 192,
+          "y": 36,
+          "w": 98,
+          "h": 106
+        },
+        "object_count": 2,
+        "original_objects": [
+          "lamp",
+          "lamp"
+        ]
+      },
+      "table lamp": {
+        "concept": "table lamp",
+        "bbox": {
+          "x": 215,
+          "y": 35,
+          "w": 63,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table lamp"
+        ]
+      },
+      "hardwood floor": {
+        "concept": "hardwood floor",
+        "bbox": {
+          "x": 436,
+          "y": 322,
+          "w": 32,
+          "h": 130
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hardwood floor"
+        ]
+      },
+      "table": {
+        "concept": "table",
+        "bbox": {
+          "x": 192,
+          "y": 122,
+          "w": 191,
+          "h": 60
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      },
+      "white surfboard": {
+        "concept": "white surfboard",
+        "bbox": {
+          "x": 291,
+          "y": 80,
+          "w": 23,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white surfboard"
+        ]
+      },
+      "wall": {
+        "concept": "wall",
+        "bbox": {
+          "x": 30,
+          "y": 35,
+          "w": 358,
+          "h": 152
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "black bowl": {
+        "concept": "black bowl",
+        "bbox": {
+          "x": 328,
+          "y": 107,
+          "w": 36,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black bowl"
+        ]
+      },
+      "eye": {
+        "concept": "eye",
+        "bbox": {
+          "x": 234,
+          "y": 225,
+          "w": 15,
+          "h": 10
+        },
+        "object_count": 1,
+        "original_objects": [
+          "eye"
+        ]
+      }
+    },
+    "mid": {
+      "feline": {
+        "concept": "feline",
+        "bbox": {
+          "x": 116,
+          "y": 184,
+          "w": 168,
+          "h": 96
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cat",
+          "cat"
+        ]
+      },
+      "right ear": {
+        "concept": "right ear",
+        "bbox": {
+          "x": 259,
+          "y": 180,
+          "w": 25,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "right ear"
+        ]
+      },
+      "sense organ": {
+        "concept": "sense organ",
+        "bbox": {
+          "x": 216,
+          "y": 183,
+          "w": 33,
+          "h": 52
+        },
+        "object_count": 2,
+        "original_objects": [
+          "ear",
+          "eye"
+        ]
+      },
+      "facial hair": {
+        "concept": "facial hair",
+        "bbox": {
+          "x": 215,
+          "y": 246,
+          "w": 28,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "cushion": {
+        "concept": "cushion",
+        "bbox": {
+          "x": 42,
+          "y": 250,
+          "w": 335,
+          "h": 121
+        },
+        "object_count": 2,
+        "original_objects": [
+          "pillow",
+          "pillow"
+        ]
+      },
+      "chemoreceptor": {
+        "concept": "chemoreceptor",
+        "bbox": {
+          "x": 247,
+          "y": 245,
+          "w": 18,
+          "h": 15
+        },
+        "object_count": 1,
+        "original_objects": [
+          "nose"
+        ]
+      },
+      "seat": {
+        "concept": "seat",
+        "bbox": {
+          "x": 30,
+          "y": 109,
+          "w": 438,
+          "h": 351
+        },
+        "object_count": 2,
+        "original_objects": [
+          "chair",
+          "chair"
+        ]
+      },
+      "source of illumination": {
+        "concept": "source of illumination",
+        "bbox": {
+          "x": 192,
+          "y": 36,
+          "w": 98,
+          "h": 106
+        },
+        "object_count": 2,
+        "original_objects": [
+          "lamp",
+          "lamp"
+        ]
+      },
+      "table lamp": {
+        "concept": "table lamp",
+        "bbox": {
+          "x": 215,
+          "y": 35,
+          "w": 63,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table lamp"
+        ]
+      },
+      "hardwood floor": {
+        "concept": "hardwood floor",
+        "bbox": {
+          "x": 436,
+          "y": 322,
+          "w": 32,
+          "h": 130
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hardwood floor"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 192,
+          "y": 122,
+          "w": 191,
+          "h": 60
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      },
+      "white surfboard": {
+        "concept": "white surfboard",
+        "bbox": {
+          "x": 291,
+          "y": 80,
+          "w": 23,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white surfboard"
+        ]
+      },
+      "partition": {
+        "concept": "partition",
+        "bbox": {
+          "x": 30,
+          "y": 35,
+          "w": 358,
+          "h": 152
+        },
+        "object_count": 1,
+        "original_objects": [
+          "wall"
+        ]
+      },
+      "black bowl": {
+        "concept": "black bowl",
+        "bbox": {
+          "x": 328,
+          "y": 107,
+          "w": 36,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black bowl"
+        ]
+      }
+    },
+    "coarse": {
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 116,
+          "y": 184,
+          "w": 168,
+          "h": 96
+        },
+        "object_count": 2,
+        "original_objects": [
+          "cat",
+          "cat"
+        ]
+      },
+      "right ear": {
+        "concept": "right ear",
+        "bbox": {
+          "x": 259,
+          "y": 180,
+          "w": 25,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "right ear"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 216,
+          "y": 183,
+          "w": 49,
+          "h": 77
+        },
+        "object_count": 3,
+        "original_objects": [
+          "ear",
+          "nose",
+          "eye"
+        ]
+      },
+      "natural object": {
+        "concept": "natural object",
+        "bbox": {
+          "x": 215,
+          "y": 246,
+          "w": 28,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "whiskers"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 30,
+          "y": 35,
+          "w": 438,
+          "h": 425
+        },
+        "object_count": 7,
+        "original_objects": [
+          "pillow",
+          "chair",
+          "lamp",
+          "lamp",
+          "pillow",
+          "chair",
+          "wall"
+        ]
+      },
+      "table lamp": {
+        "concept": "table lamp",
+        "bbox": {
+          "x": 215,
+          "y": 35,
+          "w": 63,
+          "h": 98
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table lamp"
+        ]
+      },
+      "hardwood floor": {
+        "concept": "hardwood floor",
+        "bbox": {
+          "x": 436,
+          "y": 322,
+          "w": 32,
+          "h": 130
+        },
+        "object_count": 1,
+        "original_objects": [
+          "hardwood floor"
+        ]
+      },
+      "array": {
+        "concept": "array",
+        "bbox": {
+          "x": 192,
+          "y": 122,
+          "w": 191,
+          "h": 60
+        },
+        "object_count": 1,
+        "original_objects": [
+          "table"
+        ]
+      },
+      "white surfboard": {
+        "concept": "white surfboard",
+        "bbox": {
+          "x": 291,
+          "y": 80,
+          "w": 23,
+          "h": 45
+        },
+        "object_count": 1,
+        "original_objects": [
+          "white surfboard"
+        ]
+      },
+      "black bowl": {
+        "concept": "black bowl",
+        "bbox": {
+          "x": 328,
+          "y": 107,
+          "w": 36,
+          "h": 19
+        },
+        "object_count": 1,
+        "original_objects": [
+          "black bowl"
+        ]
+      }
+    }
+  }
+}

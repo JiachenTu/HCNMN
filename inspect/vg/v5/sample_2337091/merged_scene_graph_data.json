@@ -1,0 +1,697 @@
+{
+  "image_id": 2337091,
+  "statistics": {
+    "num_objects": 30,
+    "num_relationships": 17,
+    "fine_concepts": 19,
+    "mid_concepts": 11,
+    "coarse_concepts": 5,
+    "total_concepts": 35
+  },
+  "merged_nodes": {
+    "fine": {
+      "sign": {
+        "concept": "sign",
+        "bbox": {
+          "x": 13,
+          "y": 12,
+          "w": 484,
+          "h": 352
+        },
+        "object_count": 3,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "pole": {
+        "concept": "pole",
+        "bbox": {
+          "x": 52,
+          "y": 214,
+          "w": 185,
+          "h": 102
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "car": {
+        "concept": "car",
+        "bbox": {
+          "x": 93,
+          "y": 176,
+          "w": 239,
+          "h": 146
+        },
+        "object_count": 4,
+        "original_objects": [
+          "car",
+          "car",
+          "car",
+          "car"
+        ]
+      },
+      "road": {
+        "concept": "road",
+        "bbox": {
+          "x": 0,
+          "y": 248,
+          "w": 499,
+          "h": 117
+        },
+        "object_count": 2,
+        "original_objects": [
+          "road",
+          "road"
+        ]
+      },
+      "triangle": {
+        "concept": "triangle",
+        "bbox": {
+          "x": 412,
+          "y": 325,
+          "w": 60,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "triangle"
+        ]
+      },
+      "building": {
+        "concept": "building",
+        "bbox": {
+          "x": 79,
+          "y": 0,
+          "w": 419,
+          "h": 276
+        },
+        "object_count": 2,
+        "original_objects": [
+          "building",
+          "building"
+        ]
+      },
+      "fallen sign": {
+        "concept": "fallen sign",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 365
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fallen sign"
+        ]
+      },
+      "street": {
+        "concept": "street",
+        "bbox": {
+          "x": 0,
+          "y": 236,
+          "w": 495,
+          "h": 126
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "windows": {
+        "concept": "windows",
+        "bbox": {
+          "x": 178,
+          "y": 10,
+          "w": 195,
+          "h": 112
+        },
+        "object_count": 1,
+        "original_objects": [
+          "windows"
+        ]
+      },
+      "window": {
+        "concept": "window",
+        "bbox": {
+          "x": 183,
+          "y": 12,
+          "w": 194,
+          "h": 97
+        },
+        "object_count": 5,
+        "original_objects": [
+          "window",
+          "window",
+          "window",
+          "window",
+          "window"
+        ]
+      },
+      "sidewalk": {
+        "concept": "sidewalk",
+        "bbox": {
+          "x": 411,
+          "y": 245,
+          "w": 76,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sidewalk"
+        ]
+      },
+      "powerlines": {
+        "concept": "powerlines",
+        "bbox": {
+          "x": 102,
+          "y": 1,
+          "w": 395,
+          "h": 89
+        },
+        "object_count": 1,
+        "original_objects": [
+          "powerlines"
+        ]
+      },
+      "multistory building": {
+        "concept": "multistory building",
+        "bbox": {
+          "x": 381,
+          "y": 54,
+          "w": 101,
+          "h": 120
+        },
+        "object_count": 1,
+        "original_objects": [
+          "multistory building"
+        ]
+      },
+      "deviation omlegging": {
+        "concept": "deviation omlegging",
+        "bbox": {
+          "x": 88,
+          "y": 84,
+          "w": 350,
+          "h": 249
+        },
+        "object_count": 1,
+        "original_objects": [
+          "deviation omlegging"
+        ]
+      },
+      "bent post": {
+        "concept": "bent post",
+        "bbox": {
+          "x": 35,
+          "y": 208,
+          "w": 183,
+          "h": 153
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bent post"
+        ]
+      },
+      "truck": {
+        "concept": "truck",
+        "bbox": {
+          "x": 388,
+          "y": 184,
+          "w": 102,
+          "h": 97
+        },
+        "object_count": 1,
+        "original_objects": [
+          "truck"
+        ]
+      },
+      "power lines": {
+        "concept": "power lines",
+        "bbox": {
+          "x": 85,
+          "y": 0,
+          "w": 412,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "power lines"
+        ]
+      },
+      "light": {
+        "concept": "light",
+        "bbox": {
+          "x": 297,
+          "y": 70,
+          "w": 74,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "letter d": {
+        "concept": "letter d",
+        "bbox": {
+          "x": 106,
+          "y": 88,
+          "w": 47,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "letter d"
+        ]
+      }
+    },
+    "mid": {
+      "clue": {
+        "concept": "clue",
+        "bbox": {
+          "x": 13,
+          "y": 12,
+          "w": 484,
+          "h": 352
+        },
+        "object_count": 3,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "rod": {
+        "concept": "rod",
+        "bbox": {
+          "x": 52,
+          "y": 214,
+          "w": 185,
+          "h": 102
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pole"
+        ]
+      },
+      "motor vehicle": {
+        "concept": "motor vehicle",
+        "bbox": {
+          "x": 93,
+          "y": 176,
+          "w": 397,
+          "h": 146
+        },
+        "object_count": 5,
+        "original_objects": [
+          "car",
+          "car",
+          "car",
+          "car",
+          "truck"
+        ]
+      },
+      "way": {
+        "concept": "way",
+        "bbox": {
+          "x": 0,
+          "y": 248,
+          "w": 499,
+          "h": 117
+        },
+        "object_count": 2,
+        "original_objects": [
+          "road",
+          "road"
+        ]
+      },
+      "polygon": {
+        "concept": "polygon",
+        "bbox": {
+          "x": 412,
+          "y": 325,
+          "w": 60,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "triangle"
+        ]
+      },
+      "structure": {
+        "concept": "structure",
+        "bbox": {
+          "x": 79,
+          "y": 0,
+          "w": 419,
+          "h": 276
+        },
+        "object_count": 2,
+        "original_objects": [
+          "building",
+          "building"
+        ]
+      },
+      "fallen sign": {
+        "concept": "fallen sign",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 365
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fallen sign"
+        ]
+      },
+      "thoroughfare": {
+        "concept": "thoroughfare",
+        "bbox": {
+          "x": 0,
+          "y": 236,
+          "w": 495,
+          "h": 126
+        },
+        "object_count": 1,
+        "original_objects": [
+          "street"
+        ]
+      },
+      "operating system": {
+        "concept": "operating system",
+        "bbox": {
+          "x": 178,
+          "y": 10,
+          "w": 195,
+          "h": 112
+        },
+        "object_count": 1,
+        "original_objects": [
+          "windows"
+        ]
+      },
+      "framework": {
+        "concept": "framework",
+        "bbox": {
+          "x": 183,
+          "y": 12,
+          "w": 194,
+          "h": 97
+        },
+        "object_count": 5,
+        "original_objects": [
+          "window",
+          "window",
+          "window",
+          "window",
+          "window"
+        ]
+      },
+      "walk": {
+        "concept": "walk",
+        "bbox": {
+          "x": 411,
+          "y": 245,
+          "w": 76,
+          "h": 24
+        },
+        "object_count": 1,
+        "original_objects": [
+          "sidewalk"
+        ]
+      },
+      "powerlines": {
+        "concept": "powerlines",
+        "bbox": {
+          "x": 102,
+          "y": 1,
+          "w": 395,
+          "h": 89
+        },
+        "object_count": 1,
+        "original_objects": [
+          "powerlines"
+        ]
+      },
+      "multistory building": {
+        "concept": "multistory building",
+        "bbox": {
+          "x": 381,
+          "y": 54,
+          "w": 101,
+          "h": 120
+        },
+        "object_count": 1,
+        "original_objects": [
+          "multistory building"
+        ]
+      },
+      "deviation omlegging": {
+        "concept": "deviation omlegging",
+        "bbox": {
+          "x": 88,
+          "y": 84,
+          "w": 350,
+          "h": 249
+        },
+        "object_count": 1,
+        "original_objects": [
+          "deviation omlegging"
+        ]
+      },
+      "bent post": {
+        "concept": "bent post",
+        "bbox": {
+          "x": 35,
+          "y": 208,
+          "w": 183,
+          "h": 153
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bent post"
+        ]
+      },
+      "power lines": {
+        "concept": "power lines",
+        "bbox": {
+          "x": 85,
+          "y": 0,
+          "w": 412,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "power lines"
+        ]
+      },
+      "actinic radiation": {
+        "concept": "actinic radiation",
+        "bbox": {
+          "x": 297,
+          "y": 70,
+          "w": 74,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "letter d": {
+        "concept": "letter d",
+        "bbox": {
+          "x": 106,
+          "y": 88,
+          "w": 47,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "letter d"
+        ]
+      }
+    },
+    "coarse": {
+      "evidence": {
+        "concept": "evidence",
+        "bbox": {
+          "x": 13,
+          "y": 12,
+          "w": 484,
+          "h": 352
+        },
+        "object_count": 3,
+        "original_objects": [
+          "sign",
+          "sign",
+          "sign"
+        ]
+      },
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 499,
+          "h": 365
+        },
+        "object_count": 17,
+        "original_objects": [
+          "pole",
+          "car",
+          "road",
+          "building",
+          "street",
+          "car",
+          "window",
+          "window",
+          "window",
+          "window",
+          "window",
+          "building",
+          "sidewalk",
+          "car",
+          "car",
+          "truck",
+          "road"
+        ]
+      },
+      "figure": {
+        "concept": "figure",
+        "bbox": {
+          "x": 412,
+          "y": 325,
+          "w": 60,
+          "h": 39
+        },
+        "object_count": 1,
+        "original_objects": [
+          "triangle"
+        ]
+      },
+      "fallen sign": {
+        "concept": "fallen sign",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 365
+        },
+        "object_count": 1,
+        "original_objects": [
+          "fallen sign"
+        ]
+      },
+      "writing": {
+        "concept": "writing",
+        "bbox": {
+          "x": 178,
+          "y": 10,
+          "w": 195,
+          "h": 112
+        },
+        "object_count": 1,
+        "original_objects": [
+          "windows"
+        ]
+      },
+      "powerlines": {
+        "concept": "powerlines",
+        "bbox": {
+          "x": 102,
+          "y": 1,
+          "w": 395,
+          "h": 89
+        },
+        "object_count": 1,
+        "original_objects": [
+          "powerlines"
+        ]
+      },
+      "multistory building": {
+        "concept": "multistory building",
+        "bbox": {
+          "x": 381,
+          "y": 54,
+          "w": 101,
+          "h": 120
+        },
+        "object_count": 1,
+        "original_objects": [
+          "multistory building"
+        ]
+      },
+      "deviation omlegging": {
+        "concept": "deviation omlegging",
+        "bbox": {
+          "x": 88,
+          "y": 84,
+          "w": 350,
+          "h": 249
+        },
+        "object_count": 1,
+        "original_objects": [
+          "deviation omlegging"
+        ]
+      },
+      "bent post": {
+        "concept": "bent post",
+        "bbox": {
+          "x": 35,
+          "y": 208,
+          "w": 183,
+          "h": 153
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bent post"
+        ]
+      },
+      "power lines": {
+        "concept": "power lines",
+        "bbox": {
+          "x": 85,
+          "y": 0,
+          "w": 412,
+          "h": 99
+        },
+        "object_count": 1,
+        "original_objects": [
+          "power lines"
+        ]
+      },
+      "natural phenomenon": {
+        "concept": "natural phenomenon",
+        "bbox": {
+          "x": 297,
+          "y": 70,
+          "w": 74,
+          "h": 25
+        },
+        "object_count": 1,
+        "original_objects": [
+          "light"
+        ]
+      },
+      "letter d": {
+        "concept": "letter d",
+        "bbox": {
+          "x": 106,
+          "y": 88,
+          "w": 47,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "letter d"
+        ]
+      }
+    }
+  }
+}

@@ -48,10 +48,32 @@ def load_vg_sample_with_relationships(objects_file, relationships_file, image_id
 
     return sample_objects, sample_relationships
 
+def get_hypernym_at_depth_from_root(synset, target_depth):
+    """Get hypernym at specific depth from root."""
+    paths = synset.hypernym_paths()
+    if not paths:
+        return None
+
+    # Use longest path (most specific)
+    longest_path = max(paths, key=len)
+
+    # Check if path is long enough
+    if len(longest_path) <= target_depth:
+        return None
+
+    # Return synset at target depth from root
+    return longest_path[target_depth]
+
+
 def build_clean_hierarchy(objects, max_depth=3):
     """
     Build CLEAN 3-level hierarchy from VG objects.
-    NO massive expansion - just meaningful categorization.
+    Uses improved merging strategy for better abstraction at coarse level.
+
+    Strategy:
+    - Fine: Original VG objects
+    - Mid: 1 hop up in WordNet (moderate abstraction)
+    - Coarse: depth 3-5 from root (high abstraction for better merging)
     """
     print("\nBuilding clean 3-level hierarchy...")
 
@@ -97,7 +119,7 @@ def build_clean_hierarchy(objects, max_depth=3):
         synset = synsets[0]
         path = [obj_name]
 
-        # Get parent (mid-level)
+        # Mid-level: 1 hop up (same as before)
         if synset.hypernyms():
             parent = synset.hypernyms()[0]
             parent_name = parent.name().split('.')[0].replace('_', ' ')
@@ -106,29 +128,32 @@ def build_clean_hierarchy(objects, max_depth=3):
             if parent_name not in hierarchy['mid']:
                 hierarchy['mid'].append(parent_name)
             object_to_levels[obj_name]['mid'] = parent_name
-
-            # Get grandparent (coarse-level)
-            if parent.hypernyms():
-                grandparent = parent.hypernyms()[0]
-                grandparent_name = grandparent.name().split('.')[0].replace('_', ' ')
-                path.append(grandparent_name)
-
-                if grandparent_name not in hierarchy['coarse']:
-                    hierarchy['coarse'].append(grandparent_name)
-                object_to_levels[obj_name]['coarse'] = grandparent_name
-            else:
-                # No grandparent - use parent for coarse too
-                if parent_name not in hierarchy['coarse']:
-                    hierarchy['coarse'].append(parent_name)
-                object_to_levels[obj_name]['coarse'] = parent_name
         else:
-            # No parent - use object for all levels
+            # No parent - use object for mid level
             if obj_name not in hierarchy['mid']:
                 hierarchy['mid'].append(obj_name)
-            if obj_name not in hierarchy['coarse']:
-                hierarchy['coarse'].append(obj_name)
             object_to_levels[obj_name]['mid'] = obj_name
-            object_to_levels[obj_name]['coarse'] = obj_name
+
+        # Coarse-level: depth 3-5 from root for better merging
+        coarse_synset = None
+        for depth in [4, 3, 5, 6]:  # Try in order of preference
+            coarse_synset = get_hypernym_at_depth_from_root(synset, depth)
+            if coarse_synset:
+                break
+
+        if coarse_synset:
+            coarse_name = coarse_synset.name().split('.')[0].replace('_', ' ')
+            path.append(coarse_name)
+
+            if coarse_name not in hierarchy['coarse']:
+                hierarchy['coarse'].append(coarse_name)
+            object_to_levels[obj_name]['coarse'] = coarse_name
+        else:
+            # Fallback to mid-level if path too short
+            mid_name = object_to_levels[obj_name].get('mid', obj_name)
+            if mid_name not in hierarchy['coarse']:
+                hierarchy['coarse'].append(mid_name)
+            object_to_levels[obj_name]['coarse'] = mid_name
 
         concept_paths[obj_name] = path
 
@@ -138,8 +163,8 @@ def build_clean_hierarchy(objects, max_depth=3):
 
     print(f"\nHierarchy Statistics:")
     print(f"  Fine-grained:   {len(hierarchy['fine'])} concepts")
-    print(f"  Mid-level:      {len(hierarchy['mid'])} concepts")
-    print(f"  Coarse-grained: {len(hierarchy['coarse'])} concepts")
+    print(f"  Mid-level:      {len(hierarchy['mid'])} concepts ({len(hierarchy['fine'])/max(1,len(hierarchy['mid'])):.2f}x compression)")
+    print(f"  Coarse-grained: {len(hierarchy['coarse'])} concepts ({len(hierarchy['fine'])/max(1,len(hierarchy['coarse'])):.2f}x compression)")
     print(f"  Total:          {len(hierarchy['fine']) + len(hierarchy['mid']) + len(hierarchy['coarse'])} concepts")
 
     return hierarchy, concept_paths, object_to_levels

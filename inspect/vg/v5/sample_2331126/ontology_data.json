@@ -1,0 +1,191 @@
+{
+  "image_id": 2331126,
+  "hierarchy": {
+    "fine": [
+      "black bowl",
+      "cat",
+      "chair",
+      "ear",
+      "eye",
+      "hardwood floor",
+      "lamp",
+      "nose",
+      "pillow",
+      "right ear",
+      "table",
+      "wall",
+      "whiskers",
+      "white surfboard"
+    ],
+    "mid": [
+      "array",
+      "black bowl",
+      "chemoreceptor",
+      "cushion",
+      "facial hair",
+      "feline",
+      "hardwood floor",
+      "partition",
+      "right ear",
+      "seat",
+      "sense organ",
+      "source of illumination",
+      "white surfboard"
+    ],
+    "coarse": [
+      "array",
+      "artifact",
+      "black bowl",
+      "body part",
+      "hardwood floor",
+      "living thing",
+      "natural object",
+      "right ear",
+      "white surfboard"
+    ]
+  },
+  "concept_paths": {
+    "hardwood floor": [
+      "hardwood floor"
+    ],
+    "chair": [
+      "chair",
+      "seat",
+      "artifact"
+    ],
+    "ear": [
+      "ear",
+      "sense organ",
+      "body part"
+    ],
+    "right ear": [
+      "right ear"
+    ],
+    "whiskers": [
+      "whiskers",
+      "facial hair",
+      "natural object"
+    ],
+    "table": [
+      "table",
+      "array",
+      "array"
+    ],
+    "lamp": [
+      "lamp",
+      "source of illumination",
+      "artifact"
+    ],
+    "nose": [
+      "nose",
+      "chemoreceptor",
+      "body part"
+    ],
+    "black bowl": [
+      "black bowl"
+    ],
+    "eye": [
+      "eye",
+      "sense organ",
+      "body part"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "artifact"
+    ],
+    "pillow": [
+      "pillow",
+      "cushion",
+      "artifact"
+    ],
+    "white surfboard": [
+      "white surfboard"
+    ],
+    "cat": [
+      "cat",
+      "feline",
+      "living thing"
+    ]
+  },
+  "object_to_levels": {
+    "hardwood floor": {
+      "fine": "hardwood floor",
+      "mid": "hardwood floor",
+      "coarse": "hardwood floor"
+    },
+    "chair": {
+      "fine": "chair",
+      "mid": "seat",
+      "coarse": "artifact"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "right ear": {
+      "fine": "right ear",
+      "mid": "right ear",
+      "coarse": "right ear"
+    },
+    "whiskers": {
+      "fine": "whiskers",
+      "mid": "facial hair",
+      "coarse": "natural object"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "array",
+      "coarse": "array"
+    },
+    "lamp": {
+      "fine": "lamp",
+      "mid": "source of illumination",
+      "coarse": "artifact"
+    },
+    "nose": {
+      "fine": "nose",
+      "mid": "chemoreceptor",
+      "coarse": "body part"
+    },
+    "black bowl": {
+      "fine": "black bowl",
+      "mid": "black bowl",
+      "coarse": "black bowl"
+    },
+    "eye": {
+      "fine": "eye",
+      "mid": "sense organ",
+      "coarse": "body part"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "artifact"
+    },
+    "pillow": {
+      "fine": "pillow",
+      "mid": "cushion",
+      "coarse": "artifact"
+    },
+    "white surfboard": {
+      "fine": "white surfboard",
+      "mid": "white surfboard",
+      "coarse": "white surfboard"
+    },
+    "cat": {
+      "fine": "cat",
+      "mid": "feline",
+      "coarse": "living thing"
+    }
+  },
+  "statistics": {
+    "num_objects": 14,
+    "num_relationships": 5,
+    "fine_concepts": 14,
+    "mid_concepts": 13,
+    "coarse_concepts": 9,
+    "total_concepts": 36
+  }
+}

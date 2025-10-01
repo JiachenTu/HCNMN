@@ -1,0 +1,199 @@
+{
+  "image_id": 713330,
+  "statistics": {
+    "num_objects": 24,
+    "num_relationships": 14,
+    "fine_concepts": 5,
+    "mid_concepts": 3,
+    "coarse_concepts": 1,
+    "total_concepts": 9
+  },
+  "merged_nodes": {
+    "fine": {
+      "key": {
+        "concept": "key",
+        "bbox": {
+          "x": 402,
+          "y": 562,
+          "w": 360,
+          "h": 72
+        },
+        "object_count": 12,
+        "original_objects": [
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key"
+        ]
+      },
+      "keyboard": {
+        "concept": "keyboard",
+        "bbox": {
+          "x": 269,
+          "y": 532,
+          "w": 545,
+          "h": 148
+        },
+        "object_count": 8,
+        "original_objects": [
+          "keyboard",
+          "keyboard",
+          "keyboard",
+          "keyboard",
+          "keyboard",
+          "keyboard",
+          "keyboard",
+          "keyboard"
+        ]
+      },
+      "screen": {
+        "concept": "screen",
+        "bbox": {
+          "x": 356,
+          "y": 156,
+          "w": 301,
+          "h": 245
+        },
+        "object_count": 1,
+        "original_objects": [
+          "screen"
+        ]
+      },
+      "walls": {
+        "concept": "walls",
+        "bbox": {
+          "x": 5,
+          "y": 11,
+          "w": 1014,
+          "h": 402
+        },
+        "object_count": 1,
+        "original_objects": [
+          "walls"
+        ]
+      },
+      "keys": {
+        "concept": "keys",
+        "bbox": {
+          "x": 356,
+          "y": 562,
+          "w": 95,
+          "h": 61
+        },
+        "object_count": 2,
+        "original_objects": [
+          "keys",
+          "keys"
+        ]
+      }
+    },
+    "mid": {
+      "device": {
+        "concept": "device",
+        "bbox": {
+          "x": 269,
+          "y": 532,
+          "w": 545,
+          "h": 148
+        },
+        "object_count": 22,
+        "original_objects": [
+          "key",
+          "keyboard",
+          "keyboard",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "keyboard",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "keyboard",
+          "keyboard",
+          "key",
+          "key",
+          "keys",
+          "keys"
+        ]
+      },
+      "surface": {
+        "concept": "surface",
+        "bbox": {
+          "x": 356,
+          "y": 156,
+          "w": 301,
+          "h": 245
+        },
+        "object_count": 1,
+        "original_objects": [
+          "screen"
+        ]
+      },
+      "partition": {
+        "concept": "partition",
+        "bbox": {
+          "x": 5,
+          "y": 11,
+          "w": 1014,
+          "h": 402
+        },
+        "object_count": 1,
+        "original_objects": [
+          "walls"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 5,
+          "y": 11,
+          "w": 1014,
+          "h": 669
+        },
+        "object_count": 24,
+        "original_objects": [
+          "key",
+          "keyboard",
+          "keyboard",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "keyboard",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "key",
+          "key",
+          "keyboard",
+          "key",
+          "screen",
+          "keyboard",
+          "keyboard",
+          "key",
+          "walls",
+          "key",
+          "keys",
+          "keys"
+        ]
+      }
+    }
+  }
+}

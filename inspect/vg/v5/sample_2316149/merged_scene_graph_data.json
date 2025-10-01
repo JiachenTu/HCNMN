@@ -1,0 +1,511 @@
+{
+  "image_id": 2316149,
+  "statistics": {
+    "num_objects": 28,
+    "num_relationships": 15,
+    "fine_concepts": 15,
+    "mid_concepts": 13,
+    "coarse_concepts": 4,
+    "total_concepts": 32
+  },
+  "merged_nodes": {
+    "fine": {
+      "cages": {
+        "concept": "cages",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 237
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cages"
+        ]
+      },
+      "field": {
+        "concept": "field",
+        "bbox": {
+          "x": 0,
+          "y": 174,
+          "w": 498,
+          "h": 157
+        },
+        "object_count": 2,
+        "original_objects": [
+          "field",
+          "field"
+        ]
+      },
+      "catcher": {
+        "concept": "catcher",
+        "bbox": {
+          "x": 138,
+          "y": 187,
+          "w": 95,
+          "h": 120
+        },
+        "object_count": 3,
+        "original_objects": [
+          "catcher",
+          "catcher",
+          "catcher"
+        ]
+      },
+      "umpire": {
+        "concept": "umpire",
+        "bbox": {
+          "x": 42,
+          "y": 126,
+          "w": 122,
+          "h": 148
+        },
+        "object_count": 1,
+        "original_objects": [
+          "umpire"
+        ]
+      },
+      "batter": {
+        "concept": "batter",
+        "bbox": {
+          "x": 324,
+          "y": 106,
+          "w": 78,
+          "h": 191
+        },
+        "object_count": 2,
+        "original_objects": [
+          "batter",
+          "batter"
+        ]
+      },
+      "batter box": {
+        "concept": "batter box",
+        "bbox": {
+          "x": 274,
+          "y": 270,
+          "w": 225,
+          "h": 59
+        },
+        "object_count": 1,
+        "original_objects": [
+          "batter box"
+        ]
+      },
+      "plate": {
+        "concept": "plate",
+        "bbox": {
+          "x": 381,
+          "y": 301,
+          "w": 64,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "pants": {
+        "concept": "pants",
+        "bbox": {
+          "x": 341,
+          "y": 212,
+          "w": 57,
+          "h": 50
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pants"
+        ]
+      },
+      "bat": {
+        "concept": "bat",
+        "bbox": {
+          "x": 341,
+          "y": 114,
+          "w": 16,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bat"
+        ]
+      },
+      "helmet": {
+        "concept": "helmet",
+        "bbox": {
+          "x": 357,
+          "y": 123,
+          "w": 43,
+          "h": 32
+        },
+        "object_count": 2,
+        "original_objects": [
+          "helmet",
+          "helmet"
+        ]
+      },
+      "man": {
+        "concept": "man",
+        "bbox": {
+          "x": 404,
+          "y": 85,
+          "w": 87,
+          "h": 118
+        },
+        "object_count": 3,
+        "original_objects": [
+          "man",
+          "man",
+          "man"
+        ]
+      },
+      "shorts": {
+        "concept": "shorts",
+        "bbox": {
+          "x": 404,
+          "y": 143,
+          "w": 85,
+          "h": 34
+        },
+        "object_count": 4,
+        "original_objects": [
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts"
+        ]
+      },
+      "human": {
+        "concept": "human",
+        "bbox": {
+          "x": 394,
+          "y": 77,
+          "w": 98,
+          "h": 131
+        },
+        "object_count": 4,
+        "original_objects": [
+          "human",
+          "human",
+          "human",
+          "human"
+        ]
+      },
+      "batters": {
+        "concept": "batters",
+        "bbox": {
+          "x": 332,
+          "y": 103,
+          "w": 21,
+          "h": 63
+        },
+        "object_count": 1,
+        "original_objects": [
+          "batters"
+        ]
+      },
+      "head": {
+        "concept": "head",
+        "bbox": {
+          "x": 357,
+          "y": 123,
+          "w": 44,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      }
+    },
+    "mid": {
+      "enclosure": {
+        "concept": "enclosure",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 237
+        },
+        "object_count": 1,
+        "original_objects": [
+          "cages"
+        ]
+      },
+      "tract": {
+        "concept": "tract",
+        "bbox": {
+          "x": 0,
+          "y": 174,
+          "w": 498,
+          "h": 157
+        },
+        "object_count": 2,
+        "original_objects": [
+          "field",
+          "field"
+        ]
+      },
+      "infielder": {
+        "concept": "infielder",
+        "bbox": {
+          "x": 138,
+          "y": 187,
+          "w": 95,
+          "h": 120
+        },
+        "object_count": 3,
+        "original_objects": [
+          "catcher",
+          "catcher",
+          "catcher"
+        ]
+      },
+      "official": {
+        "concept": "official",
+        "bbox": {
+          "x": 42,
+          "y": 126,
+          "w": 122,
+          "h": 148
+        },
+        "object_count": 1,
+        "original_objects": [
+          "umpire"
+        ]
+      },
+      "ballplayer": {
+        "concept": "ballplayer",
+        "bbox": {
+          "x": 324,
+          "y": 103,
+          "w": 78,
+          "h": 194
+        },
+        "object_count": 3,
+        "original_objects": [
+          "batter",
+          "batter",
+          "batters"
+        ]
+      },
+      "batter box": {
+        "concept": "batter box",
+        "bbox": {
+          "x": 274,
+          "y": 270,
+          "w": 225,
+          "h": 59
+        },
+        "object_count": 1,
+        "original_objects": [
+          "batter box"
+        ]
+      },
+      "base": {
+        "concept": "base",
+        "bbox": {
+          "x": 381,
+          "y": 301,
+          "w": 64,
+          "h": 21
+        },
+        "object_count": 1,
+        "original_objects": [
+          "plate"
+        ]
+      },
+      "underpants": {
+        "concept": "underpants",
+        "bbox": {
+          "x": 341,
+          "y": 212,
+          "w": 57,
+          "h": 50
+        },
+        "object_count": 1,
+        "original_objects": [
+          "pants"
+        ]
+      },
+      "placental": {
+        "concept": "placental",
+        "bbox": {
+          "x": 341,
+          "y": 114,
+          "w": 16,
+          "h": 52
+        },
+        "object_count": 1,
+        "original_objects": [
+          "bat"
+        ]
+      },
+      "armor plate": {
+        "concept": "armor plate",
+        "bbox": {
+          "x": 357,
+          "y": 123,
+          "w": 43,
+          "h": 32
+        },
+        "object_count": 2,
+        "original_objects": [
+          "helmet",
+          "helmet"
+        ]
+      },
+      "adult": {
+        "concept": "adult",
+        "bbox": {
+          "x": 404,
+          "y": 85,
+          "w": 87,
+          "h": 118
+        },
+        "object_count": 3,
+        "original_objects": [
+          "man",
+          "man",
+          "man"
+        ]
+      },
+      "trouser": {
+        "concept": "trouser",
+        "bbox": {
+          "x": 404,
+          "y": 143,
+          "w": 85,
+          "h": 34
+        },
+        "object_count": 4,
+        "original_objects": [
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts"
+        ]
+      },
+      "hominid": {
+        "concept": "hominid",
+        "bbox": {
+          "x": 394,
+          "y": 77,
+          "w": 98,
+          "h": 131
+        },
+        "object_count": 4,
+        "original_objects": [
+          "human",
+          "human",
+          "human",
+          "human"
+        ]
+      },
+      "external body part": {
+        "concept": "external body part",
+        "bbox": {
+          "x": 357,
+          "y": 123,
+          "w": 44,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      }
+    },
+    "coarse": {
+      "artifact": {
+        "concept": "artifact",
+        "bbox": {
+          "x": 1,
+          "y": 0,
+          "w": 497,
+          "h": 322
+        },
+        "object_count": 9,
+        "original_objects": [
+          "cages",
+          "plate",
+          "pants",
+          "helmet",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "helmet"
+        ]
+      },
+      "region": {
+        "concept": "region",
+        "bbox": {
+          "x": 0,
+          "y": 174,
+          "w": 498,
+          "h": 157
+        },
+        "object_count": 2,
+        "original_objects": [
+          "field",
+          "field"
+        ]
+      },
+      "living thing": {
+        "concept": "living thing",
+        "bbox": {
+          "x": 42,
+          "y": 77,
+          "w": 450,
+          "h": 230
+        },
+        "object_count": 15,
+        "original_objects": [
+          "catcher",
+          "umpire",
+          "catcher",
+          "batter",
+          "batter",
+          "bat",
+          "man",
+          "man",
+          "man",
+          "human",
+          "human",
+          "human",
+          "human",
+          "batters",
+          "catcher"
+        ]
+      },
+      "batter box": {
+        "concept": "batter box",
+        "bbox": {
+          "x": 274,
+          "y": 270,
+          "w": 225,
+          "h": 59
+        },
+        "object_count": 1,
+        "original_objects": [
+          "batter box"
+        ]
+      },
+      "body part": {
+        "concept": "body part",
+        "bbox": {
+          "x": 357,
+          "y": 123,
+          "w": 44,
+          "h": 35
+        },
+        "object_count": 1,
+        "original_objects": [
+          "head"
+        ]
+      }
+    }
+  }
+}

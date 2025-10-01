@@ -1,0 +1,74 @@
+{
+  "image_id": 2317521,
+  "hierarchy": {
+    "fine": [
+      "brick",
+      "cheese",
+      "cloth",
+      "table"
+    ],
+    "mid": [
+      "array",
+      "artifact",
+      "ceramic",
+      "dairy product"
+    ],
+    "coarse": [
+      "array",
+      "artifact",
+      "food"
+    ]
+  },
+  "concept_paths": {
+    "brick": [
+      "brick",
+      "ceramic",
+      "artifact"
+    ],
+    "cheese": [
+      "cheese",
+      "dairy product",
+      "food"
+    ],
+    "cloth": [
+      "cloth",
+      "artifact",
+      "artifact"
+    ],
+    "table": [
+      "table",
+      "array",
+      "array"
+    ]
+  },
+  "object_to_levels": {
+    "brick": {
+      "fine": "brick",
+      "mid": "ceramic",
+      "coarse": "artifact"
+    },
+    "cheese": {
+      "fine": "cheese",
+      "mid": "dairy product",
+      "coarse": "food"
+    },
+    "cloth": {
+      "fine": "cloth",
+      "mid": "artifact",
+      "coarse": "artifact"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "array",
+      "coarse": "array"
+    }
+  },
+  "statistics": {
+    "num_objects": 4,
+    "num_relationships": 4,
+    "fine_concepts": 4,
+    "mid_concepts": 4,
+    "coarse_concepts": 3,
+    "total_concepts": 11
+  }
+}

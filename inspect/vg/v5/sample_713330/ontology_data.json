@@ -1,0 +1,82 @@
+{
+  "image_id": 713330,
+  "hierarchy": {
+    "fine": [
+      "key",
+      "keyboard",
+      "keys",
+      "screen",
+      "walls"
+    ],
+    "mid": [
+      "device",
+      "partition",
+      "surface"
+    ],
+    "coarse": [
+      "artifact"
+    ]
+  },
+  "concept_paths": {
+    "keys": [
+      "keys",
+      "device",
+      "artifact"
+    ],
+    "keyboard": [
+      "keyboard",
+      "device",
+      "artifact"
+    ],
+    "key": [
+      "key",
+      "device",
+      "artifact"
+    ],
+    "screen": [
+      "screen",
+      "surface",
+      "artifact"
+    ],
+    "walls": [
+      "walls",
+      "partition",
+      "artifact"
+    ]
+  },
+  "object_to_levels": {
+    "keys": {
+      "fine": "keys",
+      "mid": "device",
+      "coarse": "artifact"
+    },
+    "keyboard": {
+      "fine": "keyboard",
+      "mid": "device",
+      "coarse": "artifact"
+    },
+    "key": {
+      "fine": "key",
+      "mid": "device",
+      "coarse": "artifact"
+    },
+    "screen": {
+      "fine": "screen",
+      "mid": "surface",
+      "coarse": "artifact"
+    },
+    "walls": {
+      "fine": "walls",
+      "mid": "partition",
+      "coarse": "artifact"
+    }
+  },
+  "statistics": {
+    "num_objects": 17,
+    "num_relationships": 14,
+    "fine_concepts": 5,
+    "mid_concepts": 3,
+    "coarse_concepts": 1,
+    "total_concepts": 9
+  }
+}

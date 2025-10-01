@@ -1,0 +1,196 @@
+{
+  "image_id": 1159925,
+  "hierarchy": {
+    "fine": [
+      "banner",
+      "building",
+      "hat",
+      "man",
+      "object",
+      "people",
+      "person",
+      "sign",
+      "traffic light",
+      "umbrella",
+      "wall",
+      "window",
+      "woman hat",
+      "writing"
+    ],
+    "mid": [
+      "adult",
+      "canopy",
+      "clue",
+      "flag",
+      "framework",
+      "group",
+      "headdress",
+      "light",
+      "organism",
+      "partition",
+      "physical entity",
+      "structure",
+      "verbal creation",
+      "woman hat"
+    ],
+    "coarse": [
+      "act",
+      "artifact",
+      "evidence",
+      "living thing",
+      "people",
+      "physical entity",
+      "visual signal",
+      "woman hat"
+    ]
+  },
+  "concept_paths": {
+    "window": [
+      "window",
+      "framework",
+      "artifact"
+    ],
+    "writing": [
+      "writing",
+      "verbal creation",
+      "act"
+    ],
+    "object": [
+      "object",
+      "physical entity"
+    ],
+    "hat": [
+      "hat",
+      "headdress",
+      "artifact"
+    ],
+    "umbrella": [
+      "umbrella",
+      "canopy",
+      "artifact"
+    ],
+    "woman hat": [
+      "woman hat"
+    ],
+    "banner": [
+      "banner",
+      "flag",
+      "artifact"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "artifact"
+    ],
+    "people": [
+      "people",
+      "group",
+      "people"
+    ],
+    "sign": [
+      "sign",
+      "clue",
+      "evidence"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "artifact"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "living thing"
+    ],
+    "man": [
+      "man",
+      "adult",
+      "living thing"
+    ],
+    "traffic light": [
+      "traffic light",
+      "light",
+      "visual signal"
+    ]
+  },
+  "object_to_levels": {
+    "window": {
+      "fine": "window",
+      "mid": "framework",
+      "coarse": "artifact"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "verbal creation",
+      "coarse": "act"
+    },
+    "object": {
+      "fine": "object",
+      "mid": "physical entity",
+      "coarse": "physical entity"
+    },
+    "hat": {
+      "fine": "hat",
+      "mid": "headdress",
+      "coarse": "artifact"
+    },
+    "umbrella": {
+      "fine": "umbrella",
+      "mid": "canopy",
+      "coarse": "artifact"
+    },
+    "woman hat": {
+      "fine": "woman hat",
+      "mid": "woman hat",
+      "coarse": "woman hat"
+    },
+    "banner": {
+      "fine": "banner",
+      "mid": "flag",
+      "coarse": "artifact"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "artifact"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "group",
+      "coarse": "people"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "clue",
+      "coarse": "evidence"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "artifact"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "living thing"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "adult",
+      "coarse": "living thing"
+    },
+    "traffic light": {
+      "fine": "traffic light",
+      "mid": "light",
+      "coarse": "visual signal"
+    }
+  },
+  "statistics": {
+    "num_objects": 23,
+    "num_relationships": 12,
+    "fine_concepts": 14,
+    "mid_concepts": 14,
+    "coarse_concepts": 8,
+    "total_concepts": 36
+  }
+}
