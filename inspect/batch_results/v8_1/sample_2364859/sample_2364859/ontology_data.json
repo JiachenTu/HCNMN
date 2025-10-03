@@ -1,0 +1,284 @@
+{
+  "image_id": 2364859,
+  "hierarchy": {
+    "fine": [
+      "vase",
+      "flower",
+      "board",
+      "chair",
+      "pink",
+      "back",
+      "chairs",
+      "flowers",
+      "mat",
+      "tips",
+      "babys breath",
+      "dining table",
+      "cabinet",
+      "crack",
+      "table",
+      "tops",
+      "chair back",
+      "drawer",
+      "handle"
+    ],
+    "mid": [
+      "container",
+      "organism",
+      "unit",
+      "furnishing",
+      "color",
+      "back",
+      "plant",
+      "covering",
+      "extremity",
+      "babys breath",
+      "amorphous shape",
+      "table",
+      "top",
+      "chair back",
+      "structure",
+      "handle"
+    ],
+    "coarse": [
+      "physical entity",
+      "object",
+      "abstraction",
+      "attribute",
+      "babys breath",
+      "chair back"
+    ]
+  },
+  "concept_paths": {
+    "vase": [
+      "vase",
+      "container",
+      "physical entity"
+    ],
+    "flower": [
+      "flower",
+      "organism",
+      "object"
+    ],
+    "board": [
+      "board",
+      "unit",
+      "abstraction"
+    ],
+    "chair": [
+      "chair",
+      "furnishing",
+      "physical entity"
+    ],
+    "pink": [
+      "pink",
+      "color",
+      "attribute"
+    ],
+    "back": [
+      "back",
+      "back",
+      "physical entity"
+    ],
+    "chairs": [
+      "chairs",
+      "furnishing",
+      "physical entity"
+    ],
+    "flowers": [
+      "flowers",
+      "plant",
+      "object"
+    ],
+    "mat": [
+      "mat",
+      "covering",
+      "physical entity"
+    ],
+    "tips": [
+      "tips",
+      "extremity",
+      "object"
+    ],
+    "babys breath": [
+      "babys breath"
+    ],
+    "dining table": [
+      "dining table",
+      "furnishing",
+      "physical entity"
+    ],
+    "cabinet": [
+      "cabinet",
+      "furnishing",
+      "physical entity"
+    ],
+    "crack": [
+      "crack",
+      "amorphous shape",
+      "abstraction"
+    ],
+    "table": [
+      "table",
+      "table",
+      "abstraction"
+    ],
+    "tops": [
+      "tops",
+      "top",
+      "object"
+    ],
+    "chair back": [
+      "chair back"
+    ],
+    "drawer": [
+      "drawer",
+      "structure",
+      "physical entity"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "physical entity"
+    ]
+  },
+  "object_to_levels": {
+    "vase": {
+      "fine": "vase",
+      "mid": "container",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Vase is a container (mid-level concept) and a physical entity (coarse-level concept) that best represents the object in the scene context."
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "organism",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "board": {
+      "fine": "board",
+      "mid": "unit",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Board is a physical object (coarse abstraction) that can be grouped into a unit (mid-level concept) representing its functional role in the scene."
+    },
+    "chair": {
+      "fine": "chair",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Chair is a furniture item, which fits as a mid-level category (furnishing) and a physical entity, which fits as the coarse-level abstraction (physical entity). This aligns with the semantic hierarchy."
+    },
+    "pink": {
+      "fine": "pink",
+      "mid": "color",
+      "coarse": "attribute",
+      "method": "llm",
+      "reasoning": "Pink is a color, and color is a mid-level concept that represents the visual property of the object. It aligns with the semantic category of the object and provides a meaningful abstraction for grouping."
+    },
+    "back": {
+      "fine": "back",
+      "mid": "back",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'back' object is a physical entity, which provides the most general meaningful domain for grouping similar objects (e.g., furniture, objects). It represents the highest level of abstraction as a physical entity."
+    },
+    "chairs": {
+      "fine": "chairs",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Chairs are functional furniture items and best represented as 'furnishing' (mid-level category) since it groups furniture objects with functional roles. 'Physical entity' (coarse) captures the general category of furniture items."
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Flowers are a type of plant, which is a mid-level category (plant) and the most general meaningful domain for grouping similar objects. This aligns with the scene context and semantic hierarchy."
+    },
+    "mat": {
+      "fine": "mat",
+      "mid": "covering",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'mat' is a covering object, which is a physical entity (depth 1) and best represents its functional role as a covering surface in the scene."
+    },
+    "tips": {
+      "fine": "tips",
+      "mid": "extremity",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "babys breath": {
+      "fine": "babys breath",
+      "mid": "babys breath",
+      "coarse": "babys breath"
+    },
+    "dining table": {
+      "fine": "dining table",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Furnishing is the most general mid-level concept that captures the function and purpose of objects like a dining table. It aligns with the scene context, which describes dining tables as furniture objects."
+    },
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Furnishing is the most general category that best represents 'cabinet' as a functional and structural object, aligning with its role in a scene."
+    },
+    "crack": {
+      "fine": "crack",
+      "mid": "amorphous shape",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "table": {
+      "fine": "table",
+      "mid": "table",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "The 'table' is a physical object with semantic meaning (a table), and it best represents a mid-level abstraction as a category that includes other objects with similar semantic roles."
+    },
+    "tops": {
+      "fine": "tops",
+      "mid": "top",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Tops is a specific object in the scene, and 'top' represents a mid-level category that captures its position relative to other objects, while 'object' is the coarse-level abstraction that encompasses all objects in the scene."
+    },
+    "chair back": {
+      "fine": "chair back",
+      "mid": "chair back",
+      "coarse": "chair back"
+    },
+    "drawer": {
+      "fine": "drawer",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'drawer' is a physical object (coarse) and a structure (mid) that contains other objects. It best represents the general concept of a storage or container."
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Handle is a functional component of a drawer and represents the most general meaningful domain for grouping similar objects."
+    }
+  },
+  "statistics": {
+    "num_objects": 35,
+    "fine_concepts": 19,
+    "mid_concepts": 16,
+    "coarse_concepts": 6,
+    "compression_fine_to_mid": 1.19,
+    "compression_fine_to_coarse": 3.17
+  }
+}

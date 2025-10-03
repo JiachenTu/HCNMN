@@ -1,0 +1,274 @@
+{
+  "image_id": 2396558,
+  "hierarchy": {
+    "fine": [
+      "sticker",
+      "spot",
+      "shape",
+      "stem",
+      "oranges",
+      "apple",
+      "fruit",
+      "tip",
+      "lemon",
+      "orange",
+      "pile",
+      "bump",
+      "branch",
+      "table",
+      "light",
+      "banana",
+      "middle",
+      "bottom",
+      "top",
+      "bruise",
+      "group"
+    ],
+    "mid": [
+      "process",
+      "topographic point",
+      "shape",
+      "word",
+      "natural object",
+      "extremity",
+      "pile",
+      "physical condition",
+      "unit",
+      "table",
+      "physical phenomenon",
+      "organism",
+      "area",
+      "top",
+      "group"
+    ],
+    "coarse": [
+      "thing",
+      "object",
+      "abstraction",
+      "state",
+      "process"
+    ]
+  },
+  "concept_paths": {
+    "sticker": [
+      "sticker",
+      "process",
+      "thing"
+    ],
+    "spot": [
+      "spot",
+      "topographic point",
+      "object"
+    ],
+    "shape": [
+      "shape",
+      "shape",
+      "abstraction"
+    ],
+    "stem": [
+      "stem",
+      "word",
+      "abstraction"
+    ],
+    "oranges": [
+      "oranges",
+      "natural object",
+      "object"
+    ],
+    "apple": [
+      "apple",
+      "natural object",
+      "object"
+    ],
+    "fruit": [
+      "fruit",
+      "natural object",
+      "object"
+    ],
+    "tip": [
+      "tip",
+      "extremity",
+      "object"
+    ],
+    "lemon": [
+      "lemon",
+      "natural object",
+      "object"
+    ],
+    "orange": [
+      "orange",
+      "natural object",
+      "object"
+    ],
+    "pile": [
+      "pile",
+      "pile",
+      "abstraction"
+    ],
+    "bump": [
+      "bump",
+      "physical condition",
+      "state"
+    ],
+    "branch": [
+      "branch",
+      "unit",
+      "abstraction"
+    ],
+    "table": [
+      "table",
+      "table",
+      "abstraction"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "process"
+    ],
+    "banana": [
+      "banana",
+      "organism",
+      "object"
+    ],
+    "middle": [
+      "middle",
+      "area",
+      "object"
+    ],
+    "bottom": [
+      "bottom",
+      "extremity",
+      "object"
+    ],
+    "top": [
+      "top",
+      "top",
+      "object"
+    ],
+    "bruise": [
+      "bruise",
+      "physical condition",
+      "state"
+    ],
+    "group": [
+      "group",
+      "group",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "sticker": {
+      "fine": "sticker",
+      "mid": "process",
+      "coarse": "thing"
+    },
+    "spot": {
+      "fine": "spot",
+      "mid": "topographic point",
+      "coarse": "object"
+    },
+    "shape": {
+      "fine": "shape",
+      "mid": "shape",
+      "coarse": "abstraction"
+    },
+    "stem": {
+      "fine": "stem",
+      "mid": "word",
+      "coarse": "abstraction"
+    },
+    "oranges": {
+      "fine": "oranges",
+      "mid": "natural object",
+      "coarse": "object"
+    },
+    "apple": {
+      "fine": "apple",
+      "mid": "natural object",
+      "coarse": "object"
+    },
+    "fruit": {
+      "fine": "fruit",
+      "mid": "natural object",
+      "coarse": "object"
+    },
+    "tip": {
+      "fine": "tip",
+      "mid": "extremity",
+      "coarse": "object"
+    },
+    "lemon": {
+      "fine": "lemon",
+      "mid": "natural object",
+      "coarse": "object"
+    },
+    "orange": {
+      "fine": "orange",
+      "mid": "natural object",
+      "coarse": "object"
+    },
+    "pile": {
+      "fine": "pile",
+      "mid": "pile",
+      "coarse": "abstraction"
+    },
+    "bump": {
+      "fine": "bump",
+      "mid": "physical condition",
+      "coarse": "state"
+    },
+    "branch": {
+      "fine": "branch",
+      "mid": "unit",
+      "coarse": "abstraction"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "table",
+      "coarse": "abstraction"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "process"
+    },
+    "banana": {
+      "fine": "banana",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "middle": {
+      "fine": "middle",
+      "mid": "area",
+      "coarse": "object"
+    },
+    "bottom": {
+      "fine": "bottom",
+      "mid": "extremity",
+      "coarse": "object"
+    },
+    "top": {
+      "fine": "top",
+      "mid": "top",
+      "coarse": "object"
+    },
+    "bruise": {
+      "fine": "bruise",
+      "mid": "physical condition",
+      "coarse": "state"
+    },
+    "group": {
+      "fine": "group",
+      "mid": "group",
+      "coarse": "abstraction"
+    }
+  },
+  "statistics": {
+    "num_objects": 36,
+    "fine_concepts": 21,
+    "mid_concepts": 15,
+    "coarse_concepts": 5,
+    "compression_fine_to_mid": 1.4,
+    "compression_fine_to_coarse": 4.2
+  }
+}

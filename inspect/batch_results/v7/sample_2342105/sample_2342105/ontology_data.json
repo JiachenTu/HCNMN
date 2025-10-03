@@ -1,0 +1,284 @@
+{
+  "image_id": 2342105,
+  "hierarchy": {
+    "fine": [
+      "woman and boy",
+      "bag",
+      "shirt",
+      "clouds",
+      "ladybug kites",
+      "woman",
+      "hands",
+      "sky",
+      "man",
+      "tail",
+      "blue",
+      "red kite",
+      "kite",
+      "building",
+      "boy",
+      "strings",
+      "ground",
+      "kites",
+      "cones",
+      "people",
+      "down",
+      "blue shirt"
+    ],
+    "mid": [
+      "woman and boy",
+      "instrumentality",
+      "artifact",
+      "physical phenomenon",
+      "ladybug kites",
+      "organism",
+      "group action",
+      "atmosphere",
+      "process",
+      "color",
+      "red kite",
+      "document",
+      "structure",
+      "musical organization",
+      "land",
+      "people",
+      "material",
+      "blue shirt"
+    ],
+    "coarse": [
+      "woman and boy",
+      "object",
+      "process",
+      "ladybug kites",
+      "abstraction",
+      "matter",
+      "thing",
+      "red kite",
+      "blue shirt"
+    ]
+  },
+  "concept_paths": {
+    "woman and boy": [
+      "woman and boy"
+    ],
+    "bag": [
+      "bag",
+      "instrumentality",
+      "object"
+    ],
+    "shirt": [
+      "shirt",
+      "artifact",
+      "object"
+    ],
+    "clouds": [
+      "clouds",
+      "physical phenomenon",
+      "process"
+    ],
+    "ladybug kites": [
+      "ladybug kites"
+    ],
+    "woman": [
+      "woman",
+      "organism",
+      "object"
+    ],
+    "hands": [
+      "hands",
+      "group action",
+      "abstraction"
+    ],
+    "sky": [
+      "sky",
+      "atmosphere",
+      "matter"
+    ],
+    "man": [
+      "man",
+      "organism",
+      "object"
+    ],
+    "tail": [
+      "tail",
+      "process",
+      "thing"
+    ],
+    "blue": [
+      "blue",
+      "color",
+      "abstraction"
+    ],
+    "red kite": [
+      "red kite"
+    ],
+    "kite": [
+      "kite",
+      "document",
+      "abstraction"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "object"
+    ],
+    "boy": [
+      "boy",
+      "organism",
+      "object"
+    ],
+    "strings": [
+      "strings",
+      "musical organization",
+      "abstraction"
+    ],
+    "ground": [
+      "ground",
+      "land",
+      "object"
+    ],
+    "kites": [
+      "kites",
+      "document",
+      "abstraction"
+    ],
+    "cones": [
+      "cones",
+      "artifact",
+      "object"
+    ],
+    "people": [
+      "people",
+      "people",
+      "abstraction"
+    ],
+    "down": [
+      "down",
+      "material",
+      "abstraction"
+    ],
+    "blue shirt": [
+      "blue shirt"
+    ]
+  },
+  "object_to_levels": {
+    "woman and boy": {
+      "fine": "woman and boy",
+      "mid": "woman and boy",
+      "coarse": "woman and boy"
+    },
+    "bag": {
+      "fine": "bag",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "clouds": {
+      "fine": "clouds",
+      "mid": "physical phenomenon",
+      "coarse": "process"
+    },
+    "ladybug kites": {
+      "fine": "ladybug kites",
+      "mid": "ladybug kites",
+      "coarse": "ladybug kites"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "hands": {
+      "fine": "hands",
+      "mid": "group action",
+      "coarse": "abstraction"
+    },
+    "sky": {
+      "fine": "sky",
+      "mid": "atmosphere",
+      "coarse": "matter"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "tail": {
+      "fine": "tail",
+      "mid": "process",
+      "coarse": "thing"
+    },
+    "blue": {
+      "fine": "blue",
+      "mid": "color",
+      "coarse": "abstraction"
+    },
+    "red kite": {
+      "fine": "red kite",
+      "mid": "red kite",
+      "coarse": "red kite"
+    },
+    "kite": {
+      "fine": "kite",
+      "mid": "document",
+      "coarse": "abstraction"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "strings": {
+      "fine": "strings",
+      "mid": "musical organization",
+      "coarse": "abstraction"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "land",
+      "coarse": "object"
+    },
+    "kites": {
+      "fine": "kites",
+      "mid": "document",
+      "coarse": "abstraction"
+    },
+    "cones": {
+      "fine": "cones",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "people",
+      "coarse": "abstraction"
+    },
+    "down": {
+      "fine": "down",
+      "mid": "material",
+      "coarse": "abstraction"
+    },
+    "blue shirt": {
+      "fine": "blue shirt",
+      "mid": "blue shirt",
+      "coarse": "blue shirt"
+    }
+  },
+  "statistics": {
+    "num_objects": 28,
+    "fine_concepts": 22,
+    "mid_concepts": 18,
+    "coarse_concepts": 9,
+    "compression_fine_to_mid": 1.22,
+    "compression_fine_to_coarse": 2.44
+  }
+}

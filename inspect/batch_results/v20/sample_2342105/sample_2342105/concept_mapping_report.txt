@@ -1,0 +1,89 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 22
+**Unique Fine Concepts**: 22
+**Unique Mid Concepts**: 16
+**Unique Coarse Concepts**: 9
+
+**Compression Ratios**:
+- Fine → Mid: **1.38x**
+- Fine → Coarse: **2.44x**
+- Mid → Coarse: **1.78x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 4 | bag, building, cones, shirt |
+| person | 3 | boy, man, woman |
+| document | 2 | kite, kites |
+| group action | 1 | hands |
+| color | 1 | blue |
+| part | 1 | tail |
+| musical organization | 1 | strings |
+| red kite | 1 | red kite |
+| people | 1 | people |
+| material | 1 | down |
+| physical phenomenon | 1 | clouds |
+| woman and boy | 1 | woman and boy |
+| land | 1 | ground |
+| ladybug kites | 1 | ladybug kites |
+| atmosphere | 1 | sky |
+| blue shirt | 1 | blue shirt |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| abstraction | 6 | 7 | color, document, group action, material, musical organization, people |
+| object | 3 | 7 | artifact, land, person |
+| thing | 1 | 1 | part |
+| red kite | 1 | 1 | red kite |
+| physical entity | 1 | 2 | physical phenomenon |
+| woman and boy | 1 | 1 | woman and boy |
+| ladybug kites | 1 | 1 | ladybug kites |
+| matter | 1 | 1 | atmosphere |
+| blue shirt | 1 | 1 | blue shirt |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| blue | color | abstraction |
+| kite | document | abstraction |
+| kites | document | abstraction |
+| hands | group action | abstraction |
+| down | material | abstraction |
+| strings | musical organization | abstraction |
+| people | people | abstraction |
+| blue shirt | blue shirt | blue shirt |
+| ladybug kites | ladybug kites | ladybug kites |
+| sky | atmosphere | matter |
+| bag | artifact | object |
+| building | artifact | object |
+| cones | artifact | object |
+| shirt | artifact | object |
+| ground | land | object |
+| boy | person | object |
+| man | person | object |
+| woman | person | physical entity |
+| clouds | physical phenomenon | physical entity |
+| red kite | red kite | red kite |
+| tail | part | thing |
+| woman and boy | woman and boy | woman and boy |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_2342105/sample_2342105/concept_mapping_report.txt

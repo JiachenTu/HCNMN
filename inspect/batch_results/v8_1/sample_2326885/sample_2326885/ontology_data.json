@@ -1,0 +1,203 @@
+{
+  "image_id": 2326885,
+  "hierarchy": {
+    "fine": [
+      "surf board",
+      "tracks",
+      "long hair",
+      "woman",
+      "skirt",
+      "beach",
+      "bad sentence",
+      "surfboard",
+      "white motorcycle",
+      "short hair",
+      "no motorcycle",
+      "sand",
+      "man",
+      "shoes"
+    ],
+    "mid": [
+      "surf board",
+      "path",
+      "long hair",
+      "organism",
+      "cloth covering",
+      "beach",
+      "bad sentence",
+      "board",
+      "white motorcycle",
+      "short hair",
+      "no motorcycle",
+      "material",
+      "situation"
+    ],
+    "coarse": [
+      "surf board",
+      "physical entity",
+      "long hair",
+      "object",
+      "bad sentence",
+      "white motorcycle",
+      "short hair",
+      "no motorcycle",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "surf board": [
+      "surf board"
+    ],
+    "tracks": [
+      "tracks",
+      "path",
+      "physical entity"
+    ],
+    "long hair": [
+      "long hair"
+    ],
+    "woman": [
+      "woman",
+      "organism",
+      "physical entity"
+    ],
+    "skirt": [
+      "skirt",
+      "cloth covering",
+      "object"
+    ],
+    "beach": [
+      "beach",
+      "beach",
+      "physical entity"
+    ],
+    "bad sentence": [
+      "bad sentence"
+    ],
+    "surfboard": [
+      "surfboard",
+      "board",
+      "object"
+    ],
+    "white motorcycle": [
+      "white motorcycle"
+    ],
+    "short hair": [
+      "short hair"
+    ],
+    "no motorcycle": [
+      "no motorcycle"
+    ],
+    "sand": [
+      "sand",
+      "material",
+      "abstraction"
+    ],
+    "man": [
+      "man",
+      "organism",
+      "physical entity"
+    ],
+    "shoes": [
+      "shoes",
+      "situation",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "surf board": {
+      "fine": "surf board",
+      "mid": "surf board",
+      "coarse": "surf board"
+    },
+    "tracks": {
+      "fine": "tracks",
+      "mid": "path",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Tracks are a physical entity (depth 1) that form a path (depth 5) connecting sand. This provides a meaningful, traceable abstraction for the object and its relationship."
+    },
+    "long hair": {
+      "fine": "long hair",
+      "mid": "long hair",
+      "coarse": "long hair"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "organism",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Organism (d=5) best represents 'woman' as a mid-level category. It captures the biological aspect of the object, aligning with the semantic information and allowing progressive refinement towards a more detailed level."
+    },
+    "skirt": {
+      "fine": "skirt",
+      "mid": "cloth covering",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'skirt' is a clothing item that is a physical object (object) and also a part of a cloth covering (cloth covering) in the scene context. This aligns with the two-stage selection criteria for mid-level and coarse-level concepts."
+    },
+    "beach": {
+      "fine": "beach",
+      "mid": "beach",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Beach is a physical entity that can be abstracted as a geographical feature (mid-level), and it is most general in the coarse level as a physical entity."
+    },
+    "bad sentence": {
+      "fine": "bad sentence",
+      "mid": "bad sentence",
+      "coarse": "bad sentence"
+    },
+    "surfboard": {
+      "fine": "surfboard",
+      "mid": "board",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Board is the most specific and functional category representing 'surfboard', while 'object' is the coarsest level that captures the broader category of items in the scene."
+    },
+    "white motorcycle": {
+      "fine": "white motorcycle",
+      "mid": "white motorcycle",
+      "coarse": "white motorcycle"
+    },
+    "short hair": {
+      "fine": "short hair",
+      "mid": "short hair",
+      "coarse": "short hair"
+    },
+    "no motorcycle": {
+      "fine": "no motorcycle",
+      "mid": "no motorcycle",
+      "coarse": "no motorcycle"
+    },
+    "sand": {
+      "fine": "sand",
+      "mid": "material",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Material represents the physical nature of sand, aligning with its functional and semantic category as a substance. Abstraction captures the broader concept of sand in the scene context."
+    },
+    "man": {
+      "fine": "man",
+      "mid": "organism",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Man is an organism (mid-level concept), and physical entity (coarse-level concept) captures the general domain of the object."
+    },
+    "shoes": {
+      "fine": "shoes",
+      "mid": "situation",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    }
+  },
+  "statistics": {
+    "num_objects": 20,
+    "fine_concepts": 14,
+    "mid_concepts": 13,
+    "coarse_concepts": 9,
+    "compression_fine_to_mid": 1.08,
+    "compression_fine_to_coarse": 1.56
+  }
+}

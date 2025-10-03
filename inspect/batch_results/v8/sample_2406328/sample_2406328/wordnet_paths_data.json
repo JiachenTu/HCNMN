@@ -1,0 +1,676 @@
+{
+  "image_id": 2406328,
+  "object_paths": {
+    "cubby": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "area",
+        6
+      ],
+      [
+        "room",
+        7
+      ],
+      [
+        "cubby",
+        8
+      ]
+    ],
+    "wall": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "partition",
+        6
+      ],
+      [
+        "wall",
+        7
+      ]
+    ],
+    "towel ring": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "strip",
+        5
+      ],
+      [
+        "band",
+        6
+      ],
+      [
+        "hoop",
+        7
+      ],
+      [
+        "towel ring",
+        8
+      ]
+    ],
+    "overflow": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "event",
+        3
+      ],
+      [
+        "act",
+        4
+      ],
+      [
+        "action",
+        5
+      ],
+      [
+        "change",
+        6
+      ],
+      [
+        "motion",
+        7
+      ],
+      [
+        "flow",
+        8
+      ],
+      [
+        "flood",
+        9
+      ]
+    ],
+    "pipe": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "passage",
+        6
+      ],
+      [
+        "conduit",
+        7
+      ],
+      [
+        "tube",
+        8
+      ],
+      [
+        "pipe",
+        9
+      ]
+    ],
+    "handle": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "appendage",
+        4
+      ],
+      [
+        "handle",
+        5
+      ]
+    ],
+    "lid": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "tissue",
+        5
+      ],
+      [
+        "animal tissue",
+        6
+      ],
+      [
+        "flap",
+        7
+      ],
+      [
+        "protective fold",
+        8
+      ],
+      [
+        "eyelid",
+        9
+      ]
+    ],
+    "faucet": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "mechanism",
+        7
+      ],
+      [
+        "control",
+        8
+      ],
+      [
+        "regulator",
+        9
+      ],
+      [
+        "faucet",
+        10
+      ]
+    ],
+    "cabinet": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "cabinet",
+        8
+      ]
+    ],
+    "sink": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "fixture",
+        5
+      ],
+      [
+        "plumbing fixture",
+        6
+      ],
+      [
+        "sink",
+        7
+      ]
+    ],
+    "floor": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "surface",
+        5
+      ],
+      [
+        "horizontal surface",
+        6
+      ],
+      [
+        "floor",
+        7
+      ]
+    ],
+    "toilet": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "area",
+        6
+      ],
+      [
+        "room",
+        7
+      ],
+      [
+        "toilet",
+        8
+      ]
+    ],
+    "door": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "obstruction",
+        6
+      ],
+      [
+        "barrier",
+        7
+      ],
+      [
+        "movable barrier",
+        8
+      ],
+      [
+        "door",
+        9
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "overflow",
+        "towel ring",
+        "pipe",
+        "handle",
+        "floor",
+        "faucet",
+        "cabinet",
+        "sink",
+        "lid",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 13
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "towel ring",
+        "pipe",
+        "handle",
+        "floor",
+        "faucet",
+        "cabinet",
+        "sink",
+        "lid",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 12
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "towel ring",
+        "pipe",
+        "handle",
+        "faucet",
+        "cabinet",
+        "sink",
+        "floor",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 11
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "towel ring",
+        "pipe",
+        "faucet",
+        "cabinet",
+        "sink",
+        "floor",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 10
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "towel ring",
+        "pipe",
+        "faucet",
+        "cabinet",
+        "sink",
+        "floor",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 10
+    },
+    "structure": {
+      "depth": 5,
+      "merged_objects": [
+        "cubby",
+        "wall",
+        "toilet",
+        "door"
+      ],
+      "merge_count": 4
+    },
+    "area": {
+      "depth": 6,
+      "merged_objects": [
+        "cubby",
+        "toilet"
+      ],
+      "merge_count": 2
+    },
+    "room": {
+      "depth": 7,
+      "merged_objects": [
+        "cubby",
+        "toilet"
+      ],
+      "merge_count": 2
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "lid",
+        "handle"
+      ],
+      "merge_count": 2
+    },
+    "instrumentality": {
+      "depth": 5,
+      "merged_objects": [
+        "faucet",
+        "cabinet"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      8,
+      7,
+      8,
+      9,
+      5,
+      10,
+      8,
+      7,
+      7,
+      8,
+      9
+    ],
+    "mid_depths": [
+      5,
+      6,
+      6,
+      5,
+      4,
+      5,
+      5,
+      4,
+      6,
+      6,
+      5,
+      5
+    ],
+    "coarse_depths": [
+      1,
+      2,
+      1
+    ],
+    "depth_distribution": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 3,
+      "4": 4,
+      "5": 9,
+      "6": 11,
+      "7": 11,
+      "8": 9,
+      "9": 5,
+      "10": 1
+    }
+  }
+}

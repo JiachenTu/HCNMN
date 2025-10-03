@@ -1,0 +1,268 @@
+{
+  "image_id": 2364859,
+  "hierarchy": {
+    "fine": [
+      "chairs",
+      "vase",
+      "board",
+      "chair back",
+      "handle",
+      "tops",
+      "crack",
+      "tips",
+      "drawer",
+      "cabinet",
+      "flowers",
+      "pink",
+      "mat",
+      "table",
+      "dining table",
+      "babys breath",
+      "back",
+      "chair",
+      "flower"
+    ],
+    "mid": [
+      "furnishing",
+      "container",
+      "organization",
+      "chair back",
+      "handle",
+      "top",
+      "amorphous shape",
+      "extremity",
+      "artifact",
+      "plant",
+      "color",
+      "covering",
+      "table",
+      "babys breath",
+      "back"
+    ],
+    "coarse": [
+      "physical entity",
+      "object",
+      "group",
+      "chair back",
+      "abstraction",
+      "property",
+      "babys breath",
+      "flower"
+    ]
+  },
+  "concept_paths": {
+    "chairs": [
+      "chairs",
+      "furnishing",
+      "physical entity"
+    ],
+    "vase": [
+      "vase",
+      "container",
+      "object"
+    ],
+    "board": [
+      "board",
+      "organization",
+      "group"
+    ],
+    "chair back": [
+      "chair back"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "object"
+    ],
+    "tops": [
+      "tops",
+      "top",
+      "object"
+    ],
+    "crack": [
+      "crack",
+      "amorphous shape",
+      "abstraction"
+    ],
+    "tips": [
+      "tips",
+      "extremity",
+      "object"
+    ],
+    "drawer": [
+      "drawer",
+      "artifact",
+      "physical entity"
+    ],
+    "cabinet": [
+      "cabinet",
+      "furnishing",
+      "object"
+    ],
+    "flowers": [
+      "flowers",
+      "plant",
+      "object"
+    ],
+    "pink": [
+      "pink",
+      "color",
+      "property"
+    ],
+    "mat": [
+      "mat",
+      "covering",
+      "object"
+    ],
+    "table": [
+      "table",
+      "table",
+      "group"
+    ],
+    "dining table": [
+      "dining table",
+      "furnishing",
+      "object"
+    ],
+    "babys breath": [
+      "babys breath"
+    ],
+    "back": [
+      "back",
+      "back",
+      "physical entity"
+    ],
+    "chair": [
+      "chair",
+      "furnishing",
+      "object"
+    ],
+    "flower": [
+      "flower",
+      "plant",
+      "flower"
+    ]
+  },
+  "object_to_levels": {
+    "chairs": {
+      "fine": "chairs",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "vase": {
+      "fine": "vase",
+      "mid": "container",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "board": {
+      "fine": "board",
+      "mid": "organization",
+      "coarse": "group",
+      "method": "llm"
+    },
+    "chair back": {
+      "fine": "chair back",
+      "mid": "chair back",
+      "coarse": "chair back"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "tops": {
+      "fine": "tops",
+      "mid": "top",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "crack": {
+      "fine": "crack",
+      "mid": "amorphous shape",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "tips": {
+      "fine": "tips",
+      "mid": "extremity",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "drawer": {
+      "fine": "drawer",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "furnishing",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "pink": {
+      "fine": "pink",
+      "mid": "color",
+      "coarse": "property",
+      "method": "llm"
+    },
+    "mat": {
+      "fine": "mat",
+      "mid": "covering",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "table",
+      "coarse": "group",
+      "method": "fallback"
+    },
+    "dining table": {
+      "fine": "dining table",
+      "mid": "furnishing",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "babys breath": {
+      "fine": "babys breath",
+      "mid": "babys breath",
+      "coarse": "babys breath"
+    },
+    "back": {
+      "fine": "back",
+      "mid": "back",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "chair": {
+      "fine": "chair",
+      "mid": "furnishing",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "plant",
+      "coarse": "flower",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 35,
+    "fine_concepts": 19,
+    "mid_concepts": 15,
+    "coarse_concepts": 8,
+    "compression_fine_to_mid": 1.27,
+    "compression_fine_to_coarse": 2.38
+  }
+}

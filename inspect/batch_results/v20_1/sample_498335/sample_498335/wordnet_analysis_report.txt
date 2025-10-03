@@ -1,0 +1,210 @@
+# WordNet Hierarchy Path Analysis Report
+
+## Overview
+
+**Total Objects**: 18
+**Total Unique Nodes**: 77
+**Merge Points**: 18
+
+---
+
+## Depth Statistics
+
+### Overall Distribution
+
+| Depth | Node Count |
+|-------|------------|
+| 0 | 1 |
+| 1 | 2 |
+| 2 | 6 |
+| 3 | 8 |
+| 4 | 9 |
+| 5 | 11 |
+| 6 | 13 |
+| 7 | 11 |
+| 8 | 8 |
+| 9 | 4 |
+| 10 | 4 |
+
+### Granularity Depth Mapping
+
+
+| Granularity | Depth Range | Average Depth | Concept Count |
+|-------------|-------------|---------------|---------------|
+| Fine | 4-10 | 7.5 | 16 |
+| Mid | 4-5 | 4.8 | 11 |
+| Coarse | 1-2 | 1.3 | 3 |
+
+---
+
+## Top Merge Points
+
+Nodes where multiple object paths converge:
+
+| Node | Depth | Merged Objects | Count |
+|------|-------|----------------|-------|
+| entity | 0 | lot, pole, flowers, billboard, railing (+13 more) | 18 |
+| physical entity | 1 | pole, flowers, billboard, railing, face (+9 more) | 14 |
+| object | 2 | pole, flowers, billboard, railing, street (+7 more) | 12 |
+| whole | 3 | pole, flowers, billboard, railing, street (+6 more) | 11 |
+| artifact | 4 | pole, billboard, railing, street, balcony (+4 more) | 9 |
+| abstraction | 1 | lot, words, sign, background | 4 |
+| instrumentality | 5 | pole, clock, pot | 3 |
+| structure | 5 | balcony, billboard, railing | 3 |
+| implement | 6 | pole, pot | 2 |
+| living thing | 4 | flower, flowers | 2 |
+| organism | 5 | flower, flowers | 2 |
+| plant | 6 | flower, flowers | 2 |
+| vascular plant | 7 | flower, flowers | 2 |
+| spermatophyte | 8 | flower, flowers | 2 |
+| angiosperm | 9 | flower, flowers | 2 |
+| flower | 10 | flower, flowers | 2 |
+| way | 5 | stairs, street | 2 |
+| communication | 2 | words, sign | 2 |
+
+---
+
+## Sample Object Paths
+
+
+### lot
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ measure (d=2)
+        └─ indefinite quantity (d=3)
+          └─ large indefinite quantity (d=4)
+            └─ batch (d=5)
+```
+
+### pole
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ artifact (d=4)
+            └─ instrumentality (d=5)
+              └─ implement (d=6)
+                └─ rod (d=7)
+                  └─ pole (d=8)
+```
+
+### flowers
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ living thing (d=4)
+            └─ organism (d=5)
+              └─ plant (d=6)
+                └─ vascular plant (d=7)
+                  └─ spermatophyte (d=8)
+                    └─ angiosperm (d=9)
+                      └─ flower (d=10)
+```
+
+### billboard
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ artifact (d=4)
+            └─ structure (d=5)
+              └─ signboard (d=6)
+                └─ billboard (d=7)
+```
+
+### background
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ attribute (d=2)
+        └─ inheritance (d=3)
+          └─ background (d=4)
+```
+
+### railing
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ artifact (d=4)
+            └─ structure (d=5)
+              └─ obstruction (d=6)
+                └─ barrier (d=7)
+                  └─ railing (d=8)
+```
+
+### face
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ thing (d=2)
+        └─ part (d=3)
+          └─ body part (d=4)
+            └─ external body part (d=5)
+              └─ face (d=6)
+```
+
+### street
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ artifact (d=4)
+            └─ way (d=5)
+              └─ road (d=6)
+                └─ thoroughfare (d=7)
+                  └─ street (d=8)
+```
+
+### balcony
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ artifact (d=4)
+            └─ structure (d=5)
+              └─ balcony (d=6)
+```
+
+### sign
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ communication (d=2)
+        └─ indication (d=3)
+          └─ evidence (d=4)
+            └─ clue (d=5)
+              └─ sign (d=6)
+```
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_498335/sample_498335/wordnet_analysis_report.txt

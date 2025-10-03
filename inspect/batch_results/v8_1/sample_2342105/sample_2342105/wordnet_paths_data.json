@@ -1,0 +1,931 @@
+{
+  "image_id": 2342105,
+  "object_paths": {
+    "ground": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "land",
+        3
+      ]
+    ],
+    "blue shirt": [
+      [
+        "blue shirt",
+        0
+      ]
+    ],
+    "red kite": [
+      [
+        "red kite",
+        0
+      ]
+    ],
+    "woman and boy": [
+      [
+        "woman and boy",
+        0
+      ]
+    ],
+    "shirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "shirt",
+        9
+      ]
+    ],
+    "man": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "man",
+        8
+      ]
+    ],
+    "people": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "people",
+        3
+      ]
+    ],
+    "strings": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "social group",
+        3
+      ],
+      [
+        "organization",
+        4
+      ],
+      [
+        "musical organization",
+        5
+      ],
+      [
+        "section",
+        6
+      ],
+      [
+        "string section",
+        7
+      ]
+    ],
+    "down": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "relation",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "substance",
+        4
+      ],
+      [
+        "material",
+        5
+      ],
+      [
+        "animal material",
+        6
+      ],
+      [
+        "feather",
+        7
+      ],
+      [
+        "down",
+        8
+      ]
+    ],
+    "hands": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "event",
+        3
+      ],
+      [
+        "act",
+        4
+      ],
+      [
+        "group action",
+        5
+      ],
+      [
+        "social control",
+        6
+      ],
+      [
+        "duty",
+        7
+      ],
+      [
+        "guardianship",
+        8
+      ],
+      [
+        "hands",
+        9
+      ]
+    ],
+    "building": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "building",
+        6
+      ]
+    ],
+    "clouds": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "process",
+        2
+      ],
+      [
+        "phenomenon",
+        3
+      ],
+      [
+        "natural phenomenon",
+        4
+      ],
+      [
+        "physical phenomenon",
+        5
+      ],
+      [
+        "cloud",
+        6
+      ]
+    ],
+    "cones": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "cone",
+        5
+      ]
+    ],
+    "blue": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "property",
+        3
+      ],
+      [
+        "visual property",
+        4
+      ],
+      [
+        "color",
+        5
+      ],
+      [
+        "chromatic color",
+        6
+      ],
+      [
+        "blue",
+        7
+      ]
+    ],
+    "kite": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "written communication",
+        3
+      ],
+      [
+        "writing",
+        4
+      ],
+      [
+        "document",
+        5
+      ],
+      [
+        "legal document",
+        6
+      ],
+      [
+        "negotiable instrument",
+        7
+      ],
+      [
+        "draft",
+        8
+      ],
+      [
+        "check",
+        9
+      ],
+      [
+        "kite",
+        10
+      ]
+    ],
+    "ladybug kites": [
+      [
+        "ladybug kites",
+        0
+      ]
+    ],
+    "kites": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "written communication",
+        3
+      ],
+      [
+        "writing",
+        4
+      ],
+      [
+        "document",
+        5
+      ],
+      [
+        "legal document",
+        6
+      ],
+      [
+        "negotiable instrument",
+        7
+      ],
+      [
+        "draft",
+        8
+      ],
+      [
+        "check",
+        9
+      ],
+      [
+        "kite",
+        10
+      ]
+    ],
+    "bag": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "container",
+        6
+      ],
+      [
+        "bag",
+        7
+      ]
+    ],
+    "tail": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "process",
+        5
+      ],
+      [
+        "tail",
+        6
+      ]
+    ],
+    "boy": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "male",
+        7
+      ],
+      [
+        "male child",
+        8
+      ]
+    ],
+    "sky": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "matter",
+        2
+      ],
+      [
+        "fluid",
+        3
+      ],
+      [
+        "gas",
+        4
+      ],
+      [
+        "atmosphere",
+        5
+      ],
+      [
+        "sky",
+        6
+      ]
+    ],
+    "woman": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "woman",
+        8
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "bag",
+        "ground",
+        "kites",
+        "tail",
+        "strings",
+        "building",
+        "clouds",
+        "boy",
+        "sky",
+        "cones",
+        "blue",
+        "kite",
+        "down",
+        "hands",
+        "woman",
+        "shirt",
+        "man",
+        "people"
+      ],
+      "merge_count": 18
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "bag",
+        "ground",
+        "tail",
+        "clouds",
+        "building",
+        "boy",
+        "sky",
+        "cones",
+        "woman",
+        "shirt",
+        "man"
+      ],
+      "merge_count": 11
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "bag",
+        "ground",
+        "building",
+        "boy",
+        "cones",
+        "woman",
+        "shirt",
+        "man"
+      ],
+      "merge_count": 8
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "bag",
+        "building",
+        "boy",
+        "cones",
+        "woman",
+        "shirt",
+        "man"
+      ],
+      "merge_count": 7
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "bag",
+        "shirt",
+        "building",
+        "cones"
+      ],
+      "merge_count": 4
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "boy",
+        "woman",
+        "man"
+      ],
+      "merge_count": 3
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "boy",
+        "woman",
+        "man"
+      ],
+      "merge_count": 3
+    },
+    "person": {
+      "depth": 6,
+      "merged_objects": [
+        "boy",
+        "woman",
+        "man"
+      ],
+      "merge_count": 3
+    },
+    "adult": {
+      "depth": 7,
+      "merged_objects": [
+        "woman",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "kites",
+        "strings",
+        "blue",
+        "kite",
+        "down",
+        "hands",
+        "people"
+      ],
+      "merge_count": 7
+    },
+    "group": {
+      "depth": 2,
+      "merged_objects": [
+        "strings",
+        "people"
+      ],
+      "merge_count": 2
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "tail",
+        "down"
+      ],
+      "merge_count": 2
+    },
+    "process": {
+      "depth": 2,
+      "merged_objects": [
+        "tail",
+        "clouds"
+      ],
+      "merge_count": 2
+    },
+    "communication": {
+      "depth": 2,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "written communication": {
+      "depth": 3,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "writing": {
+      "depth": 4,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "document": {
+      "depth": 5,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "legal document": {
+      "depth": 6,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "negotiable instrument": {
+      "depth": 7,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "draft": {
+      "depth": 8,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "check": {
+      "depth": 9,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    },
+    "kite": {
+      "depth": 10,
+      "merged_objects": [
+        "kite",
+        "kites"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      0,
+      0,
+      0,
+      9,
+      8,
+      3,
+      8,
+      9,
+      6,
+      7,
+      10,
+      0,
+      7,
+      6,
+      6,
+      8
+    ],
+    "mid_depths": [
+      3,
+      0,
+      0,
+      0,
+      5,
+      6,
+      2,
+      6,
+      5,
+      5,
+      5,
+      6,
+      5,
+      5,
+      5,
+      0,
+      6,
+      6,
+      6
+    ],
+    "coarse_depths": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      2,
+      0
+    ],
+    "depth_distribution": {
+      "0": 5,
+      "1": 2,
+      "2": 9,
+      "3": 10,
+      "4": 10,
+      "5": 12,
+      "6": 12,
+      "7": 9,
+      "8": 7,
+      "9": 3,
+      "10": 1
+    }
+  }
+}

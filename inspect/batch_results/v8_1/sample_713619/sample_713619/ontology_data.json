@@ -1,0 +1,147 @@
+{
+  "image_id": 713619,
+  "hierarchy": {
+    "fine": [
+      "light",
+      "emblem",
+      "street",
+      "window",
+      "car",
+      "building",
+      "sidewalk",
+      "steps",
+      "street."
+    ],
+    "mid": [
+      "physical phenomenon",
+      "decoration",
+      "road",
+      "structure",
+      "artifact",
+      "way",
+      "stairway",
+      "street."
+    ],
+    "coarse": [
+      "physical entity",
+      "object",
+      "street."
+    ]
+  },
+  "concept_paths": {
+    "light": [
+      "light",
+      "physical phenomenon",
+      "physical entity"
+    ],
+    "emblem": [
+      "emblem",
+      "decoration",
+      "object"
+    ],
+    "street": [
+      "street",
+      "road",
+      "physical entity"
+    ],
+    "window": [
+      "window",
+      "structure",
+      "object"
+    ],
+    "car": [
+      "car",
+      "artifact",
+      "physical entity"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "physical entity"
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "way",
+      "physical entity"
+    ],
+    "steps": [
+      "steps",
+      "stairway",
+      "physical entity"
+    ],
+    "street.": [
+      "street."
+    ]
+  },
+  "object_to_levels": {
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "physical entity",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "emblem": {
+      "fine": "emblem",
+      "mid": "decoration",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Emblem is a decorative element, which is a mid-level concept representing its function and form, while 'object' provides the coarse-level abstraction for its physical representation."
+    },
+    "street": {
+      "fine": "street",
+      "mid": "road",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Street is a physical entity (coarse) and a way of transportation (road) in the scene context. It represents the highest level of abstraction in the hierarchy, capturing both its spatial and functional aspects."
+    },
+    "window": {
+      "fine": "window",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'window' is a physical object (object, depth 2), and a part of a structure (structure, depth 5), which captures its functional and structural role in the scene."
+    },
+    "car": {
+      "fine": "car",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Car is an artifact, representing its functional and material components, and it can be abstracted as a physical entity, which is a higher-level abstraction."
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Structure is a higher-level concept that groups similar objects like building, car, and sidewalk, providing a meaningful and traceable abstraction that captures the overall scene context."
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "way",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Way represents the functional relationship between objects, while physical entity captures the broader abstract concept of the sidewalk. This aligns with the task of creating a meaningful, traceable hierarchy."
+    },
+    "steps": {
+      "fine": "steps",
+      "mid": "stairway",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Steps are a physical entity that can be abstracted as a stairway (coarse level) and further refined as a stairway (mid level), which captures their functional and structural roles in a scene."
+    },
+    "street.": {
+      "fine": "street.",
+      "mid": "street.",
+      "coarse": "street."
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "fine_concepts": 9,
+    "mid_concepts": 8,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 1.12,
+    "compression_fine_to_coarse": 3.0
+  }
+}

@@ -1,0 +1,102 @@
+/home/jiachen/miniconda3/envs/qwen3/lib/python3.10/site-packages/transformers/utils/hub.py:107: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.49it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.85it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+
+
+======================================================================
+V20 Vision-Grounded VLM Pipeline - Image 2342105
+======================================================================
+
+Step 1: Loading Visual Genome data...
+✓ Loaded 28 objects
+Loading image for VLM...
+✓ Image loaded: (500, 334)
+
+Step 2: Building V20 vision-grounded 3-level hierarchy...
+
+Building V20 vision-grounded VLM-guided 3-level hierarchy...
+Processing 22 unique objects with VLM selector
+
+Hierarchy built:
+  Fine-grained: 22 concepts
+  Mid-level: 18 concepts
+  Coarse-level: 8 concepts
+  Compression: 1.22x (Fine→Mid), 2.75x (Fine→Coarse)
+
+VLM Performance:
+  VLM Success: 0/22 (0.0%)
+  Fallback: 18/22 (81.8%)
+
+Step 3: Visualizing original scene graph...
+
+Creating scene graph visualization...
+Saved scene graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/original_scene_graph.png
+
+Step 4: Creating hierarchical ontology tree...
+
+Creating hierarchy tree visualization...
+Saved hierarchy tree: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/hierarchical_ontology_tree.png
+
+Step 5: Creating merged scene graphs...
+
+Visualizing merged fine-grained scene graph...
+Saved merged fine-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/merged_fine.png
+
+Visualizing merged mid-grained scene graph...
+Saved merged mid-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/merged_mid.png
+
+Visualizing merged coarse-grained scene graph...
+Saved merged coarse-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/merged_coarse.png
+
+Step 6: Creating merged comparison...
+
+Step 7: Analyzing WordNet paths...
+✓ Saved WordNet paths tree: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/wordnet_paths_tree.png
+✓ Saved merge analysis: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/wordnet_merge_analysis.png
+✓ Saved depth distribution: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/depth_distribution.png
+
+Step 8: Creating merged concepts flow diagrams...
+
+Creating concept flow diagram...
+✓ Saved concept flow diagram: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/merged_concepts_flow.png
+
+Creating concept hierarchy table...
+✓ Saved concept hierarchy table: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/concept_hierarchy_table.png
+
+Creating compression analysis...
+✓ Saved compression analysis: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/compression_analysis.png
+
+Step 9: Creating graph structure visualizations...
+✓ Saved fine-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/graph_structure_fine.png
+✓ Saved mid-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/graph_structure_mid.png
+✓ Saved coarse-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/graph_structure_coarse.png
+✓ Saved combined graph comparison: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/graph_structure_comparison.png
+
+Step 10: Generating reports...
+✓ Saved WordNet analysis report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/wordnet_analysis_report.txt
+
+Generating concept mapping report...
+✓ Saved concept mapping report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/concept_mapping_report.txt
+✓ Saved graph statistics report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/graph_structure_report.txt
+✓ V20 method report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/v20_vision_grounded_method_report.txt
+
+======================================================================
+✅ V20 Pipeline Complete!
+======================================================================
+
+Output directory: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105
+Generated 25+ visualization files and reports
+
+Key results:
+  - VLM success rate: 0/22 (0.0%)
+  - Compression: 22 → 18 → 8 concepts
+  - Fine→Coarse: 2.75x compression
+
+🎉 Success! Check output directory for visualizations and reports.
+

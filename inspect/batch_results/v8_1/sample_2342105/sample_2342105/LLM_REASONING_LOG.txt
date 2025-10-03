@@ -1,0 +1,152 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: ground
+  Fine: ground
+  Mid: land
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: blue shirt
+  Fine: blue shirt
+  Mid: blue shirt
+  Coarse: blue shirt
+  Method: unknown
+
+Object: red kite
+  Fine: red kite
+  Mid: red kite
+  Coarse: red kite
+  Method: unknown
+
+Object: woman and boy
+  Fine: woman and boy
+  Mid: woman and boy
+  Coarse: woman and boy
+  Method: unknown
+
+Object: shirt
+  Fine: shirt
+  Mid: commodity
+  Coarse: object
+  Method: llm
+  Reasoning: Commodity represents the functional/semantic category of a clothing item, aligning with the object 'shirt' as a clothing item. It is a mid-level concept that captures its use and value in the scene context.
+
+Object: man
+  Fine: man
+  Mid: person
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Man is a person, which aligns with the semantic category 'person' at the mid-level. 'Physical entity' captures the most general domain for grouping similar objects like man, woman, boy, etc.
+
+Object: people
+  Fine: people
+  Mid: group
+  Coarse: people
+  Method: llm
+  Reasoning: People are grouped together in the scene context, forming a coherent set of objects, and they represent a high-level semantic category that allows for meaningful abstraction.
+
+Object: strings
+  Fine: strings
+  Mid: section
+  Coarse: group
+  Method: llm
+  Reasoning: Strings are grouped into sections, which is a mid-level abstraction that captures their functional role as part of a larger structure. The 'group' concept represents the coarse level, while the 'section' concept provides the finer level of detail.
+
+Object: down
+  Fine: down
+  Mid: material
+  Coarse: abstraction
+  Method: llm
+
+Object: hands
+  Fine: hands
+  Mid: group action
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: building
+  Fine: building
+  Mid: structure
+  Coarse: object
+  Method: llm
+  Reasoning: Building is a structure, which is a more general category than an object but still captures its functional and spatial characteristics. It is the most appropriate high-level abstraction for representing 'building' in this scene context.
+
+Object: clouds
+  Fine: clouds
+  Mid: cloud
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Clouds represent a natural phenomenon (mid-level concept) and are physical entities (coarse-level concept) in the scene context.
+
+Object: cones
+  Fine: cones
+  Mid: cone
+  Coarse: object
+  Method: llm
+  Reasoning: Cones are a specific type of object (mid-level concept) and belong to the broader category of physical entities (coarse-level concept)
+
+Object: blue
+  Fine: blue
+  Mid: color
+  Coarse: attribute
+  Method: llm
+  Reasoning: The concept 'color' represents the semantic category of the object 'blue', which is a visual property. It captures the functional and semantic meaning of the object as a color. This aligns with the goal of creating a meaningful, traceable abstraction level.
+
+Object: kite
+  Fine: kite
+  Mid: document
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Kite is a visual object, and 'document' represents a written or recorded form of information. 'Abstraction' captures the conceptual representation of the object, aligning with its functional role as a visual element.
+
+Object: ladybug kites
+  Fine: ladybug kites
+  Mid: ladybug kites
+  Coarse: ladybug kites
+  Method: unknown
+
+Object: kites
+  Fine: kites
+  Mid: document
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Document is a high-level abstraction that groups similar objects like 'kites' as a medium of communication and information. It aligns with the task of creating a meaningful, traceable hierarchy.
+
+Object: bag
+  Fine: bag
+  Mid: container
+  Coarse: object
+  Method: llm
+  Reasoning: The 'bag' is a container, which represents its functional role as a storage or holding unit. It is a physical object, making it the most appropriate coarse-level concept for abstraction.
+
+Object: tail
+  Fine: tail
+  Mid: tail
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'tail' is a physical entity that represents the body part of an object. It is a coarse-level concept as it captures the overall physical representation of an object.
+
+Object: boy
+  Fine: boy
+  Mid: person
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Person (mid) represents the abstract category of the object 'boy', which is a human. The physical entity (coarse) captures the object 'boy' as a tangible entity in the scene.
+
+Object: sky
+  Fine: sky
+  Mid: sky
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Sky is a physical entity (coarse) and the most general category representing its location and atmosphere (mid-level concept)
+
+Object: woman
+  Fine: woman
+  Mid: person
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'person' concept represents 'woman' as a human being, aligning with the semantic category of a living being. The 'physical entity' concept captures the broader, more general domain of the object, making it the appropriate high-level abstraction for the scene context.
+

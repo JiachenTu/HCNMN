@@ -1,0 +1,133 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: vase
+  Fine: vase
+  Mid: container
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Vase is a container (mid-level concept) and a physical entity (coarse-level concept) that best represents the object in the scene context.
+
+Object: flower
+  Fine: flower
+  Mid: organism
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: board
+  Fine: board
+  Mid: unit
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Board is a physical object (coarse abstraction) that can be grouped into a unit (mid-level concept) representing its functional role in the scene.
+
+Object: chair
+  Fine: chair
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Chair is a furniture item, which fits as a mid-level category (furnishing) and a physical entity, which fits as the coarse-level abstraction (physical entity). This aligns with the semantic hierarchy.
+
+Object: pink
+  Fine: pink
+  Mid: color
+  Coarse: attribute
+  Method: llm
+  Reasoning: Pink is a color, and color is a mid-level concept that represents the visual property of the object. It aligns with the semantic category of the object and provides a meaningful abstraction for grouping.
+
+Object: back
+  Fine: back
+  Mid: back
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'back' object is a physical entity, which provides the most general meaningful domain for grouping similar objects (e.g., furniture, objects). It represents the highest level of abstraction as a physical entity.
+
+Object: chairs
+  Fine: chairs
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Chairs are functional furniture items and best represented as 'furnishing' (mid-level category) since it groups furniture objects with functional roles. 'Physical entity' (coarse) captures the general category of furniture items.
+
+Object: flowers
+  Fine: flowers
+  Mid: plant
+  Coarse: object
+  Method: llm
+  Reasoning: Flowers are a type of plant, which is a mid-level category (plant) and the most general meaningful domain for grouping similar objects. This aligns with the scene context and semantic hierarchy.
+
+Object: mat
+  Fine: mat
+  Mid: covering
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'mat' is a covering object, which is a physical entity (depth 1) and best represents its functional role as a covering surface in the scene.
+
+Object: tips
+  Fine: tips
+  Mid: extremity
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: babys breath
+  Fine: babys breath
+  Mid: babys breath
+  Coarse: babys breath
+  Method: unknown
+
+Object: dining table
+  Fine: dining table
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Furnishing is the most general mid-level concept that captures the function and purpose of objects like a dining table. It aligns with the scene context, which describes dining tables as furniture objects.
+
+Object: cabinet
+  Fine: cabinet
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Furnishing is the most general category that best represents 'cabinet' as a functional and structural object, aligning with its role in a scene.
+
+Object: crack
+  Fine: crack
+  Mid: amorphous shape
+  Coarse: abstraction
+  Method: llm
+
+Object: table
+  Fine: table
+  Mid: table
+  Coarse: abstraction
+  Method: llm
+  Reasoning: The 'table' is a physical object with semantic meaning (a table), and it best represents a mid-level abstraction as a category that includes other objects with similar semantic roles.
+
+Object: tops
+  Fine: tops
+  Mid: top
+  Coarse: object
+  Method: llm
+  Reasoning: Tops is a specific object in the scene, and 'top' represents a mid-level category that captures its position relative to other objects, while 'object' is the coarse-level abstraction that encompasses all objects in the scene.
+
+Object: chair back
+  Fine: chair back
+  Mid: chair back
+  Coarse: chair back
+  Method: unknown
+
+Object: drawer
+  Fine: drawer
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'drawer' is a physical object (coarse) and a structure (mid) that contains other objects. It best represents the general concept of a storage or container.
+
+Object: handle
+  Fine: handle
+  Mid: handle
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Handle is a functional component of a drawer and represents the most general meaningful domain for grouping similar objects.
+

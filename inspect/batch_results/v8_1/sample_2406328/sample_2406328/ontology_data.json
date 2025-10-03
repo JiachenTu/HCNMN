@@ -1,0 +1,205 @@
+{
+  "image_id": 2406328,
+  "hierarchy": {
+    "fine": [
+      "faucet",
+      "door",
+      "cubby",
+      "overflow",
+      "wall",
+      "lid",
+      "toilet",
+      "pipe",
+      "floor",
+      "cabinet",
+      "towel ring",
+      "sink",
+      "handle"
+    ],
+    "mid": [
+      "device",
+      "structure",
+      "action",
+      "tissue",
+      "way",
+      "horizontal surface",
+      "furnishing",
+      "strip",
+      "plumbing fixture",
+      "handle"
+    ],
+    "coarse": [
+      "object",
+      "physical entity",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "faucet": [
+      "faucet",
+      "device",
+      "object"
+    ],
+    "door": [
+      "door",
+      "structure",
+      "physical entity"
+    ],
+    "cubby": [
+      "cubby",
+      "structure",
+      "object"
+    ],
+    "overflow": [
+      "overflow",
+      "action",
+      "abstraction"
+    ],
+    "wall": [
+      "wall",
+      "structure",
+      "physical entity"
+    ],
+    "lid": [
+      "lid",
+      "tissue",
+      "physical entity"
+    ],
+    "toilet": [
+      "toilet",
+      "structure",
+      "object"
+    ],
+    "pipe": [
+      "pipe",
+      "way",
+      "physical entity"
+    ],
+    "floor": [
+      "floor",
+      "horizontal surface",
+      "physical entity"
+    ],
+    "cabinet": [
+      "cabinet",
+      "furnishing",
+      "physical entity"
+    ],
+    "towel ring": [
+      "towel ring",
+      "strip",
+      "physical entity"
+    ],
+    "sink": [
+      "sink",
+      "plumbing fixture",
+      "object"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "physical entity"
+    ]
+  },
+  "object_to_levels": {
+    "faucet": {
+      "fine": "faucet",
+      "mid": "device",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'faucet' is a device used for water supply, which aligns with the mid-level concept 'device' (depth 6) as it represents its functional purpose. The 'object' (depth 2) captures its physical form and position."
+    },
+    "door": {
+      "fine": "door",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Door is a structure (mid-level concept) and a physical entity (coarse-level concept) in the scene context."
+    },
+    "cubby": {
+      "fine": "cubby",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Cubby is an object (depth 2) and a part of a structure (depth 5), which best represents its functional and semantic role in the scene."
+    },
+    "overflow": {
+      "fine": "overflow",
+      "mid": "action",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Structure is the most general category for grouping similar objects, and 'wall' fits as a physical entity in the first level. It also aligns with the functional and semantic category of a physical object."
+    },
+    "lid": {
+      "fine": "lid",
+      "mid": "tissue",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "toilet": {
+      "fine": "toilet",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'structure' concept represents the 'toilet' as a whole, encompassing its components and functions, which aligns with its role as a functional object. It captures both its physical structure and its purpose more cohesively than 'artifact' or 'area'."
+    },
+    "pipe": {
+      "fine": "pipe",
+      "mid": "way",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Pipe is a functional element (way) and a physical entity (physical entity), making it a mid-level concept for representing its role in the scene."
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "horizontal surface",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Floor is a physical entity (coarse level) and a horizontal surface (mid-level concept) that best captures its functional and semantic role in the scene context."
+    },
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Cabinet is a furniture item, which aligns with the 'physical entity' (depth 1) concept as the most general category, and 'furnishing' (depth 6) represents its functional and semantic role as a furniture item."
+    },
+    "towel ring": {
+      "fine": "towel ring",
+      "mid": "strip",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Towel ring is a strip of fabric, which is a physical entity (coarse) and a strip in the middle level of the semantic hierarchy (strip) representing its functional and material properties."
+    },
+    "sink": {
+      "fine": "sink",
+      "mid": "plumbing fixture",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'sink' is a plumbing fixture (mid-level concept) and a physical object (coarse-level concept). It best represents the high-level semantic information of being a functional element in the plumbing system."
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Handle is a functional part of a device, and 'physical entity' captures its general domain as a basic object in the scene context."
+    }
+  },
+  "statistics": {
+    "num_objects": 14,
+    "fine_concepts": 13,
+    "mid_concepts": 10,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 1.3,
+    "compression_fine_to_coarse": 4.33
+  }
+}

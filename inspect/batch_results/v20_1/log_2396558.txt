@@ -1,0 +1,23 @@
+/home/jiachen/miniconda3/envs/qwen3/lib/python3.10/site-packages/transformers/utils/hub.py:107: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/nas/jiachen/graph_reasoning/HCNMN/inspect/visualize_scene_graph_hierarchy_v20.py", line 510, in <module>
+    main()
+  File "/nas/jiachen/graph_reasoning/HCNMN/inspect/visualize_scene_graph_hierarchy_v20.py", line 496, in main
+    success = run_v20_pipeline(
+  File "/nas/jiachen/graph_reasoning/HCNMN/inspect/visualize_scene_graph_hierarchy_v20.py", line 299, in run_v20_pipeline
+    image = Image.open(image_path)
+  File "/home/jiachen/.local/lib/python3.10/site-packages/PIL/Image.py", line 3513, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/nas/jiachen/graph_reasoning/Graph-CoT/data/visual_genome/images/VG_100K/VG_100K/2396558.jpg'
+
+ERROR conda.cli.main_run:execute(127): `conda run python visualize_scene_graph_hierarchy_v20.py --image_id 2396558 --output_dir /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2396558 --device cuda:4` failed. (See above for error)
+
+======================================================================
+V20 Vision-Grounded VLM Pipeline - Image 2396558
+======================================================================
+
+Step 1: Loading Visual Genome data...
+✓ Loaded 36 objects
+Loading image for VLM...
+

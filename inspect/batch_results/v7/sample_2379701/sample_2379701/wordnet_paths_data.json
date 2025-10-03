@@ -1,0 +1,878 @@
+{
+  "image_id": 2379701,
+  "object_paths": {
+    "wall": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "partition",
+        6
+      ],
+      [
+        "wall",
+        7
+      ]
+    ],
+    "racket": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "event",
+        3
+      ],
+      [
+        "happening",
+        4
+      ],
+      [
+        "sound",
+        5
+      ],
+      [
+        "noise",
+        6
+      ],
+      [
+        "racket",
+        7
+      ]
+    ],
+    "headband": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "strip",
+        5
+      ],
+      [
+        "band",
+        6
+      ],
+      [
+        "headband",
+        7
+      ]
+    ],
+    "ball": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "equipment",
+        6
+      ],
+      [
+        "game equipment",
+        7
+      ],
+      [
+        "ball",
+        8
+      ]
+    ],
+    "woman": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "woman",
+        8
+      ]
+    ],
+    "shorts": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "trouser",
+        9
+      ],
+      [
+        "short pants",
+        10
+      ]
+    ],
+    "foot": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "vertebrate foot",
+        7
+      ],
+      [
+        "foot",
+        8
+      ]
+    ],
+    "leg": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "limb",
+        7
+      ],
+      [
+        "leg",
+        8
+      ]
+    ],
+    "shirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "shirt",
+        9
+      ]
+    ],
+    "background": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "inheritance",
+        3
+      ],
+      [
+        "background",
+        4
+      ]
+    ],
+    "shoe": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "footwear",
+        6
+      ],
+      [
+        "shoe",
+        7
+      ]
+    ],
+    "letters": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "cognition",
+        3
+      ],
+      [
+        "process",
+        4
+      ],
+      [
+        "basic cognitive process",
+        5
+      ],
+      [
+        "discrimination",
+        6
+      ],
+      [
+        "taste",
+        7
+      ],
+      [
+        "culture",
+        8
+      ],
+      [
+        "letters",
+        9
+      ]
+    ],
+    "dirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "relation",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "substance",
+        4
+      ],
+      [
+        "material",
+        5
+      ],
+      [
+        "earth",
+        6
+      ],
+      [
+        "soil",
+        7
+      ]
+    ],
+    "air": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "matter",
+        2
+      ],
+      [
+        "fluid",
+        3
+      ],
+      [
+        "gas",
+        4
+      ],
+      [
+        "air",
+        5
+      ]
+    ],
+    "ground": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "land",
+        3
+      ]
+    ],
+    "writing": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "event",
+        3
+      ],
+      [
+        "act",
+        4
+      ],
+      [
+        "activity",
+        5
+      ],
+      [
+        "creation",
+        6
+      ],
+      [
+        "creating by mental acts",
+        7
+      ],
+      [
+        "verbal creation",
+        8
+      ],
+      [
+        "writing",
+        9
+      ]
+    ],
+    "hair": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "body covering",
+        6
+      ],
+      [
+        "hair",
+        7
+      ]
+    ],
+    "court": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "social group",
+        3
+      ],
+      [
+        "gathering",
+        4
+      ],
+      [
+        "assembly",
+        5
+      ],
+      [
+        "court",
+        6
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "hair",
+        "wall",
+        "headband",
+        "woman",
+        "ball",
+        "shorts",
+        "foot",
+        "leg",
+        "shirt",
+        "background",
+        "shoe",
+        "letters",
+        "dirt",
+        "air",
+        "ground",
+        "writing",
+        "racket",
+        "court"
+      ],
+      "merge_count": 18
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "wall",
+        "headband",
+        "woman",
+        "ball",
+        "shorts",
+        "foot",
+        "leg",
+        "shirt",
+        "shoe",
+        "air",
+        "ground",
+        "hair"
+      ],
+      "merge_count": 12
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "wall",
+        "headband",
+        "woman",
+        "ball",
+        "shorts",
+        "shirt",
+        "shoe",
+        "ground",
+        "hair"
+      ],
+      "merge_count": 9
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "wall",
+        "headband",
+        "woman",
+        "ball",
+        "shorts",
+        "shirt",
+        "shoe",
+        "hair"
+      ],
+      "merge_count": 8
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "wall",
+        "headband",
+        "ball",
+        "shorts",
+        "shirt",
+        "shoe"
+      ],
+      "merge_count": 6
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "dirt",
+        "background",
+        "letters",
+        "writing",
+        "racket",
+        "court"
+      ],
+      "merge_count": 6
+    },
+    "psychological feature": {
+      "depth": 2,
+      "merged_objects": [
+        "writing",
+        "letters",
+        "racket"
+      ],
+      "merge_count": 3
+    },
+    "event": {
+      "depth": 3,
+      "merged_objects": [
+        "writing",
+        "racket"
+      ],
+      "merge_count": 2
+    },
+    "commodity": {
+      "depth": 5,
+      "merged_objects": [
+        "shorts",
+        "shirt"
+      ],
+      "merge_count": 2
+    },
+    "consumer goods": {
+      "depth": 6,
+      "merged_objects": [
+        "shorts",
+        "shirt"
+      ],
+      "merge_count": 2
+    },
+    "clothing": {
+      "depth": 7,
+      "merged_objects": [
+        "shorts",
+        "shirt"
+      ],
+      "merge_count": 2
+    },
+    "garment": {
+      "depth": 8,
+      "merged_objects": [
+        "shorts",
+        "shirt"
+      ],
+      "merge_count": 2
+    },
+    "thing": {
+      "depth": 2,
+      "merged_objects": [
+        "foot",
+        "leg"
+      ],
+      "merge_count": 2
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "foot",
+        "leg",
+        "dirt"
+      ],
+      "merge_count": 3
+    },
+    "body part": {
+      "depth": 4,
+      "merged_objects": [
+        "foot",
+        "leg"
+      ],
+      "merge_count": 2
+    },
+    "external body part": {
+      "depth": 5,
+      "merged_objects": [
+        "foot",
+        "leg"
+      ],
+      "merge_count": 2
+    },
+    "extremity": {
+      "depth": 6,
+      "merged_objects": [
+        "foot",
+        "leg"
+      ],
+      "merge_count": 2
+    },
+    "covering": {
+      "depth": 5,
+      "merged_objects": [
+        "shoe",
+        "hair"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      7,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      9,
+      4,
+      7,
+      9,
+      5,
+      9,
+      7,
+      6
+    ],
+    "mid_depths": [
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      3,
+      5,
+      5
+    ],
+    "coarse_depths": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "depth_distribution": {
+      "0": 1,
+      "1": 2,
+      "2": 7,
+      "3": 8,
+      "4": 11,
+      "5": 13,
+      "6": 13,
+      "7": 13,
+      "8": 7,
+      "9": 4,
+      "10": 1
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "image_id": 2376855,
+  "hierarchy": {
+    "fine": [
+      "shirt",
+      "cell phone",
+      "hand",
+      "watch strap",
+      "left hand",
+      "buttons",
+      "pointer finger",
+      "picture",
+      "ear",
+      "keypad",
+      "band",
+      "phone",
+      "watch",
+      "cellphone",
+      "copyright symbol",
+      "thumb",
+      "man",
+      "latch",
+      "speaker",
+      "oscar",
+      "key pad",
+      "fingernail",
+      "finger"
+    ],
+    "mid": [
+      "artifact",
+      "cell phone",
+      "external body part",
+      "watch strap",
+      "instrumentality",
+      "pointer finger",
+      "organ",
+      "set",
+      "copyright symbol",
+      "organism",
+      "award",
+      "key pad",
+      "structure"
+    ],
+    "coarse": [
+      "object",
+      "communicate",
+      "thing",
+      "watch strap",
+      "pointer finger",
+      "abstraction",
+      "copyright symbol",
+      "key pad"
+    ]
+  },
+  "concept_paths": {
+    "shirt": [
+      "shirt",
+      "artifact",
+      "object"
+    ],
+    "cell phone": [
+      "cell phone",
+      "cell phone",
+      "communicate"
+    ],
+    "hand": [
+      "hand",
+      "external body part",
+      "thing"
+    ],
+    "watch strap": [
+      "watch strap"
+    ],
+    "left hand": [
+      "left hand",
+      "external body part",
+      "thing"
+    ],
+    "buttons": [
+      "buttons",
+      "instrumentality",
+      "object"
+    ],
+    "pointer finger": [
+      "pointer finger"
+    ],
+    "picture": [
+      "picture",
+      "artifact",
+      "object"
+    ],
+    "ear": [
+      "ear",
+      "organ",
+      "thing"
+    ],
+    "keypad": [
+      "keypad",
+      "instrumentality",
+      "object"
+    ],
+    "band": [
+      "band",
+      "set",
+      "abstraction"
+    ],
+    "phone": [
+      "phone",
+      "instrumentality",
+      "object"
+    ],
+    "watch": [
+      "watch",
+      "instrumentality",
+      "object"
+    ],
+    "cellphone": [
+      "cellphone",
+      "instrumentality",
+      "object"
+    ],
+    "copyright symbol": [
+      "copyright symbol"
+    ],
+    "thumb": [
+      "thumb",
+      "external body part",
+      "thing"
+    ],
+    "man": [
+      "man",
+      "organism",
+      "object"
+    ],
+    "latch": [
+      "latch",
+      "instrumentality",
+      "object"
+    ],
+    "speaker": [
+      "speaker",
+      "organism",
+      "object"
+    ],
+    "oscar": [
+      "oscar",
+      "award",
+      "abstraction"
+    ],
+    "key pad": [
+      "key pad"
+    ],
+    "fingernail": [
+      "fingernail",
+      "structure",
+      "thing"
+    ],
+    "finger": [
+      "finger",
+      "external body part",
+      "thing"
+    ]
+  },
+  "object_to_levels": {
+    "shirt": {
+      "fine": "shirt",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "cell phone": {
+      "fine": "cell phone",
+      "mid": "cell phone",
+      "coarse": "communicate"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "watch strap": {
+      "fine": "watch strap",
+      "mid": "watch strap",
+      "coarse": "watch strap"
+    },
+    "left hand": {
+      "fine": "left hand",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "buttons": {
+      "fine": "buttons",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "pointer finger": {
+      "fine": "pointer finger",
+      "mid": "pointer finger",
+      "coarse": "pointer finger"
+    },
+    "picture": {
+      "fine": "picture",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "organ",
+      "coarse": "thing"
+    },
+    "keypad": {
+      "fine": "keypad",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "band": {
+      "fine": "band",
+      "mid": "set",
+      "coarse": "abstraction"
+    },
+    "phone": {
+      "fine": "phone",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "watch": {
+      "fine": "watch",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "cellphone": {
+      "fine": "cellphone",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "copyright symbol": {
+      "fine": "copyright symbol",
+      "mid": "copyright symbol",
+      "coarse": "copyright symbol"
+    },
+    "thumb": {
+      "fine": "thumb",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "latch": {
+      "fine": "latch",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "speaker": {
+      "fine": "speaker",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "oscar": {
+      "fine": "oscar",
+      "mid": "award",
+      "coarse": "abstraction"
+    },
+    "key pad": {
+      "fine": "key pad",
+      "mid": "key pad",
+      "coarse": "key pad"
+    },
+    "fingernail": {
+      "fine": "fingernail",
+      "mid": "structure",
+      "coarse": "thing"
+    },
+    "finger": {
+      "fine": "finger",
+      "mid": "external body part",
+      "coarse": "thing"
+    }
+  },
+  "statistics": {
+    "num_objects": 32,
+    "fine_concepts": 23,
+    "mid_concepts": 13,
+    "coarse_concepts": 8,
+    "compression_fine_to_mid": 1.77,
+    "compression_fine_to_coarse": 2.88
+  }
+}

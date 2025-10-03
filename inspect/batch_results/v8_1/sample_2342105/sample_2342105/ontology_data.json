@@ -1,0 +1,322 @@
+{
+  "image_id": 2342105,
+  "hierarchy": {
+    "fine": [
+      "ground",
+      "blue shirt",
+      "red kite",
+      "woman and boy",
+      "shirt",
+      "man",
+      "people",
+      "strings",
+      "down",
+      "hands",
+      "building",
+      "clouds",
+      "cones",
+      "blue",
+      "kite",
+      "ladybug kites",
+      "kites",
+      "bag",
+      "tail",
+      "boy",
+      "sky",
+      "woman"
+    ],
+    "mid": [
+      "land",
+      "blue shirt",
+      "red kite",
+      "woman and boy",
+      "commodity",
+      "person",
+      "group",
+      "section",
+      "material",
+      "group action",
+      "structure",
+      "cloud",
+      "cone",
+      "color",
+      "document",
+      "ladybug kites",
+      "container",
+      "tail",
+      "sky"
+    ],
+    "coarse": [
+      "object",
+      "blue shirt",
+      "red kite",
+      "woman and boy",
+      "physical entity",
+      "people",
+      "group",
+      "abstraction",
+      "attribute",
+      "ladybug kites"
+    ]
+  },
+  "concept_paths": {
+    "ground": [
+      "ground",
+      "land",
+      "object"
+    ],
+    "blue shirt": [
+      "blue shirt"
+    ],
+    "red kite": [
+      "red kite"
+    ],
+    "woman and boy": [
+      "woman and boy"
+    ],
+    "shirt": [
+      "shirt",
+      "commodity",
+      "object"
+    ],
+    "man": [
+      "man",
+      "person",
+      "physical entity"
+    ],
+    "people": [
+      "people",
+      "group",
+      "people"
+    ],
+    "strings": [
+      "strings",
+      "section",
+      "group"
+    ],
+    "down": [
+      "down",
+      "material",
+      "abstraction"
+    ],
+    "hands": [
+      "hands",
+      "group action",
+      "abstraction"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "object"
+    ],
+    "clouds": [
+      "clouds",
+      "cloud",
+      "physical entity"
+    ],
+    "cones": [
+      "cones",
+      "cone",
+      "object"
+    ],
+    "blue": [
+      "blue",
+      "color",
+      "attribute"
+    ],
+    "kite": [
+      "kite",
+      "document",
+      "abstraction"
+    ],
+    "ladybug kites": [
+      "ladybug kites"
+    ],
+    "kites": [
+      "kites",
+      "document",
+      "abstraction"
+    ],
+    "bag": [
+      "bag",
+      "container",
+      "object"
+    ],
+    "tail": [
+      "tail",
+      "tail",
+      "physical entity"
+    ],
+    "boy": [
+      "boy",
+      "person",
+      "physical entity"
+    ],
+    "sky": [
+      "sky",
+      "sky",
+      "physical entity"
+    ],
+    "woman": [
+      "woman",
+      "person",
+      "physical entity"
+    ]
+  },
+  "object_to_levels": {
+    "ground": {
+      "fine": "ground",
+      "mid": "land",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "blue shirt": {
+      "fine": "blue shirt",
+      "mid": "blue shirt",
+      "coarse": "blue shirt"
+    },
+    "red kite": {
+      "fine": "red kite",
+      "mid": "red kite",
+      "coarse": "red kite"
+    },
+    "woman and boy": {
+      "fine": "woman and boy",
+      "mid": "woman and boy",
+      "coarse": "woman and boy"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Commodity represents the functional/semantic category of a clothing item, aligning with the object 'shirt' as a clothing item. It is a mid-level concept that captures its use and value in the scene context."
+    },
+    "man": {
+      "fine": "man",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Man is a person, which aligns with the semantic category 'person' at the mid-level. 'Physical entity' captures the most general domain for grouping similar objects like man, woman, boy, etc."
+    },
+    "people": {
+      "fine": "people",
+      "mid": "group",
+      "coarse": "people",
+      "method": "llm",
+      "reasoning": "People are grouped together in the scene context, forming a coherent set of objects, and they represent a high-level semantic category that allows for meaningful abstraction."
+    },
+    "strings": {
+      "fine": "strings",
+      "mid": "section",
+      "coarse": "group",
+      "method": "llm",
+      "reasoning": "Strings are grouped into sections, which is a mid-level abstraction that captures their functional role as part of a larger structure. The 'group' concept represents the coarse level, while the 'section' concept provides the finer level of detail."
+    },
+    "down": {
+      "fine": "down",
+      "mid": "material",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "hands": {
+      "fine": "hands",
+      "mid": "group action",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Building is a structure, which is a more general category than an object but still captures its functional and spatial characteristics. It is the most appropriate high-level abstraction for representing 'building' in this scene context."
+    },
+    "clouds": {
+      "fine": "clouds",
+      "mid": "cloud",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Clouds represent a natural phenomenon (mid-level concept) and are physical entities (coarse-level concept) in the scene context."
+    },
+    "cones": {
+      "fine": "cones",
+      "mid": "cone",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Cones are a specific type of object (mid-level concept) and belong to the broader category of physical entities (coarse-level concept)"
+    },
+    "blue": {
+      "fine": "blue",
+      "mid": "color",
+      "coarse": "attribute",
+      "method": "llm",
+      "reasoning": "The concept 'color' represents the semantic category of the object 'blue', which is a visual property. It captures the functional and semantic meaning of the object as a color. This aligns with the goal of creating a meaningful, traceable abstraction level."
+    },
+    "kite": {
+      "fine": "kite",
+      "mid": "document",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Kite is a visual object, and 'document' represents a written or recorded form of information. 'Abstraction' captures the conceptual representation of the object, aligning with its functional role as a visual element."
+    },
+    "ladybug kites": {
+      "fine": "ladybug kites",
+      "mid": "ladybug kites",
+      "coarse": "ladybug kites"
+    },
+    "kites": {
+      "fine": "kites",
+      "mid": "document",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Document is a high-level abstraction that groups similar objects like 'kites' as a medium of communication and information. It aligns with the task of creating a meaningful, traceable hierarchy."
+    },
+    "bag": {
+      "fine": "bag",
+      "mid": "container",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'bag' is a container, which represents its functional role as a storage or holding unit. It is a physical object, making it the most appropriate coarse-level concept for abstraction."
+    },
+    "tail": {
+      "fine": "tail",
+      "mid": "tail",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'tail' is a physical entity that represents the body part of an object. It is a coarse-level concept as it captures the overall physical representation of an object."
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Person (mid) represents the abstract category of the object 'boy', which is a human. The physical entity (coarse) captures the object 'boy' as a tangible entity in the scene."
+    },
+    "sky": {
+      "fine": "sky",
+      "mid": "sky",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Sky is a physical entity (coarse) and the most general category representing its location and atmosphere (mid-level concept)"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'person' concept represents 'woman' as a human being, aligning with the semantic category of a living being. The 'physical entity' concept captures the broader, more general domain of the object, making it the appropriate high-level abstraction for the scene context."
+    }
+  },
+  "statistics": {
+    "num_objects": 28,
+    "fine_concepts": 22,
+    "mid_concepts": 19,
+    "coarse_concepts": 10,
+    "compression_fine_to_mid": 1.16,
+    "compression_fine_to_coarse": 2.2
+  }
+}

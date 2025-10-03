@@ -1,0 +1,175 @@
+{
+  "image_id": 2406328,
+  "hierarchy": {
+    "fine": [
+      "cabinet",
+      "lid",
+      "overflow",
+      "wall",
+      "floor",
+      "handle",
+      "toilet",
+      "towel ring",
+      "pipe",
+      "door",
+      "cubby",
+      "faucet",
+      "sink"
+    ],
+    "mid": [
+      "instrumentality",
+      "tissue",
+      "action",
+      "structure",
+      "artifact",
+      "handle"
+    ],
+    "coarse": [
+      "object",
+      "thing",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "cabinet": [
+      "cabinet",
+      "instrumentality",
+      "object"
+    ],
+    "lid": [
+      "lid",
+      "tissue",
+      "thing"
+    ],
+    "overflow": [
+      "overflow",
+      "action",
+      "abstraction"
+    ],
+    "wall": [
+      "wall",
+      "structure",
+      "object"
+    ],
+    "floor": [
+      "floor",
+      "artifact",
+      "object"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "object"
+    ],
+    "toilet": [
+      "toilet",
+      "structure",
+      "object"
+    ],
+    "towel ring": [
+      "towel ring",
+      "artifact",
+      "object"
+    ],
+    "pipe": [
+      "pipe",
+      "artifact",
+      "object"
+    ],
+    "door": [
+      "door",
+      "structure",
+      "object"
+    ],
+    "cubby": [
+      "cubby",
+      "structure",
+      "object"
+    ],
+    "faucet": [
+      "faucet",
+      "instrumentality",
+      "object"
+    ],
+    "sink": [
+      "sink",
+      "artifact",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "lid": {
+      "fine": "lid",
+      "mid": "tissue",
+      "coarse": "thing"
+    },
+    "overflow": {
+      "fine": "overflow",
+      "mid": "action",
+      "coarse": "abstraction"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "object"
+    },
+    "toilet": {
+      "fine": "toilet",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "towel ring": {
+      "fine": "towel ring",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "pipe": {
+      "fine": "pipe",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "door": {
+      "fine": "door",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "cubby": {
+      "fine": "cubby",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "faucet": {
+      "fine": "faucet",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "sink": {
+      "fine": "sink",
+      "mid": "artifact",
+      "coarse": "object"
+    }
+  },
+  "statistics": {
+    "num_objects": 14,
+    "fine_concepts": 13,
+    "mid_concepts": 6,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 2.17,
+    "compression_fine_to_coarse": 4.33
+  }
+}

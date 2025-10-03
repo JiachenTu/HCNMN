@@ -1,0 +1,261 @@
+{
+  "image_id": 2379701,
+  "hierarchy": {
+    "fine": [
+      "hair",
+      "ground",
+      "writing",
+      "letters",
+      "court",
+      "background",
+      "leg",
+      "shirt",
+      "dirt",
+      "racket",
+      "shoe",
+      "shorts",
+      "woman",
+      "foot",
+      "air",
+      "wall",
+      "ball",
+      "headband"
+    ],
+    "mid": [
+      "covering",
+      "land",
+      "act",
+      "process",
+      "assembly",
+      "background",
+      "body part",
+      "commodity",
+      "substance",
+      "sound",
+      "footwear",
+      "living thing",
+      "air",
+      "partition",
+      "artifact",
+      "band"
+    ],
+    "coarse": [
+      "physical entity",
+      "object",
+      "abstraction",
+      "group",
+      "attribute",
+      "matter"
+    ]
+  },
+  "concept_paths": {
+    "hair": [
+      "hair",
+      "covering",
+      "physical entity"
+    ],
+    "ground": [
+      "ground",
+      "land",
+      "object"
+    ],
+    "writing": [
+      "writing",
+      "act",
+      "abstraction"
+    ],
+    "letters": [
+      "letters",
+      "process",
+      "abstraction"
+    ],
+    "court": [
+      "court",
+      "assembly",
+      "group"
+    ],
+    "background": [
+      "background",
+      "background",
+      "attribute"
+    ],
+    "leg": [
+      "leg",
+      "body part",
+      "physical entity"
+    ],
+    "shirt": [
+      "shirt",
+      "commodity",
+      "object"
+    ],
+    "dirt": [
+      "dirt",
+      "substance",
+      "abstraction"
+    ],
+    "racket": [
+      "racket",
+      "sound",
+      "abstraction"
+    ],
+    "shoe": [
+      "shoe",
+      "footwear",
+      "object"
+    ],
+    "shorts": [
+      "shorts",
+      "commodity",
+      "object"
+    ],
+    "woman": [
+      "woman",
+      "living thing",
+      "physical entity"
+    ],
+    "foot": [
+      "foot",
+      "body part",
+      "physical entity"
+    ],
+    "air": [
+      "air",
+      "air",
+      "matter"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "object"
+    ],
+    "ball": [
+      "ball",
+      "artifact",
+      "object"
+    ],
+    "headband": [
+      "headband",
+      "band",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "land",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "act",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "letters": {
+      "fine": "letters",
+      "mid": "process",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "court": {
+      "fine": "court",
+      "mid": "assembly",
+      "coarse": "group",
+      "method": "fallback"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "background",
+      "coarse": "attribute",
+      "method": "llm"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "dirt": {
+      "fine": "dirt",
+      "mid": "substance",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "racket": {
+      "fine": "racket",
+      "mid": "sound",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "footwear",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "living thing",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "foot": {
+      "fine": "foot",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "air": {
+      "fine": "air",
+      "mid": "air",
+      "coarse": "matter",
+      "method": "fallback"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "ball": {
+      "fine": "ball",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "headband": {
+      "fine": "headband",
+      "mid": "band",
+      "coarse": "object",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 19,
+    "fine_concepts": 18,
+    "mid_concepts": 16,
+    "coarse_concepts": 6,
+    "compression_fine_to_mid": 1.12,
+    "compression_fine_to_coarse": 3.0
+  }
+}

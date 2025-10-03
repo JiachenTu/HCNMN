@@ -1,0 +1,332 @@
+{
+  "image_id": 2376855,
+  "hierarchy": {
+    "fine": [
+      "latch",
+      "pointer finger",
+      "left hand",
+      "watch strap",
+      "key pad",
+      "cellphone",
+      "speaker",
+      "watch",
+      "copyright symbol",
+      "finger",
+      "ear",
+      "band",
+      "hand",
+      "phone",
+      "thumb",
+      "fingernail",
+      "cell phone",
+      "shirt",
+      "buttons",
+      "man",
+      "picture",
+      "keypad",
+      "oscar"
+    ],
+    "mid": [
+      "device",
+      "pointer finger",
+      "extremity",
+      "watch strap",
+      "key pad",
+      "equipment",
+      "organism",
+      "instrumentality",
+      "copyright symbol",
+      "organ",
+      "set",
+      "artifact",
+      "structure",
+      "cell phone",
+      "commodity",
+      "person",
+      "representation",
+      "academy award"
+    ],
+    "coarse": [
+      "physical entity",
+      "pointer finger",
+      "watch strap",
+      "key pad",
+      "object",
+      "copyright symbol",
+      "abstraction",
+      "communicate"
+    ]
+  },
+  "concept_paths": {
+    "latch": [
+      "latch",
+      "device",
+      "physical entity"
+    ],
+    "pointer finger": [
+      "pointer finger"
+    ],
+    "left hand": [
+      "left hand",
+      "extremity",
+      "physical entity"
+    ],
+    "watch strap": [
+      "watch strap"
+    ],
+    "key pad": [
+      "key pad"
+    ],
+    "cellphone": [
+      "cellphone",
+      "equipment",
+      "object"
+    ],
+    "speaker": [
+      "speaker",
+      "organism",
+      "physical entity"
+    ],
+    "watch": [
+      "watch",
+      "instrumentality",
+      "object"
+    ],
+    "copyright symbol": [
+      "copyright symbol"
+    ],
+    "finger": [
+      "finger",
+      "extremity",
+      "physical entity"
+    ],
+    "ear": [
+      "ear",
+      "organ",
+      "physical entity"
+    ],
+    "band": [
+      "band",
+      "set",
+      "abstraction"
+    ],
+    "hand": [
+      "hand",
+      "extremity",
+      "physical entity"
+    ],
+    "phone": [
+      "phone",
+      "artifact",
+      "object"
+    ],
+    "thumb": [
+      "thumb",
+      "extremity",
+      "physical entity"
+    ],
+    "fingernail": [
+      "fingernail",
+      "structure",
+      "physical entity"
+    ],
+    "cell phone": [
+      "cell phone",
+      "cell phone",
+      "communicate"
+    ],
+    "shirt": [
+      "shirt",
+      "commodity",
+      "object"
+    ],
+    "buttons": [
+      "buttons",
+      "device",
+      "object"
+    ],
+    "man": [
+      "man",
+      "person",
+      "physical entity"
+    ],
+    "picture": [
+      "picture",
+      "representation",
+      "object"
+    ],
+    "keypad": [
+      "keypad",
+      "equipment",
+      "object"
+    ],
+    "oscar": [
+      "oscar",
+      "academy award",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "latch": {
+      "fine": "latch",
+      "mid": "device",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "pointer finger": {
+      "fine": "pointer finger",
+      "mid": "pointer finger",
+      "coarse": "pointer finger"
+    },
+    "left hand": {
+      "fine": "left hand",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The left hand is an extremity (depth 6) in the semantic hierarchy, which represents its physical location and function. It is a more specific representation than a part or external body part, aligning with the progressive refinement from coarse to mid to fine."
+    },
+    "watch strap": {
+      "fine": "watch strap",
+      "mid": "watch strap",
+      "coarse": "watch strap"
+    },
+    "key pad": {
+      "fine": "key pad",
+      "mid": "key pad",
+      "coarse": "key pad"
+    },
+    "cellphone": {
+      "fine": "cellphone",
+      "mid": "equipment",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Cellphone is a functional object (mid-level concept: equipment) and a physical entity (coarse-level concept: object). It represents a specific type of electronic device, which aligns with the semantic hierarchy."
+    },
+    "speaker": {
+      "fine": "speaker",
+      "mid": "organism",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'speaker' is an organism (organism(d=5)) that functions as a communicator and articulator. It is a physical entity (physical entity(d=1)) that can be grouped with other objects in the scene."
+    },
+    "watch": {
+      "fine": "watch",
+      "mid": "instrumentality",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'watch' represents an instrument/tool (mid-level concept) and a physical object (coarse-level concept) in the scene context. This aligns with the WordNet hierarchy, where 'watch' is an instrumentality and a device."
+    },
+    "copyright symbol": {
+      "fine": "copyright symbol",
+      "mid": "copyright symbol",
+      "coarse": "copyright symbol"
+    },
+    "finger": {
+      "fine": "finger",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Finger is a body part (mid-level concept) and a part of the external body (coarse-level concept) in the WordNet hierarchy."
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "organ",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'ear' is a sensory organ (mid-level) that belongs to the broader category of physical entities (coarse-level). This abstraction captures its function and classification accurately."
+    },
+    "band": {
+      "fine": "band",
+      "mid": "set",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Band is a physical object, and 'set' represents a group of similar objects, making it the appropriate high-level abstraction. 'Abstraction' captures the general meaning of the band as a group, while 'set' ensures it aligns with the context of the scene."
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Hand is a body part (mid-level concept) and a physical entity (coarse-level concept). It represents the extremity of the body, which is a meaningful and traceable abstraction."
+    },
+    "phone": {
+      "fine": "phone",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Phone is a functional item (artifact) and a physical object (object) in the scene context, aligning with the mid-level abstraction of a functional item."
+    },
+    "thumb": {
+      "fine": "thumb",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "thumb is a body part, which is a mid-level concept (extremity) and provides a meaningful abstraction of the object's physical form, aligning with the goal of progressive refinement."
+    },
+    "fingernail": {
+      "fine": "fingernail",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Fingernail is a structure (mid-level concept) that can be grouped with other structures like "
+    },
+    "cell phone": {
+      "fine": "cell phone",
+      "mid": "cell phone",
+      "coarse": "communicate",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'shirt' is a clothing item, which is a commodity (mid-level category) and a physical object (coarse-level concept). This aligns with the semantic hierarchy of preserving high-level semantic information and allowing progressive refinement."
+    },
+    "buttons": {
+      "fine": "buttons",
+      "mid": "device",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Buttons are a physical object used as a device, making them a mid-level concept (device) that captures their functional role, while 'object' at depth 2 represents their general form in the scene."
+    },
+    "man": {
+      "fine": "man",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Man is a person (mid-level concept) and a physical entity (coarse-level concept) in the scene context. This aligns with the semantic hierarchy and provides a meaningful abstraction."
+    },
+    "picture": {
+      "fine": "picture",
+      "mid": "representation",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'picture' object belongs to the 'representation' category (mid-level), as it is an artifact that can be visualized and represented. It is also a 'physical object' (coarse-level) and thus fits the hierarchical abstraction."
+    },
+    "keypad": {
+      "fine": "keypad",
+      "mid": "equipment",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Keypad is a functional device (equipment) and a physical object (object), aligning with the requirement to represent it as a mid-level category with progressive refinement."
+    },
+    "oscar": {
+      "fine": "oscar",
+      "mid": "academy award",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Oscar is a symbol of excellence and a cultural recognition, which aligns with the concept of an abstract representation. It represents a high-level category and provides a meaningful abstraction."
+    }
+  },
+  "statistics": {
+    "num_objects": 32,
+    "fine_concepts": 23,
+    "mid_concepts": 18,
+    "coarse_concepts": 8,
+    "compression_fine_to_mid": 1.28,
+    "compression_fine_to_coarse": 2.88
+  }
+}

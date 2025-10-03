@@ -1,0 +1,317 @@
+{
+  "image_id": 2396558,
+  "hierarchy": {
+    "fine": [
+      "top",
+      "middle",
+      "bruise",
+      "sticker",
+      "oranges",
+      "branch",
+      "table",
+      "light",
+      "group",
+      "apple",
+      "shape",
+      "lemon",
+      "orange",
+      "banana",
+      "fruit",
+      "spot",
+      "tip",
+      "bump",
+      "bottom",
+      "pile",
+      "stem"
+    ],
+    "mid": [
+      "top",
+      "area",
+      "physical condition",
+      "process",
+      "plant organ",
+      "unit",
+      "array",
+      "physical phenomenon",
+      "group",
+      "plant part",
+      "shape",
+      "plant",
+      "point",
+      "extremity",
+      "region",
+      "collection",
+      "word"
+    ],
+    "coarse": [
+      "physical entity",
+      "abstraction",
+      "object",
+      "collection"
+    ]
+  },
+  "concept_paths": {
+    "top": [
+      "top",
+      "top",
+      "physical entity"
+    ],
+    "middle": [
+      "middle",
+      "area",
+      "physical entity"
+    ],
+    "bruise": [
+      "bruise",
+      "physical condition",
+      "abstraction"
+    ],
+    "sticker": [
+      "sticker",
+      "process",
+      "physical entity"
+    ],
+    "oranges": [
+      "oranges",
+      "plant organ",
+      "physical entity"
+    ],
+    "branch": [
+      "branch",
+      "unit",
+      "abstraction"
+    ],
+    "table": [
+      "table",
+      "array",
+      "abstraction"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "physical entity"
+    ],
+    "group": [
+      "group",
+      "group",
+      "abstraction"
+    ],
+    "apple": [
+      "apple",
+      "plant part",
+      "object"
+    ],
+    "shape": [
+      "shape",
+      "shape",
+      "abstraction"
+    ],
+    "lemon": [
+      "lemon",
+      "plant organ",
+      "physical entity"
+    ],
+    "orange": [
+      "orange",
+      "plant organ",
+      "physical entity"
+    ],
+    "banana": [
+      "banana",
+      "plant",
+      "object"
+    ],
+    "fruit": [
+      "fruit",
+      "plant organ",
+      "physical entity"
+    ],
+    "spot": [
+      "spot",
+      "point",
+      "physical entity"
+    ],
+    "tip": [
+      "tip",
+      "extremity",
+      "physical entity"
+    ],
+    "bump": [
+      "bump",
+      "physical condition",
+      "abstraction"
+    ],
+    "bottom": [
+      "bottom",
+      "region",
+      "physical entity"
+    ],
+    "pile": [
+      "pile",
+      "collection",
+      "collection"
+    ],
+    "stem": [
+      "stem",
+      "word",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "top": {
+      "fine": "top",
+      "mid": "top",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Top is a physical object with a specific location and position, making it a coarse-level concept. The mid-level concept 'top' represents its functional role in the scene, while the coarse concept 'physical entity' captures its general semantic domain."
+    },
+    "middle": {
+      "fine": "middle",
+      "mid": "area",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Middle is a spatial location (area) and represents the position and size of the object, aligning with the coarse level of abstraction (physical entity) while capturing its mid-level semantic information (area)."
+    },
+    "bruise": {
+      "fine": "bruise",
+      "mid": "physical condition",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "bruise is a physical condition that describes the state of a body, making it a suitable mid-level concept for representing its functional and semantic role in the scene context."
+    },
+    "sticker": {
+      "fine": "sticker",
+      "mid": "process",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'sticker' object is a physical entity (coarse level) and its function (process) best represents its role as a visual object in the scene context. This aligns with the goal of creating a meaningful, traceable hierarchy."
+    },
+    "oranges": {
+      "fine": "oranges",
+      "mid": "plant organ",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "branch": {
+      "fine": "branch",
+      "mid": "unit",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "array",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Table is an array of objects (array) and represents a high-level abstraction of the scene context. It captures the structure and arrangement of objects, aligning with the need for a progressive abstraction from the coarse to the fine level."
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "physical entity",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "group": {
+      "fine": "group",
+      "mid": "group",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Group represents a semantic category for grouping similar objects, while abstraction provides the most general meaningful domain for grouping. The group is a mid-level concept, and abstraction is the coarse-level concept."
+    },
+    "apple": {
+      "fine": "apple",
+      "mid": "plant part",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "shape": {
+      "fine": "shape",
+      "mid": "shape",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Shape is a mid-level category representing the object's physical form, while abstraction captures its general meaning as a concept, and abstraction is the most general domain for grouping similar objects."
+    },
+    "lemon": {
+      "fine": "lemon",
+      "mid": "plant organ",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Lemon is a plant organ (mid-level) and a physical entity (coarse-level) that best captures its general semantic category and provides a meaningful abstraction."
+    },
+    "orange": {
+      "fine": "orange",
+      "mid": "plant organ",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Orange is a plant organ (mid-level concept) and a physical entity (coarse-level concept), aligning with the semantic hierarchy of the scene context."
+    },
+    "banana": {
+      "fine": "banana",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Banana is a plant (mid-level concept) and a physical object (coarse-level concept), aligning with the semantic hierarchy for grouping similar objects."
+    },
+    "fruit": {
+      "fine": "fruit",
+      "mid": "plant organ",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Fruit is a plant organ, which is a more specific category than a plant part (depth 5) and a physical entity (depth 1), aligning with the hierarchical abstraction requirement of progressing from coarse to mid to fine."
+    },
+    "spot": {
+      "fine": "spot",
+      "mid": "point",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Point (depth 4) best represents 'spot' as a mid-level concept, capturing its location within a scene. 'Physical entity' (depth 1) provides the coarse-level abstraction, grouping similar objects like 'lemon' and 'banana' by their physical properties."
+    },
+    "tip": {
+      "fine": "tip",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The tip is a specific point of a stem, which can be considered an extremity (mid-level concept) as it represents a specific part of an object. The physical entity provides a broader abstraction, capturing the tip as a part of a physical object."
+    },
+    "bump": {
+      "fine": "bump",
+      "mid": "physical condition",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Bump is a physical object with a condition, which aligns with the coarse-level abstraction of 'abstraction' and the mid-level concept 'physical condition' representing its functional and semantic category."
+    },
+    "bottom": {
+      "fine": "bottom",
+      "mid": "region",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Bottom is a region (depth 4) and represents a physical entity (depth 1) in the scene context."
+    },
+    "pile": {
+      "fine": "pile",
+      "mid": "collection",
+      "coarse": "collection",
+      "method": "llm",
+      "reasoning": "The 'collection' concept best represents 'pile' as a mid-level category in this scene context. It groups similar objects (the pile) and provides a meaningful abstraction that captures the core semantic information of the pile."
+    },
+    "stem": {
+      "fine": "stem",
+      "mid": "word",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    }
+  },
+  "statistics": {
+    "num_objects": 36,
+    "fine_concepts": 21,
+    "mid_concepts": 17,
+    "coarse_concepts": 4,
+    "compression_fine_to_mid": 1.24,
+    "compression_fine_to_coarse": 5.25
+  }
+}

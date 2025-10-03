@@ -1,0 +1,312 @@
+{
+  "image_id": 2376855,
+  "hierarchy": {
+    "fine": [
+      "thumb",
+      "cell phone",
+      "man",
+      "latch",
+      "left hand",
+      "watch",
+      "watch strap",
+      "copyright symbol",
+      "finger",
+      "fingernail",
+      "phone",
+      "buttons",
+      "cellphone",
+      "oscar",
+      "key pad",
+      "hand",
+      "shirt",
+      "picture",
+      "pointer finger",
+      "ear",
+      "keypad",
+      "speaker",
+      "band"
+    ],
+    "mid": [
+      "body part",
+      "cell phone",
+      "living thing",
+      "artifact",
+      "watch strap",
+      "copyright symbol",
+      "equipment",
+      "device",
+      "symbol",
+      "key pad",
+      "commodity",
+      "representation",
+      "pointer finger",
+      "organ",
+      "organism",
+      "set"
+    ],
+    "coarse": [
+      "physical entity",
+      "communicate",
+      "watch strap",
+      "copyright symbol",
+      "object",
+      "signal",
+      "key pad",
+      "pointer finger",
+      "group"
+    ]
+  },
+  "concept_paths": {
+    "thumb": [
+      "thumb",
+      "body part",
+      "physical entity"
+    ],
+    "cell phone": [
+      "cell phone",
+      "cell phone",
+      "communicate"
+    ],
+    "man": [
+      "man",
+      "living thing",
+      "physical entity"
+    ],
+    "latch": [
+      "latch",
+      "artifact",
+      "physical entity"
+    ],
+    "left hand": [
+      "left hand",
+      "body part",
+      "physical entity"
+    ],
+    "watch": [
+      "watch",
+      "artifact",
+      "physical entity"
+    ],
+    "watch strap": [
+      "watch strap"
+    ],
+    "copyright symbol": [
+      "copyright symbol"
+    ],
+    "finger": [
+      "finger",
+      "body part",
+      "physical entity"
+    ],
+    "fingernail": [
+      "fingernail",
+      "body part",
+      "physical entity"
+    ],
+    "phone": [
+      "phone",
+      "equipment",
+      "physical entity"
+    ],
+    "buttons": [
+      "buttons",
+      "device",
+      "object"
+    ],
+    "cellphone": [
+      "cellphone",
+      "equipment",
+      "object"
+    ],
+    "oscar": [
+      "oscar",
+      "symbol",
+      "signal"
+    ],
+    "key pad": [
+      "key pad"
+    ],
+    "hand": [
+      "hand",
+      "body part",
+      "physical entity"
+    ],
+    "shirt": [
+      "shirt",
+      "commodity",
+      "object"
+    ],
+    "picture": [
+      "picture",
+      "representation",
+      "object"
+    ],
+    "pointer finger": [
+      "pointer finger"
+    ],
+    "ear": [
+      "ear",
+      "organ",
+      "physical entity"
+    ],
+    "keypad": [
+      "keypad",
+      "equipment",
+      "physical entity"
+    ],
+    "speaker": [
+      "speaker",
+      "organism",
+      "object"
+    ],
+    "band": [
+      "band",
+      "set",
+      "group"
+    ]
+  },
+  "object_to_levels": {
+    "thumb": {
+      "fine": "thumb",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "cell phone": {
+      "fine": "cell phone",
+      "mid": "cell phone",
+      "coarse": "communicate",
+      "method": "fallback"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "living thing",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "latch": {
+      "fine": "latch",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "left hand": {
+      "fine": "left hand",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "watch": {
+      "fine": "watch",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "watch strap": {
+      "fine": "watch strap",
+      "mid": "watch strap",
+      "coarse": "watch strap"
+    },
+    "copyright symbol": {
+      "fine": "copyright symbol",
+      "mid": "copyright symbol",
+      "coarse": "copyright symbol"
+    },
+    "finger": {
+      "fine": "finger",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "fingernail": {
+      "fine": "fingernail",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "phone": {
+      "fine": "phone",
+      "mid": "equipment",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "buttons": {
+      "fine": "buttons",
+      "mid": "device",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "cellphone": {
+      "fine": "cellphone",
+      "mid": "equipment",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "oscar": {
+      "fine": "oscar",
+      "mid": "symbol",
+      "coarse": "signal",
+      "method": "llm"
+    },
+    "key pad": {
+      "fine": "key pad",
+      "mid": "key pad",
+      "coarse": "key pad"
+    },
+    "hand": {
+      "fine": "hand",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "picture": {
+      "fine": "picture",
+      "mid": "representation",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "pointer finger": {
+      "fine": "pointer finger",
+      "mid": "pointer finger",
+      "coarse": "pointer finger"
+    },
+    "ear": {
+      "fine": "ear",
+      "mid": "organ",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "keypad": {
+      "fine": "keypad",
+      "mid": "equipment",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "speaker": {
+      "fine": "speaker",
+      "mid": "organism",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "band": {
+      "fine": "band",
+      "mid": "set",
+      "coarse": "group",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 32,
+    "fine_concepts": 23,
+    "mid_concepts": 16,
+    "coarse_concepts": 9,
+    "compression_fine_to_mid": 1.44,
+    "compression_fine_to_coarse": 2.56
+  }
+}

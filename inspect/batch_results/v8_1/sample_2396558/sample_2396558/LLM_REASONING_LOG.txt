@@ -1,0 +1,149 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: top
+  Fine: top
+  Mid: top
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Top is a physical object with a specific location and position, making it a coarse-level concept. The mid-level concept 'top' represents its functional role in the scene, while the coarse concept 'physical entity' captures its general semantic domain.
+
+Object: middle
+  Fine: middle
+  Mid: area
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Middle is a spatial location (area) and represents the position and size of the object, aligning with the coarse level of abstraction (physical entity) while capturing its mid-level semantic information (area).
+
+Object: bruise
+  Fine: bruise
+  Mid: physical condition
+  Coarse: abstraction
+  Method: llm
+  Reasoning: bruise is a physical condition that describes the state of a body, making it a suitable mid-level concept for representing its functional and semantic role in the scene context.
+
+Object: sticker
+  Fine: sticker
+  Mid: process
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'sticker' object is a physical entity (coarse level) and its function (process) best represents its role as a visual object in the scene context. This aligns with the goal of creating a meaningful, traceable hierarchy.
+
+Object: oranges
+  Fine: oranges
+  Mid: plant organ
+  Coarse: physical entity
+  Method: llm
+
+Object: branch
+  Fine: branch
+  Mid: unit
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: table
+  Fine: table
+  Mid: array
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Table is an array of objects (array) and represents a high-level abstraction of the scene context. It captures the structure and arrangement of objects, aligning with the need for a progressive abstraction from the coarse to the fine level.
+
+Object: light
+  Fine: light
+  Mid: physical phenomenon
+  Coarse: physical entity
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: group
+  Fine: group
+  Mid: group
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Group represents a semantic category for grouping similar objects, while abstraction provides the most general meaningful domain for grouping. The group is a mid-level concept, and abstraction is the coarse-level concept.
+
+Object: apple
+  Fine: apple
+  Mid: plant part
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: shape
+  Fine: shape
+  Mid: shape
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Shape is a mid-level category representing the object's physical form, while abstraction captures its general meaning as a concept, and abstraction is the most general domain for grouping similar objects.
+
+Object: lemon
+  Fine: lemon
+  Mid: plant organ
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Lemon is a plant organ (mid-level) and a physical entity (coarse-level) that best captures its general semantic category and provides a meaningful abstraction.
+
+Object: orange
+  Fine: orange
+  Mid: plant organ
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Orange is a plant organ (mid-level concept) and a physical entity (coarse-level concept), aligning with the semantic hierarchy of the scene context.
+
+Object: banana
+  Fine: banana
+  Mid: plant
+  Coarse: object
+  Method: llm
+  Reasoning: Banana is a plant (mid-level concept) and a physical object (coarse-level concept), aligning with the semantic hierarchy for grouping similar objects.
+
+Object: fruit
+  Fine: fruit
+  Mid: plant organ
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Fruit is a plant organ, which is a more specific category than a plant part (depth 5) and a physical entity (depth 1), aligning with the hierarchical abstraction requirement of progressing from coarse to mid to fine.
+
+Object: spot
+  Fine: spot
+  Mid: point
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Point (depth 4) best represents 'spot' as a mid-level concept, capturing its location within a scene. 'Physical entity' (depth 1) provides the coarse-level abstraction, grouping similar objects like 'lemon' and 'banana' by their physical properties.
+
+Object: tip
+  Fine: tip
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The tip is a specific point of a stem, which can be considered an extremity (mid-level concept) as it represents a specific part of an object. The physical entity provides a broader abstraction, capturing the tip as a part of a physical object.
+
+Object: bump
+  Fine: bump
+  Mid: physical condition
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Bump is a physical object with a condition, which aligns with the coarse-level abstraction of 'abstraction' and the mid-level concept 'physical condition' representing its functional and semantic category.
+
+Object: bottom
+  Fine: bottom
+  Mid: region
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Bottom is a region (depth 4) and represents a physical entity (depth 1) in the scene context.
+
+Object: pile
+  Fine: pile
+  Mid: collection
+  Coarse: collection
+  Method: llm
+  Reasoning: The 'collection' concept best represents 'pile' as a mid-level category in this scene context. It groups similar objects (the pile) and provides a meaningful abstraction that captures the core semantic information of the pile.
+
+Object: stem
+  Fine: stem
+  Mid: word
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+

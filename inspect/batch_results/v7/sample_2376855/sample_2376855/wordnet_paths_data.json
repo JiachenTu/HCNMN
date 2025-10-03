@@ -1,0 +1,1078 @@
+{
+  "image_id": 2376855,
+  "object_paths": {
+    "shirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "shirt",
+        9
+      ]
+    ],
+    "cell phone": [
+      [
+        "act",
+        0
+      ],
+      [
+        "interact",
+        1
+      ],
+      [
+        "communicate",
+        2
+      ],
+      [
+        "telecommunicate",
+        3
+      ],
+      [
+        "call",
+        4
+      ],
+      [
+        "cell phone",
+        5
+      ]
+    ],
+    "hand": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "hand",
+        7
+      ]
+    ],
+    "watch strap": [
+      [
+        "watch strap",
+        0
+      ]
+    ],
+    "left hand": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "hand",
+        7
+      ],
+      [
+        "left",
+        8
+      ]
+    ],
+    "buttons": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "restraint",
+        7
+      ],
+      [
+        "fastener",
+        8
+      ],
+      [
+        "button",
+        9
+      ]
+    ],
+    "pointer finger": [
+      [
+        "pointer finger",
+        0
+      ]
+    ],
+    "picture": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "creation",
+        5
+      ],
+      [
+        "representation",
+        6
+      ],
+      [
+        "picture",
+        7
+      ]
+    ],
+    "ear": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "organ",
+        5
+      ],
+      [
+        "sense organ",
+        6
+      ],
+      [
+        "ear",
+        7
+      ]
+    ],
+    "keypad": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "equipment",
+        6
+      ],
+      [
+        "electronic equipment",
+        7
+      ],
+      [
+        "peripheral",
+        8
+      ],
+      [
+        "data input device",
+        9
+      ],
+      [
+        "computer keyboard",
+        10
+      ]
+    ],
+    "band": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "social group",
+        3
+      ],
+      [
+        "set",
+        4
+      ]
+    ],
+    "phone": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "equipment",
+        6
+      ],
+      [
+        "electronic equipment",
+        7
+      ],
+      [
+        "telephone",
+        8
+      ]
+    ],
+    "watch": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "instrument",
+        7
+      ],
+      [
+        "measuring instrument",
+        8
+      ],
+      [
+        "timepiece",
+        9
+      ],
+      [
+        "watch",
+        10
+      ]
+    ],
+    "cellphone": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "equipment",
+        6
+      ],
+      [
+        "electronic equipment",
+        7
+      ],
+      [
+        "telephone",
+        8
+      ],
+      [
+        "radiotelephone",
+        9
+      ],
+      [
+        "cellular telephone",
+        10
+      ]
+    ],
+    "copyright symbol": [
+      [
+        "copyright symbol",
+        0
+      ]
+    ],
+    "thumb": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "digit",
+        7
+      ],
+      [
+        "finger",
+        8
+      ],
+      [
+        "thumb",
+        9
+      ]
+    ],
+    "man": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "man",
+        8
+      ]
+    ],
+    "latch": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "restraint",
+        7
+      ],
+      [
+        "fastener",
+        8
+      ],
+      [
+        "lock",
+        9
+      ],
+      [
+        "latch",
+        10
+      ]
+    ],
+    "speaker": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "communicator",
+        7
+      ],
+      [
+        "articulator",
+        8
+      ],
+      [
+        "speaker",
+        9
+      ]
+    ],
+    "oscar": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "signal",
+        3
+      ],
+      [
+        "symbol",
+        4
+      ],
+      [
+        "award",
+        5
+      ],
+      [
+        "academy award",
+        6
+      ]
+    ],
+    "key pad": [
+      [
+        "key pad",
+        0
+      ]
+    ],
+    "fingernail": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "horny structure",
+        6
+      ],
+      [
+        "nail",
+        7
+      ],
+      [
+        "fingernail",
+        8
+      ]
+    ],
+    "finger": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "digit",
+        7
+      ],
+      [
+        "finger",
+        8
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "latch",
+        "picture",
+        "buttons",
+        "shirt",
+        "speaker",
+        "ear",
+        "oscar",
+        "keypad",
+        "band",
+        "hand",
+        "phone",
+        "watch",
+        "cellphone",
+        "man",
+        "thumb",
+        "fingernail",
+        "left hand",
+        "finger"
+      ],
+      "merge_count": 18
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "latch",
+        "picture",
+        "buttons",
+        "shirt",
+        "speaker",
+        "ear",
+        "keypad",
+        "phone",
+        "hand",
+        "watch",
+        "cellphone",
+        "man",
+        "thumb",
+        "fingernail",
+        "left hand",
+        "finger"
+      ],
+      "merge_count": 16
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "latch",
+        "picture",
+        "buttons",
+        "shirt",
+        "speaker",
+        "phone",
+        "keypad",
+        "watch",
+        "cellphone",
+        "man"
+      ],
+      "merge_count": 10
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "latch",
+        "picture",
+        "buttons",
+        "shirt",
+        "speaker",
+        "phone",
+        "keypad",
+        "watch",
+        "cellphone",
+        "man"
+      ],
+      "merge_count": 10
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "latch",
+        "picture",
+        "buttons",
+        "shirt",
+        "phone",
+        "keypad",
+        "watch",
+        "cellphone"
+      ],
+      "merge_count": 8
+    },
+    "thing": {
+      "depth": 2,
+      "merged_objects": [
+        "ear",
+        "hand",
+        "thumb",
+        "fingernail",
+        "left hand",
+        "finger"
+      ],
+      "merge_count": 6
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "ear",
+        "hand",
+        "thumb",
+        "fingernail",
+        "left hand",
+        "finger"
+      ],
+      "merge_count": 6
+    },
+    "body part": {
+      "depth": 4,
+      "merged_objects": [
+        "ear",
+        "hand",
+        "thumb",
+        "fingernail",
+        "left hand",
+        "finger"
+      ],
+      "merge_count": 6
+    },
+    "external body part": {
+      "depth": 5,
+      "merged_objects": [
+        "thumb",
+        "left hand",
+        "hand",
+        "finger"
+      ],
+      "merge_count": 4
+    },
+    "extremity": {
+      "depth": 6,
+      "merged_objects": [
+        "thumb",
+        "left hand",
+        "hand",
+        "finger"
+      ],
+      "merge_count": 4
+    },
+    "hand": {
+      "depth": 7,
+      "merged_objects": [
+        "left hand",
+        "hand"
+      ],
+      "merge_count": 2
+    },
+    "instrumentality": {
+      "depth": 5,
+      "merged_objects": [
+        "latch",
+        "buttons",
+        "phone",
+        "keypad",
+        "watch",
+        "cellphone"
+      ],
+      "merge_count": 6
+    },
+    "device": {
+      "depth": 6,
+      "merged_objects": [
+        "latch",
+        "buttons",
+        "watch"
+      ],
+      "merge_count": 3
+    },
+    "restraint": {
+      "depth": 7,
+      "merged_objects": [
+        "latch",
+        "buttons"
+      ],
+      "merge_count": 2
+    },
+    "fastener": {
+      "depth": 8,
+      "merged_objects": [
+        "latch",
+        "buttons"
+      ],
+      "merge_count": 2
+    },
+    "equipment": {
+      "depth": 6,
+      "merged_objects": [
+        "keypad",
+        "phone",
+        "cellphone"
+      ],
+      "merge_count": 3
+    },
+    "electronic equipment": {
+      "depth": 7,
+      "merged_objects": [
+        "keypad",
+        "phone",
+        "cellphone"
+      ],
+      "merge_count": 3
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "oscar",
+        "band"
+      ],
+      "merge_count": 2
+    },
+    "telephone": {
+      "depth": 8,
+      "merged_objects": [
+        "phone",
+        "cellphone"
+      ],
+      "merge_count": 2
+    },
+    "digit": {
+      "depth": 7,
+      "merged_objects": [
+        "thumb",
+        "finger"
+      ],
+      "merge_count": 2
+    },
+    "finger": {
+      "depth": 8,
+      "merged_objects": [
+        "thumb",
+        "finger"
+      ],
+      "merge_count": 2
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "speaker",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "speaker",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "person": {
+      "depth": 6,
+      "merged_objects": [
+        "speaker",
+        "man"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      9,
+      5,
+      7,
+      0,
+      0,
+      7,
+      7,
+      10,
+      0,
+      8,
+      9,
+      8,
+      10,
+      9,
+      0,
+      8
+    ],
+    "mid_depths": [
+      4,
+      5,
+      5,
+      0,
+      5,
+      0,
+      5,
+      4,
+      0,
+      5,
+      5,
+      0,
+      5
+    ],
+    "coarse_depths": [
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "depth_distribution": {
+      "0": 6,
+      "1": 3,
+      "2": 5,
+      "3": 5,
+      "4": 6,
+      "5": 9,
+      "6": 9,
+      "7": 11,
+      "8": 10,
+      "9": 8,
+      "10": 4
+    }
+  }
+}

@@ -1,0 +1,59 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 9
+**Unique Fine Concepts**: 9
+**Unique Mid Concepts**: 5
+**Unique Coarse Concepts**: 3
+
+**Compression Ratios**:
+- Fine → Mid: **1.80x**
+- Fine → Coarse: **3.00x**
+- Mid → Coarse: **1.67x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 5 | emblem, sidewalk, steps, street, window |
+| physical phenomenon | 1 | light |
+| street. | 1 | street. |
+| structure | 1 | building |
+| instrumentality | 1 | car |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| object | 3 | 6 | artifact, instrumentality, structure |
+| physical entity | 1 | 2 | physical phenomenon |
+| street. | 1 | 1 | street. |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| emblem | artifact | object |
+| sidewalk | artifact | object |
+| steps | artifact | object |
+| street | artifact | object |
+| car | instrumentality | object |
+| building | structure | object |
+| window | artifact | physical entity |
+| light | physical phenomenon | physical entity |
+| street. | street. | street. |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_713619/sample_713619/concept_mapping_report.txt

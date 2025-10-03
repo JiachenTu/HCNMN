@@ -1,0 +1,286 @@
+{
+  "image_id": 2347842,
+  "hierarchy": {
+    "fine": [
+      "leg",
+      "bench",
+      "edge",
+      "person",
+      "skateboarder",
+      "skateboard",
+      "concrete",
+      "shadow",
+      "pants",
+      "hair",
+      "shoe",
+      "boy",
+      "shirt",
+      "people",
+      "skate park",
+      "bicycle",
+      "ramp",
+      "grass",
+      "writing"
+    ],
+    "mid": [
+      "extremity",
+      "furnishing",
+      "boundary",
+      "organism",
+      "skater",
+      "artifact",
+      "semidarkness",
+      "natural object",
+      "footwear",
+      "group",
+      "skate park",
+      "conveyance",
+      "device",
+      "plant",
+      "activity"
+    ],
+    "coarse": [
+      "physical entity",
+      "object",
+      "abstraction",
+      "group",
+      "skate park"
+    ]
+  },
+  "concept_paths": {
+    "leg": [
+      "leg",
+      "extremity",
+      "physical entity"
+    ],
+    "bench": [
+      "bench",
+      "furnishing",
+      "physical entity"
+    ],
+    "edge": [
+      "edge",
+      "boundary",
+      "object"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "physical entity"
+    ],
+    "skateboarder": [
+      "skateboarder",
+      "skater",
+      "object"
+    ],
+    "skateboard": [
+      "skateboard",
+      "artifact",
+      "object"
+    ],
+    "concrete": [
+      "concrete",
+      "artifact",
+      "physical entity"
+    ],
+    "shadow": [
+      "shadow",
+      "semidarkness",
+      "abstraction"
+    ],
+    "pants": [
+      "pants",
+      "artifact",
+      "object"
+    ],
+    "hair": [
+      "hair",
+      "natural object",
+      "physical entity"
+    ],
+    "shoe": [
+      "shoe",
+      "footwear",
+      "object"
+    ],
+    "boy": [
+      "boy",
+      "organism",
+      "object"
+    ],
+    "shirt": [
+      "shirt",
+      "artifact",
+      "physical entity"
+    ],
+    "people": [
+      "people",
+      "group",
+      "group"
+    ],
+    "skate park": [
+      "skate park"
+    ],
+    "bicycle": [
+      "bicycle",
+      "conveyance",
+      "object"
+    ],
+    "ramp": [
+      "ramp",
+      "device",
+      "physical entity"
+    ],
+    "grass": [
+      "grass",
+      "plant",
+      "object"
+    ],
+    "writing": [
+      "writing",
+      "activity",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "leg": {
+      "fine": "leg",
+      "mid": "extremity",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'leg' is a body part (mid-level concept), which is a physical entity (coarse-level concept), and extremity is the most specific category that captures the function and structure of a leg in the scene context."
+    },
+    "bench": {
+      "fine": "bench",
+      "mid": "furnishing",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'bench' is a furniture item that serves as a seating area, aligning with the concept 'furnishing' which represents furniture items and their functions. 'Physical entity' captures the general domain of objects in the scene context."
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "boundary",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Edge is a boundary, which represents the connection between objects, and it is a physical entity. The boundary concept at the coarse level is the most general meaningful domain for grouping similar objects."
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Person is a living thing (organism) and a physical entity (physical entity) in the scene context. The organism level captures the functional and biological aspects, while the physical entity level captures the general domain of objects."
+    },
+    "skateboarder": {
+      "fine": "skateboarder",
+      "mid": "skater",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "skateboard": {
+      "fine": "skateboard",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Artifact (depth 4) represents the skaterboard as a functional item, while object (depth 2) captures its physical form and position in the scene. This aligns with the need for a mid-level abstraction that combines both functional and physical aspects."
+    },
+    "concrete": {
+      "fine": "concrete",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Artifact (depth 4) represents the abstract concept of a concrete object, while physical entity (depth 1) provides the coarse-level abstraction for grouping similar objects. Artifact captures the functional and semantic essence of concrete in the scene context."
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "semidarkness",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": "Shadow is a visual object that can be abstracted as a state of being, and semidarkness is a concept that captures its visual and functional properties."
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "natural object",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Hair is a natural object (mid-level concept), which best represents its functional and semantic role in the scene context. It is a specific type of natural object and fits the coarse-level abstraction of a physical entity."
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "footwear",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Footwear (d=6) is the most specific and functional category for 'shoe' as a mid-level concept, representing its function and classification. It aligns with the semantic hierarchy as it captures both the object's function and its classification."
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "organism",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Boy is a living being, and 'organism' aligns with his functional and semantic category. 'Object' captures his physical form, which is a direct abstraction of his presence in the scene."
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'shirt' object is a clothing item, which aligns with the mid-level concept 'artifact' (a tangible object that represents a garment). The 'physical entity' concept captures the most general domain for grouping similar objects like 'shirt'."
+    },
+    "people": {
+      "fine": "people",
+      "mid": "group",
+      "coarse": "group",
+      "method": "llm",
+      "reasoning": "Grouping similar objects (people, bicycle, skateboard, etc.) at the mid-level provides meaningful semantic grouping and allows for progressive refinement, preserving the overall context of the scene."
+    },
+    "skate park": {
+      "fine": "skate park",
+      "mid": "skate park",
+      "coarse": "skate park"
+    },
+    "bicycle": {
+      "fine": "bicycle",
+      "mid": "conveyance",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Bicycle is a conveyance, which is a mid-level concept representing its function, while object is the coarse-level concept representing its physical form."
+    },
+    "ramp": {
+      "fine": "ramp",
+      "mid": "device",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'ramp' is a device that functions as an inclined plane, which fits as a mid-level concept (device) and serves as a physical entity (coarse) in the hierarchical abstraction."
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Grass is a plant, which is a higher-level concept (mid) and best represents the general category of objects in the scene context. It aligns with the WordNet path and provides a meaningful abstraction."
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "activity",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    }
+  },
+  "statistics": {
+    "num_objects": 24,
+    "fine_concepts": 19,
+    "mid_concepts": 15,
+    "coarse_concepts": 5,
+    "compression_fine_to_mid": 1.27,
+    "compression_fine_to_coarse": 3.8
+  }
+}

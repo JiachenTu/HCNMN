@@ -1,0 +1,62 @@
+[
+  {
+    "image_id": 498335,
+    "num_objects": 30,
+    "num_relationships": 15,
+    "complexity_score": 37.5
+  },
+  {
+    "image_id": 713619,
+    "num_objects": 26,
+    "num_relationships": 11,
+    "complexity_score": 31.5
+  },
+  {
+    "image_id": 2326885,
+    "num_objects": 20,
+    "num_relationships": 8,
+    "complexity_score": 24.0
+  },
+  {
+    "image_id": 2342105,
+    "num_objects": 28,
+    "num_relationships": 31,
+    "complexity_score": 43.5
+  },
+  {
+    "image_id": 2347842,
+    "num_objects": 24,
+    "num_relationships": 46,
+    "complexity_score": 47.0
+  },
+  {
+    "image_id": 2364859,
+    "num_objects": 35,
+    "num_relationships": 11,
+    "complexity_score": 40.5
+  },
+  {
+    "image_id": 2376855,
+    "num_objects": 32,
+    "num_relationships": 11,
+    "complexity_score": 37.5
+  },
+  {
+    "image_id": 2379701,
+    "num_objects": 19,
+    "num_relationships": 18,
+    "complexity_score": 28.0
+  },
+  {
+    "image_id": 2396558,
+    "num_objects": 36,
+    "num_relationships": 36,
+    "complexity_score": 54.0
+  },
+  {
+    "image_id": 2406328,
+    "num_objects": 14,
+    "num_relationships": 10,
+    "complexity_score": 19.0
+  }
+]

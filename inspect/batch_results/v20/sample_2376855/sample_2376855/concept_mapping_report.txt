@@ -1,0 +1,89 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 23
+**Unique Fine Concepts**: 23
+**Unique Mid Concepts**: 14
+**Unique Coarse Concepts**: 10
+
+**Compression Ratios**:
+- Fine → Mid: **1.64x**
+- Fine → Coarse: **2.30x**
+- Mid → Coarse: **1.40x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 6 | buttons, cellphone, latch, picture, shirt, watch |
+| external body part | 4 | finger, hand, left hand, thumb |
+| instrumentality | 2 | keypad, phone |
+| pointer finger | 1 | pointer finger |
+| cell phone | 1 | cell phone |
+| organ | 1 | ear |
+| part | 1 | fingernail |
+| person | 1 | man |
+| organism | 1 | speaker |
+| key pad | 1 | key pad |
+| copyright symbol | 1 | copyright symbol |
+| award | 1 | oscar |
+| set | 1 | band |
+| watch strap | 1 | watch strap |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| physical entity | 3 | 6 | artifact, external body part, organ |
+| object | 2 | 8 | instrumentality, organism |
+| abstraction | 2 | 2 | award, set |
+| pointer finger | 1 | 1 | pointer finger |
+| communicate | 1 | 1 | cell phone |
+| thing | 1 | 1 | part |
+| whole | 1 | 1 | person |
+| key pad | 1 | 1 | key pad |
+| copyright symbol | 1 | 1 | copyright symbol |
+| watch strap | 1 | 1 | watch strap |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| oscar | award | abstraction |
+| band | set | abstraction |
+| cell phone | cell phone | communicate |
+| copyright symbol | copyright symbol | copyright symbol |
+| key pad | key pad | key pad |
+| buttons | artifact | object |
+| latch | artifact | object |
+| picture | artifact | object |
+| shirt | artifact | object |
+| watch | artifact | object |
+| keypad | instrumentality | object |
+| phone | instrumentality | object |
+| speaker | organism | object |
+| cellphone | artifact | physical entity |
+| finger | external body part | physical entity |
+| hand | external body part | physical entity |
+| left hand | external body part | physical entity |
+| thumb | external body part | physical entity |
+| ear | organ | physical entity |
+| pointer finger | pointer finger | pointer finger |
+| fingernail | part | thing |
+| watch strap | watch strap | watch strap |
+| man | person | whole |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_2376855/sample_2376855/concept_mapping_report.txt

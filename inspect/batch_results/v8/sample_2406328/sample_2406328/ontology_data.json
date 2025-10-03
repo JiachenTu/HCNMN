@@ -1,0 +1,194 @@
+{
+  "image_id": 2406328,
+  "hierarchy": {
+    "fine": [
+      "cubby",
+      "wall",
+      "towel ring",
+      "overflow",
+      "pipe",
+      "handle",
+      "lid",
+      "faucet",
+      "cabinet",
+      "sink",
+      "floor",
+      "toilet",
+      "door"
+    ],
+    "mid": [
+      "structure",
+      "partition",
+      "strip",
+      "act",
+      "way",
+      "handle",
+      "body part",
+      "device",
+      "furnishing",
+      "fixture",
+      "surface",
+      "area"
+    ],
+    "coarse": [
+      "object",
+      "physical entity",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "cubby": [
+      "cubby",
+      "structure",
+      "object"
+    ],
+    "wall": [
+      "wall",
+      "partition",
+      "physical entity"
+    ],
+    "towel ring": [
+      "towel ring",
+      "strip",
+      "object"
+    ],
+    "overflow": [
+      "overflow",
+      "act",
+      "abstraction"
+    ],
+    "pipe": [
+      "pipe",
+      "way",
+      "physical entity"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "object"
+    ],
+    "lid": [
+      "lid",
+      "body part",
+      "physical entity"
+    ],
+    "faucet": [
+      "faucet",
+      "device",
+      "object"
+    ],
+    "cabinet": [
+      "cabinet",
+      "furnishing",
+      "object"
+    ],
+    "sink": [
+      "sink",
+      "fixture",
+      "object"
+    ],
+    "floor": [
+      "floor",
+      "surface",
+      "physical entity"
+    ],
+    "toilet": [
+      "toilet",
+      "area",
+      "object"
+    ],
+    "door": [
+      "door",
+      "structure",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "cubby": {
+      "fine": "cubby",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "wall": {
+      "fine": "wall",
+      "mid": "partition",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "towel ring": {
+      "fine": "towel ring",
+      "mid": "strip",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "overflow": {
+      "fine": "overflow",
+      "mid": "act",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "pipe": {
+      "fine": "pipe",
+      "mid": "way",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "lid": {
+      "fine": "lid",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "faucet": {
+      "fine": "faucet",
+      "mid": "device",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "furnishing",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "sink": {
+      "fine": "sink",
+      "mid": "fixture",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "floor": {
+      "fine": "floor",
+      "mid": "surface",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "toilet": {
+      "fine": "toilet",
+      "mid": "area",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "door": {
+      "fine": "door",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 14,
+    "fine_concepts": 13,
+    "mid_concepts": 12,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 1.08,
+    "compression_fine_to_coarse": 4.33
+  }
+}

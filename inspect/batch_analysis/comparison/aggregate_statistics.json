@@ -1,0 +1,205 @@
+{
+  "v7": {
+    "n_images": 10,
+    "method_name": "V7 (Rules)",
+    "fine_concepts": {
+      "mean": 17.6,
+      "median": 18.5,
+      "std": 4.376706016578627,
+      "min": 9.0,
+      "max": 23.0
+    },
+    "mid_concepts": {
+      "mean": 11.9,
+      "median": 13.0,
+      "std": 4.012480529547776,
+      "min": 5.0,
+      "max": 18.0
+    },
+    "coarse_concepts": {
+      "mean": 5.5,
+      "median": 5.0,
+      "std": 2.3213980461973533,
+      "min": 3.0,
+      "max": 9.0
+    },
+    "compression_fine_to_coarse": {
+      "mean": 3.501,
+      "median": 3.8,
+      "std": 0.993338366877627,
+      "min": 1.56,
+      "max": 4.5
+    },
+    "compression_mid_to_coarse": {
+      "mean": 2.278,
+      "median": 2.0,
+      "std": 0.6869061071209077,
+      "min": 1.44,
+      "max": 3.5
+    }
+  },
+  "v8": {
+    "n_images": 10,
+    "method_name": "V8 (LLM)",
+    "fine_concepts": {
+      "mean": 17.6,
+      "median": 18.5,
+      "std": 4.376706016578627,
+      "min": 9.0,
+      "max": 23.0
+    },
+    "mid_concepts": {
+      "mean": 14.6,
+      "median": 15.5,
+      "std": 3.470510689285432,
+      "min": 7.0,
+      "max": 20.0
+    },
+    "coarse_concepts": {
+      "mean": 7.7,
+      "median": 8.0,
+      "std": 3.2676869155073254,
+      "min": 3.0,
+      "max": 13.0
+    },
+    "compression_fine_to_coarse": {
+      "mean": 2.575,
+      "median": 2.4699999999999998,
+      "std": 0.8596543232925404,
+      "min": 1.27,
+      "max": 4.33
+    },
+    "compression_mid_to_coarse": {
+      "mean": 2.146,
+      "median": 1.83,
+      "std": 0.8052080476497985,
+      "min": 1.27,
+      "max": 4.0
+    }
+  },
+  "v8_1": {
+    "n_images": 10,
+    "method_name": "V8.1 (LLM+Context)",
+    "fine_concepts": {
+      "mean": 17.6,
+      "median": 18.5,
+      "std": 4.376706016578627,
+      "min": 9.0,
+      "max": 23.0
+    },
+    "mid_concepts": {
+      "mean": 14.8,
+      "median": 15.5,
+      "std": 3.521363372331802,
+      "min": 8.0,
+      "max": 19.0
+    },
+    "coarse_concepts": {
+      "mean": 5.5,
+      "median": 4.5,
+      "std": 2.6352313834736494,
+      "min": 3.0,
+      "max": 10.0
+    },
+    "compression_fine_to_coarse": {
+      "mean": 3.6689999999999996,
+      "median": 3.485,
+      "std": 1.3744772743766185,
+      "min": 1.56,
+      "max": 6.0
+    },
+    "compression_mid_to_coarse": {
+      "mean": 3.093,
+      "median": 2.835,
+      "std": 1.2337931575250187,
+      "min": 1.44,
+      "max": 5.67
+    }
+  },
+  "v20": {
+    "n_images": 6,
+    "method_name": "V20 (VLM)",
+    "fine_concepts": {
+      "mean": 17.666666666666668,
+      "median": 19.0,
+      "std": 5.278888771954441,
+      "min": 9.0,
+      "max": 23.0
+    },
+    "mid_concepts": {
+      "mean": 12.333333333333334,
+      "median": 13.0,
+      "std": 3.9327683210007,
+      "min": 5.0,
+      "max": 16.0
+    },
+    "coarse_concepts": {
+      "mean": 6.666666666666667,
+      "median": 7.0,
+      "std": 3.011090610836324,
+      "min": 3.0,
+      "max": 10.0
+    },
+    "compression_fine_to_coarse": {
+      "mean": 2.975,
+      "median": 2.7199999999999998,
+      "std": 1.1468173350625634,
+      "min": 1.56,
+      "max": 4.75
+    },
+    "compression_mid_to_coarse": {
+      "mean": 2.055,
+      "median": 1.725,
+      "std": 0.9132962279567347,
+      "min": 1.33,
+      "max": 3.75
+    },
+    "vlm_success_rate": {
+      "mean": 37.9,
+      "std": 16.011870596529313
+    }
+  },
+  "v20_1": {
+    "n_images": 4,
+    "method_name": "V20.1 (VLM+)",
+    "fine_concepts": {
+      "mean": 15.75,
+      "median": 16.0,
+      "std": 5.560275772537426,
+      "min": 9.0,
+      "max": 22.0
+    },
+    "mid_concepts": {
+      "mean": 11.5,
+      "median": 12.0,
+      "std": 5.802298395176403,
+      "min": 4.0,
+      "max": 18.0
+    },
+    "coarse_concepts": {
+      "mean": 5.5,
+      "median": 5.5,
+      "std": 2.886751345948129,
+      "min": 3.0,
+      "max": 8.0
+    },
+    "compression_fine_to_coarse": {
+      "mean": 3.375,
+      "median": 2.875,
+      "std": 1.8314384146529925,
+      "min": 1.75,
+      "max": 6.0
+    },
+    "compression_mid_to_coarse": {
+      "mean": 2.2175000000000002,
+      "median": 1.935,
+      "std": 1.0417093324595557,
+      "min": 1.33,
+      "max": 3.67
+    },
+    "vlm_success_rate": {
+      "mean": 22.025,
+      "std": 31.445442171057692
+    }
+  }
+}

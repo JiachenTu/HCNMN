@@ -1,0 +1,270 @@
+{
+  "image_id": 2347842,
+  "hierarchy": {
+    "fine": [
+      "skateboard",
+      "person",
+      "boy",
+      "shoe",
+      "leg",
+      "shadow",
+      "ramp",
+      "hair",
+      "pants",
+      "writing",
+      "grass",
+      "skate park",
+      "shirt",
+      "bicycle",
+      "edge",
+      "concrete",
+      "bench",
+      "people",
+      "skateboarder"
+    ],
+    "mid": [
+      "artifact",
+      "organism",
+      "person",
+      "footwear",
+      "body part",
+      "illumination",
+      "covering",
+      "consumer goods",
+      "creation",
+      "plant",
+      "skate park",
+      "commodity",
+      "conveyance",
+      "region",
+      "concrete",
+      "people"
+    ],
+    "coarse": [
+      "object",
+      "physical entity",
+      "state",
+      "abstraction",
+      "skate park",
+      "group"
+    ]
+  },
+  "concept_paths": {
+    "skateboard": [
+      "skateboard",
+      "artifact",
+      "object"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "object"
+    ],
+    "boy": [
+      "boy",
+      "person",
+      "object"
+    ],
+    "shoe": [
+      "shoe",
+      "footwear",
+      "object"
+    ],
+    "leg": [
+      "leg",
+      "body part",
+      "physical entity"
+    ],
+    "shadow": [
+      "shadow",
+      "illumination",
+      "state"
+    ],
+    "ramp": [
+      "ramp",
+      "artifact",
+      "physical entity"
+    ],
+    "hair": [
+      "hair",
+      "covering",
+      "physical entity"
+    ],
+    "pants": [
+      "pants",
+      "consumer goods",
+      "object"
+    ],
+    "writing": [
+      "writing",
+      "creation",
+      "abstraction"
+    ],
+    "grass": [
+      "grass",
+      "plant",
+      "physical entity"
+    ],
+    "skate park": [
+      "skate park"
+    ],
+    "shirt": [
+      "shirt",
+      "commodity",
+      "object"
+    ],
+    "bicycle": [
+      "bicycle",
+      "conveyance",
+      "object"
+    ],
+    "edge": [
+      "edge",
+      "region",
+      "object"
+    ],
+    "concrete": [
+      "concrete",
+      "concrete",
+      "object"
+    ],
+    "bench": [
+      "bench",
+      "artifact",
+      "object"
+    ],
+    "people": [
+      "people",
+      "people",
+      "group"
+    ],
+    "skateboarder": [
+      "skateboarder",
+      "person",
+      "physical entity"
+    ]
+  },
+  "object_to_levels": {
+    "skateboard": {
+      "fine": "skateboard",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "person",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "footwear",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "illumination",
+      "coarse": "state",
+      "method": "llm"
+    },
+    "ramp": {
+      "fine": "ramp",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "consumer goods",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "creation",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "plant",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "skate park": {
+      "fine": "skate park",
+      "mid": "skate park",
+      "coarse": "skate park"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "commodity",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "bicycle": {
+      "fine": "bicycle",
+      "mid": "conveyance",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "region",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "concrete": {
+      "fine": "concrete",
+      "mid": "concrete",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "bench": {
+      "fine": "bench",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "people",
+      "coarse": "group",
+      "method": "fallback"
+    },
+    "skateboarder": {
+      "fine": "skateboarder",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 24,
+    "fine_concepts": 19,
+    "mid_concepts": 16,
+    "coarse_concepts": 6,
+    "compression_fine_to_mid": 1.19,
+    "compression_fine_to_coarse": 3.17
+  }
+}

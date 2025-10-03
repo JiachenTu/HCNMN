@@ -1,0 +1,80 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 19
+**Unique Fine Concepts**: 19
+**Unique Mid Concepts**: 15
+**Unique Coarse Concepts**: 4
+
+**Compression Ratios**:
+- Fine → Mid: **1.27x**
+- Fine → Coarse: **4.75x**
+- Mid → Coarse: **3.75x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 4 | concrete, pants, ramp, shirt |
+| organism | 2 | boy, skateboarder |
+| footwear | 1 | shoe |
+| people | 1 | people |
+| conveyance | 1 | bicycle |
+| activity | 1 | writing |
+| instrumentality | 1 | skateboard |
+| natural object | 1 | hair |
+| plant | 1 | grass |
+| region | 1 | edge |
+| furniture | 1 | bench |
+| body part | 1 | leg |
+| dark | 1 | shadow |
+| living thing | 1 | person |
+| skate park | 1 | skate park |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| object | 9 | 12 | artifact, conveyance, footwear, furniture, instrumentality, natural object, organism, plant, region |
+| abstraction | 3 | 3 | activity, dark, people |
+| physical entity | 2 | 3 | body part, living thing |
+| skate park | 1 | 1 | skate park |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| writing | activity | abstraction |
+| shadow | dark | abstraction |
+| people | people | abstraction |
+| pants | artifact | object |
+| ramp | artifact | object |
+| shirt | artifact | object |
+| bicycle | conveyance | object |
+| shoe | footwear | object |
+| bench | furniture | object |
+| skateboard | instrumentality | object |
+| hair | natural object | object |
+| boy | organism | object |
+| skateboarder | organism | object |
+| grass | plant | object |
+| edge | region | object |
+| concrete | artifact | physical entity |
+| leg | body part | physical entity |
+| person | living thing | physical entity |
+| skate park | skate park | skate park |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_2347842/sample_2347842/concept_mapping_report.txt

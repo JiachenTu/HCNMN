@@ -1,0 +1,247 @@
+{
+  "image_id": 2364859,
+  "hierarchy": {
+    "fine": [
+      "flower",
+      "pink",
+      "chairs",
+      "chair back",
+      "back",
+      "tops",
+      "cabinet",
+      "babys breath",
+      "drawer",
+      "board",
+      "table",
+      "flowers",
+      "tips",
+      "crack",
+      "dining table",
+      "vase",
+      "handle",
+      "chair",
+      "mat"
+    ],
+    "mid": [
+      "organism",
+      "color",
+      "instrumentality",
+      "chair back",
+      "back",
+      "top",
+      "babys breath",
+      "structure",
+      "unit",
+      "table",
+      "extremity",
+      "space",
+      "handle",
+      "covering"
+    ],
+    "coarse": [
+      "object",
+      "abstraction",
+      "chair back",
+      "thing",
+      "babys breath"
+    ]
+  },
+  "concept_paths": {
+    "flower": [
+      "flower",
+      "organism",
+      "object"
+    ],
+    "pink": [
+      "pink",
+      "color",
+      "abstraction"
+    ],
+    "chairs": [
+      "chairs",
+      "instrumentality",
+      "object"
+    ],
+    "chair back": [
+      "chair back"
+    ],
+    "back": [
+      "back",
+      "back",
+      "thing"
+    ],
+    "tops": [
+      "tops",
+      "top",
+      "object"
+    ],
+    "cabinet": [
+      "cabinet",
+      "instrumentality",
+      "object"
+    ],
+    "babys breath": [
+      "babys breath"
+    ],
+    "drawer": [
+      "drawer",
+      "structure",
+      "object"
+    ],
+    "board": [
+      "board",
+      "unit",
+      "abstraction"
+    ],
+    "table": [
+      "table",
+      "table",
+      "abstraction"
+    ],
+    "flowers": [
+      "flowers",
+      "organism",
+      "object"
+    ],
+    "tips": [
+      "tips",
+      "extremity",
+      "object"
+    ],
+    "crack": [
+      "crack",
+      "space",
+      "abstraction"
+    ],
+    "dining table": [
+      "dining table",
+      "instrumentality",
+      "object"
+    ],
+    "vase": [
+      "vase",
+      "instrumentality",
+      "object"
+    ],
+    "handle": [
+      "handle",
+      "handle",
+      "object"
+    ],
+    "chair": [
+      "chair",
+      "instrumentality",
+      "object"
+    ],
+    "mat": [
+      "mat",
+      "covering",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "flower": {
+      "fine": "flower",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "pink": {
+      "fine": "pink",
+      "mid": "color",
+      "coarse": "abstraction"
+    },
+    "chairs": {
+      "fine": "chairs",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "chair back": {
+      "fine": "chair back",
+      "mid": "chair back",
+      "coarse": "chair back"
+    },
+    "back": {
+      "fine": "back",
+      "mid": "back",
+      "coarse": "thing"
+    },
+    "tops": {
+      "fine": "tops",
+      "mid": "top",
+      "coarse": "object"
+    },
+    "cabinet": {
+      "fine": "cabinet",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "babys breath": {
+      "fine": "babys breath",
+      "mid": "babys breath",
+      "coarse": "babys breath"
+    },
+    "drawer": {
+      "fine": "drawer",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "board": {
+      "fine": "board",
+      "mid": "unit",
+      "coarse": "abstraction"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "table",
+      "coarse": "abstraction"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "tips": {
+      "fine": "tips",
+      "mid": "extremity",
+      "coarse": "object"
+    },
+    "crack": {
+      "fine": "crack",
+      "mid": "space",
+      "coarse": "abstraction"
+    },
+    "dining table": {
+      "fine": "dining table",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "vase": {
+      "fine": "vase",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "handle": {
+      "fine": "handle",
+      "mid": "handle",
+      "coarse": "object"
+    },
+    "chair": {
+      "fine": "chair",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "mat": {
+      "fine": "mat",
+      "mid": "covering",
+      "coarse": "object"
+    }
+  },
+  "statistics": {
+    "num_objects": 35,
+    "fine_concepts": 19,
+    "mid_concepts": 14,
+    "coarse_concepts": 5,
+    "compression_fine_to_mid": 1.36,
+    "compression_fine_to_coarse": 3.8
+  }
+}

@@ -1,0 +1,78 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 19
+**Unique Fine Concepts**: 19
+**Unique Mid Concepts**: 12
+**Unique Coarse Concepts**: 5
+
+**Compression Ratios**:
+- Fine → Mid: **1.58x**
+- Fine → Coarse: **3.80x**
+- Mid → Coarse: **2.40x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 4 | chair, drawer, mat, vase |
+| instrumentality | 3 | cabinet, chairs, dining table |
+| region | 2 | tips, tops |
+| plant | 2 | flower, flowers |
+| table | 1 | table |
+| back | 1 | back |
+| unit | 1 | board |
+| chair back | 1 | chair back |
+| space | 1 | crack |
+| babys breath | 1 | babys breath |
+| color | 1 | pink |
+| appendage | 1 | handle |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| abstraction | 4 | 4 | color, space, table, unit |
+| object | 4 | 11 | appendage, artifact, instrumentality, plant |
+| physical entity | 2 | 2 | back, region |
+| chair back | 1 | 1 | chair back |
+| babys breath | 1 | 1 | babys breath |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| pink | color | abstraction |
+| crack | space | abstraction |
+| table | table | abstraction |
+| board | unit | abstraction |
+| babys breath | babys breath | babys breath |
+| chair back | chair back | chair back |
+| handle | appendage | object |
+| chair | artifact | object |
+| drawer | artifact | object |
+| mat | artifact | object |
+| vase | artifact | object |
+| cabinet | instrumentality | object |
+| chairs | instrumentality | object |
+| dining table | instrumentality | object |
+| flower | plant | object |
+| flowers | plant | object |
+| tips | region | object |
+| back | back | physical entity |
+| tops | region | physical entity |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_2364859/sample_2364859/concept_mapping_report.txt

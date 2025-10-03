@@ -1,0 +1,103 @@
+
+======================================================================
+V7 Adaptive Granularity Pipeline - Image 2342105
+======================================================================
+
+Step 1: Loading Visual Genome data...
+✓ Loaded 28 objects
+
+Step 2: Building adaptive 3-level hierarchy...
+
+Building adaptive 3-level hierarchy...
+Processing 22 unique objects with adaptive selector
+
+Hierarchy built:
+  Fine-grained: 22 concepts
+  Mid-level: 18 concepts
+  Coarse-level: 9 concepts
+  Compression: 1.22x (Fine→Mid), 2.44x (Fine→Coarse)
+
+Step 3: Visualizing original scene graph...
+
+Creating scene graph visualization...
+Saved scene graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/original_scene_graph.png
+
+Step 4: Creating hierarchical ontology tree...
+
+Creating hierarchy tree visualization...
+Saved hierarchy tree: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/hierarchical_ontology_tree.png
+
+Step 5: Creating merged scene graphs...
+
+Visualizing merged fine-grained scene graph...
+Saved merged fine-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/merged_fine.png
+
+Visualizing merged mid-grained scene graph...
+Saved merged mid-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/merged_mid.png
+
+Visualizing merged coarse-grained scene graph...
+Saved merged coarse-grained visualization: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/merged_coarse.png
+
+Step 6: Creating merged comparison...
+
+Step 7: Analyzing WordNet paths...
+✓ Saved WordNet paths tree: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/wordnet_paths_tree.png
+✓ Saved merge analysis: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/wordnet_merge_analysis.png
+✓ Saved depth distribution: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/depth_distribution.png
+
+Step 8: Creating merged concepts flow diagrams...
+
+Creating concept flow diagram...
+✓ Saved concept flow diagram: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/merged_concepts_flow.png
+
+Creating concept hierarchy table...
+✓ Saved concept hierarchy table: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/concept_hierarchy_table.png
+
+Creating compression analysis...
+✓ Saved compression analysis: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/compression_analysis.png
+
+Step 8b: Creating graph structure visualizations...
+✓ Saved combined graph comparison: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/graph_structure_comparison.png
+✓ Saved fine-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/graph_structure_fine.png
+✓ Saved mid-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/graph_structure_mid.png
+✓ Saved coarse-grained graph: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/graph_structure_coarse.png
+✓ Saved graph statistics report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/GRAPH_STRUCTURE_REPORT.md
+
+Step 9: Generating reports...
+✓ Saved WordNet analysis report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/WORDNET_ANALYSIS_REPORT.md
+
+Generating concept mapping report...
+✓ Saved concept mapping report: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105/CONCEPT_MAPPING_REPORT.md
+
+======================================================================
+✅ V7 Pipeline Complete!
+======================================================================
+
+Output directory: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v7/sample_2342105/sample_2342105
+Generated files:
+  1. original_scene_graph.png
+  2. hierarchical_ontology_tree.png
+  3. merged_fine.png
+  4. merged_mid.png
+  5. merged_coarse.png
+  6. merged_comparison.png
+  7. wordnet_paths_tree.png
+  8. wordnet_merge_analysis.png
+  9. depth_distribution.png
+  10. merged_concepts_flow.png
+  11. concept_hierarchy_table.png
+  12. compression_analysis.png
+  13. graph_structure_comparison.png ⭐ NEW
+  14. graph_structure_fine.png ⭐ NEW
+  15. graph_structure_mid.png ⭐ NEW
+  16. graph_structure_coarse.png ⭐ NEW
+  17. ontology_data.json
+  18. wordnet_paths_data.json
+  19. MERGED_SCENE_GRAPH_REPORT.md
+  20. WORDNET_ANALYSIS_REPORT.md
+  21. CONCEPT_MAPPING_REPORT.md
+  22. GRAPH_STRUCTURE_REPORT.md ⭐ NEW
+  23. V7_ADAPTIVE_METHOD.md
+
+✅ V7 visualization complete!
+

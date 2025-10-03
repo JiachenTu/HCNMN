@@ -1,0 +1,138 @@
+{
+  "image_id": 713619,
+  "hierarchy": {
+    "fine": [
+      "window",
+      "light",
+      "sidewalk",
+      "car",
+      "street",
+      "steps",
+      "building",
+      "street.",
+      "emblem"
+    ],
+    "mid": [
+      "structure",
+      "physical phenomenon",
+      "way",
+      "conveyance",
+      "road",
+      "street.",
+      "decoration"
+    ],
+    "coarse": [
+      "object",
+      "phenomenon",
+      "street."
+    ]
+  },
+  "concept_paths": {
+    "window": [
+      "window",
+      "structure",
+      "object"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "phenomenon"
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "way",
+      "object"
+    ],
+    "car": [
+      "car",
+      "conveyance",
+      "object"
+    ],
+    "street": [
+      "street",
+      "road",
+      "object"
+    ],
+    "steps": [
+      "steps",
+      "way",
+      "object"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "object"
+    ],
+    "street.": [
+      "street."
+    ],
+    "emblem": [
+      "emblem",
+      "decoration",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "window": {
+      "fine": "window",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "phenomenon",
+      "method": "llm"
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "way",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "car": {
+      "fine": "car",
+      "mid": "conveyance",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "road",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "steps": {
+      "fine": "steps",
+      "mid": "way",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "street.": {
+      "fine": "street.",
+      "mid": "street.",
+      "coarse": "street."
+    },
+    "emblem": {
+      "fine": "emblem",
+      "mid": "decoration",
+      "coarse": "object",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "fine_concepts": 9,
+    "mid_concepts": 7,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 1.29,
+    "compression_fine_to_coarse": 3.0
+  }
+}

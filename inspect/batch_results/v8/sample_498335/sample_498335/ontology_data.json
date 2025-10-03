@@ -1,0 +1,260 @@
+{
+  "image_id": 498335,
+  "hierarchy": {
+    "fine": [
+      "railing",
+      "letter",
+      "edge",
+      "pole",
+      "flowers",
+      "lot",
+      "balcony",
+      "face",
+      "street",
+      "clock",
+      "light",
+      "sign",
+      "background",
+      "words",
+      "stairs",
+      "flower",
+      "pot",
+      "billboard"
+    ],
+    "mid": [
+      "structure",
+      "artifact",
+      "region",
+      "plant",
+      "large indefinite quantity",
+      "external body part",
+      "road",
+      "device",
+      "natural phenomenon",
+      "clue",
+      "background",
+      "words",
+      "stairway"
+    ],
+    "coarse": [
+      "object",
+      "physical entity",
+      "location",
+      "indefinite quantity",
+      "thing",
+      "phenomenon",
+      "communication",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "railing": [
+      "railing",
+      "structure",
+      "object"
+    ],
+    "letter": [
+      "letter",
+      "artifact",
+      "physical entity"
+    ],
+    "edge": [
+      "edge",
+      "region",
+      "location"
+    ],
+    "pole": [
+      "pole",
+      "artifact",
+      "object"
+    ],
+    "flowers": [
+      "flowers",
+      "plant",
+      "object"
+    ],
+    "lot": [
+      "lot",
+      "large indefinite quantity",
+      "indefinite quantity"
+    ],
+    "balcony": [
+      "balcony",
+      "structure",
+      "object"
+    ],
+    "face": [
+      "face",
+      "external body part",
+      "thing"
+    ],
+    "street": [
+      "street",
+      "road",
+      "object"
+    ],
+    "clock": [
+      "clock",
+      "device",
+      "physical entity"
+    ],
+    "light": [
+      "light",
+      "natural phenomenon",
+      "phenomenon"
+    ],
+    "sign": [
+      "sign",
+      "clue",
+      "communication"
+    ],
+    "background": [
+      "background",
+      "background",
+      "abstraction"
+    ],
+    "words": [
+      "words",
+      "words",
+      "communication"
+    ],
+    "stairs": [
+      "stairs",
+      "stairway",
+      "object"
+    ],
+    "flower": [
+      "flower",
+      "plant",
+      "object"
+    ],
+    "pot": [
+      "pot",
+      "artifact",
+      "object"
+    ],
+    "billboard": [
+      "billboard",
+      "structure",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "railing": {
+      "fine": "railing",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "letter": {
+      "fine": "letter",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "region",
+      "coarse": "location",
+      "method": "llm"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "lot": {
+      "fine": "lot",
+      "mid": "large indefinite quantity",
+      "coarse": "indefinite quantity",
+      "method": "llm"
+    },
+    "balcony": {
+      "fine": "balcony",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "face": {
+      "fine": "face",
+      "mid": "external body part",
+      "coarse": "thing",
+      "method": "fallback"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "road",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "clock": {
+      "fine": "clock",
+      "mid": "device",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "natural phenomenon",
+      "coarse": "phenomenon",
+      "method": "llm"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "clue",
+      "coarse": "communication",
+      "method": "fallback"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "background",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "words": {
+      "fine": "words",
+      "mid": "words",
+      "coarse": "communication",
+      "method": "fallback"
+    },
+    "stairs": {
+      "fine": "stairs",
+      "mid": "stairway",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "pot": {
+      "fine": "pot",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "billboard": {
+      "fine": "billboard",
+      "mid": "structure",
+      "coarse": "object",
+      "method": "fallback"
+    }
+  },
+  "statistics": {
+    "num_objects": 30,
+    "fine_concepts": 18,
+    "mid_concepts": 13,
+    "coarse_concepts": 8,
+    "compression_fine_to_mid": 1.38,
+    "compression_fine_to_coarse": 2.25
+  }
+}

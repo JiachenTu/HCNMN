@@ -1,0 +1,198 @@
+{
+  "image_id": 2326885,
+  "hierarchy": {
+    "fine": [
+      "no motorcycle",
+      "long hair",
+      "surf board",
+      "woman",
+      "sand",
+      "white motorcycle",
+      "short hair",
+      "skirt",
+      "man",
+      "shoes",
+      "beach",
+      "tracks",
+      "bad sentence",
+      "surfboard"
+    ],
+    "mid": [
+      "no motorcycle",
+      "long hair",
+      "surf board",
+      "person",
+      "material",
+      "white motorcycle",
+      "short hair",
+      "cloth covering",
+      "living thing",
+      "condition",
+      "beach",
+      "line",
+      "bad sentence",
+      "sheet"
+    ],
+    "coarse": [
+      "no motorcycle",
+      "long hair",
+      "surf board",
+      "physical entity",
+      "relation",
+      "white motorcycle",
+      "short hair",
+      "object",
+      "abstraction",
+      "location",
+      "bad sentence"
+    ]
+  },
+  "concept_paths": {
+    "no motorcycle": [
+      "no motorcycle"
+    ],
+    "long hair": [
+      "long hair"
+    ],
+    "surf board": [
+      "surf board"
+    ],
+    "woman": [
+      "woman",
+      "person",
+      "physical entity"
+    ],
+    "sand": [
+      "sand",
+      "material",
+      "relation"
+    ],
+    "white motorcycle": [
+      "white motorcycle"
+    ],
+    "short hair": [
+      "short hair"
+    ],
+    "skirt": [
+      "skirt",
+      "cloth covering",
+      "object"
+    ],
+    "man": [
+      "man",
+      "living thing",
+      "physical entity"
+    ],
+    "shoes": [
+      "shoes",
+      "condition",
+      "abstraction"
+    ],
+    "beach": [
+      "beach",
+      "beach",
+      "object"
+    ],
+    "tracks": [
+      "tracks",
+      "line",
+      "location"
+    ],
+    "bad sentence": [
+      "bad sentence"
+    ],
+    "surfboard": [
+      "surfboard",
+      "sheet",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "no motorcycle": {
+      "fine": "no motorcycle",
+      "mid": "no motorcycle",
+      "coarse": "no motorcycle"
+    },
+    "long hair": {
+      "fine": "long hair",
+      "mid": "long hair",
+      "coarse": "long hair"
+    },
+    "surf board": {
+      "fine": "surf board",
+      "mid": "surf board",
+      "coarse": "surf board"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "person",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "sand": {
+      "fine": "sand",
+      "mid": "material",
+      "coarse": "relation",
+      "method": "fallback"
+    },
+    "white motorcycle": {
+      "fine": "white motorcycle",
+      "mid": "white motorcycle",
+      "coarse": "white motorcycle"
+    },
+    "short hair": {
+      "fine": "short hair",
+      "mid": "short hair",
+      "coarse": "short hair"
+    },
+    "skirt": {
+      "fine": "skirt",
+      "mid": "cloth covering",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "man": {
+      "fine": "man",
+      "mid": "living thing",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "shoes": {
+      "fine": "shoes",
+      "mid": "condition",
+      "coarse": "abstraction",
+      "method": "llm"
+    },
+    "beach": {
+      "fine": "beach",
+      "mid": "beach",
+      "coarse": "object",
+      "method": "fallback"
+    },
+    "tracks": {
+      "fine": "tracks",
+      "mid": "line",
+      "coarse": "location",
+      "method": "llm"
+    },
+    "bad sentence": {
+      "fine": "bad sentence",
+      "mid": "bad sentence",
+      "coarse": "bad sentence"
+    },
+    "surfboard": {
+      "fine": "surfboard",
+      "mid": "sheet",
+      "coarse": "object",
+      "method": "fallback"
+    }
+  },
+  "statistics": {
+    "num_objects": 20,
+    "fine_concepts": 14,
+    "mid_concepts": 14,
+    "coarse_concepts": 11,
+    "compression_fine_to_mid": 1.0,
+    "compression_fine_to_coarse": 1.27
+  }
+}

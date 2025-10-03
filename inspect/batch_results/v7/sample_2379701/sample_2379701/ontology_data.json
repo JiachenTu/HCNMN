@@ -1,0 +1,239 @@
+{
+  "image_id": 2379701,
+  "hierarchy": {
+    "fine": [
+      "wall",
+      "racket",
+      "headband",
+      "ball",
+      "woman",
+      "shorts",
+      "foot",
+      "leg",
+      "shirt",
+      "background",
+      "shoe",
+      "letters",
+      "dirt",
+      "air",
+      "ground",
+      "writing",
+      "hair",
+      "court"
+    ],
+    "mid": [
+      "structure",
+      "sound",
+      "artifact",
+      "instrumentality",
+      "organism",
+      "external body part",
+      "background",
+      "covering",
+      "basic cognitive process",
+      "material",
+      "air",
+      "land",
+      "activity",
+      "assembly"
+    ],
+    "coarse": [
+      "object",
+      "abstraction",
+      "thing",
+      "matter"
+    ]
+  },
+  "concept_paths": {
+    "wall": [
+      "wall",
+      "structure",
+      "object"
+    ],
+    "racket": [
+      "racket",
+      "sound",
+      "abstraction"
+    ],
+    "headband": [
+      "headband",
+      "artifact",
+      "object"
+    ],
+    "ball": [
+      "ball",
+      "instrumentality",
+      "object"
+    ],
+    "woman": [
+      "woman",
+      "organism",
+      "object"
+    ],
+    "shorts": [
+      "shorts",
+      "artifact",
+      "object"
+    ],
+    "foot": [
+      "foot",
+      "external body part",
+      "thing"
+    ],
+    "leg": [
+      "leg",
+      "external body part",
+      "thing"
+    ],
+    "shirt": [
+      "shirt",
+      "artifact",
+      "object"
+    ],
+    "background": [
+      "background",
+      "background",
+      "abstraction"
+    ],
+    "shoe": [
+      "shoe",
+      "covering",
+      "object"
+    ],
+    "letters": [
+      "letters",
+      "basic cognitive process",
+      "abstraction"
+    ],
+    "dirt": [
+      "dirt",
+      "material",
+      "abstraction"
+    ],
+    "air": [
+      "air",
+      "air",
+      "matter"
+    ],
+    "ground": [
+      "ground",
+      "land",
+      "object"
+    ],
+    "writing": [
+      "writing",
+      "activity",
+      "abstraction"
+    ],
+    "hair": [
+      "hair",
+      "covering",
+      "object"
+    ],
+    "court": [
+      "court",
+      "assembly",
+      "abstraction"
+    ]
+  },
+  "object_to_levels": {
+    "wall": {
+      "fine": "wall",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "racket": {
+      "fine": "racket",
+      "mid": "sound",
+      "coarse": "abstraction"
+    },
+    "headband": {
+      "fine": "headband",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "ball": {
+      "fine": "ball",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "woman": {
+      "fine": "woman",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "shorts": {
+      "fine": "shorts",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "foot": {
+      "fine": "foot",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "background",
+      "coarse": "abstraction"
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "covering",
+      "coarse": "object"
+    },
+    "letters": {
+      "fine": "letters",
+      "mid": "basic cognitive process",
+      "coarse": "abstraction"
+    },
+    "dirt": {
+      "fine": "dirt",
+      "mid": "material",
+      "coarse": "abstraction"
+    },
+    "air": {
+      "fine": "air",
+      "mid": "air",
+      "coarse": "matter"
+    },
+    "ground": {
+      "fine": "ground",
+      "mid": "land",
+      "coarse": "object"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "activity",
+      "coarse": "abstraction"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "object"
+    },
+    "court": {
+      "fine": "court",
+      "mid": "assembly",
+      "coarse": "abstraction"
+    }
+  },
+  "statistics": {
+    "num_objects": 19,
+    "fine_concepts": 18,
+    "mid_concepts": 14,
+    "coarse_concepts": 4,
+    "compression_fine_to_mid": 1.29,
+    "compression_fine_to_coarse": 4.5
+  }
+}

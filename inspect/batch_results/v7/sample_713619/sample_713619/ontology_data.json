@@ -1,0 +1,128 @@
+{
+  "image_id": 713619,
+  "hierarchy": {
+    "fine": [
+      "street",
+      "building",
+      "emblem",
+      "car",
+      "steps",
+      "window",
+      "street.",
+      "sidewalk",
+      "light"
+    ],
+    "mid": [
+      "artifact",
+      "structure",
+      "instrumentality",
+      "street.",
+      "physical phenomenon"
+    ],
+    "coarse": [
+      "object",
+      "street.",
+      "process"
+    ]
+  },
+  "concept_paths": {
+    "street": [
+      "street",
+      "artifact",
+      "object"
+    ],
+    "building": [
+      "building",
+      "structure",
+      "object"
+    ],
+    "emblem": [
+      "emblem",
+      "artifact",
+      "object"
+    ],
+    "car": [
+      "car",
+      "instrumentality",
+      "object"
+    ],
+    "steps": [
+      "steps",
+      "artifact",
+      "object"
+    ],
+    "window": [
+      "window",
+      "structure",
+      "object"
+    ],
+    "street.": [
+      "street."
+    ],
+    "sidewalk": [
+      "sidewalk",
+      "artifact",
+      "object"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "process"
+    ]
+  },
+  "object_to_levels": {
+    "street": {
+      "fine": "street",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "building": {
+      "fine": "building",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "emblem": {
+      "fine": "emblem",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "car": {
+      "fine": "car",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "steps": {
+      "fine": "steps",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "window": {
+      "fine": "window",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "street.": {
+      "fine": "street.",
+      "mid": "street.",
+      "coarse": "street."
+    },
+    "sidewalk": {
+      "fine": "sidewalk",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "process"
+    }
+  },
+  "statistics": {
+    "num_objects": 26,
+    "fine_concepts": 9,
+    "mid_concepts": 5,
+    "coarse_concepts": 3,
+    "compression_fine_to_mid": 1.8,
+    "compression_fine_to_coarse": 3.0
+  }
+}

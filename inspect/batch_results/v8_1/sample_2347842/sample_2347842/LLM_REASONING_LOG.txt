@@ -1,0 +1,134 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: leg
+  Fine: leg
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'leg' is a body part (mid-level concept), which is a physical entity (coarse-level concept), and extremity is the most specific category that captures the function and structure of a leg in the scene context.
+
+Object: bench
+  Fine: bench
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'bench' is a furniture item that serves as a seating area, aligning with the concept 'furnishing' which represents furniture items and their functions. 'Physical entity' captures the general domain of objects in the scene context.
+
+Object: edge
+  Fine: edge
+  Mid: boundary
+  Coarse: object
+  Method: llm
+  Reasoning: Edge is a boundary, which represents the connection between objects, and it is a physical entity. The boundary concept at the coarse level is the most general meaningful domain for grouping similar objects.
+
+Object: person
+  Fine: person
+  Mid: organism
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Person is a living thing (organism) and a physical entity (physical entity) in the scene context. The organism level captures the functional and biological aspects, while the physical entity level captures the general domain of objects.
+
+Object: skateboarder
+  Fine: skateboarder
+  Mid: skater
+  Coarse: object
+  Method: llm
+
+Object: skateboard
+  Fine: skateboard
+  Mid: artifact
+  Coarse: object
+  Method: llm
+  Reasoning: Artifact (depth 4) represents the skaterboard as a functional item, while object (depth 2) captures its physical form and position in the scene. This aligns with the need for a mid-level abstraction that combines both functional and physical aspects.
+
+Object: concrete
+  Fine: concrete
+  Mid: artifact
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Artifact (depth 4) represents the abstract concept of a concrete object, while physical entity (depth 1) provides the coarse-level abstraction for grouping similar objects. Artifact captures the functional and semantic essence of concrete in the scene context.
+
+Object: shadow
+  Fine: shadow
+  Mid: semidarkness
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Shadow is a visual object that can be abstracted as a state of being, and semidarkness is a concept that captures its visual and functional properties.
+
+Object: pants
+  Fine: pants
+  Mid: artifact
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: hair
+  Fine: hair
+  Mid: natural object
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Hair is a natural object (mid-level concept), which best represents its functional and semantic role in the scene context. It is a specific type of natural object and fits the coarse-level abstraction of a physical entity.
+
+Object: shoe
+  Fine: shoe
+  Mid: footwear
+  Coarse: object
+  Method: llm
+  Reasoning: Footwear (d=6) is the most specific and functional category for 'shoe' as a mid-level concept, representing its function and classification. It aligns with the semantic hierarchy as it captures both the object's function and its classification.
+
+Object: boy
+  Fine: boy
+  Mid: organism
+  Coarse: object
+  Method: llm
+  Reasoning: Boy is a living being, and 'organism' aligns with his functional and semantic category. 'Object' captures his physical form, which is a direct abstraction of his presence in the scene.
+
+Object: shirt
+  Fine: shirt
+  Mid: artifact
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'shirt' object is a clothing item, which aligns with the mid-level concept 'artifact' (a tangible object that represents a garment). The 'physical entity' concept captures the most general domain for grouping similar objects like 'shirt'.
+
+Object: people
+  Fine: people
+  Mid: group
+  Coarse: group
+  Method: llm
+  Reasoning: Grouping similar objects (people, bicycle, skateboard, etc.) at the mid-level provides meaningful semantic grouping and allows for progressive refinement, preserving the overall context of the scene.
+
+Object: skate park
+  Fine: skate park
+  Mid: skate park
+  Coarse: skate park
+  Method: unknown
+
+Object: bicycle
+  Fine: bicycle
+  Mid: conveyance
+  Coarse: object
+  Method: llm
+  Reasoning: Bicycle is a conveyance, which is a mid-level concept representing its function, while object is the coarse-level concept representing its physical form.
+
+Object: ramp
+  Fine: ramp
+  Mid: device
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'ramp' is a device that functions as an inclined plane, which fits as a mid-level concept (device) and serves as a physical entity (coarse) in the hierarchical abstraction.
+
+Object: grass
+  Fine: grass
+  Mid: plant
+  Coarse: object
+  Method: llm
+  Reasoning: Grass is a plant, which is a higher-level concept (mid) and best represents the general category of objects in the scene context. It aligns with the WordNet path and provides a meaningful abstraction.
+
+Object: writing
+  Fine: writing
+  Mid: activity
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+

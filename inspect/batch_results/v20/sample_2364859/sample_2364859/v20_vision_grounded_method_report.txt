@@ -1,0 +1,65 @@
+# V20 Vision-Grounded VLM Method Report
+======================================================================
+
+## Method Overview
+
+**V20 Vision-Grounded VLM-Guided Granularity Selection**
+
+Key Features:
+- Vision-Language Model: Qwen2.5-VL-3B-Instruct
+- Visual Grounding: VLM sees actual image
+- Scene Context: Full scene graph (objects + relationships + bboxes)
+- Two-Stage Selection: Mid-level first, then coarse-level
+- Vision-Aware Reasoning: Considers visual features for semantic decisions
+- Fallback: V7 adaptive rules if VLM fails
+
+## Performance Statistics
+
+Total objects processed: 19
+VLM success: 9/19 (47.4%)
+Fallback to V7 rules: 8/19 (42.1%)
+
+## Vision-Grounded Reasoning Examples
+
+Sample VLM reasoning with visual grounding:
+
+1. **mat** → artifact (mid) → object (coarse)
+   Reasoning: The mat is an object placed on the floor, which is part of the overall scene.
+
+2. **drawer** → artifact (mid) → object (coarse)
+   Reasoning: Drawer is an artifact with a handle attached.
+
+3. **chair** → artifact (mid) → object (coarse)
+   Reasoning: Chair is a decorative item used for sitting
+
+4. **tops** → region (mid) → physical entity (coarse)
+   Reasoning: The tops are part of the dining table's design, which is a physical entity.
+
+5. **vase** → artifact (mid) → object (coarse)
+   Reasoning: Vase made of glass with flowers inside, placed on table
+
+6. **flower** → plant (mid) → object (coarse)
+   Reasoning: Living plant with visible petals in pot
+
+7. **tips** → region (mid) → object (coarse)
+   Reasoning: Visible part of the flower arrangement with a distinct shape
+
+8. **flowers** → plant (mid) → object (coarse)
+   Reasoning: Living plant with visible petals in vase
+
+9. **handle** → appendage (mid) → object (coarse)
+   Reasoning: Visible handle attached to drawer
+
+## Comparison with V8.1
+
+V8.1 (Text-Only LLM):
+- Uses Qwen3-0.6B text-only LLM
+- Scene context: text descriptions only
+- No visual grounding
+
+V20 (Vision-Language Model):
+- Uses Qwen2.5-VL-3B vision-language model
+- Scene context: text + actual image
+- Visual grounding: VLM can see objects and their visual features
+- Expected improvement: Better semantic decisions for visually-ambiguous objects
+

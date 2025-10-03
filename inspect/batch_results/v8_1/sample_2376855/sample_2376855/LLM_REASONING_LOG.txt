@@ -1,0 +1,159 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: latch
+  Fine: latch
+  Mid: device
+  Coarse: physical entity
+  Method: llm
+
+Object: pointer finger
+  Fine: pointer finger
+  Mid: pointer finger
+  Coarse: pointer finger
+  Method: unknown
+
+Object: left hand
+  Fine: left hand
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The left hand is an extremity (depth 6) in the semantic hierarchy, which represents its physical location and function. It is a more specific representation than a part or external body part, aligning with the progressive refinement from coarse to mid to fine.
+
+Object: watch strap
+  Fine: watch strap
+  Mid: watch strap
+  Coarse: watch strap
+  Method: unknown
+
+Object: key pad
+  Fine: key pad
+  Mid: key pad
+  Coarse: key pad
+  Method: unknown
+
+Object: cellphone
+  Fine: cellphone
+  Mid: equipment
+  Coarse: object
+  Method: llm
+  Reasoning: Cellphone is a functional object (mid-level concept: equipment) and a physical entity (coarse-level concept: object). It represents a specific type of electronic device, which aligns with the semantic hierarchy.
+
+Object: speaker
+  Fine: speaker
+  Mid: organism
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'speaker' is an organism (organism(d=5)) that functions as a communicator and articulator. It is a physical entity (physical entity(d=1)) that can be grouped with other objects in the scene.
+
+Object: watch
+  Fine: watch
+  Mid: instrumentality
+  Coarse: object
+  Method: llm
+  Reasoning: The 'watch' represents an instrument/tool (mid-level concept) and a physical object (coarse-level concept) in the scene context. This aligns with the WordNet hierarchy, where 'watch' is an instrumentality and a device.
+
+Object: copyright symbol
+  Fine: copyright symbol
+  Mid: copyright symbol
+  Coarse: copyright symbol
+  Method: unknown
+
+Object: finger
+  Fine: finger
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Finger is a body part (mid-level concept) and a part of the external body (coarse-level concept) in the WordNet hierarchy.
+
+Object: ear
+  Fine: ear
+  Mid: organ
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'ear' is a sensory organ (mid-level) that belongs to the broader category of physical entities (coarse-level). This abstraction captures its function and classification accurately.
+
+Object: band
+  Fine: band
+  Mid: set
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Band is a physical object, and 'set' represents a group of similar objects, making it the appropriate high-level abstraction. 'Abstraction' captures the general meaning of the band as a group, while 'set' ensures it aligns with the context of the scene.
+
+Object: hand
+  Fine: hand
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Hand is a body part (mid-level concept) and a physical entity (coarse-level concept). It represents the extremity of the body, which is a meaningful and traceable abstraction.
+
+Object: phone
+  Fine: phone
+  Mid: artifact
+  Coarse: object
+  Method: llm
+  Reasoning: Phone is a functional item (artifact) and a physical object (object) in the scene context, aligning with the mid-level abstraction of a functional item.
+
+Object: thumb
+  Fine: thumb
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: thumb is a body part, which is a mid-level concept (extremity) and provides a meaningful abstraction of the object's physical form, aligning with the goal of progressive refinement.
+
+Object: fingernail
+  Fine: fingernail
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Fingernail is a structure (mid-level concept) that can be grouped with other structures like 
+
+Object: cell phone
+  Fine: cell phone
+  Mid: cell phone
+  Coarse: communicate
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: shirt
+  Fine: shirt
+  Mid: commodity
+  Coarse: object
+  Method: llm
+  Reasoning: The 'shirt' is a clothing item, which is a commodity (mid-level category) and a physical object (coarse-level concept). This aligns with the semantic hierarchy of preserving high-level semantic information and allowing progressive refinement.
+
+Object: buttons
+  Fine: buttons
+  Mid: device
+  Coarse: object
+  Method: llm
+  Reasoning: Buttons are a physical object used as a device, making them a mid-level concept (device) that captures their functional role, while 'object' at depth 2 represents their general form in the scene.
+
+Object: man
+  Fine: man
+  Mid: person
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Man is a person (mid-level concept) and a physical entity (coarse-level concept) in the scene context. This aligns with the semantic hierarchy and provides a meaningful abstraction.
+
+Object: picture
+  Fine: picture
+  Mid: representation
+  Coarse: object
+  Method: llm
+  Reasoning: The 'picture' object belongs to the 'representation' category (mid-level), as it is an artifact that can be visualized and represented. It is also a 'physical object' (coarse-level) and thus fits the hierarchical abstraction.
+
+Object: keypad
+  Fine: keypad
+  Mid: equipment
+  Coarse: object
+  Method: llm
+  Reasoning: Keypad is a functional device (equipment) and a physical object (object), aligning with the requirement to represent it as a mid-level category with progressive refinement.
+
+Object: oscar
+  Fine: oscar
+  Mid: academy award
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Oscar is a symbol of excellence and a cultural recognition, which aligns with the concept of an abstract representation. It represents a high-level category and provides a meaningful abstraction.
+

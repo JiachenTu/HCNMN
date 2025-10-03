@@ -1,0 +1,236 @@
+{
+  "image_id": 498335,
+  "hierarchy": {
+    "fine": [
+      "background",
+      "flowers",
+      "street",
+      "sign",
+      "words",
+      "railing",
+      "pot",
+      "balcony",
+      "light",
+      "pole",
+      "edge",
+      "face",
+      "billboard",
+      "lot",
+      "flower",
+      "stairs",
+      "clock",
+      "letter"
+    ],
+    "mid": [
+      "background",
+      "organism",
+      "artifact",
+      "clue",
+      "words",
+      "structure",
+      "instrumentality",
+      "physical phenomenon",
+      "extremity",
+      "external body part",
+      "batch"
+    ],
+    "coarse": [
+      "abstraction",
+      "object",
+      "process",
+      "thing"
+    ]
+  },
+  "concept_paths": {
+    "background": [
+      "background",
+      "background",
+      "abstraction"
+    ],
+    "flowers": [
+      "flowers",
+      "organism",
+      "object"
+    ],
+    "street": [
+      "street",
+      "artifact",
+      "object"
+    ],
+    "sign": [
+      "sign",
+      "clue",
+      "abstraction"
+    ],
+    "words": [
+      "words",
+      "words",
+      "abstraction"
+    ],
+    "railing": [
+      "railing",
+      "structure",
+      "object"
+    ],
+    "pot": [
+      "pot",
+      "instrumentality",
+      "object"
+    ],
+    "balcony": [
+      "balcony",
+      "structure",
+      "object"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "process"
+    ],
+    "pole": [
+      "pole",
+      "instrumentality",
+      "object"
+    ],
+    "edge": [
+      "edge",
+      "extremity",
+      "object"
+    ],
+    "face": [
+      "face",
+      "external body part",
+      "thing"
+    ],
+    "billboard": [
+      "billboard",
+      "structure",
+      "object"
+    ],
+    "lot": [
+      "lot",
+      "batch",
+      "abstraction"
+    ],
+    "flower": [
+      "flower",
+      "organism",
+      "object"
+    ],
+    "stairs": [
+      "stairs",
+      "artifact",
+      "object"
+    ],
+    "clock": [
+      "clock",
+      "instrumentality",
+      "object"
+    ],
+    "letter": [
+      "letter",
+      "artifact",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "background": {
+      "fine": "background",
+      "mid": "background",
+      "coarse": "abstraction"
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "clue",
+      "coarse": "abstraction"
+    },
+    "words": {
+      "fine": "words",
+      "mid": "words",
+      "coarse": "abstraction"
+    },
+    "railing": {
+      "fine": "railing",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "pot": {
+      "fine": "pot",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "balcony": {
+      "fine": "balcony",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "process"
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "extremity",
+      "coarse": "object"
+    },
+    "face": {
+      "fine": "face",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "billboard": {
+      "fine": "billboard",
+      "mid": "structure",
+      "coarse": "object"
+    },
+    "lot": {
+      "fine": "lot",
+      "mid": "batch",
+      "coarse": "abstraction"
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "stairs": {
+      "fine": "stairs",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "clock": {
+      "fine": "clock",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "letter": {
+      "fine": "letter",
+      "mid": "artifact",
+      "coarse": "object"
+    }
+  },
+  "statistics": {
+    "num_objects": 30,
+    "fine_concepts": 18,
+    "mid_concepts": 11,
+    "coarse_concepts": 4,
+    "compression_fine_to_mid": 1.64,
+    "compression_fine_to_coarse": 4.5
+  }
+}

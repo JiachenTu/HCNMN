@@ -1,0 +1,5 @@
+coarse_concepts,compression_fine_to_coarse,compression_fine_to_mid,compression_mid_to_coarse,fine_concepts,image_id,method,mid_concepts,vlm_fallback_count,vlm_fallback_rate,vlm_success_count,vlm_success_rate,vlm_total_count
+8,1.75,1.08,1.62,14,2326885,v20_1,13,5,35.7,3,21.4,14
+8,2.75,1.22,2.25,22,2342105,v20_1,18,18,81.8,0,0.0,22
+3,6.0,1.64,3.67,18,498335,v20_1,11,18,100.0,0,0.0,18
+3,3.0,2.25,1.33,9,713619,v20_1,4,2,22.2,6,66.7,9

@@ -1,0 +1,245 @@
+{
+  "image_id": 2347842,
+  "hierarchy": {
+    "fine": [
+      "skateboard",
+      "boy",
+      "pants",
+      "concrete",
+      "people",
+      "shoe",
+      "hair",
+      "bicycle",
+      "shadow",
+      "leg",
+      "bench",
+      "skate park",
+      "shirt",
+      "person",
+      "ramp",
+      "skateboarder",
+      "writing",
+      "edge",
+      "grass"
+    ],
+    "mid": [
+      "instrumentality",
+      "organism",
+      "artifact",
+      "people",
+      "covering",
+      "dark",
+      "external body part",
+      "skate park",
+      "activity",
+      "extremity"
+    ],
+    "coarse": [
+      "object",
+      "abstraction",
+      "state",
+      "thing",
+      "skate park"
+    ]
+  },
+  "concept_paths": {
+    "skateboard": [
+      "skateboard",
+      "instrumentality",
+      "object"
+    ],
+    "boy": [
+      "boy",
+      "organism",
+      "object"
+    ],
+    "pants": [
+      "pants",
+      "artifact",
+      "object"
+    ],
+    "concrete": [
+      "concrete",
+      "artifact",
+      "object"
+    ],
+    "people": [
+      "people",
+      "people",
+      "abstraction"
+    ],
+    "shoe": [
+      "shoe",
+      "covering",
+      "object"
+    ],
+    "hair": [
+      "hair",
+      "covering",
+      "object"
+    ],
+    "bicycle": [
+      "bicycle",
+      "instrumentality",
+      "object"
+    ],
+    "shadow": [
+      "shadow",
+      "dark",
+      "state"
+    ],
+    "leg": [
+      "leg",
+      "external body part",
+      "thing"
+    ],
+    "bench": [
+      "bench",
+      "instrumentality",
+      "object"
+    ],
+    "skate park": [
+      "skate park"
+    ],
+    "shirt": [
+      "shirt",
+      "artifact",
+      "object"
+    ],
+    "person": [
+      "person",
+      "organism",
+      "object"
+    ],
+    "ramp": [
+      "ramp",
+      "instrumentality",
+      "object"
+    ],
+    "skateboarder": [
+      "skateboarder",
+      "organism",
+      "object"
+    ],
+    "writing": [
+      "writing",
+      "activity",
+      "abstraction"
+    ],
+    "edge": [
+      "edge",
+      "extremity",
+      "object"
+    ],
+    "grass": [
+      "grass",
+      "organism",
+      "object"
+    ]
+  },
+  "object_to_levels": {
+    "skateboard": {
+      "fine": "skateboard",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "boy": {
+      "fine": "boy",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "pants": {
+      "fine": "pants",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "concrete": {
+      "fine": "concrete",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "people": {
+      "fine": "people",
+      "mid": "people",
+      "coarse": "abstraction"
+    },
+    "shoe": {
+      "fine": "shoe",
+      "mid": "covering",
+      "coarse": "object"
+    },
+    "hair": {
+      "fine": "hair",
+      "mid": "covering",
+      "coarse": "object"
+    },
+    "bicycle": {
+      "fine": "bicycle",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "shadow": {
+      "fine": "shadow",
+      "mid": "dark",
+      "coarse": "state"
+    },
+    "leg": {
+      "fine": "leg",
+      "mid": "external body part",
+      "coarse": "thing"
+    },
+    "bench": {
+      "fine": "bench",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "skate park": {
+      "fine": "skate park",
+      "mid": "skate park",
+      "coarse": "skate park"
+    },
+    "shirt": {
+      "fine": "shirt",
+      "mid": "artifact",
+      "coarse": "object"
+    },
+    "person": {
+      "fine": "person",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "ramp": {
+      "fine": "ramp",
+      "mid": "instrumentality",
+      "coarse": "object"
+    },
+    "skateboarder": {
+      "fine": "skateboarder",
+      "mid": "organism",
+      "coarse": "object"
+    },
+    "writing": {
+      "fine": "writing",
+      "mid": "activity",
+      "coarse": "abstraction"
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "extremity",
+      "coarse": "object"
+    },
+    "grass": {
+      "fine": "grass",
+      "mid": "organism",
+      "coarse": "object"
+    }
+  },
+  "statistics": {
+    "num_objects": 24,
+    "fine_concepts": 19,
+    "mid_concepts": 10,
+    "coarse_concepts": 5,
+    "compression_fine_to_mid": 1.9,
+    "compression_fine_to_coarse": 3.8
+  }
+}

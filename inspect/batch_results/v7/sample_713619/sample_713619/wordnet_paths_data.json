@@ -1,0 +1,443 @@
+{
+  "image_id": 713619,
+  "object_paths": {
+    "street": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "road",
+        6
+      ],
+      [
+        "thoroughfare",
+        7
+      ],
+      [
+        "street",
+        8
+      ]
+    ],
+    "building": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "building",
+        6
+      ]
+    ],
+    "emblem": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "decoration",
+        5
+      ],
+      [
+        "design",
+        6
+      ],
+      [
+        "emblem",
+        7
+      ]
+    ],
+    "car": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "conveyance",
+        6
+      ],
+      [
+        "vehicle",
+        7
+      ],
+      [
+        "wheeled vehicle",
+        8
+      ],
+      [
+        "self-propelled vehicle",
+        9
+      ],
+      [
+        "motor vehicle",
+        10
+      ],
+      [
+        "car",
+        11
+      ]
+    ],
+    "steps": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "stairway",
+        6
+      ],
+      [
+        "stairs",
+        7
+      ]
+    ],
+    "window": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "supporting structure",
+        6
+      ],
+      [
+        "framework",
+        7
+      ],
+      [
+        "window",
+        8
+      ]
+    ],
+    "street.": [
+      [
+        "street.",
+        0
+      ]
+    ],
+    "sidewalk": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "path",
+        6
+      ],
+      [
+        "walk",
+        7
+      ],
+      [
+        "sidewalk",
+        8
+      ]
+    ],
+    "light": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "process",
+        2
+      ],
+      [
+        "phenomenon",
+        3
+      ],
+      [
+        "natural phenomenon",
+        4
+      ],
+      [
+        "physical phenomenon",
+        5
+      ],
+      [
+        "energy",
+        6
+      ],
+      [
+        "radiation",
+        7
+      ],
+      [
+        "electromagnetic radiation",
+        8
+      ],
+      [
+        "actinic radiation",
+        9
+      ],
+      [
+        "light",
+        10
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "street",
+        "building",
+        "emblem",
+        "car",
+        "steps",
+        "window",
+        "light",
+        "sidewalk"
+      ],
+      "merge_count": 8
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "street",
+        "building",
+        "emblem",
+        "car",
+        "steps",
+        "window",
+        "light",
+        "sidewalk"
+      ],
+      "merge_count": 8
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "street",
+        "building",
+        "emblem",
+        "car",
+        "steps",
+        "window",
+        "sidewalk"
+      ],
+      "merge_count": 7
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "street",
+        "building",
+        "emblem",
+        "car",
+        "steps",
+        "window",
+        "sidewalk"
+      ],
+      "merge_count": 7
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "street",
+        "building",
+        "emblem",
+        "car",
+        "steps",
+        "window",
+        "sidewalk"
+      ],
+      "merge_count": 7
+    },
+    "way": {
+      "depth": 5,
+      "merged_objects": [
+        "street",
+        "steps",
+        "sidewalk"
+      ],
+      "merge_count": 3
+    },
+    "structure": {
+      "depth": 5,
+      "merged_objects": [
+        "building",
+        "window"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      8,
+      6,
+      7,
+      11,
+      8,
+      0,
+      8,
+      10
+    ],
+    "mid_depths": [
+      4,
+      5,
+      5,
+      0,
+      5
+    ],
+    "coarse_depths": [
+      2,
+      0,
+      2
+    ],
+    "depth_distribution": {
+      "0": 2,
+      "1": 1,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 5,
+      "6": 8,
+      "7": 7,
+      "8": 5,
+      "9": 2,
+      "10": 2,
+      "11": 1
+    }
+  }
+}

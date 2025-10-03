@@ -1,0 +1,77 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 14
+**Unique Fine Concepts**: 14
+**Unique Mid Concepts**: 12
+**Unique Coarse Concepts**: 9
+
+**Compression Ratios**:
+- Fine → Mid: **1.17x**
+- Fine → Coarse: **1.56x**
+- Mid → Coarse: **1.33x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 2 | skirt, surfboard |
+| person | 2 | man, woman |
+| situation | 1 | shoes |
+| short hair | 1 | short hair |
+| bad sentence | 1 | bad sentence |
+| material | 1 | sand |
+| long hair | 1 | long hair |
+| path | 1 | tracks |
+| no motorcycle | 1 | no motorcycle |
+| surf board | 1 | surf board |
+| beach | 1 | beach |
+| white motorcycle | 1 | white motorcycle |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| object | 3 | 4 | artifact, path, person |
+| abstraction | 2 | 2 | material, situation |
+| short hair | 1 | 1 | short hair |
+| bad sentence | 1 | 1 | bad sentence |
+| long hair | 1 | 1 | long hair |
+| no motorcycle | 1 | 1 | no motorcycle |
+| surf board | 1 | 1 | surf board |
+| physical entity | 1 | 2 | beach |
+| white motorcycle | 1 | 1 | white motorcycle |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| sand | material | abstraction |
+| shoes | situation | abstraction |
+| bad sentence | bad sentence | bad sentence |
+| long hair | long hair | long hair |
+| no motorcycle | no motorcycle | no motorcycle |
+| skirt | artifact | object |
+| surfboard | artifact | object |
+| tracks | path | object |
+| man | person | object |
+| beach | beach | physical entity |
+| woman | person | physical entity |
+| short hair | short hair | short hair |
+| surf board | surf board | surf board |
+| white motorcycle | white motorcycle | white motorcycle |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20/sample_2326885/sample_2326885/concept_mapping_report.txt

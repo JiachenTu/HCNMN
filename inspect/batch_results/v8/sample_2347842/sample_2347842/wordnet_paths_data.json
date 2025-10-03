@@ -1,0 +1,988 @@
+{
+  "image_id": 2347842,
+  "object_paths": {
+    "skateboard": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "conveyance",
+        6
+      ],
+      [
+        "vehicle",
+        7
+      ],
+      [
+        "wheeled vehicle",
+        8
+      ],
+      [
+        "skateboard",
+        9
+      ]
+    ],
+    "person": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ]
+    ],
+    "boy": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "male",
+        7
+      ],
+      [
+        "male child",
+        8
+      ]
+    ],
+    "shoe": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "footwear",
+        6
+      ],
+      [
+        "shoe",
+        7
+      ]
+    ],
+    "leg": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "extremity",
+        6
+      ],
+      [
+        "limb",
+        7
+      ],
+      [
+        "leg",
+        8
+      ]
+    ],
+    "shadow": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "state",
+        3
+      ],
+      [
+        "illumination",
+        4
+      ],
+      [
+        "dark",
+        5
+      ],
+      [
+        "semidarkness",
+        6
+      ],
+      [
+        "shade",
+        7
+      ],
+      [
+        "shadow",
+        8
+      ]
+    ],
+    "ramp": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "mechanism",
+        7
+      ],
+      [
+        "mechanical device",
+        8
+      ],
+      [
+        "machine",
+        9
+      ],
+      [
+        "inclined plane",
+        10
+      ],
+      [
+        "ramp",
+        11
+      ]
+    ],
+    "hair": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "body covering",
+        6
+      ],
+      [
+        "hair",
+        7
+      ]
+    ],
+    "pants": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "undergarment",
+        9
+      ],
+      [
+        "underpants",
+        10
+      ],
+      [
+        "bloomers",
+        11
+      ]
+    ],
+    "writing": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "psychological feature",
+        2
+      ],
+      [
+        "event",
+        3
+      ],
+      [
+        "act",
+        4
+      ],
+      [
+        "activity",
+        5
+      ],
+      [
+        "creation",
+        6
+      ],
+      [
+        "creating by mental acts",
+        7
+      ],
+      [
+        "verbal creation",
+        8
+      ],
+      [
+        "writing",
+        9
+      ]
+    ],
+    "grass": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "herb",
+        8
+      ],
+      [
+        "gramineous plant",
+        9
+      ],
+      [
+        "grass",
+        10
+      ]
+    ],
+    "skate park": [
+      [
+        "skate park",
+        0
+      ]
+    ],
+    "shirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "commodity",
+        5
+      ],
+      [
+        "consumer goods",
+        6
+      ],
+      [
+        "clothing",
+        7
+      ],
+      [
+        "garment",
+        8
+      ],
+      [
+        "shirt",
+        9
+      ]
+    ],
+    "bicycle": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "conveyance",
+        6
+      ],
+      [
+        "vehicle",
+        7
+      ],
+      [
+        "wheeled vehicle",
+        8
+      ],
+      [
+        "bicycle",
+        9
+      ]
+    ],
+    "edge": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "extremity",
+        5
+      ],
+      [
+        "boundary",
+        6
+      ],
+      [
+        "edge",
+        7
+      ]
+    ],
+    "concrete": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "building material",
+        5
+      ],
+      [
+        "concrete",
+        6
+      ]
+    ],
+    "bench": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "seat",
+        8
+      ],
+      [
+        "bench",
+        9
+      ]
+    ],
+    "people": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "people",
+        3
+      ]
+    ],
+    "skateboarder": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "contestant",
+        7
+      ],
+      [
+        "athlete",
+        8
+      ],
+      [
+        "skater",
+        9
+      ],
+      [
+        "skateboarder",
+        10
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "bicycle",
+        "skateboard",
+        "edge",
+        "concrete",
+        "person",
+        "bench",
+        "pants",
+        "leg",
+        "shoe",
+        "people",
+        "boy",
+        "skateboarder",
+        "writing",
+        "shadow",
+        "ramp",
+        "grass",
+        "shirt",
+        "hair"
+      ],
+      "merge_count": 18
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "bicycle",
+        "skateboard",
+        "edge",
+        "concrete",
+        "person",
+        "bench",
+        "pants",
+        "leg",
+        "shoe",
+        "boy",
+        "skateboarder",
+        "grass",
+        "ramp",
+        "shirt",
+        "hair"
+      ],
+      "merge_count": 15
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "bicycle",
+        "skateboard",
+        "edge",
+        "concrete",
+        "person",
+        "bench",
+        "pants",
+        "shoe",
+        "boy",
+        "skateboarder",
+        "grass",
+        "ramp",
+        "shirt",
+        "hair"
+      ],
+      "merge_count": 14
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "bicycle",
+        "skateboard",
+        "concrete",
+        "person",
+        "bench",
+        "pants",
+        "shoe",
+        "boy",
+        "skateboarder",
+        "grass",
+        "ramp",
+        "shirt",
+        "hair"
+      ],
+      "merge_count": 13
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "bicycle",
+        "skateboard",
+        "concrete",
+        "bench",
+        "pants",
+        "shoe",
+        "ramp",
+        "shirt"
+      ],
+      "merge_count": 8
+    },
+    "instrumentality": {
+      "depth": 5,
+      "merged_objects": [
+        "bicycle",
+        "bench",
+        "skateboard",
+        "ramp"
+      ],
+      "merge_count": 4
+    },
+    "conveyance": {
+      "depth": 6,
+      "merged_objects": [
+        "bicycle",
+        "skateboard"
+      ],
+      "merge_count": 2
+    },
+    "vehicle": {
+      "depth": 7,
+      "merged_objects": [
+        "bicycle",
+        "skateboard"
+      ],
+      "merge_count": 2
+    },
+    "wheeled vehicle": {
+      "depth": 8,
+      "merged_objects": [
+        "bicycle",
+        "skateboard"
+      ],
+      "merge_count": 2
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "boy",
+        "skateboarder",
+        "grass",
+        "person"
+      ],
+      "merge_count": 4
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "boy",
+        "skateboarder",
+        "grass",
+        "person"
+      ],
+      "merge_count": 4
+    },
+    "person": {
+      "depth": 6,
+      "merged_objects": [
+        "boy",
+        "skateboarder",
+        "person"
+      ],
+      "merge_count": 3
+    },
+    "covering": {
+      "depth": 5,
+      "merged_objects": [
+        "hair",
+        "shoe"
+      ],
+      "merge_count": 2
+    },
+    "extremity": {
+      "depth": 5,
+      "merged_objects": [
+        "leg",
+        "edge"
+      ],
+      "merge_count": 2
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "people",
+        "writing",
+        "shadow"
+      ],
+      "merge_count": 3
+    },
+    "commodity": {
+      "depth": 5,
+      "merged_objects": [
+        "shirt",
+        "pants"
+      ],
+      "merge_count": 2
+    },
+    "consumer goods": {
+      "depth": 6,
+      "merged_objects": [
+        "shirt",
+        "pants"
+      ],
+      "merge_count": 2
+    },
+    "clothing": {
+      "depth": 7,
+      "merged_objects": [
+        "shirt",
+        "pants"
+      ],
+      "merge_count": 2
+    },
+    "garment": {
+      "depth": 8,
+      "merged_objects": [
+        "shirt",
+        "pants"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      9,
+      6,
+      7,
+      8,
+      8,
+      11,
+      7,
+      9,
+      10,
+      0,
+      9,
+      9,
+      7,
+      6,
+      9,
+      3,
+      10
+    ],
+    "mid_depths": [
+      4,
+      6,
+      5,
+      6,
+      5,
+      6,
+      4,
+      4,
+      5,
+      6,
+      6,
+      6,
+      0,
+      4,
+      6,
+      3
+    ],
+    "coarse_depths": [
+      1,
+      2,
+      1,
+      3,
+      0,
+      2
+    ],
+    "depth_distribution": {
+      "0": 2,
+      "1": 2,
+      "2": 5,
+      "3": 6,
+      "4": 7,
+      "5": 9,
+      "6": 12,
+      "7": 13,
+      "8": 10,
+      "9": 9,
+      "10": 4,
+      "11": 2
+    }
+  }
+}

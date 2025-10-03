@@ -1,0 +1,452 @@
+{
+  "image_id": 2326885,
+  "object_paths": {
+    "surf board": [
+      [
+        "surf board",
+        0
+      ]
+    ],
+    "tracks": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "line",
+        4
+      ],
+      [
+        "path",
+        5
+      ]
+    ],
+    "long hair": [
+      [
+        "long hair",
+        0
+      ]
+    ],
+    "woman": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "woman",
+        8
+      ]
+    ],
+    "skirt": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "cloth covering",
+        6
+      ],
+      [
+        "skirt",
+        7
+      ]
+    ],
+    "beach": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "geological formation",
+        3
+      ],
+      [
+        "beach",
+        4
+      ]
+    ],
+    "bad sentence": [
+      [
+        "bad sentence",
+        0
+      ]
+    ],
+    "surfboard": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "sheet",
+        5
+      ],
+      [
+        "board",
+        6
+      ],
+      [
+        "surfboard",
+        7
+      ]
+    ],
+    "white motorcycle": [
+      [
+        "white motorcycle",
+        0
+      ]
+    ],
+    "short hair": [
+      [
+        "short hair",
+        0
+      ]
+    ],
+    "no motorcycle": [
+      [
+        "no motorcycle",
+        0
+      ]
+    ],
+    "sand": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "relation",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "substance",
+        4
+      ],
+      [
+        "material",
+        5
+      ],
+      [
+        "earth",
+        6
+      ],
+      [
+        "soil",
+        7
+      ],
+      [
+        "sand",
+        8
+      ]
+    ],
+    "man": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "person",
+        6
+      ],
+      [
+        "adult",
+        7
+      ],
+      [
+        "man",
+        8
+      ]
+    ],
+    "shoes": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "state",
+        3
+      ],
+      [
+        "condition",
+        4
+      ],
+      [
+        "situation",
+        5
+      ],
+      [
+        "place",
+        6
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "tracks",
+        "woman",
+        "skirt",
+        "beach",
+        "surfboard",
+        "sand",
+        "man",
+        "shoes"
+      ],
+      "merge_count": 8
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "tracks",
+        "woman",
+        "skirt",
+        "beach",
+        "surfboard",
+        "man"
+      ],
+      "merge_count": 6
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "tracks",
+        "woman",
+        "skirt",
+        "beach",
+        "surfboard",
+        "man"
+      ],
+      "merge_count": 6
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "woman",
+        "surfboard",
+        "man",
+        "skirt"
+      ],
+      "merge_count": 4
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "woman",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "woman",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "person": {
+      "depth": 6,
+      "merged_objects": [
+        "woman",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "adult": {
+      "depth": 7,
+      "merged_objects": [
+        "woman",
+        "man"
+      ],
+      "merge_count": 2
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "skirt",
+        "surfboard"
+      ],
+      "merge_count": 2
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "shoes",
+        "sand"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      0,
+      0,
+      8,
+      7,
+      4,
+      0,
+      7,
+      0,
+      0,
+      0,
+      8,
+      8
+    ],
+    "mid_depths": [
+      0,
+      5,
+      0,
+      5,
+      6,
+      4,
+      0,
+      6,
+      0,
+      0,
+      0,
+      5,
+      5
+    ],
+    "coarse_depths": [
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "depth_distribution": {
+      "0": 7,
+      "1": 2,
+      "2": 3,
+      "3": 5,
+      "4": 6,
+      "5": 6,
+      "6": 5,
+      "7": 4,
+      "8": 3
+    }
+  }
+}

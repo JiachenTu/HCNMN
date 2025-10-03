@@ -1,0 +1,127 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: clock
+  Fine: clock
+  Mid: instrumentality
+  Coarse: object
+  Method: llm
+  Reasoning: Clock is an instrument/tool (mid-level concept) and a physical object (coarse-level concept). This aligns with the semantic hierarchy: instrumentality is a functional category, and object represents the actual physical entity.
+
+Object: sign
+  Fine: sign
+  Mid: sign
+  Coarse: communication
+  Method: llm
+  Reasoning: Sign is a direct representation of a visual element used for communication, which aligns with the high-level abstraction at the coarse level. It also serves as a form of indication, which is a mid-level concept, and fits the semantic hierarchy as a clue to further abstracting into evidence.
+
+Object: flower
+  Fine: flower
+  Mid: plant
+  Coarse: object
+  Method: llm
+  Reasoning: The 'flower' object is a plant (mid-level concept) and represents a specific type of plant (object-level concept) in the WordNet ontology.
+
+Object: pot
+  Fine: pot
+  Mid: artifact
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'pot' is a physical object, and 'artifact' represents its functional role as a cooking utensil. This aligns with the goal of creating a meaningful, traceable hierarchy that reflects both its physical form and its function.
+
+Object: stairs
+  Fine: stairs
+  Mid: stairway
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Stairs are a physical entity (coarse) and represent a functional pathway (stairway) at the mid-level abstraction.
+
+Object: edge
+  Fine: edge
+  Mid: boundary
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'edge' is a boundary, which is the most general concept representing its functional role. It also aligns with the coarse level of 'physical entity' as the highest level of abstraction.
+
+Object: letter
+  Fine: letter
+  Mid: artifact
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: background
+  Fine: background
+  Mid: background
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: street
+  Fine: street
+  Mid: road
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'road' concept captures the core semantic role of 'street' as a functional entity. It aligns with the high-level abstraction and provides a meaningful grouping of similar objects.
+
+Object: flowers
+  Fine: flowers
+  Mid: organism
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: lot
+  Fine: lot
+  Mid: large indefinite quantity
+  Coarse: abstraction
+  Method: llm
+
+Object: words
+  Fine: words
+  Mid: words
+  Coarse: abstraction
+  Method: llm
+
+Object: railing
+  Fine: railing
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Railing is a structural element of a building, representing a physical entity (depth 1), which is a part of a structure (depth 5) that can be further refined to a more detailed structure (depth 6) as the mid-level concept.
+
+Object: balcony
+  Fine: balcony
+  Mid: balcony
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Balcony is a physical object (coarse level) and represents a structure (mid level) that is a part of a larger scene (fine level). It best captures its functional and semantic role as a mid-level category.
+
+Object: billboard
+  Fine: billboard
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Billboard is a structure (mid-level concept) that can be grouped with other structures like signboards, while physical entities like the billboard itself are the coarse level abstraction for this object.
+
+Object: face
+  Fine: face
+  Mid: face
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Face is a specific part of the body, which is a physical entity. It represents the most general meaningful domain for grouping similar objects.
+
+Object: pole
+  Fine: pole
+  Mid: instrumentality
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'pole' is a physical object (coarse) and represents a functional or operational element (instrumentality), which aligns with the mid-level concept of instrumentality. It reflects both its physical form and its role in the scene.
+
+Object: light
+  Fine: light
+  Mid: physical phenomenon
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Light is a physical phenomenon (mid-level concept) that represents a physical entity (coarse-level concept) in the scene context.
+

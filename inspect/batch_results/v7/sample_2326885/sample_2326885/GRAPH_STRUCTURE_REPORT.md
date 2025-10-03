@@ -1,0 +1,75 @@
+# Graph Structure Analysis Report
+
+## Overview
+
+This report analyzes how the scene graph structure changes across different granularity levels.
+
+---
+
+## Statistics by Granularity Level
+
+### FINE-Grained
+
+- **Nodes**: 14
+- **Edges**: 7
+- **Total Objects Represented**: 20
+- **Average Degree**: 1.00
+- **Graph Density**: 0.038
+
+**Most Connected Nodes**:
+- woman (degree: 5, objects: 5)
+- beach (degree: 1, objects: 1)
+- man (degree: 1, objects: 1)
+- surfboard (degree: 1, objects: 2)
+- shoes (degree: 1, objects: 1)
+
+### MID-Grained
+
+- **Nodes**: 13
+- **Edges**: 7
+- **Total Objects Represented**: 20
+- **Average Degree**: 1.08
+- **Graph Density**: 0.045
+
+**Most Connected Nodes**:
+- organism (degree: 6, objects: 6)
+- beach (degree: 1, objects: 1)
+- artifact (degree: 1, objects: 2)
+- situation (degree: 1, objects: 1)
+- short hair (degree: 1, objects: 1)
+
+### COARSE-Grained
+
+- **Nodes**: 9
+- **Edges**: 4
+- **Total Objects Represented**: 20
+- **Average Degree**: 0.89
+- **Graph Density**: 0.056
+
+**Most Connected Nodes**:
+- object (degree: 4, objects: 11)
+- state (degree: 1, objects: 1)
+- short hair (degree: 1, objects: 1)
+- long hair (degree: 1, objects: 1)
+- abstraction (degree: 1, objects: 1)
+
+---
+
+## Graph Merging Analysis
+
+### Edge Reduction
+
+As granularity becomes coarser:
+- Objects merge into concepts
+- Edges between objects of the same concept become self-loops (removed)
+- Multiple edges between merged concepts are collapsed (weight increases)
+
+### Information Loss
+
+The reduction in edges represents relationships that become internalized when objects merge.
+This is expected and demonstrates the abstraction at work.
+
+---
+
+**Note**: Graph visualizations show only inter-concept relationships.
+Intra-concept relationships (within merged groups) are not shown but are preserved in the hierarchy.

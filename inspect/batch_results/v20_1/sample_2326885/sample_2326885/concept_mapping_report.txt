@@ -1,0 +1,77 @@
+# Concept Merging Analysis Report
+
+## Summary Statistics
+
+**Total Objects**: 14
+**Unique Fine Concepts**: 14
+**Unique Mid Concepts**: 13
+**Unique Coarse Concepts**: 8
+
+**Compression Ratios**:
+- Fine → Mid: **1.08x**
+- Fine → Coarse: **1.75x**
+- Mid → Coarse: **1.62x**
+
+---
+
+## Mid-Level Concept Merging
+
+Shows how fine-grained objects merge into mid-level categories.
+
+| Mid Concept | Object Count | Fine Objects |
+|-------------|--------------|-------------|
+| artifact | 2 | skirt, surfboard |
+| long hair | 1 | long hair |
+| organism | 1 | woman |
+| bad sentence | 1 | bad sentence |
+| material | 1 | sand |
+| white motorcycle | 1 | white motorcycle |
+| person | 1 | man |
+| beach | 1 | beach |
+| short hair | 1 | short hair |
+| no motorcycle | 1 | no motorcycle |
+| surf board | 1 | surf board |
+| situation | 1 | shoes |
+| path | 1 | tracks |
+
+---
+
+## Coarse-Level Concept Merging
+
+Shows how mid-level categories merge into coarse-grained domains.
+
+| Coarse Concept | Mid Count | Total Objects | Mid Concepts |
+|----------------|-----------|---------------|-------------|
+| object | 5 | 6 | artifact, beach, organism, path, person |
+| abstraction | 2 | 2 | material, situation |
+| long hair | 1 | 1 | long hair |
+| bad sentence | 1 | 1 | bad sentence |
+| white motorcycle | 1 | 1 | white motorcycle |
+| short hair | 1 | 1 | short hair |
+| no motorcycle | 1 | 1 | no motorcycle |
+| surf board | 1 | 1 | surf board |
+
+---
+
+## Complete Object Mappings
+
+| Fine Object | Mid Category | Coarse Domain |
+|-------------|--------------|---------------|
+| sand | material | abstraction |
+| shoes | situation | abstraction |
+| bad sentence | bad sentence | bad sentence |
+| long hair | long hair | long hair |
+| no motorcycle | no motorcycle | no motorcycle |
+| skirt | artifact | object |
+| surfboard | artifact | object |
+| beach | beach | object |
+| woman | organism | object |
+| tracks | path | object |
+| man | person | object |
+| short hair | short hair | short hair |
+| surf board | surf board | surf board |
+| white motorcycle | white motorcycle | white motorcycle |
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2326885/sample_2326885/concept_mapping_report.txt

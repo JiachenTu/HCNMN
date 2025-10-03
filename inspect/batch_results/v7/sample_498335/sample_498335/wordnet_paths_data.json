@@ -1,0 +1,909 @@
+{
+  "image_id": 498335,
+  "object_paths": {
+    "background": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "inheritance",
+        3
+      ],
+      [
+        "background",
+        4
+      ]
+    ],
+    "flowers": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "spermatophyte",
+        8
+      ],
+      [
+        "angiosperm",
+        9
+      ],
+      [
+        "flower",
+        10
+      ]
+    ],
+    "street": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "road",
+        6
+      ],
+      [
+        "thoroughfare",
+        7
+      ],
+      [
+        "street",
+        8
+      ]
+    ],
+    "sign": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "indication",
+        3
+      ],
+      [
+        "evidence",
+        4
+      ],
+      [
+        "clue",
+        5
+      ],
+      [
+        "sign",
+        6
+      ]
+    ],
+    "words": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "auditory communication",
+        3
+      ],
+      [
+        "speech",
+        4
+      ],
+      [
+        "words",
+        5
+      ]
+    ],
+    "railing": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "obstruction",
+        6
+      ],
+      [
+        "barrier",
+        7
+      ],
+      [
+        "railing",
+        8
+      ]
+    ],
+    "pot": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "implement",
+        6
+      ],
+      [
+        "utensil",
+        7
+      ],
+      [
+        "kitchen utensil",
+        8
+      ],
+      [
+        "cooking utensil",
+        9
+      ],
+      [
+        "pot",
+        10
+      ]
+    ],
+    "balcony": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "balcony",
+        6
+      ]
+    ],
+    "light": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "process",
+        2
+      ],
+      [
+        "phenomenon",
+        3
+      ],
+      [
+        "natural phenomenon",
+        4
+      ],
+      [
+        "physical phenomenon",
+        5
+      ],
+      [
+        "energy",
+        6
+      ],
+      [
+        "radiation",
+        7
+      ],
+      [
+        "electromagnetic radiation",
+        8
+      ],
+      [
+        "actinic radiation",
+        9
+      ],
+      [
+        "light",
+        10
+      ]
+    ],
+    "pole": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "implement",
+        6
+      ],
+      [
+        "rod",
+        7
+      ],
+      [
+        "pole",
+        8
+      ]
+    ],
+    "edge": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "extremity",
+        5
+      ],
+      [
+        "boundary",
+        6
+      ],
+      [
+        "edge",
+        7
+      ]
+    ],
+    "face": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "external body part",
+        5
+      ],
+      [
+        "face",
+        6
+      ]
+    ],
+    "billboard": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "signboard",
+        6
+      ],
+      [
+        "billboard",
+        7
+      ]
+    ],
+    "lot": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "measure",
+        2
+      ],
+      [
+        "indefinite quantity",
+        3
+      ],
+      [
+        "large indefinite quantity",
+        4
+      ],
+      [
+        "batch",
+        5
+      ]
+    ],
+    "flower": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "spermatophyte",
+        8
+      ],
+      [
+        "angiosperm",
+        9
+      ],
+      [
+        "flower",
+        10
+      ]
+    ],
+    "stairs": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "stairway",
+        6
+      ],
+      [
+        "stairs",
+        7
+      ]
+    ],
+    "clock": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "device",
+        6
+      ],
+      [
+        "instrument",
+        7
+      ],
+      [
+        "measuring instrument",
+        8
+      ],
+      [
+        "timepiece",
+        9
+      ],
+      [
+        "clock",
+        10
+      ]
+    ],
+    "letter": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "creation",
+        5
+      ],
+      [
+        "representation",
+        6
+      ],
+      [
+        "document",
+        7
+      ],
+      [
+        "letter",
+        8
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "background",
+        "flowers",
+        "sign",
+        "words",
+        "street",
+        "flower",
+        "pot",
+        "balcony",
+        "light",
+        "pole",
+        "edge",
+        "face",
+        "billboard",
+        "lot",
+        "railing",
+        "stairs",
+        "clock",
+        "letter"
+      ],
+      "merge_count": 18
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "background",
+        "sign",
+        "words",
+        "lot"
+      ],
+      "merge_count": 4
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "flowers",
+        "street",
+        "flower",
+        "pot",
+        "balcony",
+        "light",
+        "pole",
+        "edge",
+        "face",
+        "billboard",
+        "railing",
+        "stairs",
+        "clock",
+        "letter"
+      ],
+      "merge_count": 14
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "flowers",
+        "street",
+        "flower",
+        "pot",
+        "balcony",
+        "pole",
+        "edge",
+        "billboard",
+        "railing",
+        "stairs",
+        "clock",
+        "letter"
+      ],
+      "merge_count": 12
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "flowers",
+        "street",
+        "flower",
+        "pot",
+        "balcony",
+        "pole",
+        "billboard",
+        "railing",
+        "stairs",
+        "clock",
+        "letter"
+      ],
+      "merge_count": 11
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "plant": {
+      "depth": 6,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "vascular plant": {
+      "depth": 7,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "spermatophyte": {
+      "depth": 8,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "angiosperm": {
+      "depth": 9,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "flower": {
+      "depth": 10,
+      "merged_objects": [
+        "flowers",
+        "flower"
+      ],
+      "merge_count": 2
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "street",
+        "pot",
+        "balcony",
+        "pole",
+        "billboard",
+        "railing",
+        "stairs",
+        "clock",
+        "letter"
+      ],
+      "merge_count": 9
+    },
+    "way": {
+      "depth": 5,
+      "merged_objects": [
+        "stairs",
+        "street"
+      ],
+      "merge_count": 2
+    },
+    "communication": {
+      "depth": 2,
+      "merged_objects": [
+        "sign",
+        "words"
+      ],
+      "merge_count": 2
+    },
+    "structure": {
+      "depth": 5,
+      "merged_objects": [
+        "balcony",
+        "billboard",
+        "railing"
+      ],
+      "merge_count": 3
+    },
+    "instrumentality": {
+      "depth": 5,
+      "merged_objects": [
+        "pole",
+        "pot",
+        "clock"
+      ],
+      "merge_count": 3
+    },
+    "implement": {
+      "depth": 6,
+      "merged_objects": [
+        "pole",
+        "pot"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      4,
+      10,
+      8,
+      6,
+      5,
+      8,
+      10,
+      6,
+      10,
+      8,
+      7,
+      6,
+      7,
+      7,
+      10,
+      8
+    ],
+    "mid_depths": [
+      4,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "coarse_depths": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "depth_distribution": {
+      "0": 1,
+      "1": 2,
+      "2": 6,
+      "3": 8,
+      "4": 9,
+      "5": 11,
+      "6": 13,
+      "7": 11,
+      "8": 8,
+      "9": 4,
+      "10": 4
+    }
+  }
+}

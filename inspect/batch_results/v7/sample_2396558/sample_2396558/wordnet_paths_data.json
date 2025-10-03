@@ -1,0 +1,1109 @@
+{
+  "image_id": 2396558,
+  "object_paths": {
+    "sticker": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "process",
+        5
+      ],
+      [
+        "plant process",
+        6
+      ],
+      [
+        "aculeus",
+        7
+      ],
+      [
+        "spine",
+        8
+      ]
+    ],
+    "spot": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "point",
+        4
+      ],
+      [
+        "topographic point",
+        5
+      ]
+    ],
+    "shape": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "property",
+        3
+      ],
+      [
+        "spatial property",
+        4
+      ],
+      [
+        "shape",
+        5
+      ]
+    ],
+    "stem": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "relation",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "language unit",
+        4
+      ],
+      [
+        "word",
+        5
+      ],
+      [
+        "form",
+        6
+      ],
+      [
+        "root",
+        7
+      ]
+    ],
+    "oranges": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "plant part",
+        5
+      ],
+      [
+        "plant organ",
+        6
+      ],
+      [
+        "reproductive structure",
+        7
+      ],
+      [
+        "fruit",
+        8
+      ],
+      [
+        "edible fruit",
+        9
+      ],
+      [
+        "citrus",
+        10
+      ],
+      [
+        "orange",
+        11
+      ]
+    ],
+    "apple": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "plant part",
+        5
+      ],
+      [
+        "plant organ",
+        6
+      ],
+      [
+        "reproductive structure",
+        7
+      ],
+      [
+        "fruit",
+        8
+      ],
+      [
+        "pome",
+        9
+      ],
+      [
+        "apple",
+        10
+      ]
+    ],
+    "fruit": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "plant part",
+        5
+      ],
+      [
+        "plant organ",
+        6
+      ],
+      [
+        "reproductive structure",
+        7
+      ],
+      [
+        "fruit",
+        8
+      ]
+    ],
+    "tip": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "extremity",
+        5
+      ],
+      [
+        "end",
+        6
+      ],
+      [
+        "tip",
+        7
+      ]
+    ],
+    "lemon": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "plant part",
+        5
+      ],
+      [
+        "plant organ",
+        6
+      ],
+      [
+        "reproductive structure",
+        7
+      ],
+      [
+        "fruit",
+        8
+      ],
+      [
+        "edible fruit",
+        9
+      ],
+      [
+        "citrus",
+        10
+      ],
+      [
+        "lemon",
+        11
+      ]
+    ],
+    "orange": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "natural object",
+        4
+      ],
+      [
+        "plant part",
+        5
+      ],
+      [
+        "plant organ",
+        6
+      ],
+      [
+        "reproductive structure",
+        7
+      ],
+      [
+        "fruit",
+        8
+      ],
+      [
+        "edible fruit",
+        9
+      ],
+      [
+        "citrus",
+        10
+      ],
+      [
+        "orange",
+        11
+      ]
+    ],
+    "pile": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "collection",
+        3
+      ],
+      [
+        "pile",
+        4
+      ]
+    ],
+    "bump": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "state",
+        3
+      ],
+      [
+        "condition",
+        4
+      ],
+      [
+        "physical condition",
+        5
+      ],
+      [
+        "pathological state",
+        6
+      ],
+      [
+        "ill health",
+        7
+      ],
+      [
+        "injury",
+        8
+      ],
+      [
+        "bump",
+        9
+      ]
+    ],
+    "branch": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "social group",
+        3
+      ],
+      [
+        "organization",
+        4
+      ],
+      [
+        "unit",
+        5
+      ],
+      [
+        "administrative unit",
+        6
+      ],
+      [
+        "division",
+        7
+      ],
+      [
+        "branch",
+        8
+      ]
+    ],
+    "table": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "arrangement",
+        3
+      ],
+      [
+        "array",
+        4
+      ],
+      [
+        "table",
+        5
+      ]
+    ],
+    "light": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "process",
+        2
+      ],
+      [
+        "phenomenon",
+        3
+      ],
+      [
+        "natural phenomenon",
+        4
+      ],
+      [
+        "physical phenomenon",
+        5
+      ],
+      [
+        "energy",
+        6
+      ],
+      [
+        "radiation",
+        7
+      ],
+      [
+        "electromagnetic radiation",
+        8
+      ],
+      [
+        "actinic radiation",
+        9
+      ],
+      [
+        "light",
+        10
+      ]
+    ],
+    "banana": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "herb",
+        8
+      ],
+      [
+        "banana",
+        9
+      ]
+    ],
+    "middle": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "area",
+        5
+      ],
+      [
+        "center",
+        6
+      ]
+    ],
+    "bottom": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "extremity",
+        5
+      ],
+      [
+        "boundary",
+        6
+      ],
+      [
+        "surface",
+        7
+      ],
+      [
+        "side",
+        8
+      ],
+      [
+        "bottom",
+        9
+      ]
+    ],
+    "top": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "top",
+        5
+      ]
+    ],
+    "bruise": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "state",
+        3
+      ],
+      [
+        "condition",
+        4
+      ],
+      [
+        "physical condition",
+        5
+      ],
+      [
+        "pathological state",
+        6
+      ],
+      [
+        "ill health",
+        7
+      ],
+      [
+        "injury",
+        8
+      ],
+      [
+        "bruise",
+        9
+      ]
+    ],
+    "group": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "spot",
+        "sticker",
+        "shape",
+        "stem",
+        "oranges",
+        "apple",
+        "fruit",
+        "tip",
+        "lemon",
+        "orange",
+        "pile",
+        "bump",
+        "branch",
+        "table",
+        "light",
+        "banana",
+        "middle",
+        "bottom",
+        "top",
+        "bruise",
+        "group"
+      ],
+      "merge_count": 21
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "spot",
+        "sticker",
+        "fruit",
+        "tip",
+        "lemon",
+        "light",
+        "banana",
+        "orange",
+        "middle",
+        "bottom",
+        "oranges",
+        "top",
+        "apple"
+      ],
+      "merge_count": 13
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "sticker",
+        "stem"
+      ],
+      "merge_count": 2
+    },
+    "process": {
+      "depth": 2,
+      "merged_objects": [
+        "sticker",
+        "light"
+      ],
+      "merge_count": 2
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "spot",
+        "fruit",
+        "tip",
+        "lemon",
+        "banana",
+        "orange",
+        "middle",
+        "bottom",
+        "oranges",
+        "top",
+        "apple"
+      ],
+      "merge_count": 11
+    },
+    "location": {
+      "depth": 3,
+      "merged_objects": [
+        "spot",
+        "tip",
+        "middle",
+        "bottom",
+        "top"
+      ],
+      "merge_count": 5
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "table",
+        "shape",
+        "bump",
+        "group",
+        "pile",
+        "stem",
+        "bruise",
+        "branch"
+      ],
+      "merge_count": 8
+    },
+    "attribute": {
+      "depth": 2,
+      "merged_objects": [
+        "bruise",
+        "shape",
+        "bump"
+      ],
+      "merge_count": 3
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "banana",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 6
+    },
+    "natural object": {
+      "depth": 4,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 5
+    },
+    "plant part": {
+      "depth": 5,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 5
+    },
+    "plant organ": {
+      "depth": 6,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 5
+    },
+    "reproductive structure": {
+      "depth": 7,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 5
+    },
+    "fruit": {
+      "depth": 8,
+      "merged_objects": [
+        "fruit",
+        "lemon",
+        "orange",
+        "oranges",
+        "apple"
+      ],
+      "merge_count": 5
+    },
+    "edible fruit": {
+      "depth": 9,
+      "merged_objects": [
+        "lemon",
+        "oranges",
+        "orange"
+      ],
+      "merge_count": 3
+    },
+    "citrus": {
+      "depth": 10,
+      "merged_objects": [
+        "lemon",
+        "oranges",
+        "orange"
+      ],
+      "merge_count": 3
+    },
+    "orange": {
+      "depth": 11,
+      "merged_objects": [
+        "orange",
+        "oranges"
+      ],
+      "merge_count": 2
+    },
+    "region": {
+      "depth": 4,
+      "merged_objects": [
+        "middle",
+        "top",
+        "bottom",
+        "tip"
+      ],
+      "merge_count": 4
+    },
+    "extremity": {
+      "depth": 5,
+      "merged_objects": [
+        "bottom",
+        "tip"
+      ],
+      "merge_count": 2
+    },
+    "group": {
+      "depth": 2,
+      "merged_objects": [
+        "pile",
+        "group",
+        "table",
+        "branch"
+      ],
+      "merge_count": 4
+    },
+    "state": {
+      "depth": 3,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    },
+    "condition": {
+      "depth": 4,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    },
+    "physical condition": {
+      "depth": 5,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    },
+    "pathological state": {
+      "depth": 6,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    },
+    "ill health": {
+      "depth": 7,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    },
+    "injury": {
+      "depth": 8,
+      "merged_objects": [
+        "bruise",
+        "bump"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      5,
+      8,
+      11,
+      10,
+      7,
+      11,
+      2,
+      4,
+      9,
+      8,
+      5,
+      10,
+      9,
+      9,
+      5,
+      9
+    ],
+    "mid_depths": [
+      2,
+      5,
+      5,
+      5,
+      4,
+      5,
+      2,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "coarse_depths": [
+      2,
+      2,
+      2,
+      1,
+      3
+    ],
+    "depth_distribution": {
+      "0": 1,
+      "1": 2,
+      "2": 6,
+      "3": 9,
+      "4": 12,
+      "6": 10,
+      "7": 9,
+      "8": 7,
+      "5": 12,
+      "9": 7,
+      "10": 3,
+      "11": 2
+    }
+  }
+}

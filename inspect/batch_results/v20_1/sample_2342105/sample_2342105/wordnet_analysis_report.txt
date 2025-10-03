@@ -1,0 +1,195 @@
+# WordNet Hierarchy Path Analysis Report
+
+## Overview
+
+**Total Objects**: 22
+**Total Unique Nodes**: 80
+**Merge Points**: 22
+
+---
+
+## Depth Statistics
+
+### Overall Distribution
+
+| Depth | Node Count |
+|-------|------------|
+| 0 | 5 |
+| 1 | 2 |
+| 2 | 9 |
+| 3 | 10 |
+| 4 | 10 |
+| 5 | 12 |
+| 6 | 12 |
+| 7 | 9 |
+| 8 | 7 |
+| 9 | 3 |
+| 10 | 1 |
+
+### Granularity Depth Mapping
+
+
+| Granularity | Depth Range | Average Depth | Concept Count |
+|-------------|-------------|---------------|---------------|
+| Fine | 0-10 | 5.4 | 16 |
+| Mid | 0-5 | 3.4 | 18 |
+| Coarse | 0-2 | 0.8 | 8 |
+
+---
+
+## Top Merge Points
+
+Nodes where multiple object paths converge:
+
+| Node | Depth | Merged Objects | Count |
+|------|-------|----------------|-------|
+| entity | 0 | woman, ground, kite, blue, clouds (+13 more) | 18 |
+| physical entity | 1 | woman, ground, clouds, boy, tail (+6 more) | 11 |
+| object | 2 | woman, ground, boy, bag, man (+3 more) | 8 |
+| abstraction | 1 | kite, blue, down, hands, kites (+2 more) | 7 |
+| whole | 3 | woman, boy, bag, man, shirt (+2 more) | 7 |
+| artifact | 4 | shirt, cones, building, bag | 4 |
+| living thing | 4 | woman, man, boy | 3 |
+| organism | 5 | woman, man, boy | 3 |
+| person | 6 | woman, man, boy | 3 |
+| part | 3 | down, tail | 2 |
+| communication | 2 | kites, kite | 2 |
+| written communication | 3 | kites, kite | 2 |
+| writing | 4 | kites, kite | 2 |
+| document | 5 | kites, kite | 2 |
+| legal document | 6 | kites, kite | 2 |
+| negotiable instrument | 7 | kites, kite | 2 |
+| draft | 8 | kites, kite | 2 |
+| check | 9 | kites, kite | 2 |
+| kite | 10 | kites, kite | 2 |
+| group | 2 | people, strings | 2 |
+
+---
+
+## Sample Object Paths
+
+
+### blue
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ attribute (d=2)
+        └─ property (d=3)
+          └─ visual property (d=4)
+            └─ color (d=5)
+              └─ chromatic color (d=6)
+                └─ blue (d=7)
+```
+
+### down
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ relation (d=2)
+        └─ part (d=3)
+          └─ substance (d=4)
+            └─ material (d=5)
+              └─ animal material (d=6)
+                └─ feather (d=7)
+                  └─ down (d=8)
+```
+
+### blue shirt
+
+Path to root:
+```
+  └─ blue shirt (d=0)
+```
+
+### ladybug kites
+
+Path to root:
+```
+  └─ ladybug kites (d=0)
+```
+
+### boy
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ living thing (d=4)
+            └─ organism (d=5)
+              └─ person (d=6)
+                └─ male (d=7)
+                  └─ male child (d=8)
+```
+
+### kites
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ communication (d=2)
+        └─ written communication (d=3)
+          └─ writing (d=4)
+            └─ document (d=5)
+              └─ legal document (d=6)
+                └─ negotiable instrument (d=7)
+                  └─ draft (d=8)
+                    └─ check (d=9)
+                      └─ kite (d=10)
+```
+
+### strings
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ abstraction (d=1)
+      └─ group (d=2)
+        └─ social group (d=3)
+          └─ organization (d=4)
+            └─ musical organization (d=5)
+              └─ section (d=6)
+                └─ string section (d=7)
+```
+
+### woman and boy
+
+Path to root:
+```
+  └─ woman and boy (d=0)
+```
+
+### woman
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ whole (d=3)
+          └─ living thing (d=4)
+            └─ organism (d=5)
+              └─ person (d=6)
+                └─ adult (d=7)
+                  └─ woman (d=8)
+```
+
+### ground
+
+Path to root:
+```
+  └─ entity (d=0)
+    └─ physical entity (d=1)
+      └─ object (d=2)
+        └─ land (d=3)
+```
+
+---
+
+**Generated**: /nas/jiachen/graph_reasoning/HCNMN/inspect/batch_results/v20_1/sample_2342105/sample_2342105/wordnet_analysis_report.txt

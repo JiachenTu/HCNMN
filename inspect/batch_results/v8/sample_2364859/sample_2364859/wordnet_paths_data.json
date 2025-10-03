@@ -1,0 +1,941 @@
+{
+  "image_id": 2364859,
+  "object_paths": {
+    "chairs": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "seat",
+        8
+      ],
+      [
+        "chair",
+        9
+      ]
+    ],
+    "vase": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "container",
+        6
+      ],
+      [
+        "vessel",
+        7
+      ],
+      [
+        "jar",
+        8
+      ],
+      [
+        "vase",
+        9
+      ]
+    ],
+    "board": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "social group",
+        3
+      ],
+      [
+        "organization",
+        4
+      ],
+      [
+        "unit",
+        5
+      ],
+      [
+        "administrative unit",
+        6
+      ],
+      [
+        "committee",
+        7
+      ],
+      [
+        "board",
+        8
+      ]
+    ],
+    "chair back": [
+      [
+        "chair back",
+        0
+      ]
+    ],
+    "handle": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "appendage",
+        4
+      ],
+      [
+        "handle",
+        5
+      ]
+    ],
+    "tops": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "top",
+        5
+      ]
+    ],
+    "crack": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "shape",
+        3
+      ],
+      [
+        "amorphous shape",
+        4
+      ],
+      [
+        "space",
+        5
+      ],
+      [
+        "opening",
+        6
+      ],
+      [
+        "crack",
+        7
+      ]
+    ],
+    "tips": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "location",
+        3
+      ],
+      [
+        "region",
+        4
+      ],
+      [
+        "extremity",
+        5
+      ],
+      [
+        "end",
+        6
+      ],
+      [
+        "tip",
+        7
+      ]
+    ],
+    "drawer": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "structure",
+        5
+      ],
+      [
+        "area",
+        6
+      ],
+      [
+        "storage space",
+        7
+      ],
+      [
+        "drawer",
+        8
+      ]
+    ],
+    "cabinet": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "cabinet",
+        8
+      ]
+    ],
+    "flowers": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "spermatophyte",
+        8
+      ],
+      [
+        "angiosperm",
+        9
+      ],
+      [
+        "flower",
+        10
+      ]
+    ],
+    "pink": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "attribute",
+        2
+      ],
+      [
+        "property",
+        3
+      ],
+      [
+        "visual property",
+        4
+      ],
+      [
+        "color",
+        5
+      ],
+      [
+        "chromatic color",
+        6
+      ],
+      [
+        "pink",
+        7
+      ]
+    ],
+    "mat": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "covering",
+        5
+      ],
+      [
+        "floor cover",
+        6
+      ],
+      [
+        "mat",
+        7
+      ]
+    ],
+    "table": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "abstraction",
+        1
+      ],
+      [
+        "group",
+        2
+      ],
+      [
+        "arrangement",
+        3
+      ],
+      [
+        "array",
+        4
+      ],
+      [
+        "table",
+        5
+      ]
+    ],
+    "dining table": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "table",
+        8
+      ],
+      [
+        "dining table",
+        9
+      ]
+    ],
+    "babys breath": [
+      [
+        "babys breath",
+        0
+      ]
+    ],
+    "back": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "thing",
+        2
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "body part",
+        4
+      ],
+      [
+        "back",
+        5
+      ]
+    ],
+    "chair": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "artifact",
+        4
+      ],
+      [
+        "instrumentality",
+        5
+      ],
+      [
+        "furnishing",
+        6
+      ],
+      [
+        "furniture",
+        7
+      ],
+      [
+        "seat",
+        8
+      ],
+      [
+        "chair",
+        9
+      ]
+    ],
+    "flower": [
+      [
+        "entity",
+        0
+      ],
+      [
+        "physical entity",
+        1
+      ],
+      [
+        "object",
+        2
+      ],
+      [
+        "whole",
+        3
+      ],
+      [
+        "living thing",
+        4
+      ],
+      [
+        "organism",
+        5
+      ],
+      [
+        "plant",
+        6
+      ],
+      [
+        "vascular plant",
+        7
+      ],
+      [
+        "spermatophyte",
+        8
+      ],
+      [
+        "angiosperm",
+        9
+      ],
+      [
+        "flower",
+        10
+      ]
+    ]
+  },
+  "merge_points": {
+    "entity": {
+      "depth": 0,
+      "merged_objects": [
+        "chairs",
+        "table",
+        "vase",
+        "mat",
+        "dining table",
+        "board",
+        "back",
+        "drawer",
+        "cabinet",
+        "chair",
+        "flowers",
+        "flower",
+        "tips",
+        "handle",
+        "crack",
+        "pink",
+        "tops"
+      ],
+      "merge_count": 17
+    },
+    "physical entity": {
+      "depth": 1,
+      "merged_objects": [
+        "chairs",
+        "vase",
+        "mat",
+        "dining table",
+        "back",
+        "drawer",
+        "cabinet",
+        "chair",
+        "flowers",
+        "flower",
+        "tips",
+        "handle",
+        "tops"
+      ],
+      "merge_count": 13
+    },
+    "object": {
+      "depth": 2,
+      "merged_objects": [
+        "chairs",
+        "vase",
+        "mat",
+        "dining table",
+        "drawer",
+        "cabinet",
+        "chair",
+        "flowers",
+        "flower",
+        "tips",
+        "handle",
+        "tops"
+      ],
+      "merge_count": 12
+    },
+    "whole": {
+      "depth": 3,
+      "merged_objects": [
+        "chairs",
+        "vase",
+        "dining table",
+        "cabinet",
+        "drawer",
+        "chair",
+        "flowers",
+        "flower",
+        "mat"
+      ],
+      "merge_count": 9
+    },
+    "artifact": {
+      "depth": 4,
+      "merged_objects": [
+        "chairs",
+        "vase",
+        "dining table",
+        "cabinet",
+        "drawer",
+        "chair",
+        "mat"
+      ],
+      "merge_count": 7
+    },
+    "instrumentality": {
+      "depth": 5,
+      "merged_objects": [
+        "chairs",
+        "vase",
+        "dining table",
+        "cabinet",
+        "chair"
+      ],
+      "merge_count": 5
+    },
+    "furnishing": {
+      "depth": 6,
+      "merged_objects": [
+        "chairs",
+        "chair",
+        "dining table",
+        "cabinet"
+      ],
+      "merge_count": 4
+    },
+    "furniture": {
+      "depth": 7,
+      "merged_objects": [
+        "chairs",
+        "chair",
+        "dining table",
+        "cabinet"
+      ],
+      "merge_count": 4
+    },
+    "seat": {
+      "depth": 8,
+      "merged_objects": [
+        "chairs",
+        "chair"
+      ],
+      "merge_count": 2
+    },
+    "chair": {
+      "depth": 9,
+      "merged_objects": [
+        "chairs",
+        "chair"
+      ],
+      "merge_count": 2
+    },
+    "abstraction": {
+      "depth": 1,
+      "merged_objects": [
+        "board",
+        "table",
+        "crack",
+        "pink"
+      ],
+      "merge_count": 4
+    },
+    "group": {
+      "depth": 2,
+      "merged_objects": [
+        "board",
+        "table"
+      ],
+      "merge_count": 2
+    },
+    "part": {
+      "depth": 3,
+      "merged_objects": [
+        "back",
+        "handle"
+      ],
+      "merge_count": 2
+    },
+    "location": {
+      "depth": 3,
+      "merged_objects": [
+        "tops",
+        "tips"
+      ],
+      "merge_count": 2
+    },
+    "region": {
+      "depth": 4,
+      "merged_objects": [
+        "tops",
+        "tips"
+      ],
+      "merge_count": 2
+    },
+    "attribute": {
+      "depth": 2,
+      "merged_objects": [
+        "crack",
+        "pink"
+      ],
+      "merge_count": 2
+    },
+    "living thing": {
+      "depth": 4,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "organism": {
+      "depth": 5,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "plant": {
+      "depth": 6,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "vascular plant": {
+      "depth": 7,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "spermatophyte": {
+      "depth": 8,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "angiosperm": {
+      "depth": 9,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "flower": {
+      "depth": 10,
+      "merged_objects": [
+        "flower",
+        "flowers"
+      ],
+      "merge_count": 2
+    },
+    "table": {
+      "depth": 5,
+      "merged_objects": [
+        "table",
+        "dining table"
+      ],
+      "merge_count": 2
+    }
+  },
+  "depth_analysis": {
+    "fine_depths": [
+      9,
+      9,
+      8,
+      0,
+      5,
+      7,
+      8,
+      8,
+      10,
+      7,
+      7,
+      5,
+      9,
+      0,
+      5
+    ],
+    "mid_depths": [
+      4,
+      6,
+      6,
+      4,
+      0,
+      5,
+      5,
+      4,
+      5,
+      6,
+      5,
+      5,
+      5,
+      0,
+      5
+    ],
+    "coarse_depths": [
+      1,
+      2,
+      1,
+      2,
+      0,
+      10,
+      3,
+      0
+    ],
+    "depth_distribution": {
+      "0": 3,
+      "1": 2,
+      "2": 4,
+      "3": 7,
+      "4": 9,
+      "5": 12,
+      "6": 9,
+      "7": 9,
+      "8": 6,
+      "9": 4,
+      "10": 1
+    }
+  }
+}

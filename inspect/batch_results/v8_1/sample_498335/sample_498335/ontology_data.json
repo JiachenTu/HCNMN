@@ -1,0 +1,276 @@
+{
+  "image_id": 498335,
+  "hierarchy": {
+    "fine": [
+      "clock",
+      "sign",
+      "flower",
+      "pot",
+      "stairs",
+      "edge",
+      "letter",
+      "background",
+      "street",
+      "flowers",
+      "lot",
+      "words",
+      "railing",
+      "balcony",
+      "billboard",
+      "face",
+      "pole",
+      "light"
+    ],
+    "mid": [
+      "instrumentality",
+      "sign",
+      "plant",
+      "artifact",
+      "stairway",
+      "boundary",
+      "background",
+      "road",
+      "organism",
+      "large indefinite quantity",
+      "words",
+      "structure",
+      "balcony",
+      "face",
+      "physical phenomenon"
+    ],
+    "coarse": [
+      "object",
+      "communication",
+      "physical entity",
+      "abstraction"
+    ]
+  },
+  "concept_paths": {
+    "clock": [
+      "clock",
+      "instrumentality",
+      "object"
+    ],
+    "sign": [
+      "sign",
+      "sign",
+      "communication"
+    ],
+    "flower": [
+      "flower",
+      "plant",
+      "object"
+    ],
+    "pot": [
+      "pot",
+      "artifact",
+      "physical entity"
+    ],
+    "stairs": [
+      "stairs",
+      "stairway",
+      "physical entity"
+    ],
+    "edge": [
+      "edge",
+      "boundary",
+      "physical entity"
+    ],
+    "letter": [
+      "letter",
+      "artifact",
+      "object"
+    ],
+    "background": [
+      "background",
+      "background",
+      "abstraction"
+    ],
+    "street": [
+      "street",
+      "road",
+      "physical entity"
+    ],
+    "flowers": [
+      "flowers",
+      "organism",
+      "object"
+    ],
+    "lot": [
+      "lot",
+      "large indefinite quantity",
+      "abstraction"
+    ],
+    "words": [
+      "words",
+      "words",
+      "abstraction"
+    ],
+    "railing": [
+      "railing",
+      "structure",
+      "physical entity"
+    ],
+    "balcony": [
+      "balcony",
+      "balcony",
+      "physical entity"
+    ],
+    "billboard": [
+      "billboard",
+      "structure",
+      "physical entity"
+    ],
+    "face": [
+      "face",
+      "face",
+      "physical entity"
+    ],
+    "pole": [
+      "pole",
+      "instrumentality",
+      "physical entity"
+    ],
+    "light": [
+      "light",
+      "physical phenomenon",
+      "physical entity"
+    ]
+  },
+  "object_to_levels": {
+    "clock": {
+      "fine": "clock",
+      "mid": "instrumentality",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "Clock is an instrument/tool (mid-level concept) and a physical object (coarse-level concept). This aligns with the semantic hierarchy: instrumentality is a functional category, and object represents the actual physical entity."
+    },
+    "sign": {
+      "fine": "sign",
+      "mid": "sign",
+      "coarse": "communication",
+      "method": "llm",
+      "reasoning": "Sign is a direct representation of a visual element used for communication, which aligns with the high-level abstraction at the coarse level. It also serves as a form of indication, which is a mid-level concept, and fits the semantic hierarchy as a clue to further abstracting into evidence."
+    },
+    "flower": {
+      "fine": "flower",
+      "mid": "plant",
+      "coarse": "object",
+      "method": "llm",
+      "reasoning": "The 'flower' object is a plant (mid-level concept) and represents a specific type of plant (object-level concept) in the WordNet ontology."
+    },
+    "pot": {
+      "fine": "pot",
+      "mid": "artifact",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'pot' is a physical object, and 'artifact' represents its functional role as a cooking utensil. This aligns with the goal of creating a meaningful, traceable hierarchy that reflects both its physical form and its function."
+    },
+    "stairs": {
+      "fine": "stairs",
+      "mid": "stairway",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Stairs are a physical entity (coarse) and represent a functional pathway (stairway) at the mid-level abstraction."
+    },
+    "edge": {
+      "fine": "edge",
+      "mid": "boundary",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'edge' is a boundary, which is the most general concept representing its functional role. It also aligns with the coarse level of 'physical entity' as the highest level of abstraction."
+    },
+    "letter": {
+      "fine": "letter",
+      "mid": "artifact",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "background": {
+      "fine": "background",
+      "mid": "background",
+      "coarse": "abstraction",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "street": {
+      "fine": "street",
+      "mid": "road",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'road' concept captures the core semantic role of 'street' as a functional entity. It aligns with the high-level abstraction and provides a meaningful grouping of similar objects."
+    },
+    "flowers": {
+      "fine": "flowers",
+      "mid": "organism",
+      "coarse": "object",
+      "method": "fallback",
+      "reasoning": "Adaptive rule-based fallback (V7)"
+    },
+    "lot": {
+      "fine": "lot",
+      "mid": "large indefinite quantity",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "words": {
+      "fine": "words",
+      "mid": "words",
+      "coarse": "abstraction",
+      "method": "llm",
+      "reasoning": ""
+    },
+    "railing": {
+      "fine": "railing",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Railing is a structural element of a building, representing a physical entity (depth 1), which is a part of a structure (depth 5) that can be further refined to a more detailed structure (depth 6) as the mid-level concept."
+    },
+    "balcony": {
+      "fine": "balcony",
+      "mid": "balcony",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Balcony is a physical object (coarse level) and represents a structure (mid level) that is a part of a larger scene (fine level). It best captures its functional and semantic role as a mid-level category."
+    },
+    "billboard": {
+      "fine": "billboard",
+      "mid": "structure",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Billboard is a structure (mid-level concept) that can be grouped with other structures like signboards, while physical entities like the billboard itself are the coarse level abstraction for this object."
+    },
+    "face": {
+      "fine": "face",
+      "mid": "face",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Face is a specific part of the body, which is a physical entity. It represents the most general meaningful domain for grouping similar objects."
+    },
+    "pole": {
+      "fine": "pole",
+      "mid": "instrumentality",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "The 'pole' is a physical object (coarse) and represents a functional or operational element (instrumentality), which aligns with the mid-level concept of instrumentality. It reflects both its physical form and its role in the scene."
+    },
+    "light": {
+      "fine": "light",
+      "mid": "physical phenomenon",
+      "coarse": "physical entity",
+      "method": "llm",
+      "reasoning": "Light is a physical phenomenon (mid-level concept) that represents a physical entity (coarse-level concept) in the scene context."
+    }
+  },
+  "statistics": {
+    "num_objects": 30,
+    "fine_concepts": 18,
+    "mid_concepts": 15,
+    "coarse_concepts": 4,
+    "compression_fine_to_mid": 1.2,
+    "compression_fine_to_coarse": 4.5
+  }
+}

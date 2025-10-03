@@ -1,0 +1,302 @@
+{
+  "image_id": 2396558,
+  "hierarchy": {
+    "fine": [
+      "bottom",
+      "group",
+      "bump",
+      "tip",
+      "oranges",
+      "branch",
+      "bruise",
+      "shape",
+      "lemon",
+      "orange",
+      "sticker",
+      "banana",
+      "fruit",
+      "middle",
+      "spot",
+      "stem",
+      "top",
+      "pile",
+      "table",
+      "apple",
+      "light"
+    ],
+    "mid": [
+      "region",
+      "group",
+      "physical condition",
+      "extremity",
+      "plant organ",
+      "organization",
+      "shape",
+      "body part",
+      "plant",
+      "center",
+      "point",
+      "language unit",
+      "top",
+      "pile",
+      "table",
+      "plant part",
+      "natural phenomenon"
+    ],
+    "coarse": [
+      "location",
+      "group",
+      "attribute",
+      "object",
+      "physical entity",
+      "banana",
+      "fruit",
+      "part",
+      "collection",
+      "phenomenon"
+    ]
+  },
+  "concept_paths": {
+    "bottom": [
+      "bottom",
+      "region",
+      "location"
+    ],
+    "group": [
+      "group",
+      "group",
+      "group"
+    ],
+    "bump": [
+      "bump",
+      "physical condition",
+      "attribute"
+    ],
+    "tip": [
+      "tip",
+      "extremity",
+      "object"
+    ],
+    "oranges": [
+      "oranges",
+      "plant organ",
+      "object"
+    ],
+    "branch": [
+      "branch",
+      "organization",
+      "group"
+    ],
+    "bruise": [
+      "bruise",
+      "physical condition",
+      "attribute"
+    ],
+    "shape": [
+      "shape",
+      "shape",
+      "attribute"
+    ],
+    "lemon": [
+      "lemon",
+      "plant organ",
+      "object"
+    ],
+    "orange": [
+      "orange",
+      "plant organ",
+      "object"
+    ],
+    "sticker": [
+      "sticker",
+      "body part",
+      "physical entity"
+    ],
+    "banana": [
+      "banana",
+      "plant",
+      "banana"
+    ],
+    "fruit": [
+      "fruit",
+      "plant organ",
+      "fruit"
+    ],
+    "middle": [
+      "middle",
+      "center",
+      "object"
+    ],
+    "spot": [
+      "spot",
+      "point",
+      "location"
+    ],
+    "stem": [
+      "stem",
+      "language unit",
+      "part"
+    ],
+    "top": [
+      "top",
+      "top",
+      "object"
+    ],
+    "pile": [
+      "pile",
+      "pile",
+      "collection"
+    ],
+    "table": [
+      "table",
+      "table",
+      "group"
+    ],
+    "apple": [
+      "apple",
+      "plant part",
+      "object"
+    ],
+    "light": [
+      "light",
+      "natural phenomenon",
+      "phenomenon"
+    ]
+  },
+  "object_to_levels": {
+    "bottom": {
+      "fine": "bottom",
+      "mid": "region",
+      "coarse": "location",
+      "method": "llm"
+    },
+    "group": {
+      "fine": "group",
+      "mid": "group",
+      "coarse": "group",
+      "method": "fallback"
+    },
+    "bump": {
+      "fine": "bump",
+      "mid": "physical condition",
+      "coarse": "attribute",
+      "method": "llm"
+    },
+    "tip": {
+      "fine": "tip",
+      "mid": "extremity",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "oranges": {
+      "fine": "oranges",
+      "mid": "plant organ",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "branch": {
+      "fine": "branch",
+      "mid": "organization",
+      "coarse": "group",
+      "method": "llm"
+    },
+    "bruise": {
+      "fine": "bruise",
+      "mid": "physical condition",
+      "coarse": "attribute",
+      "method": "llm"
+    },
+    "shape": {
+      "fine": "shape",
+      "mid": "shape",
+      "coarse": "attribute",
+      "method": "fallback"
+    },
+    "lemon": {
+      "fine": "lemon",
+      "mid": "plant organ",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "orange": {
+      "fine": "orange",
+      "mid": "plant organ",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "sticker": {
+      "fine": "sticker",
+      "mid": "body part",
+      "coarse": "physical entity",
+      "method": "llm"
+    },
+    "banana": {
+      "fine": "banana",
+      "mid": "plant",
+      "coarse": "banana",
+      "method": "llm"
+    },
+    "fruit": {
+      "fine": "fruit",
+      "mid": "plant organ",
+      "coarse": "fruit",
+      "method": "llm"
+    },
+    "middle": {
+      "fine": "middle",
+      "mid": "center",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "spot": {
+      "fine": "spot",
+      "mid": "point",
+      "coarse": "location",
+      "method": "llm"
+    },
+    "stem": {
+      "fine": "stem",
+      "mid": "language unit",
+      "coarse": "part",
+      "method": "llm"
+    },
+    "top": {
+      "fine": "top",
+      "mid": "top",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "pile": {
+      "fine": "pile",
+      "mid": "pile",
+      "coarse": "collection",
+      "method": "llm"
+    },
+    "table": {
+      "fine": "table",
+      "mid": "table",
+      "coarse": "group",
+      "method": "fallback"
+    },
+    "apple": {
+      "fine": "apple",
+      "mid": "plant part",
+      "coarse": "object",
+      "method": "llm"
+    },
+    "light": {
+      "fine": "light",
+      "mid": "natural phenomenon",
+      "coarse": "phenomenon",
+      "method": "llm"
+    }
+  },
+  "statistics": {
+    "num_objects": 36,
+    "fine_concepts": 21,
+    "mid_concepts": 17,
+    "coarse_concepts": 10,
+    "compression_fine_to_mid": 1.24,
+    "compression_fine_to_coarse": 2.1
+  }
+}

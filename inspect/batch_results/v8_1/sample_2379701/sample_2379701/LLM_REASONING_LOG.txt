@@ -1,0 +1,129 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: leg
+  Fine: leg
+  Mid: external body part
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'leg' object is best represented as an 'external body part' (mid-level concept) since it is a specific body part. The 'physical entity' (coarse-level concept) captures the general representation of the object, which is consistent with the semantic hierarchy.
+
+Object: air
+  Fine: air
+  Mid: air
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Air is a physical entity (depth 1) and a fluid (depth 3) in the WordNet hierarchy. It best represents 'air' as a mid-level category in this scene context.
+
+Object: ground
+  Fine: ground
+  Mid: land
+  Coarse: object
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: shirt
+  Fine: shirt
+  Mid: artifact
+  Coarse: object
+  Method: llm
+  Reasoning: The 'shirt' object is best represented as an artifact (mid-level concept) since it is a tangible object that can be used or worn, and as an object (coarse-level concept) it is a physical item in the scene. This aligns with the semantic hierarchy as described.
+
+Object: headband
+  Fine: headband
+  Mid: band
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Headband is a physical object, and 'band' at the mid level represents its functional and semantic category, while 'physical entity' at the coarse level provides the most general domain for grouping similar objects.
+
+Object: letters
+  Fine: letters
+  Mid: basic cognitive process
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: dirt
+  Fine: dirt
+  Mid: material
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: foot
+  Fine: foot
+  Mid: extremity
+  Coarse: physical entity
+  Method: llm
+  Reasoning: The 'foot' is a physical object, and 'extremity' represents its functional or structural part, aligning with its role in the scene. 'Physical entity' captures the general abstraction, while 'extremity' reflects the detailed level of refinement.
+
+Object: ball
+  Fine: ball
+  Mid: artifact
+  Coarse: object
+  Method: llm
+  Reasoning: The 'ball' is a physical object (object level), and the 'artifact' represents its functional or material aspect. It fits as a mid-level concept for representing 'ball' as a general object.
+
+Object: woman
+  Fine: woman
+  Mid: person
+  Coarse: object
+  Method: llm
+  Reasoning: Person (depth 6) represents the 'woman' as a human, which aligns with the semantic category of a living being, and the 'object' (depth 2) captures the specific object in the scene context.
+
+Object: shoe
+  Fine: shoe
+  Mid: footwear
+  Coarse: object
+  Method: llm
+  Reasoning: Footwear is a mid-level category that represents the concept of a shoe, aligning with its functional and semantic attributes. It groups similar objects like shoes and covers their position and size.
+
+Object: hair
+  Fine: hair
+  Mid: natural object
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Hair is a natural object (mid-level concept), and it belongs to a physical entity (coarse-level concept) in the scene context.
+
+Object: racket
+  Fine: racket
+  Mid: sound
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: writing
+  Fine: writing
+  Mid: activity
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: wall
+  Fine: wall
+  Mid: partition
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Partition is the most general meaning for grouping similar objects, and 'wall' fits as a partition in this context. It represents a specific object with a defined structure.
+
+Object: shorts
+  Fine: shorts
+  Mid: trouser
+  Coarse: object
+  Method: llm
+  Reasoning: Trousers are a clothing item that serves a functional purpose, aligning with the semantic category of clothing (mid-level) and representing the object 'shorts' as a garment.
+
+Object: court
+  Fine: court
+  Mid: assembly
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: background
+  Fine: background
+  Mid: background
+  Coarse: abstraction
+  Method: llm
+  Reasoning: Background is a mid-level concept that represents the overall scene context, grouping related objects (e.g., ground, background) by their semantic and functional roles. It serves as the most general abstraction for the scene.
+

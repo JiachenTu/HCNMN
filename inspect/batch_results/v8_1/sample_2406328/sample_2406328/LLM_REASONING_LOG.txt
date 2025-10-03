@@ -1,0 +1,93 @@
+V8.1 LLM Reasoning Log
+======================================================================
+
+Object: faucet
+  Fine: faucet
+  Mid: device
+  Coarse: object
+  Method: llm
+  Reasoning: The 'faucet' is a device used for water supply, which aligns with the mid-level concept 'device' (depth 6) as it represents its functional purpose. The 'object' (depth 2) captures its physical form and position.
+
+Object: door
+  Fine: door
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Door is a structure (mid-level concept) and a physical entity (coarse-level concept) in the scene context.
+
+Object: cubby
+  Fine: cubby
+  Mid: structure
+  Coarse: object
+  Method: llm
+  Reasoning: Cubby is an object (depth 2) and a part of a structure (depth 5), which best represents its functional and semantic role in the scene.
+
+Object: overflow
+  Fine: overflow
+  Mid: action
+  Coarse: abstraction
+  Method: fallback
+  Reasoning: Adaptive rule-based fallback (V7)
+
+Object: wall
+  Fine: wall
+  Mid: structure
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Structure is the most general category for grouping similar objects, and 'wall' fits as a physical entity in the first level. It also aligns with the functional and semantic category of a physical object.
+
+Object: lid
+  Fine: lid
+  Mid: tissue
+  Coarse: physical entity
+  Method: llm
+
+Object: toilet
+  Fine: toilet
+  Mid: structure
+  Coarse: object
+  Method: llm
+  Reasoning: The 'structure' concept represents the 'toilet' as a whole, encompassing its components and functions, which aligns with its role as a functional object. It captures both its physical structure and its purpose more cohesively than 'artifact' or 'area'.
+
+Object: pipe
+  Fine: pipe
+  Mid: way
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Pipe is a functional element (way) and a physical entity (physical entity), making it a mid-level concept for representing its role in the scene.
+
+Object: floor
+  Fine: floor
+  Mid: horizontal surface
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Floor is a physical entity (coarse level) and a horizontal surface (mid-level concept) that best captures its functional and semantic role in the scene context.
+
+Object: cabinet
+  Fine: cabinet
+  Mid: furnishing
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Cabinet is a furniture item, which aligns with the 'physical entity' (depth 1) concept as the most general category, and 'furnishing' (depth 6) represents its functional and semantic role as a furniture item.
+
+Object: towel ring
+  Fine: towel ring
+  Mid: strip
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Towel ring is a strip of fabric, which is a physical entity (coarse) and a strip in the middle level of the semantic hierarchy (strip) representing its functional and material properties.
+
+Object: sink
+  Fine: sink
+  Mid: plumbing fixture
+  Coarse: object
+  Method: llm
+  Reasoning: The 'sink' is a plumbing fixture (mid-level concept) and a physical object (coarse-level concept). It best represents the high-level semantic information of being a functional element in the plumbing system.
+
+Object: handle
+  Fine: handle
+  Mid: handle
+  Coarse: physical entity
+  Method: llm
+  Reasoning: Handle is a functional part of a device, and 'physical entity' captures its general domain as a basic object in the scene context.
+
