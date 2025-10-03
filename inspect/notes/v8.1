@@ -1,0 +1,9 @@
+v8.1 where we will provide the llm with more context, provide it with the context of 
+we are using wordnet to select the hierarchies and the goal is to create three levels of abstractions of 
+scene graph to better preesnet the visual states, and we provide it with fine-grained scene graph text 
+representation together with the bbox info as spatial context and prompt it to first select the best 
+mid-level representation, and then select the coarse, the goal is not to have the best compression rate, but
+ be able to retain a abstract high-level info represetnation of the visual sstate and we can trace down the 
+abstraction level to go from coarse-mid-fine to have more detailed info about the picture, let's try to 
+first test whether the prompting can provide the good response and then continue to build the hwhole 
+pipeline and we name this version as v8.1 
